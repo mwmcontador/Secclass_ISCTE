@@ -1,0 +1,9 @@
+const mongoose = require("mongoose");
+
+//'mongodb://localhost:27017/nome_da_base_de_dados
+//mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
+
+mongoose.connect("mongodb://localhost:27017/netflix", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
