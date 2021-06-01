@@ -1,0 +1,9 @@
+body {
+  background-color: aliceblue;
+}
+body.bg_login {
+  background-image: url(assets/background/bg_login.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

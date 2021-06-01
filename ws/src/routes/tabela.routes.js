@@ -2,7 +2,7 @@
 
 const express = require("express");
 const router = express.Router();
-const _ = require("underscore"); // serve para manupalar, embaralhar os dados
+const _ = require("underscore"); // serve para manipular, embaralhar os dados
 const Tabela = require("../model/tabela");
 
 console.log("Iniciando Rotas da Tabela");

@@ -9,6 +9,7 @@ router.post("/login", async (req, res) => {
     const credenciais = req.body;
     const usuario = await Usuario.findOne(credenciais);
     console.log("Iniciando");
+
     if (usuario) {
       console.log("Iniciando Usuario");
       res.json({ error: false, usuario });

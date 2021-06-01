@@ -8,7 +8,7 @@ const Item = mongoose.model("Item", {
   Versao_Uniclass: {
     type: String,
   },
-  nivelItem: {
+  nivel_item: {
     type: Number,
   },
   code_item: {

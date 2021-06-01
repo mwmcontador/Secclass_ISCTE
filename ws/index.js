@@ -12,7 +12,9 @@ const itemRoutes = require("./src/routes/item.routes");
 
 //MIDDLEAWARES
 app.use(express.json());
+//Controle de Acesso
 app.use(cors());
+//Logar automatico para ambiente dev
 app.use(morgan("dev"));
 
 //ROUTES
@@ -20,10 +22,10 @@ console.log("Rota User");
 app.use("/usuario/", usuarioRoutes);
 
 console.log("Rota Tabela");
-app.use("/", tabelaRoutes);
+app.use("/tabela", tabelaRoutes);
 
 console.log("Rota Item");
-app.use("/Lista_Item/", itemRoutes);
+app.use("/", itemRoutes);
 
 app.listen(8000, () => {
   console.log("Meu Servidor está funcionando..");
