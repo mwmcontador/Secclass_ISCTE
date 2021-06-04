@@ -1,20 +1,22 @@
 import React from "react";
 
+/*const Item = ({}) =>
+o ({}) é uma desestruturação
+
+por exemplo 
+const Item = ({item}) => {
+console.log (props)  // ja podemos ver no navegador o objeto
+*/
 const Item = ({ item }) => {
-  const mostrarItem = () => {
-    alert(item.titulo_SECClasS);
-  };
   return (
     <tr>
-      <th scope="row">{item.code_item}</th>
-      <td>{item.titulo_SECClasS}</td>
-
-      <td align="center">{item.nivel_item}</td>
-      <td className="text-right">
-        <button className="btn btn-success" onClick={mostrarItem}>
+      <td>{item.codigo}</td>
+      <td>{item.titulo}</td>
+      <td>{item.nivel}</td>
+      <td>
+        <button type="button" className="btn btn-info">
           Mostrar
-        </button>{" "}
-        <button className="btn btn-info">Comentar</button>{" "}
+        </button>
       </td>
     </tr>
   );

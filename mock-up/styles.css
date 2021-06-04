@@ -1,0 +1,91 @@
+body {
+  background-color: #fff;
+}
+
+body.bg_login {
+  background-image: url(assets/background/bg_login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  padding: 50 px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.69) 0%,
+    rgba(0, 0, 0, 0) 0%
+  );
+}
+
+header img {
+  width: 150px;
+}
+
+.btn-custom-purple {
+  background-color: #474787;
+}
+.btn-custom-purple:hover {
+  background-color: #474787;
+  opacity: 0.8;
+}
+
+.btn-custom-blue {
+  background-color: #4456dd;
+}
+.btn-custom-blue:hover {
+  background-color: #4456dd;
+  opacity: 0.8;
+}
+.btn-custom-translucent {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* MODAL*/
+.modal-dialog,
+.modal-dialog {
+  background-position: relative;
+  height: 1000px;
+}
+.modal-item-detalhe {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+
+#caixa-login {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  /*margin-top: 150px;*/
+}
+
+/* HOME */
+.menu_list {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 7px;
+}
+
+.menu_list li {
+  color: #000;
+  display: inline-block;
+  margin-left: 15px;
+  align-content: right;
+}
+
+.menu_list li a {
+  color: #000;
+}
+/* #Gride Tabelas  */
+
+.gd_tabela_principal {
+  color: blueviolet;
+  align-content: center;
+}
+
+.grid_tabela {
+  color: #000;
+  margin-left: 10px;
+  align-content: center;
+  height: 700px;
+}
