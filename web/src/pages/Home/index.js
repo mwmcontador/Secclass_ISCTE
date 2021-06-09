@@ -4,6 +4,7 @@ import Item from "../../components/Item";
 import api from "../../services/api";
 
 const Home = () => {
+<<<<<<< Updated upstream
   const getHome = async () => {
     try {
       const response = await api.get("/home");
@@ -59,6 +60,56 @@ const Home = () => {
               <option>Sistemas</option>
               <option>Produtos</option>
             </select>
+=======
+  //Lógica do Componente
+
+  //Exibição do Componente
+  return (
+    // <!-- Modal -->
+    <div       class="modal fade"
+      id="modal-item"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+      >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Item
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-2">Código</div>
+              <div class="col-2">Nível</div>
+              <div class="col-8">Secclass</div>
+            </div>
+            <div class="row">
+              <div class="col-2">Co_20_10_60</div>
+              <div class="col-2">4</div>
+              <div class="col-8">
+                Complexos de manutenção e abastecimento de veículos motorizados
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">Tabela</div>
+              <div class="col-2">PR</div>
+              <div class="col-8">Produtos</div>
+            </div>
+          <div className="col-8">
+            <label>Título</label>
+            <input type="text" className="form-control"></input>
+>>>>>>> Stashed changes
           </div>
           <div className="col-2">
             <label> Nivel</label>
@@ -69,6 +120,7 @@ const Home = () => {
             </select>
           </div>
         </div>
+<<<<<<< Updated upstream
         <br />
         <button onClick={cadastrar} className="btn btn-info btn-lg btn-block">
           Visualizar
@@ -91,6 +143,9 @@ const Home = () => {
           ))}
         </tbody>
       </table>
+=======
+      </div>
+>>>>>>> Stashed changes
     </div>
   );
 };
