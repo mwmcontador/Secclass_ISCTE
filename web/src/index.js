@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import reportWebVitals from "./reportWebVitals";
+import "./styles/app.css";
 import Routes from "./routes";
 
 //Falta criar a Pagina de style css
