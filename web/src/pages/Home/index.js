@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 
+import Modal_Item from "../../components/Modal_Item";
+
+import Header_Secclass from "../../components/Header_Secclass";
 import Item from "../../components/Item";
 import api from "../../services/api";
 
@@ -36,7 +39,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    console.log("Leu ");
+    console.log("Index. Home ");
   }, [itens]);
 
   //RETORNAR O HTML DO COMPONENTE
