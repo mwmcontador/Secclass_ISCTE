@@ -1,18 +1,19 @@
 const express = require("express");
 const router = express.Router();
-const Item = require("../model/item");
+const Complexos = require("../model/complexos");
 
 //
-console.log("Começando a Lista Item");
-//Visializacao de Todas as Tabelas
-router.get("/lista", async (req, res) => {
+console.log("Começando a Lista Complexos");
+
+//Visualizando Todos os itens da Tabela Complexos
+router.get("/complexos", async (req, res) => {
   try {
     console.log("Iniciando rota do item");
 
     //Indica o nome do Collection
-    const itens = await Item.find({});
+    const itens = await Complexos.find({});
     res.json({ error: false, itens });
-    console.log("Itens Lidos");
+    console.log("Itens da Tabela Complexos Lidos");
   } catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });
