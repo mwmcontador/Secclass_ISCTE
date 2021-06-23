@@ -1,6 +1,6 @@
 import React from "react";
 
-const Modal_Item = () => {
+const ModalItem = () => {
   return (
     <div
       class="modal fade"
@@ -62,4 +62,4 @@ const Modal_Item = () => {
   );
 };
 
-export default Modal_Item;
+export default ModalItem;
