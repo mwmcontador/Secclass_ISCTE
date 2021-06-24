@@ -9,7 +9,7 @@ const Mostrar = () => {
     filtroNivel: 1,
   });
 
-  console.log(filtros);
+  console.log("Filtros Selecionados ", filtros);
   const [itens, setItens] = useState([]);
   const [item, setItem] = useState({
     code_item: "",
@@ -22,7 +22,7 @@ const Mostrar = () => {
     try {
       const response = await api.get("/");
       const res = response.data;
-      console.log(res);
+      console.log("res ", res.itens);
       console.log("Carregou os Filtros");
       //Testa que não tem erro
       if (res.error) {
@@ -30,32 +30,18 @@ const Mostrar = () => {
         return false;
       }
 
-      setItens([...itens]);
-      console.log("Outra  Exibição");
+      setItens([...res.itens]);
+      console.log("Outra  Exibição", res.itens.length);
     } catch (err) {
       alert(err.message);
     }
   };
 
-  //Exibir Tabela
-  const ExibirTabela = async ({ nometabela }) => {
-    try {
-      const response = await api.get("/");
-      const res = response.data;
-
-      if (res.error) {
-        alert(res.message);
-        return false;
-      }
-    } catch (err) {
-      alert(err.message);
-    }
-  };
   const getHome = async () => {
     try {
       const response = await api.get("/");
       const res = response.data;
-      console.log(res);
+      console.log("Home ", res.itens);
       console.log("Carregou a Pagina");
       //Testa que não tem erro
       if (res.error) {
@@ -63,7 +49,7 @@ const Mostrar = () => {
         return false;
       }
 
-      setItens([...itens]);
+      setItens([...res.itens]);
       console.log("Primeira Exibição");
     } catch (err) {
       alert(err.message);
@@ -72,7 +58,7 @@ const Mostrar = () => {
 
   // Usamos para regarregar a pagina
   useEffect(() => {
-    getHome();
+    // getHome();
   }, []);
   //Retorna o Componente
   return (
@@ -119,20 +105,44 @@ const Mostrar = () => {
         <button onClick={visualizar} className="btn btn-info btn-lg btn-block">
           Visualizar
         </button>
+        <br />
         <table className="table table-striped table-bordered table-sm">
           <thead>
             <tr>
               <th scope="col-4">Código</th>
               <th scope="col-4">Título</th>
 
-              <th scope="col-4">Nível</th>
-              <th scope="col-2">Ações</th>
+              <th class="text-center" scope="col-4">
+                Nível
+              </th>
+              <th class="text-center" scope="col-2">
+                Ações
+              </th>
             </tr>
           </thead>
           <tbody>
-            {itens.map((item) => (
-              <Item item={item} />
-            ))}
+            {itens.map((item) => {
+              //console.log("filtro NIvel", typeof filtros.filtroNivel);
+              //console.log("Item Nivel", typeof item.nivel_item);
+
+              if (
+                filtros.filtroTabela === item.code_tabela &&
+                filtros.filtroNivel === 1 && // Sempre Exibir  primeiro Nivel
+                filtros.filtroNivel === item.nivel_item
+              ) {
+                console.log("1 if", item);
+                return <Item item={item} />;
+              } else {
+                if (
+                  filtros.filtroTabela === item.code_tabela &&
+                  filtros.filtroNivel != 1 && // Sempre Exibir  primeiro Nivel
+                  filtros.filtroNivel >= item.nivel_item
+                ) {
+                  console.log("2 if", item);
+                  return <Item item={item} />;
+                }
+              }
+            })}
           </tbody>
         </table>
       </div>

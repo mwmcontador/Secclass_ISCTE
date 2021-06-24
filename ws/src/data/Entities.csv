@@ -1,0 +1,506 @@
+﻿idItem,Versao_Uniclass,nivel_item,code_item,Group,Subgroup,Section,object_item,title_item,titulo_SECClasS,descricao_SECClasS,Comentarios,Data_traducao,Autor,code_tabela
+1,1.19,0,En_20,20,,,,"Administrative, commercial and protective service entities","Entidades de serviços administrativos, comerciais e de proteção",,,,,Entidades
+2,1.19,,En_20_10,20,10,,,Legislative entities,Entidades legislativas,,,,,Entidades
+3,1.19,,En_20_10_45,20,10,45,,Governmental buildings,Edifícios governamentais,,,,,Entidades
+4,1.19,,En_20_15,20,15,,,Administrative office entities,Entidades administrativas,,,,,Entidades
+5,1.19,,En_20_15_10,20,15,10,,Multiple occupation office buildings,Edifícios de escritórios com várias ocupações,,,,,Entidades
+6,1.19,,En_20_15_70,20,15,70,,Single occupation office buildings,Edifícios de escritórios de ocupação única,,,,,Entidades
+7,1.19,,En_20_20,20,20,,,Secular representative entities,Entidades representativas seculares,,,,,Entidades
+8,1.19,,En_20_20_10,20,20,10,,Buildings for representatives of nation states abroad,Edifícios representativos da nação no estrangeiro,,,,,Entidades
+9,1.19,,En_20_20_40,20,20,40,,Local government buildings,Edifícios do governo local,,,,,Entidades
+10,1.19,,En_20_20_50,20,20,50,,National government buildings,Edifícios do governo nacional,,,,,Entidades
+11,1.19,,En_20_20_70,20,20,70,,Regional government buildings,Edifícios do governo regional,,,,,Entidades
+12,1.19,,En_20_45,20,45,,,Motor vehicle maintenance and fuelling entities,Entidades de manutenção e abastecimento de veículos motorizados,,,,,Entidades
+13,1.19,,En_20_45_50,20,45,50,,Motor vehicle fuelling and charging entities,Entidades de abastecimento e carregamento de veículos motorizados,,,,,Entidades
+14,1.19,,En_20_45_54,20,45,54,,Motor vehicle servicing and repair entities,Entidades de manutenção e reparo de veículos motorizados,,,,,Entidades
+15,1.19,,En_20_50,20,50,,,Commercial entities,Entidades comerciais,,,,,Entidades
+16,1.19,,En_20_50_05,20,50,5,,Auction buildings,Edifícios de leiloeiras,,,,,Entidades
+17,1.19,,En_20_50_22,20,50,22,,Department stores,Loja de departamento,,,,,Entidades
+18,1.19,,En_20_50_29,20,50,29,,Financial and professional services buildings,Edifícios de serviços financeiros e profissionais,,,,,Entidades
+19,1.19,,En_20_50_50,20,50,50,,Markets,Mercados,,,,,Entidades
+20,1.19,,En_20_50_53,20,50,53,,Mixed use buildings,Edifícios de uso misto,,,,,Entidades
+21,1.19,,En_20_50_55,20,50,55,,Motor vehicle sales entities,Entidades de vendas de veículos motorizados,,,,,Entidades
+22,1.19,,En_20_50_80,20,50,80,,Shop units,Lojas,,,,,Entidades
+23,1.19,,En_20_50_85,20,50,85,,Supermarkets,Supermercados,,,,,Entidades
+24,1.19,,En_20_50_97,20,50,97,,Wholesale buildings,Edifícios de venda por atacado,,,,,Entidades
+25,1.19,,En_20_55,20,55,,,Postal communications entities,Entidades de comunicação postal,,,,,Entidades
+26,1.19,,En_20_55_65,20,55,65,,Post office buildings,Edifícios de correios,,,,,Entidades
+27,1.19,,En_20_55_80,20,55,80,,Sorting office buildings,Edifícios de triagem do correio,,,,,Entidades
+28,1.19,,En_20_60,20,60,,,Military entities,Entidades militares,,,,,Entidades
+29,1.19,,En_20_60_02,20,60,2,,Air force buildings,Edifícios da Força Aérea,,,,,Entidades
+30,1.19,,En_20_60_10,20,60,10,,Army buildings,Edifícios do Exército / Edifícos Militares do Exército,,,,,Entidades
+31,1.19,,En_20_60_56,20,60,56,,Navy buildings,Edifícios da Marinha / Edifícos Militares da Marinha,,,,,Entidades
+32,1.19,,En_20_65,20,65,,,Law enforcement operational entities,Entidades das forças de segurança pública,,,,,Entidades
+33,1.19,,En_20_65_09,20,65,9,,Police buildings,Edifícios da polícia,,,,,Entidades
+34,1.19,,En_20_70,20,70,,,Judicial entities,Entidades judiciais,,,,,Entidades
+35,1.19,,En_20_70_40,20,70,40,,Law court buildings,Tribunais,,,,,Entidades
+36,1.19,,En_20_75,20,75,,,Detention entities,Entidades de detenção,,,,,Entidades
+37,1.19,,En_20_75_10,20,75,10,,Detention buildings,Estabelecimento prisional,,,,,Entidades
+38,1.19,,En_20_80,20,80,,,Weapons training ranges,Carreiras de tiro,,,,,Entidades
+39,1.19,,En_20_80_29,20,80,29,,Firing range buildings,Carreiras de tiro interiores,,,,,Entidades
+40,1.19,,En_20_80_30,20,80,30,,Exterior firing ranges,Carreiras de tiro exterior,,,,,Entidades
+41,1.19,,En_20_85,20,85,,,Security entities,Entidades de segurança,,,,,Entidades
+42,1.19,,En_20_85_15,20,85,15,,Security control buildings,Edifícios de controlo de segurança,,,,,Entidades
+43,1.19,,En_20_85_30,20,85,30,,Security fences,Cercas de segurança,,,,,Entidades
+44,1.19,,En_20_90,20,90,,,Incident support entities,Entidades de suporte à emergência,,,,,Entidades
+45,1.19,,En_20_90_10,20,90,10,,Fire and rescue training buildings,Edifícios de treino de combate a incêndio e salvamento,,,,,Entidades
+46,1.19,,En_20_90_15,20,90,15,,Fire station buildings,Quarteis de bombeiros,,,,,Entidades
+47,1.19,,En_25,25,,,,"Cultural, educational, scientific and information entities","Entidades culturais, educacionais, científicas e de informação",,,,,Entidades
+48,1.19,,En_25_05,25,5,,,Commemoration entities,Entidades comemorativas,,,,,Entidades
+49,1.19,,En_25_05_35,25,5,35,,Gardens of remembrance,Jardins memoriais,,,,,Entidades
+50,1.19,,En_25_05_50,25,5,50,,Memorials,Memoriais,,,,,Entidades
+51,1.19,,En_25_05_55,25,5,55,,Monuments,Monumentos,,,,,Entidades
+52,1.19,,En_25_10,25,10,,,Educational entities,Entidades educacionais,,,,,Entidades
+53,1.19,,En_25_10_10,25,10,10,,Preschool educational buildings,Edifícios de ensino pré-escolar,,,,,Entidades
+54,1.19,,En_25_10_20,25,10,20,,Infant educational buildings,Edifícios de ensino infantil,,,,,Entidades
+55,1.19,,En_25_10_30,25,10,30,,Primary educational buildings,Edifícios de ensino primário,,,,,Entidades
+56,1.19,,En_25_10_40,25,10,40,,Secondary educational buildings,Edifícios de ensino secundário,,,,,Entidades
+57,1.19,,En_25_10_50,25,10,50,,Pre-tertiary educational buildings,Edifícios de ensino pré-terciário,,,,,Entidades
+58,1.19,,En_25_10_60,25,10,60,,Tertiary educational buildings,Edifícios de ensino superior,,,,,Entidades
+59,1.19,,En_25_10_70,25,10,70,,Adult educational buildings,Edifícios educacionais para adultos,,,,,Entidades
+60,1.19,,En_25_30,25,30,,,Scientific and laboratory entities,Entidades científicas e laboratoriais,,,,,Entidades
+61,1.19,,En_25_30_40,25,30,40,,Laboratory buildings,Edifícios de laboratórios,,,,,Entidades
+62,1.19,,En_25_30_50,25,30,50,,Meteorological stations,Estações meteorológicas,,,,,Entidades
+63,1.19,,En_25_30_60,25,30,60,,Observatory buildings,Observatórios,,,,,Entidades
+64,1.19,,En_25_30_66,25,30,66,,Observatory antennas,Antenas de observatório,,,,,Entidades
+65,1.19,,En_25_30_70,25,30,70,,Research buildings,Edifícios de Investigação,,,,,Entidades
+66,1.19,,En_25_30_77,25,30,77,,Seed banks,Banco de sementes,,,,,Entidades
+67,1.19,,En_25_30_90,25,30,90,,Triangulation pillars,Pilares de triangulação,,,,,Entidades
+68,1.19,,En_25_50,25,50,,,Exhibition entities,Entidades de exposição,,,,,Entidades
+69,1.19,,En_25_50_02,25,50,2,,Art exhibition buildings,Edifícios de exposição de arte,,,,,Entidades
+70,1.19,,En_25_50_04,25,50,4,,Art installations,Instalações de arte,,,,,Entidades
+71,1.19,,En_25_50_15,25,50,15,,Collection exhibition buildings,Edifícios expositivos de coleções,,,,,Entidades
+72,1.19,,En_25_50_29,25,50,29,,Fauna exhibition buildings,Edifícios expositivos para animais,,,,,Entidades
+73,1.19,,En_25_50_30,25,50,30,,Fauna exhibition grounds,Recintos expositivos para animais,,,,,Entidades
+74,1.19,,En_25_50_31,25,50,31,,Flora exhibition buildings,Edifícios expositivos para plantas,,,,,Entidades
+75,1.19,,En_25_50_32,25,50,32,,Flora exhibition grounds,Recintos expositivos para plantas,,,,,Entidades
+76,1.19,,En_25_50_54,25,50,54,,Multipurpose exhibition buildings,Edifícios de exposição multi-uso,,,,,Entidades
+77,1.19,,En_25_70,25,70,,,Information entities,Entidades de informação,,,,,Entidades
+78,1.19,,En_25_70_02,25,70,2,,Archive buildings,Edifícios de arquivo,,,,,Entidades
+79,1.19,,En_25_70_13,25,70,13,,Conference buildings,Edifícios de conferências,,,,,Entidades
+80,1.19,,En_25_70_42,25,70,42,,Information kiosks,Quiosques de informação,,,,,Entidades
+81,1.19,,En_25_70_47,25,70,47,,Library buildings,Bibliotecas,,,,,Entidades
+82,1.19,,En_25_90,25,90,,,Worship entities,Entidades de culto,,,,,Entidades
+83,1.19,,En_25_90_30,25,90,30,,Faith worship buildings,Edifícios de culto religioso,,,,,Entidades
+84,1.19,,En_30,30,,,,Industrial entities,Entidades industriais,,,,,Entidades
+85,1.19,,En_30_10,30,10,,,Mineral extraction entities,Entidades de extração mineral,,,,,Entidades
+86,1.19,,En_30_10_57,30,10,57,,Offshore oil and gas extraction platforms,Plataformas de extração de petróleo e gás offshore,,,,,Entidades
+87,1.19,,En_30_10_80,30,10,80,,Spoil heaps,Depósito de resíduos de minas,,,,,Entidades
+88,1.19,,En_30_10_85,30,10,85,,Surface mining structures,Estruturas de mineração de superfície,,,,,Entidades
+89,1.19,,En_30_10_86,30,10,86,,Surface mining cuttings,Aterro para mineração de superfície,,,,,Entidades
+90,1.19,,En_30_10_90,30,10,90,,Underground mining structures,Estruturas de mineração subterrânea,,,,,Entidades
+91,1.19,,En_30_20,30,20,,,Nuclear and chemical management entities,Entidades de gestão nuclear e química,,,,,Entidades
+92,1.19,,En_30_20_15,30,20,15,,Radioactivity waste management control buildings,Edifícios de controlo e gestão de resíduos radioativos,,,,,Entidades
+93,1.19,,En_30_20_30,30,20,30,,High heat generating radioactive waste management tunnel,Tunel de gestão de resíduos radioativos com alta produção de calor,,,,,Entidades
+94,1.19,,En_30_20_35,30,20,35,,High heat radioactive waste package transfer buildings,Edifícios de transferência de embalagens de contenção de resíduos radioativos com alta produção de calor,,,,,Entidades
+95,1.19,,En_30_20_45,30,20,45,,Low heat radioactive waste package transfer buildings,Edifícios de transferência de embalagens de contenção de resíduos radioativos com baixa produção de calor,,,,,Entidades
+96,1.19,,En_30_20_60,30,20,60,,Low heat generating radioactive waste management vault,Depósito de resíduos radioativos com baixa produção de calor,,,,,Entidades
+97,1.19,,En_30_20_70,30,20,70,,Radioactivity decontamination buildings,Edifícios de descontaminação de radioatividade,,,,,Entidades
+98,1.19,,En_30_20_75,30,20,75,,Radioactivity effluent management buildings,Edifícios de gestão de efluentes radioativos,,,,,Entidades
+99,1.19,,En_30_30,30,30,,,Mineral processing entities,Entidades de processamento de minerais,,,,,Entidades
+100,1.19,,En_30_30_33,30,30,33,,Gas processing structures,Estruturas de processamento de gás,,,,,Entidades
+101,1.19,,En_30_30_58,30,30,58,,Oil processing structures,Estruturas de processamento de óleo,,,,,Entidades
+102,1.19,,En_30_30_59,30,30,59,,Ore processing structures,Estruturas de processamento de minérios,,,,,Entidades
+103,1.19,,En_30_40,30,40,,,Animal and plant products processing entities,Entidades de processamento de produtos de origem animal e vegetal,,,,,Entidades
+104,1.19,,En_30_40_01,30,40,1,,Animal processing buildings,Edifícios de processamento animal,,,,,Entidades
+105,1.19,,En_30_40_20,30,40,20,,Crop processing buildings,Edifícios de processamento de colheita,,,,,Entidades
+106,1.19,,En_30_40_30,30,40,30,,Fish processing buildings,Edifícios de processamento de pescado,,,,,Entidades
+107,1.19,,En_30_40_40,30,40,40,,Horticultural processing buildings,Edifícios de processamento de horticultura,,,,,Entidades
+108,1.19,,En_30_40_90,30,40,90,,Timber processing buildings,Edifícios de processamento de madeira,,,,,Entidades
+109,1.19,,En_30_50,30,50,,,Manufacturing entities,Entidades de manufatura,,,,,Entidades
+110,1.19,,En_30_50_15,30,50,15,,Cranes,Gruas,,,,,Entidades
+111,1.19,,En_30_50_50,30,50,50,,Manufacturing buildings,Edifícios de manufatura,,,,,Entidades
+112,1.19,,En_30_60,30,60,,,Cleaning and maintenance entities,Entidades de limpeza e manutenção,,,,,Entidades
+113,1.19,,En_30_60_20,30,60,20,,Decontamination laundry buildings,Edifícios de lanvandaria e descontaminação,,,,,Entidades
+114,1.19,,En_30_60_40,30,60,40,,Laundry buildings,Edifícios de lanvandaria,,,,,Entidades
+115,1.19,,En_30_60_50,30,60,50,,Maintenance buildings,Edifícios de manutenção,,,,,Entidades
+116,1.19,,En_30_60_94,30,60,94,,Vehicle cleaning buildings,Edifícios de limpeza de veículos,,,,,Entidades
+117,1.19,,En_30_70,30,70,,,Process entities,Entidades de processamento,,,,,Entidades
+118,1.19,,En_30_70_13,30,70,13,,Chimney stacks,Chaminés,,,,,Entidades
+119,1.19,,En_30_70_15,30,70,15,,Conveyors,Correia transportadora,,,,,Entidades
+120,1.19,,En_30_70_17,30,70,17,,Cooling towers,Torres de refrigeração,,,,,Entidades
+121,1.19,,En_30_70_28,30,70,28,,Equipment gantries,Pórticos,,,,,Entidades
+122,1.19,,En_30_80,30,80,,,Mechanical power generation,Produção de energia mecânica,,,,,Entidades
+123,1.19,,En_30_80_96,30,80,96,,Watermills,Moinhos de água,,,,,Entidades
+124,1.19,,En_30_80_97,30,80,97,,Windmills,Moinhos de vento,,,,,Entidades
+125,1.19,,En_30_85,30,85,,,Marine and water entities,Entidades marinhas e aquáticas,,,,,Entidades
+126,1.19,,En_30_85_07,30,85,7,,Boathouse buildings,Armazéns de embarcações,,,,,Entidades
+127,1.19,,En_30_85_08,30,85,8,,Boatyard buildings,Estaleiros de embarcações,,,,,Entidades
+128,1.19,,En_30_85_24,30,85,24,,Dry docks,Docas secas,,,,,Entidades
+129,1.19,,En_30_85_80,30,85,80,,Shipyard buildings,Estaleiros para navios,,,,,Entidades
+130,1.19,,En_30_85_97,30,85,97,,Wet docks,Docas,,,,,Entidades
+131,1.19,,En_30_90,30,90,,,Warehousing and distribution entities,Entidades de Armazenagem e distribuição,,,,,Entidades
+132,1.19,,En_30_90_33,30,90,33,,Goods warehousing buildings,Armazém de mercadorias,,,,,Entidades
+133,1.19,,En_30_90_35,30,90,35,,Goods distribution buildings,Edifícios de distribuição de mercadorias,,,,,Entidades
+134,1.19,,En_32,32,,,,Water and land management entities,Entidades de gestão de território marítimo e terrestre,,,,,Entidades
+135,1.19,,En_32_10,32,10,,,Agricultural and horticultural entities,Entidades agrícolas e hortícolas,,,,,Entidades
+136,1.19,,En_32_10_02,32,10,2,,Arable buildings,Edifício de suporte à agricultura,,,,,Entidades
+137,1.19,,En_32_10_04,32,10,4,,Arable land,Terreno cultivável,,,,,Entidades
+138,1.19,,En_32_10_20,32,10,20,,Coppices,Talhadia,,,,,Entidades
+139,1.19,,En_32_10_28,32,10,28,,Fishing buildings,Edifícios de pesca,,,,,Entidades
+140,1.19,,En_32_10_29,32,10,29,,Fishing cages,Armadilha de pesca,,,,,Entidades
+141,1.19,,En_32_10_30,32,10,30,,Forestry buildings,Edifícios florestais,,,,,Entidades
+142,1.19,,En_32_10_31,32,10,31,,Forestry plantations,Plantações florestais,,,,,Entidades
+143,1.19,,En_32_10_37,32,10,37,,Hedges,Sebes,,,,,Entidades
+144,1.19,,En_32_10_39,32,10,39,,Horticultural buildings,Edifícios hortícolas,,,,,Entidades
+145,1.19,,En_32_10_40,32,10,40,,Horticultural land,Terreno hortícola,,,,,Entidades
+146,1.19,,En_32_10_46,32,10,46,,Livestock buildings,Edifícios de gado,,,,,Entidades
+147,1.19,,En_32_10_47,32,10,47,,Livestock paddocks and fields,Campos e padoques de gado,,,,,Entidades
+148,1.19,,En_32_10_93,32,10,93,,Vineyard and winery buildings,Edifícios vinícolas e campos de vinhas,,,,,Entidades
+149,1.19,,En_32_10_94,32,10,94,,Vineyard plantations,Campos de plantação de vinha,,,,,Entidades
+150,1.19,,En_32_35,32,35,,,Grounds,Terreno,,,,,Entidades
+151,1.19,,En_32_35_05,32,35,5,,Arboretums,Arboretos,,,,,Entidades
+152,1.19,,En_32_35_15,32,35,15,,Community gardens,Jardins comunitários,,,,,Entidades
+153,1.19,,En_32_35_33,32,35,33,,Gardens,Jardins,,,,,Entidades
+154,1.19,,En_32_35_36,32,35,36,,Hard landscapes,Arranjos paisagísticos com elementos rígidos,,,,,Entidades
+155,1.19,,En_32_35_80,32,35,80,,Soft landscapes,Arranjos paisagísticos com elementos maleáveis,,,,,Entidades
+156,1.19,,En_32_40,32,40,,,Land managed entities,Entidades de gestão territorial,,,,,Entidades
+157,1.19,,En_32_40_20,32,40,20,,Cuttings,Taludes,,,,,Entidades
+158,1.19,,En_32_40_26,32,40,26,,Embankments,Aterros,,,,,Entidades
+159,1.19,,En_32_40_30,32,40,30,,False cuttings,Rebaixamento,,,,,Entidades
+160,1.19,,En_32_40_90,32,40,90,,Trenches,Trincheiras,,,,,Entidades
+161,1.19,,En_32_50,32,50,,,Marine and waterside entities,Entidades marinhas e ribeirinhas,,,,,Entidades
+162,1.19,,En_32_50_20,32,50,20,,Degaussing and acoustic ranges,Estrutura de desmagnetização,,,,,Entidades
+163,1.19,,En_32_50_22,32,50,22,,Dock buildings,Edifícios de apoio à doca,,,,,Entidades
+164,1.19,,En_32_50_44,32,50,44,,Jetties,Molhes,,,,,Entidades
+165,1.19,,En_32_50_46,32,50,46,,Landing stages,Plataformas de desembarque,,,,,Entidades
+166,1.19,,En_32_50_58,32,50,58,,Offshore anchorages,Ancoragens,,,,,Entidades
+167,1.19,,En_32_50_63,32,50,63,,Piers,Plataformas de desembarque ( sustentadas por pilares ),,,,,Entidades
+168,1.19,,En_32_50_65,32,50,65,,Pontoons,Pontões,,,,,Entidades
+169,1.19,,En_32_50_69,32,50,69,,Quays,Cais em margens,,,,,Entidades
+170,1.19,,En_32_50_96,32,50,96,,Waterside platforms,Plataformas à beira-mar,,,,,Entidades
+171,1.19,,En_32_50_98,32,50,98,,Wharfs,Cais construídos,,,,,Entidades
+172,1.19,,En_32_60,32,60,,,Pollution control entities,Entidades de controlo de poluição,,,,,Entidades
+173,1.19,,En_32_60_60,32,60,60,,Permeable reactive barriers,Barreiras Permeáveis Reativas,,,,,Entidades
+174,1.19,,En_32_65,32,65,,,Natural entities,Entidades da natureza,,,,,Entidades
+175,1.19,,En_32_65_06,32,65,6,,Beaches,Praias,,,,,Entidades
+176,1.19,,En_32_65_37,32,65,37,,Heathlands,Charnecas,,,,,Entidades
+177,1.19,,En_32_65_50,32,65,50,,Marshes and wet grasslands,Pântanos e pastagens húmidas,,,,,Entidades
+178,1.19,,En_32_65_51,32,65,51,,Meadows,Prados,,,,,Entidades
+179,1.19,,En_32_65_53,32,65,53,,Moorlands,Terreno montanhoso árido,,,,,Entidades
+180,1.19,,En_32_65_55,32,65,55,,Mudflats,Terreno pantanoso,,,,,Entidades
+181,1.19,,En_32_65_59,32,65,59,,Open grasslands,Prados,,,,,Entidades
+182,1.19,,En_32_65_73,32,65,73,,Rocks and screes,Rochas e depósitos rochosos,,,,,Entidades
+183,1.19,,En_32_65_75,32,65,75,,Sand dunes,Dunas de areia,,,,,Entidades
+184,1.19,,En_32_65_76,32,65,76,,Scrub,Matagal,,,,,Entidades
+185,1.19,,En_32_65_80,32,65,80,,Shingle banks,Depósito de seixo,,,,,Entidades
+186,1.19,,En_32_65_81,32,65,81,,Shores,Costa,,,,,Entidades
+187,1.19,,En_32_65_82,32,65,82,,Species-rich grassland,Pastagens biodiversas,,,,,Entidades
+188,1.19,,En_32_65_95,32,65,95,,Washland,Planície de inundação,,,,,Entidades
+189,1.19,,En_32_85,32,85,,,Water control and retaining entities,Entidades de controlo e retenção de água,,,,,Entidades
+190,1.19,,En_32_85_06,32,85,6,,Barrier beaches,Ilhas de barreira,,,,,Entidades
+191,1.19,,En_32_85_10,32,85,10,,Breakwaters,Quebra-mares,,,,,Entidades
+192,1.19,,En_32_85_15,32,85,15,,Control gates,Portas de controlo,,,,,Entidades
+193,1.19,,En_32_85_21,32,85,21,,Dams,Barragens,,,,,Entidades
+194,1.19,,En_32_85_23,32,85,23,,Debris screens,Filtros de resíduos,,,,,Entidades
+195,1.19,,En_32_85_24,32,85,24,,Dolphins,Estrutura de proteção de pilar,,,,,Entidades
+196,1.19,,En_32_85_25,32,85,25,,Draw-off towers,Torres de reservatórios de água potável,,,,,Entidades
+197,1.19,,En_32_85_30,32,85,30,,Flood prevention structures,Estruturas de controlo de inundações,,,,,Entidades
+198,1.19,,En_32_85_31,32,85,31,,Flumes,Canais artificiais de transporte de água,,,,,Entidades
+199,1.19,,En_32_85_35,32,85,35,,Groynes,Esporão,,,,,Entidades
+200,1.19,,En_32_85_37,32,85,37,,High ground,Terreno elevado,,,,,Entidades
+201,1.19,,En_32_85_45,32,85,45,,Levees,Represas,,,,,Entidades
+202,1.19,,En_32_85_59,32,85,59,,Outfalls,Emissários,,,,,Entidades
+203,1.19,,En_32_85_72,32,85,72,,Revetments,Revestimento de margens fluvíais e marítimas,,,,,Entidades
+204,1.19,,En_32_85_75,32,85,75,,Sand traps,Bacia de desarenação,,,,,Entidades
+205,1.19,,En_32_85_77,32,85,77,,Sea dikes,Diques marinhos,,,,,Entidades
+206,1.19,,En_32_85_80,32,85,80,,Sluices,Comportas,,,,,Entidades
+207,1.19,,En_32_85_82,32,85,82,,Spillways,Vertedouros,,,,,Entidades
+208,1.19,,En_32_85_84,32,85,84,,Stilling basins,Bacias de tranquilização,,,,,Entidades
+209,1.19,,En_32_85_96,32,85,96,,Water retaining structures,Estruturas de retenção de água,,,,,Entidades
+210,1.19,,En_32_85_97,32,85,97,,Weirs,Represas baixas,,,,,Entidades
+211,1.19,,En_32_85_98,32,85,98,,Wells,Poços,,,,,Entidades
+212,1.19,,En_32_95,32,95,,,Waterways,Hidrovia,,,,,Entidades
+213,1.19,,En_32_95_14,32,95,14,,Channels,Canais de água,,,,,Entidades
+214,1.19,,En_32_95_16,32,95,16,,Complex culverts,Passagens de água inferiores,,,,,Entidades
+215,1.19,,En_32_95_23,32,95,23,,Ditches,Valas,,,,,Entidades
+216,1.19,,En_32_95_59,32,95,59,,Open channels,Canais abertos,,,,,Entidades
+217,1.19,,En_32_95_80,32,95,80,,Simple culverts,Bueiros,,,,,Entidades
+218,1.19,,En_32_95_85,32,95,85,,Surface water channels,Canal de águas superficiais,,,,,Entidades
+219,1.19,,En_32_95_86,32,95,86,,Swales,Bacias de infiltração,,,,,Entidades
+220,1.19,,En_35,35,,,,"Medical, health, welfare and sanitary entities","Entidades médicas, de saúde, de segurança social e sanitárias",,,,,Entidades
+221,1.19,,En_35_10,35,10,,,Medical entities,Entidades médicas,,,,,Entidades
+222,1.19,,En_35_10_10,35,10,10,,Medical buildings,Edifícios médicos,,,,,Entidades
+223,1.19,,En_35_50,35,50,,,Welfare entities,Entidades de assistência social,,,,,Entidades
+224,1.19,,En_35_50_21,35,50,21,,Day welfare buildings,Edifícios de assistência social diurna,,,,,Entidades
+225,1.19,,En_35_50_70,35,50,70,,Residential welfare buildings,Edifícios residenciais da assistência social,,,,,Entidades
+226,1.19,,En_35_50_94,35,50,94,,Visitor welfare buildings,Edifícios da assistência social para visitantes,,,,,Entidades
+227,1.19,,En_35_70,35,70,,,Funerary entities,Entidades funerárias,,,,,Entidades
+228,1.19,,En_35_70_06,35,70,6,,Body storage buildings,Morgue,,,,,Entidades
+229,1.19,,En_35_70_10,35,70,10,,Burial buildings,Mausoléu,,,,,Entidades
+230,1.19,,En_35_70_11,35,70,11,,Burial grounds,Cemitério,,,,,Entidades
+231,1.19,,En_35_70_30,35,70,30,,Funeral buildings,Edifícios funerários,,,,,Entidades
+232,1.19,,En_35_70_60,35,70,60,,Medical chimney stacks,Chaminés médicas,,,,,Entidades
+233,1.19,,En_35_80,35,80,,,Sanitary entities,Entidades sanitárias,,,,,Entidades
+234,1.19,,En_35_80_10,35,80,10,,Bathing buildings,Balneários,,,,,Entidades
+235,1.19,,En_35_80_90,35,80,90,,Toilet buildings,Edifícios de Instalações Sanitárias,,,,,Entidades
+236,1.19,,En_35_85,35,85,,,Animal entities,Entidades para animais,,,,,Entidades
+237,1.19,,En_35_85_02,35,85,2,,Animal cage buildings,Recinto de jaulas de animais,,,,,Entidades
+238,1.19,,En_35_85_03,35,85,3,,Animal pen buildings,Recinto de currais de animais,,,,,Entidades
+239,1.19,,En_35_85_84,35,85,84,,Stable buildings,Estábulos,,,,,Entidades
+240,1.19,,En_35_90,35,90,,,"Animal medical, health, welfare and funerary entities","Entidades médicas, sanitárias, de bem-estar e funerárias de animais",,,,,Entidades
+241,1.19,,En_35_90_10,35,90,10,,Animal cemeteries,Cemitérios de animais,,,,,Entidades
+242,1.19,,En_35_90_30,35,90,30,,Animal funerary buildings,Edifícios funerários de animais,,,,,Entidades
+243,1.19,,En_35_90_50,35,90,50,,Animal medical buildings,Clínicas Veterinárias,,,,,Entidades
+244,1.19,,En_40,40,,,,Recreational entities,Entidades recreativas,,,,,Entidades
+245,1.19,,En_40_05,40,5,,,Amusement entities,Entidades de diversão,,,,,Entidades
+246,1.19,,En_40_05_03,40,5,3,,Amusement buildings,Edifícios de diversão,,,,,Entidades
+247,1.19,,En_40_05_13,40,5,13,,Casinos,Casinos,,,,,Entidades
+248,1.19,,En_40_05_27,40,5,27,,E-sport buildings,Edifícios de jogos virtuais,,,,,Entidades
+249,1.19,,En_40_05_42,40,5,42,,Indoor fairgrounds,Recintos de feira interiores,,,,,Entidades
+250,1.19,,En_40_05_60,40,5,60,,Outdoor fairgrounds,Recintos de feira exteriores,,,,,Entidades
+251,1.19,,En_40_05_68,40,5,68,,Public amenities,Serviços públicos,,,,,Entidades
+252,1.19,,En_40_20,40,20,,,Dining entities,Entidades de restauração,,,,,Entidades
+253,1.19,,En_40_20_23,40,20,23,,Dining buildings,Edifícios de restauração,,,,,Entidades
+254,1.19,,En_40_35,40,35,,,Historic entities,Entidades históricas,,,,,Entidades
+255,1.19,,En_40_35_10,40,35,10,,Buildings of historic interest,Edifícios de interesse histórico,,,,,Entidades
+256,1.19,,En_40_35_36,40,35,36,,Historic buildings,Edifícios históricos,,,,,Entidades
+257,1.19,,En_40_60,40,60,,,Performing arts entities,Entidades de artes performativas,,,,,Entidades
+258,1.19,,En_40_60_10,40,60,10,,Multiple performing arts buildings,Edifícios de artes performativas multiusos,,,,,Entidades
+259,1.19,,En_40_60_70,40,60,70,,Single performing arts buildings,Edifícios de artes performativas de uso único,,,,,Entidades
+260,1.19,,En_40_75,40,75,,,Social recreation entities,Entidades socio-recreativas,,,,,Entidades
+261,1.19,,En_40_75_10,40,75,10,,Multiple social recreation buildings,Edifícios de várias atividades socio-recreativas,,,,,Entidades
+262,1.19,,En_40_75_15,40,75,15,,Club houses,Edifícios de clubes,,,,,Entidades
+263,1.19,,En_40_75_70,40,75,70,,Single social recreation buildings,Edifícios de uma atividade socio-recreativa,,,,,Entidades
+264,1.19,,En_40_75_94,40,75,94,,Visitor centres,Centros de visita,,,,,Entidades
+265,1.19,,En_42,42,,,,Sport and activity entities,Entidades de desporto e atividades desportivas,,,,,Entidades
+266,1.19,,En_42_15,42,15,,,"Courts, pitches and field sports entities",Entidades de campos e quadras desportivos,,,,,Entidades
+267,1.19,,En_42_15_06,42,15,6,,Ball courts,Quadras de desportos com bola,,,,,Entidades
+268,1.19,,En_42_15_81,42,15,81,,Sports grounds,Áreas desportivas,,,,,Entidades
+269,1.19,,En_42_15_82,42,15,82,,Sports pitches,Campos desportivos,,,,,Entidades
+270,1.19,,En_42_40,42,40,,,Indoor activity entities,Entidades de atividades desportivas interiores,,,,,Entidades
+271,1.19,,En_42_40_80,42,40,80,,Sports buildings,Instalação desportiva,,,,,Entidades
+272,1.19,,En_42_55,42,55,,,Outdoor activity entities,Entidades de atividades desportivas interior,,,,,Entidades
+273,1.19,,En_42_55_01,42,55,1,,Activity grounds,Campos de atividade ddesportiva,,,,,Entidades
+274,1.19,,En_42_55_34,42,55,34,,Golf driving ranges,Campos de golfe,,,,,Entidades
+275,1.19,,En_42_85,42,85,,,Swimming entities,Entidades de natação,,,,,Entidades
+276,1.19,,En_42_85_60,42,85,60,,Outdoor swimming pools,Piscinas ao ar livre,,,,,Entidades
+277,1.19,,En_42_85_83,42,85,83,,Swimming pool buildings,Complexos de piscinas,,,,,Entidades
+278,1.19,,En_42_90,42,90,,,Water activity entities,Entidades de atividades desportivas aquáticas,,,,,Entidades
+279,1.19,,En_42_95,42,95,,,Winter sports entities,Entidades de desporto de inverno,,,,,Entidades
+280,1.19,,En_42_95_40,42,95,40,,Ice rink buildings,Pavilhões de patinação no gelo,,,,,Entidades
+281,1.19,,En_42_95_80,42,95,80,,Ski resort buildings,Edifícios de estâncias de esqui,,,,,Entidades
+282,1.19,,En_45,45,,,,Residential entities,Entidades residenciais,,,,,Entidades
+283,1.19,,En_45_10,45,10,,,Residential buildings,Edifícios residenciais,,,,,Entidades
+284,1.19,,En_45_10_39,45,10,39,,Houses,Habitações,,,,,Entidades
+285,1.19,,En_45_10_47,45,10,47,,Long-term residential buildings,Edifícios residenciais de longa duração,,,,,Entidades
+286,1.19,,En_45_10_70,45,10,70,,Short-term residential buildings,Edifícios residenciais de curta duração,,,,,Entidades
+287,1.19,,En_45_10_90,45,10,90,,Temporary residential buildings,Edifícios residenciais temporários,,,,,Entidades
+288,1.19,,En_50,50,,,,Waste disposal entities,Entidades de eliminação de resíduos,,,,,Entidades
+289,1.19,,En_50_10,50,10,,,Gas waste collection entities,Entidades de eliminação de resíduos de gás,,,,,Entidades
+290,1.19,,En_50_20,50,20,,,Non-aqueous waste collection entities,Entidades de recolha de resíduos não-aquosos,,,,,Entidades
+291,1.19,,En_50_20_10,50,20,10,,Non-aqueous waste collection tanks,Tanques de recolha de resíduos não-aquosos,,,,,Entidades
+292,1.19,,En_50_30,50,30,,,Drainage collection entities,Entidades de recolha e drenagem,,,,,Entidades
+293,1.19,,En_50_30_25,50,30,25,,Drainage collection pipelines,Dutos de recolha e drenagem,,,,,Entidades
+294,1.19,,En_50_35,50,35,,,Wastewater collection entities,Entidades de recolha de águas residuais,,,,,Entidades
+295,1.19,,En_50_35_15,50,35,15,,Combined wastewater collection pipelines,Dutos unitários de recolha de águas residuais,,,,,Entidades
+296,1.19,,En_50_35_83,50,35,83,,Storm water pumping stations,Estações de bombagem de águas pluviais,,,,,Entidades
+297,1.19,,En_50_35_85,50,35,85,,Surface water collection pipelines,Dutos de recolha de água de superfície,,,,,Entidades
+298,1.19,,En_50_35_87,50,35,87,,Surface water pumping stations,Estações de bombagem de água de superfície,,,,,Entidades
+299,1.19,,En_50_35_98,50,35,98,,Wastewater collection pipelines,Dutos de recolha de águas residuais,,,,,Entidades
+300,1.19,,En_50_35_99,50,35,99,,Wastewater rising mains,Condutas ascendentes de águas residuais,,,,,Entidades
+301,1.19,,En_50_40,50,40,,,Dry waste collection and distribution,Recolha e distribuição de resíduos sólidos,,,,,Entidades
+302,1.19,,En_50_40_10,50,40,10,,Dry waste collection structures,Estruturas de recolha de resíduos sólidos,,,,,Entidades
+303,1.19,,En_50_40_11,50,40,11,,Dry waste storage structures,Estruturas de Armazenagem de resíduos sólidos,,,,,Entidades
+304,1.19,,En_50_40_12,50,40,12,,Dry waste storage yards,Pátios de Armazenagem de resíduos sólidos,,,,,Entidades
+305,1.19,,En_50_40_50,50,40,50,,Dry waste distribution structures,Estruturas de distribuição de resíduos sólidos,,,,,Entidades
+306,1.19,,En_50_50,50,50,,,"Gas waste storage, treatment and disposal",Armazéns de tratamento e eliminação de resíduos de gás,,,,,Entidades
+307,1.19,,En_50_60,50,60,,,"Non-aqueous waste storage, treatment and disposal",Armazéns de tratamento e eliminação de resíduos não-aquosos,,,,,Entidades
+308,1.19,,En_50_70,50,70,,,"Drainage storage, treatment and disposal","Armazéns de drenagem, tratamento e eliminação de águas residuais",,,,,Entidades
+309,1.19,,En_50_75,50,75,,,"Wastewater storage, treatment and disposal",Armazéns de tratamento e eliminação de águas residuais,,,,,Entidades
+310,1.19,,En_50_75_20,50,75,20,,Dewatering hubs,Centros de secagem,,,,,Entidades
+311,1.19,,En_50_75_26,50,75,26,,Effluent tanks,Tanques de efluentes,,,,,Entidades
+312,1.19,,En_50_75_30,50,75,30,,Final effluent pumping stations,Estações de bombagem de efluentes finais,,,,,Entidades
+313,1.19,,En_50_75_42,50,75,42,,Inter-stage effluent pumping stations,Estações de bombagem de efluentes secundários e terciarios,,,,,Entidades
+314,1.19,,En_50_75_80,50,75,80,,Sludge treatment entities,Entidades de tratamento de lodo,,,,,Entidades
+315,1.19,,En_50_75_93,50,75,93,,Wastewater pumping stations,Estações de bombagem de águas residuais,,,,,Entidades
+316,1.19,,En_50_75_95,50,75,95,,Wastewater treatment entities,Entidades de tratamento de águas residuais,,,,,Entidades
+317,1.19,,En_50_75_96,50,75,96,,Wastewater storage structures,Estruturas de armazenagem de águas residuais,,,,,Entidades
+318,1.19,,En_50_80,50,80,,,Dry waste treatment and disposal,Tratamento e eliminação de resíduos sólidos,,,,,Entidades
+319,1.19,,En_50_80_40,50,80,40,,Dry waste treatment structures,Estruturas de tratamento de resíduos sólidos,,,,,Entidades
+320,1.19,,En_50_80_70,50,80,70,,Dry waste disposal structures,Estruturas de eliminação de resíduos sólidos,,,,,Entidades
+321,1.19,,En_55,55,,,,Piped supply entities,Entidades de abastecimento canalizado,,,,,Entidades
+322,1.19,,En_55_05,55,5,,,"Gas extraction, treatment and storage","Extração, tratamento e armazenagem de gás",,,,,Entidades
+323,1.19,,En_55_05_30,55,5,30,,Gas extraction structures,Estruturas de extração de gás,,,,,Entidades
+324,1.19,,En_55_05_35,55,5,35,,Gas extraction vessels,Depósito de extração de gás,,,,,Entidades
+325,1.19,,En_55_05_38,55,5,38,,Gas extraction pipelines,Gasodutos de extração,,,,,Entidades
+326,1.19,,En_55_05_40,55,5,40,,Gas storage tanks,Tanques de Armazenagem de gás,,,,,Entidades
+327,1.19,,En_55_05_70,55,5,70,,Gas treatment buildings,Edifícios de tratamento de gás,,,,,Entidades
+328,1.19,,En_55_05_75,55,5,75,,Gas treatment plant,Estação de tratamento de gás,,,,,Entidades
+329,1.19,,En_55_05_78,55,5,78,,Gas treatment pipelines,Gasodutos de tratamento de gás,,,,,Entidades
+330,1.19,,En_55_10,55,10,,,Liquid fuel extraction and treatment entities,Entidades de extração e tratamento de combustível líquido,,,,,Entidades
+331,1.19,,En_55_10_10,55,10,10,,Oil extraction structures,Estruturas de extração de petróleo,,,,,Entidades
+332,1.19,,En_55_10_45,55,10,45,,Oil storage tanks,Tanques de Armazenagem de óleo,,,,,Entidades
+333,1.19,,En_55_10_50,55,10,50,,Fuel treatment buildings,Edifícios de tratamento de combustível,,,,,Entidades
+334,1.19,,En_55_10_55,55,10,55,,Fuel treatment tanks,Tanques de tratamento de combustível,,,,,Entidades
+335,1.19,,En_55_10_58,55,10,58,,Fuel treatment pipelines,Dutos de tratamento de combustível,,,,,Entidades
+336,1.19,,En_55_15,55,15,,,Water extraction and treatment entities,Entidades de extração e tratamento de água,,,,,Entidades
+337,1.19,,En_55_15_50,55,15,50,,Water treatment buildings,Edifícios de tratamento de água,,,,,Entidades
+338,1.19,,En_55_15_55,55,15,55,,Water treatment tanks,Tanques de tratamento de água,,,,,Entidades
+339,1.19,,En_55_15_72,55,15,72,,Raw water pipelines,Canalizações de água bruta,,,,,Entidades
+340,1.19,,En_55_15_75,55,15,75,,Raw water pumping stations,Estações de bombagem de água bruta,,,,,Entidades
+341,1.19,,En_55_20,55,20,,,Gas supply entities,Entidades fornecedoras de gás,,,,,Entidades
+342,1.19,,En_55_20_50,55,20,50,,Gas distribution structures,Estruturas de distribuição de gás,,,,,Entidades
+343,1.19,,En_55_20_60,55,20,60,,Gas distribution pipelines,Gasodutos de distribuição de gás,,,,,Entidades
+344,1.19,,En_55_30,55,30,,,Fire extinguishing supply entities,Entidades de fornecimento de extintores de incêndio,,,,,Entidades
+345,1.19,,En_55_40,55,40,,,Steam supply entities,Entidades de abastecimento de vapor,,,,,Entidades
+346,1.19,,En_55_50,55,50,,,Liquid fuel supply entities,Entidades de abastecimento de combustível líquido,,,,,Entidades
+347,1.19,,En_55_50_20,55,50,20,,Fuel distribution pipelines,Dutos de distribuição de combustível,,,,,Entidades
+348,1.19,,En_55_50_45,55,50,45,,Liquid fuel distribution buildings,Edifícios de distribuição de combustível líquido,,,,,Entidades
+349,1.19,,En_55_60,55,60,,,Process liquid supply entities,Entidades de abastecimento de combustível líquido,,,,,Entidades
+350,1.19,,En_55_70,55,70,,,Water supply entities,Entidades de abastecimento de água,,,,,Entidades
+351,1.19,,En_55_70_85,55,70,85,,Treated water distribution pipelines,Dutos de distribuição de água tratada,,,,,Entidades
+352,1.19,,En_55_70_87,55,70,87,,Treated water pumping stations,Estações de bombeagem de água tratada,,,,,Entidades
+353,1.19,,En_55_70_89,55,70,89,,Treated water reservoirs,Reservatórios de água tratada,,,,,Entidades
+354,1.19,,En_55_70_91,55,70,91,,Treated water towers,Torres de água tratada,,,,,Entidades
+355,1.19,,En_55_90,55,90,,,Piped solids supply entities,Entidades de fornecimento canalizados de sólidos,,,,,Entidades
+356,1.19,,En_60,60,,,,"Heating, cooling and refrigeration entities","Entidades de aquecimento, arrefecimento o e refrigeração",,,,,Entidades
+357,1.19,,En_60_30,60,30,,,Rail and paving heating entities,Entidades de aquecimento ferroviário e de pavimento,,,,,Entidades
+358,1.19,,En_60_40,60,40,,,Space heating and cooling entities,Entidades de aquecimento e arrefecimento de espaços,,,,,Entidades
+359,1.19,,En_60_40_10,60,40,10,,District heating buildings,Infraestrutura de aquecimento urbano,,,,,Entidades
+360,1.19,,En_60_40_20,60,40,20,,District heating pipelines,Dutos de aquecimento urbano,,,,,Entidades
+361,1.19,,En_60_40_50,60,40,50,,District cooling buildings,Infraestrutura de arrefecimento urbano,,,,,Entidades
+362,1.19,,En_60_40_60,60,40,60,,District cooling pipelines,Dutos de arrefecimento urbano,,,,,Entidades
+363,1.19,,En_60_60,60,60,,,Refrigeration entities,Entidades de refrigeração,,,,,Entidades
+364,1.19,,En_60_80,60,80,,,Drying entities,Entidades de secagem,,,,,Entidades
+365,1.19,,En_65,65,,,,Ventilation and air conditioning entities,Entidades de ventilação e ar condicionado,,,,,Entidades
+366,1.19,,En_65_40,65,40,,,Ventilation entities,Entidades de ventilação,,,,,Entidades
+367,1.19,,En_65_40_80,65,40,80,,Shaft and tunnel ventilation plant building,Instalações de contutas e túneis de ventilação,,,,,Entidades
+368,1.19,,En_65_80,65,80,,,Air conditioning entities,Entidades de ar condicionado,,,,,Entidades
+369,1.19,,En_70,70,,,,Electrical power generation and distribution entities,Entidades de produção e distribuição de energia elétrica,,,,,Entidades
+370,1.19,,En_70_10,70,10,,,Electrical power generation entities,Entidades de produção de energia elétrica,,,,,Entidades
+371,1.19,,En_70_10_10,70,10,10,,Electrical power generation buildings,Edifícios de produção de energia elétrica,,,,,Entidades
+372,1.19,,En_70_10_80,70,10,80,,Solar panel fields,Estação de energia fotovoltaica,,,,,Entidades
+373,1.19,,En_70_10_90,70,10,90,,Wind turbines,Turbinas eólicas,,,,,Entidades
+374,1.19,,En_70_30,70,30,,,Electricity distribution and transmission entities,Entidades de distribuição e transmissão de energia eléctrica,,,,,Entidades
+375,1.19,,En_70_30_18,70,30,18,,Electricity transmission pylons and lines,Postes e linhas de transmissão de eletricidade,,,,,Entidades
+376,1.19,,En_70_30_35,70,30,35,,High-voltage electricity substations,Subestações de eletricidade de alta tensão,,,,,Entidades
+377,1.19,,En_70_30_45,70,30,45,,Low-voltage electricity substations,Subestações de eletricidade de baixa tensão,,,,,Entidades
+378,1.19,,En_70_30_60,70,30,60,,Overhead power distribution lines,Linhas de distribuição de energia aéreas,,,,,Entidades
+379,1.19,,En_70_30_90,70,30,90,,Underground electricity transmission lines,Linhas de transmissão de eletricidade subterrâneas,,,,,Entidades
+380,1.19,,En_75,75,,,,"Communications, security, safety and protection entities","Entidades de comunicação, segurança e proteção",,,,,Entidades
+381,1.19,,En_75_10,75,10,,,Communication entities,Entidades de comunicação,,,,,Entidades
+382,1.19,,En_75_10_10,75,10,10,,Broadcast communications buildings,Edifícios de comunicação de transmissão,,,,,Entidades
+383,1.19,,En_75_10_16,75,10,16,,Broadcast communications masts and towers,Antenas e torres de comunicação,,,,,Entidades
+384,1.19,,En_75_10_20,75,10,20,,Data centres,Centro de processamento de dados,,,,,Entidades
+385,1.19,,En_75_30,75,30,,,Signalling entities,Entidades de sinalização,,,,,Entidades
+386,1.19,,En_75_30_10,75,30,10,,Peer-to-peer communications buildings,Edifícios de comunicação ponto a ponto,,,,,Entidades
+387,1.19,,En_75_30_18,75,30,18,,Peer-to-peer communications networks,Redes de comunicação ponto a ponto,,,,,Entidades
+388,1.19,,En_75_30_78,75,30,78,,Signalling control centres,Centros de controlo de sinalização,,,,,Entidades
+389,1.19,,En_75_40,75,40,,,Security systems entities,Entidades de sistemas de segurança,,,,,Entidades
+390,1.19,,En_75_50,75,50,,,Safety and protection entities,Entidades de segurança e proteção,,,,,Entidades
+391,1.19,,En_75_60,75,60,,,Environmental safety entities,Entidades de segurança ambiental,,,,,Entidades
+392,1.19,,En_75_70,75,70,,,Control and management entities,Entidades de controlo e gestão,,,,,Entidades
+393,1.19,,En_75_70_60,75,70,60,,Operational control centres,Centros de controlo operacional,,,,,Entidades
+394,1.19,,En_75_80,75,80,,,Protection entities,Entidades de proteção,,,,,Entidades
+395,1.19,,En_80,80,,,,Transport entities,Entidades de transporte,,,,,Entidades
+396,1.19,,En_80_05,80,5,,,Aerospace entities,Entidades aeroespaciais,,,,,Entidades
+397,1.19,,En_80_05_01,80,5,1,,Air traffic control towers,Torres de controlo de tráfego aéreo,,,,,Entidades
+398,1.19,,En_80_05_02,80,5,2,,Aircraft hangars,Hangares de aeronaves,,,,,Entidades
+399,1.19,,En_80_05_60,80,5,60,,Passenger terminal buildings,Edifícios do terminal de passageiros,,,,,Entidades
+400,1.19,,En_80_20,80,20,,,Cable transport entities,Entidades de transportes teleféricos,,,,,Entidades
+401,1.19,,En_80_20_11,80,20,11,,Cable car entities,Entidades de transportes teleféricos,,,,,Entidades
+402,1.19,,En_80_20_12,80,20,12,,Cable car stations,Estações de carruagens teleférico,,,,,Entidades
+403,1.19,,En_80_20_86,80,20,86,,Suspended cableways,Teleféricos suspensos,,,,,Entidades
+404,1.19,,En_80_35,80,35,,,Road entities,Entidades rodoviárias,,,,,Entidades
+405,1.19,,En_80_35_01,80,35,1,,Access roads,Estradas de acesso,,,,,Entidades
+406,1.19,,En_80_35_05,80,35,5,,Bus lanes,Faixa de circulação de autocarro,,,,,Entidades
+407,1.19,,En_80_35_07,80,35,7,,Bus maintenance depots,Depósitos de manutenção de autocarros,,,,,Entidades
+408,1.19,,En_80_35_09,80,35,9,,Bus and coach stations,Estações de autocarros,,,,,Entidades
+409,1.19,,En_80_35_34,80,35,34,,Guided bus lanes,Elétricos,,,,,Entidades
+410,1.19,,En_80_35_35,80,35,35,,Highway maintenance depots,Depósitos de manutenção de rodovias,,,,,Entidades
+411,1.19,,En_80_35_38,80,35,38,,Highway service stations,Estações de serviço rodoviário,,,,,Entidades
+412,1.19,,En_80_35_56,80,35,56,,Motorways,Autoestradas,,,,,Entidades
+413,1.19,,En_80_35_67,80,35,67,,Private roads,Estradas privadas,,,,,Entidades
+414,1.19,,En_80_35_74,80,35,74,,Roads,Estradas,,,,,Entidades
+415,1.19,,En_80_35_77,80,35,77,,Service area buildings,Edifícios de área de serviço,,,,,Entidades
+416,1.19,,En_80_35_88,80,35,88,,Tollgates,Portagens,,,,,Entidades
+417,1.19,,En_80_35_89,80,35,89,,Tracks,Pistas,,,,,Entidades
+418,1.19,,En_80_35_90,80,35,90,,Truck maintenance depots,Depósitos de manutenção de camiões,,,,,Entidades
+419,1.19,,En_80_40,80,40,,,Pathways,Caminhos,,,,,Entidades
+420,1.19,,En_80_40_08,80,40,8,,Bridleways,Trilhos equestres,,,,,Entidades
+421,1.19,,En_80_40_10,80,40,10,,Byways,Caminhos,,,,,Entidades
+422,1.19,,En_80_40_20,80,40,20,,Cycle pathways,Ciclovias,,,,,Entidades
+423,1.19,,En_80_40_30,80,40,30,,Footpaths,Caminhos pedestres,,,,,Entidades
+424,1.19,,En_80_40_37,80,40,37,,Hiking paths,Trilhos de pedestres,,,,,Entidades
+425,1.19,,En_80_40_66,80,40,66,,Promenades,Passeios,,,,,Entidades
+426,1.19,,En_80_40_70,80,40,70,,Rambler ways,Caminho no campo,,,,,Entidades
+427,1.19,,En_80_40_90,80,40,90,,Trails,Carris,,,,,Entidades
+428,1.19,,En_80_45,80,45,,,Vehicle storage entities,Entidades de Armazenagem de veículos,,,,,Entidades
+429,1.19,,En_80_45_08,80,45,8,,Bus parks,Parques de autocarros,,,,,Entidades
+430,1.19,,En_80_45_11,80,45,11,,Car garaging entities,Entidades de garagens de automóveis,,,,,Entidades
+431,1.19,,En_80_45_17,80,45,17,,Coach parks,Parques de autocarros (de longo curso),,,,,Entidades
+432,1.19,,En_80_45_55,80,45,55,,Multistorey vehicle parks,Parques de estacionamento multi-piso,,,,,Entidades
+433,1.19,,En_80_45_85,80,45,85,,Surface vehicle parks,Parques de estacionamento de superfície,,,,,Entidades
+434,1.19,,En_80_45_89,80,45,89,,Truck parks,Parques de camiões,,,,,Entidades
+435,1.19,,En_80_45_92,80,45,92,,Underground vehicle parks,Parques subterrâneos de veículos,,,,,Entidades
+436,1.19,,En_80_50,80,50,,,Railway entities,Entidades ferroviárias,,,,,Entidades
+437,1.19,,En_80_50_53,80,50,53,,Monorail entities,Entidades de monocarril,,,,,Entidades
+438,1.19,,En_80_50_58,80,50,58,,Platforms,Plataformas,,,,,Entidades
+439,1.19,,En_80_50_60,80,50,60,,Rack rail maintenance buildings,Edifícios de manutenção de ferrovias de cremalheira,,,,,Entidades
+440,1.19,,En_80_50_62,80,50,62,,Rack railways track entities,Entidades ferroviárias de cremalheira,,,,,Entidades
+441,1.19,,En_80_50_64,80,50,64,,Rail distribution depots,Depósito de distribuição ferroviária,,,,,Entidades
+442,1.19,,En_80_50_68,80,50,68,,Rail marshalling entities,Entidades de organização ferroviária,,,,,Entidades
+443,1.19,,En_80_50_71,80,50,71,,Railway corridors,Corredores ferroviários,,,,,Entidades
+444,1.19,,En_80_50_74,80,50,74,,Railway stations,Estações ferroviárias,,,,,Entidades
+445,1.19,,En_80_50_76,80,50,76,,Railway sidings,Ramais ferroviários,,,,,Entidades
+446,1.19,,En_80_50_78,80,50,78,,Rolling stock depots,Armazém de material circulante ferroviário,,,,,Entidades
+447,1.19,,En_80_50_83,80,50,83,,Station buildings,Edifícios de estações ferroviárias,,,,,Entidades
+448,1.19,,En_80_50_86,80,50,86,,Track maintenance depots,Armazéns de rastreamento e manutenção,,,,,Entidades
+449,1.19,,En_80_50_87,80,50,87,,Trackside circuit breaker equipment buildings,Corta circuitos de via,,,,,Entidades
+450,1.19,,En_80_50_88,80,50,88,,Train maintenance depots,Depósitos de manutenção de composições,,,,,Entidades
+451,1.19,,En_80_50_90,80,50,90,,Tramways,Elétricos,,,,,Entidades
+452,1.19,,En_80_50_94,80,50,94,,Underground railway stations,Estações ferroviárias subterrâneas,,,,,Entidades
+453,1.19,,En_80_50_95,80,50,95,,Wagon decontamination buildings,Edifícios de descontaminação de camiões,,,,,Entidades
+454,1.19,,En_80_50_97,80,50,97,,Wagon maintenance buildings,Edifícios de manutenção de camiões,,,,,Entidades
+455,1.19,,En_80_70,80,70,,,Marine and waterways transport entities,Entidades de transporte marítimo e hidroviário,,,,,Entidades
+456,1.19,,En_80_70_06,80,70,6,,Barge loading terminals,Terminais de carregamento de cargueiros,,,,,Entidades
+457,1.19,,En_80_70_11,80,70,11,,Canal channels,Canais de vias navegáveis,,,,,Entidades
+458,1.19,,En_80_70_15,80,70,15,,Canal locks,Eclusas,,,,,Entidades
+459,1.19,,En_80_70_46,80,70,46,,Lake passenger terminals,Terminais de passageiros no lago,,,,,Entidades
+460,1.19,,En_80_70_50,80,70,50,,Marinas,Marinas,,,,,Entidades
+461,1.19,,En_80_70_71,80,70,71,,River passenger terminals,Terminais fluviais de passageiros,,,,,Entidades
+462,1.19,,En_80_90,80,90,,,Transport hub entities,Entidades de transporte,,,,,Entidades
+463,1.19,,En_80_90_30,80,90,30,,Freight depots,Armazéns de carga,,,,,Entidades
+464,1.19,,En_80_90_66,80,90,66,,Rail freight entities,Entidades de transporte ferroviário de carga,,,,,Entidades
+465,1.19,,En_80_90_73,80,90,73,,Road freight depots,Depósitos de transporte ferroviário de carga,,,,,Entidades
+466,1.19,,En_80_90_90,80,90,90,,Transport interchanges,Intercâmbios de transporte,,,,,Entidades
+467,1.19,,En_80_94,80,94,,,Bridges,Pontes,,,,,Entidades
+468,1.19,,En_80_94_30,80,94,30,,Fixed bridges,Pontes fixas,,,,,Entidades
+469,1.19,,En_80_94_50,80,94,50,,Moveable bridges,Pontes móveis,,,,,Entidades
+470,1.19,,En_80_96,80,96,,,Tunnels and shafts,Túneis e poços,,,,,Entidades
+471,1.19,,En_80_96_20,80,96,20,,Drift tunnels,Túneis de escavação,,,,,Entidades
+472,1.19,,En_80_96_46,80,96,46,,Lined drift tunnels,Túneis de escavação com revestimento,,,,,Entidades
+473,1.19,,En_80_96_49,80,96,49,,Lined tunnels,Túneis com revestimento,,,,,Entidades
+474,1.19,,En_80_96_80,80,96,80,,Shafts,Poços,,,,,Entidades
+475,1.19,,En_80_96_90,80,96,90,,Tunnels,Túneis,,,,,Entidades
+476,1.19,,En_80_96_91,80,96,91,,Tunnel portals,Portais de túneis,,,,,Entidades
+477,1.19,,En_80_96_92,80,96,92,,Underpasses,Passagens subterrâneas,,,,,Entidades
+478,1.19,,En_90,90,,,,"Circulation, storage and general entities",Entidades gerais de circulação e Armazenagem,,,,,Entidades
+479,1.19,,En_90_10,90,10,,,Circulation entities,Entidades de circulação,,,,,Entidades
+480,1.19,,En_90_10_02,90,10,2,,Access stairways and walkways,Escadas e passeio de acesso,,,,,Entidades
+481,1.19,,En_90_10_62,90,10,62,,Pedestrianized areas,Áreas pedonais,,,,,Entidades
+482,1.19,,En_90_10_77,90,10,77,,External service areas,Áreas de serviço externas,,,,,Entidades
+483,1.19,,En_90_30,90,30,,,Construction entities,Entidades de construção,,,,,Entidades
+484,1.19,,En_90_30_15,90,30,15,,Construction sites,Estaleiros de obras,,,,,Entidades
+485,1.19,,En_90_30_95,90,30,95,,Work areas,Áreas de trabalho,,,,,Entidades
+486,1.19,,En_90_50,90,50,,,Storage entities,Entidades de armazenagem,,,,,Entidades
+487,1.19,,En_90_50_02,90,50,2,,Agricultural storage buildings,Edifícios de armazenagem agrícola,,,,,Entidades
+488,1.19,,En_90_50_03,90,50,3,,Agricultural storage silos,Silos de armazenagem agrícola,,,,,Entidades
+489,1.19,,En_90_50_28,90,50,28,,Explosives stores,Paiois,,,,,Entidades
+490,1.19,,En_90_50_50,90,50,50,,Manufacturing tanks and silos,Tanques de fabricação e silos,,,,,Entidades
+491,1.19,,En_90_50_53,90,50,53,,Mineral storage silos,Silos de armazenagem mineral,,,,,Entidades
+492,1.19,,En_90_50_55,90,50,55,,Motor vehicle storage entities,Entidades de armazenagem de veículos motorizados,,,,,Entidades
+493,1.19,,En_90_50_68,90,50,68,,Refrigerated container storage entities,Entidades de armazenagem de contetores refrigerados,,,,,Entidades
+494,1.19,,En_90_50_75,90,50,75,,Salt storage barns,Armazéns de sal,,,,,Entidades
+495,1.19,,En_90_50_80,90,50,80,,Storage buildings,Armazéns,,,,,Entidades
+496,1.19,,En_90_90,90,90,,,Plant and control entities,Entidades de fabricação e controlo,,,,,Entidades
+497,1.19,,En_90_90_09,90,90,9,,Buried services routes,Serviços de escavação subterrâneas,,,,,Entidades
+498,1.19,,En_90_90_11,90,90,11,,Cable routes,Rotas de cabos,,,,,Entidades
+499,1.19,,En_90_90_27,90,90,27,,Environment monitoring buildings,Edifícios de monitorização ambiental,,,,,Entidades
+500,1.19,,En_90_90_33,90,90,33,,Gauge houses,Estações de medição,,,,,Entidades
+501,1.19,,En_90_90_35,90,90,35,,Gauging station buildings,Edifícios da estação de medição,,,,,Entidades
+502,1.19,,En_90_90_50,90,90,50,,Mechanical services buildings,Edifícios de reparação mecânica,,,,,Entidades
+503,1.19,,En_90_90_64,90,90,64,,Plant and equipment buildings,Edifícios de instalações e equipamentos,,,,,Entidades
+504,1.19,,En_90_90_68,90,90,68,,Pump houses,Estações de bombagem,,,,,Entidades
+505,1.19,,En_90_90_80,90,90,80,,Services routes,Rotas de serviços,,,,,Entidades
