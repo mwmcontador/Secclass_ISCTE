@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Header from "../../components/Header";
 
 import Item from "../../components/Item";
 import api from "../../services/api";

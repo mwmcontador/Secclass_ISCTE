@@ -34,11 +34,10 @@ router.get("/lista/:id", async (req, res) => {
 });
 
 //Listando Somente um Registro pelo Nivel
-router.get("/filtros/:nivel_item&&", async (req, res) => {
+router.get("/nivel/:nivel_item", async (req, res) => {
   console.log(`Iniciando Nivel ${req.params.nivel_item}`);
   try {
     const nivel = req.params.nivel_item;
-    const nome_tabela = req.params.nivel_item;
 
     //Debug
     console.log(` Nivel Selecionado ${nivel}`);
@@ -50,14 +49,18 @@ router.get("/filtros/:nivel_item&&", async (req, res) => {
 });
 
 //Listando Somente com os filtros
-router.get("/nivel/:nivel_item", async (req, res) => {
-  console.log(`Iniciando Nivel ${req.params.nivel_item}`);
+router.get("/filtros/", async (req, res) => {
   try {
-    const criterio = req.params.nivel_item;
+    const criterio_nivel = req.query.nivel_item;
+    const criterio_tabela = req.query.code_tabela;
 
     //Debug
-    console.log(` Nivel Selecionado ${criterio}`);
-    const item = await Item.find({ nivel_item: criterio });
+    console.log(` Filtros Selecionado ${criterio_nivel} e ${criterio_tabela}`);
+    const item = await Item.find({
+      nivel_item: criterio_nivel,
+      code_tabela: criterio_tabela,
+    });
+
     res.json({ error: false, item });
   } catch (err) {
     res.json({ error: true, message: err.message });

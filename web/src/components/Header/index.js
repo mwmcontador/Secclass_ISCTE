@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div class="container-fluid" style="background-color: #474787">
+    <div class="container">
       <header class="row">
         <div class="col-2">
           <img
@@ -25,12 +25,6 @@ const Header = () => {
               <a href="#">Download </a>
             </li>
           </ul>
-        </div>
-        <div class="col-2">
-          <br />
-          <button class="btn btn-lg btn-custom-blue text-white">
-            Pesquisar
-          </button>
         </div>
       </header>
     </div>
