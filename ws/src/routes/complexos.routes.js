@@ -11,8 +11,8 @@ router.get("/complexos", async (req, res) => {
     console.log("Iniciando rota do item");
 
     //Indica o nome do Collection
-    const itens = await Complexos.find({});
-    res.json({ error: false, itens });
+    const complexos = await Complexos.find({});
+    res.json({ error: false, complexos });
     console.log("Itens da Tabela Complexos Lidos");
   } catch (err) {
     console.log("Error Item");

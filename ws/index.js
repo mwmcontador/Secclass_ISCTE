@@ -25,7 +25,7 @@ console.log("Rota Tabela");
 app.use("/tabela", tabelaRoutes);
 
 console.log("Rota Item");
-app.use("/lista", itemRoutes);
+app.use("/", itemRoutes);
 
 //console.log("Rota Complexos");
 //app.use("/lista", itemRoutes);
