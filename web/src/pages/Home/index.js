@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 import Item from "../../components/Item";
+import Modalitem from "../../components/ModalItem";
+
 import api from "../../services/api";
 
 const Home = () => {
@@ -56,6 +58,9 @@ const Home = () => {
   // Quando utilizamos o parentese significa que utilizaremos codigo JSX, se fosse {} seria Javascript
   return (
     <>
+      <div>
+        <Modalitem />
+      </div>
       <div className="container">
         <h1>Listar Tabela</h1>
         <br />
