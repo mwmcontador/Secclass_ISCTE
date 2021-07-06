@@ -1,9 +1,11 @@
 import React from "react";
+import ModalItem from "../ModalItem";
 
 const Item = ({ item }) => {
   console.log(item);
   const mostrarItem = () => {
     alert(item.titulo_SECClasS);
+    <ModalItem />;
   };
   return (
     <tr>

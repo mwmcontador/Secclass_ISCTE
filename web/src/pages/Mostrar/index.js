@@ -153,7 +153,8 @@ const Mostrar = () => {
               if (
                 filtros.filtroTabela === item.code_tabela &&
                 filtros.filtroNivel === 1 && // Sempre Exibir  primeiro Nivel
-                filtros.filtroNivel === item.nivel_item
+                filtros.filtroNivel === item.nivel_item &&
+                filtros.filtroPesquisa.includes === item?.titulo_SECClasS
               ) {
                 console.log("1 if", item);
                 return <Item item={item} />;
