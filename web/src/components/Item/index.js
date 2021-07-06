@@ -9,7 +9,7 @@ const Item = ({ item }) => {
     <tr>
       <th scope="row">{item?.code_item}</th>
       <td>{item?.titulo_SECClasS}</td>
-
+      <td align="center">{item.code_tabela}</td>
       <td align="center">{item.nivel_item}</td>
       <td className="text-center">
         <button className="btn btn-success" onClick={mostrarItem}>
