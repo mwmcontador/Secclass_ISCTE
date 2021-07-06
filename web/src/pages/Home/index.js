@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 import Item from "../../components/Item";
+import Modalitem from "../../components/ModalItem";
+
 import api from "../../services/api";
 
 const Home = () => {
@@ -56,6 +58,9 @@ const Home = () => {
   // Quando utilizamos o parentese significa que utilizaremos codigo JSX, se fosse {} seria Javascript
   return (
     <>
+      <div>
+        <Modalitem />
+      </div>
       <div className="container">
         <h1>Listar Tabela</h1>
         <br />
@@ -74,8 +79,9 @@ const Home = () => {
                   });
                 }}
               >
-                <option>Complexos</option>
-                <option>Entidades</option>
+                <option value="Complexos"> Complexos Co </option>
+                console.log(Complexos Co)
+                <option value="Entidades"> Entidades sds </option>
               </select>
             </div>
             <div className="col-2">
@@ -106,8 +112,8 @@ const Home = () => {
             <tr>
               <th scope="col-4">Código</th>
               <th scope="col-4">Título</th>
-
-              <th scope="col-4">Nível</th>
+              <th scope="col-2">Nível</th>
+              <th scope="col-2">Nível</th>
               <th scope="col-2">Ações</th>
             </tr>
           </thead>

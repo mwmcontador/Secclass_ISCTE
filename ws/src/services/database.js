@@ -5,12 +5,14 @@
 
 const mongoose = require("mongoose");
 console.log("Conectando Banco");
-//mongoose.connect("mongodb://localhost:27017/secclass-teste", {
+mongoose.connect("mongodb://localhost:27017/secclass-teste", {
+  /*
 mongoose.connect(
   "mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+*/
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 console.log("BD Conectado");
