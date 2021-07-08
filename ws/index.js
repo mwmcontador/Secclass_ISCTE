@@ -27,6 +27,10 @@ app.use("/tabela", tabelaRoutes);
 console.log("Rota Item");
 app.use("/", itemRoutes);
 
-app.listen(8000, () => {
+//console.log("Rota Complexos");
+//app.use("/lista", itemRoutes);
+
+//app.listen(8000, () => {
+app.listen(5003, () => {
   console.log("Meu Servidor está funcionando..");
 });

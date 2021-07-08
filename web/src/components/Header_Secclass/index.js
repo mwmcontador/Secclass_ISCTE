@@ -1,11 +1,14 @@
 import React from "react";
 
-const Header_Secclass = () => {
+const Header = () => {
   return (
     <div class="container-fluid" style="background-color: #474787">
       <header class="row">
         <div class="col-2">
-          <img class="img-fluid" src="assets/Logo/LogoSECCLasS.png" />
+          <img
+            class="img-fluid"
+            src={require("../../assets/Logo/LogoSECCLasS.png")}
+          />
         </div>
         <div class="col-8">
           <ul class="menu_list">
@@ -34,4 +37,4 @@ const Header_Secclass = () => {
   );
 };
 
-export default Header_Secclass;
+export default Header;

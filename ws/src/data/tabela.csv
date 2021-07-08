@@ -1,13 +1,13 @@
-﻿"id_tabela,code_tabela,nome_tabela,nome_secclass"
-"1,Co,Complexes,Complexos"
-"2,En,Entities,Entidades"
-"3,Ac,Activities,Actividades"
-"4,SL,Spaces/ locations,Espaços/ locais"
-"5,EF,Elements/ functions,Elementos/ funções"
-"6,Ss,Systems,Sistemas"
-"7,Pr,Products,Produtos"
-"8,TE,Tools and Equipment,Ferramentas e Equipamentos"
-"9,PM,Project management,Gestão de projeto"
-"10,FI,Form of information,Formas de informação"
-"11,Ro,Roles,Agentes"
-"12,Zz,CAD,CAD"
+﻿id_tabela,code_tabela,nome_tabela,nome_secclass
+1,Co,Complexes,Complexos
+2,En,Entities,Entidades
+3,Ac,Activities,Actividades
+4,SL,Spaces/ locations,Espaços/ locais
+5,EF,Elements/ functions,Elementos/ funções
+6,Ss,Systems,Sistemas
+7,Pr,Products,Produtos
+8,TE,Tools and Equipment,Ferramentas e Equipamentos
+9,PM,Project management,Gestão de projeto
+10,FI,Form of information,Formas de informação
+11,Ro,Roles,Agentes
+12,Zz,CAD,CAD

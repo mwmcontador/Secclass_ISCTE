@@ -46,6 +46,9 @@ const Item = mongoose.model("Item", {
   Autor: {
     type: String,
   },
+  nome_tabela: {
+    type: String,
+  },
 });
 
 module.exports = Item;

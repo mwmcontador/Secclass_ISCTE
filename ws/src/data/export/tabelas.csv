@@ -1,0 +1,13 @@
+__v,_id,code_tabela,id_tabela,nome_secclass,nome_tabela
+0,60b586be9fac624b143d648f,Co,1,Complexos,Complexes
+0,60b586be9fac624b143d6490,En,2,Entidades,Entities
+0,60b586be9fac624b143d6491,Ac,3,Actividades,Activities
+0,60b586be9fac624b143d6492,SL,4,Espaços/ locais,Spaces/ locations
+0,60b586be9fac624b143d6493,EF,5,Elementos/ funções,Elements/ functions
+0,60b586be9fac624b143d6494,Ss,6,Sistemas,Systems
+0,60b586be9fac624b143d6495,Pr,7,Produtos,Products
+0,60b586be9fac624b143d6496,TE,8,Ferramentas e Equipamentos,Tools and Equipment
+0,60b586be9fac624b143d6497,PM,9,Gestão de projeto,Project management
+0,60b586be9fac624b143d6498,FI,10,Formas de informação,Form of information
+0,60b586be9fac624b143d6499,Ro,11,Agentes,Roles
+0,60b586be9fac624b143d649a,Zz,12,CAD,CAD
