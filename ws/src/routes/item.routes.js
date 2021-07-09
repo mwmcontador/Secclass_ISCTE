@@ -13,6 +13,7 @@ router.get("/", async (req, res) => {
     const itens = await Item.find({});
     res.json({ error: false, itens });
     console.log("Itens Lidos");
+    console.log("Itens Lidos", res);
   } catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });
@@ -53,12 +54,17 @@ router.get("/filtros/", async (req, res) => {
   try {
     const criterio_nivel = req.query.nivel_item;
     const criterio_tabela = req.query.code_tabela;
+    const criterio_pesquisa = req.query.titulo_SECClasS;
 
     //Debug
-    console.log(` Filtros Selecionado ${criterio_nivel} e ${criterio_tabela}`);
+    console.log(
+      ` Filtros Selecionado ${criterio_nivel} , ${criterio_tabela} e  ${criterio_pesquisa}`
+    );
+
     const item = await Item.find({
       nivel_item: criterio_nivel,
       code_tabela: criterio_tabela,
+      titulo_SECClasS: criterio_pesquisa,
     });
 
     res.json({ error: false, item });

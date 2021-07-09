@@ -1,11 +1,16 @@
 import React from "react";
-import ModalItem from "../ModalItem";
+
+import Modal from "react-bootstrap";
 
 const Item = ({ item }) => {
-  console.log(item);
+  //console.log(item);
   const mostrarItem = () => {
     alert(item.titulo_SECClasS);
-    <ModalItem />;
+    <div>
+      <Modal>
+        <h1>Teste</h1>
+      </Modal>
+    </div>;
   };
   return (
     <tr>
