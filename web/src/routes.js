@@ -5,6 +5,8 @@ import Login from "./pages/login";
 import Home from "./pages/Home";
 import Mostrar from "./pages/Mostrar";
 import Pesquisa from "./pages/Pesquisa";
+import Test from "./pages/Test";
+import Testar from "./pages/Testar";
 
 const Routes = () => {
   //Variavel para controle de usuario
@@ -16,6 +18,8 @@ const Routes = () => {
         <Route path="/login" exact component={Login} />
         <Route path="/mostrar" exact component={Mostrar} />
         <Route path="/pesquisa" exact component={Pesquisa} />
+        <Route path="/test" exact component={Test} />
+        <Route path="/testar" exact component={Testar} />
       </Switch>
     </BrowserRouter>
   );

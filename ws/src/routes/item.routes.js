@@ -58,14 +58,21 @@ router.get("/filtros/", async (req, res) => {
 
     //Debug
     console.log(
-      ` Filtros Selecionado ${criterio_nivel} , ${criterio_tabela} e  ${criterio_pesquisa}`
+      `Rota: Filtros Selecionado ${criterio_nivel} , ${criterio_tabela} e  ${criterio_pesquisa}`
     );
+    if (criterio_pesquisa) {
+      buscar_titulo = { titulo_SECClasS: criterio_pesquisa };
+    }
+    if (criterio_tabela != "Todos") {
+      buscar_titulo = { code_tabela: criterio_tabela };
+    }
 
     const item = await Item.find({
       nivel_item: criterio_nivel,
-      code_tabela: criterio_tabela,
-      titulo_SECClasS: criterio_pesquisa,
+      //criterio_tabela
+      //buscar_titulo,
     });
+    console.log(item);
 
     res.json({ error: false, item });
   } catch (err) {

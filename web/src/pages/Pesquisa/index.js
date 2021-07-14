@@ -1,30 +1,33 @@
 import React, { useState, useEffect } from "react";
 import Item from "../../components/Item";
-import Modalitem from "../../components/ModalItem";
 import api from "../../services/api";
 
 const Pesquisa = () => {
   //Filtros Defaut
   const [filtros, setFiltros] = useState({
-    filtroTabela: "Complexos",
-    filtroNivel: 1,
+    code_tabela: "Todos",
+    nivel_item: 1,
+    titulo_SECClasS: "",
   });
 
-  console.log("Filtros Selecionados ", filtros);
+  console.log("Filtros Selecionados - Inicio ", filtros);
   const [itens, setItens] = useState([]);
   const [item, setItem] = useState({
     code_item: "",
     title_item: "",
-    nivel_item: null,
+    nivel_item: 1,
+    titulo_SECClasS: null,
   });
 
   //Visualizar
   const visualizar = async () => {
     try {
       const response = await api.get("/");
+
+      //const response = await api.get("/filtros/");
       const res = response.data;
-      console.log("res ", res.itens);
-      console.log("Carregou os Filtros");
+      //console.log("res ", res.itens);
+      console.log("Carregou os Filtros - visualizar", filtros);
       //Testa que não tem erro
       if (res.error) {
         alert(res.message);
@@ -32,7 +35,7 @@ const Pesquisa = () => {
       }
 
       setItens([...res.itens]);
-      console.log("Outra  Exibição", res.itens.length);
+      console.log("Outra  Exibição", res.itens);
     } catch (err) {
       alert(err.message);
     }
@@ -65,7 +68,7 @@ const Pesquisa = () => {
   return (
     <div className="container">
       <br />
-      <Modalitem />
+
       <div className="jumbotron">
         <div className="row">
           <div className="col">
@@ -86,12 +89,14 @@ const Pesquisa = () => {
               onChange={(e) => {
                 setFiltros({
                   ...filtros,
-                  filtroTabela: e.target.value,
+                  code_tabela: e.target.value,
                 });
               }}
             >
+              <option value="Todos">Todos</option>
               <option value="Complexos">Complexos (Co)</option>
               <option value="Entidades">Entidades (En)</option>
+              <option value="Actividades">Actividades (Ac)</option>
             </select>
           </div>
           <div className="col-4">
@@ -101,13 +106,14 @@ const Pesquisa = () => {
               onChange={(e) => {
                 setFiltros({
                   ...filtros,
-                  filtroNivel: Number(e.target.value),
+                  nivel_item: Number(e.target.value),
                 });
               }}
             >
               <option value="1">1 - Grupo</option>
               <option value="2">2 - Sub-Grupo</option>
               <option value="3">3 - Secção</option>
+              <option value="4">4 - Objecto</option>
             </select>
           </div>
         </div>
@@ -117,7 +123,7 @@ const Pesquisa = () => {
         </button>
         <br />
       </div>
-      <table className="table table-striped table-bordered table-sm">
+      <table className="table table-striped table-bordered table-sm table-hover ">
         <thead>
           <tr>
             <th scope="col-4">Código</th>
@@ -136,26 +142,43 @@ const Pesquisa = () => {
           </tr>
         </thead>
 
-        <tbody>
+        <tbody className="table-hover">
           {itens.map((item) => {
-            //console.log("filtro NIvel", typeof filtros.filtroNivel);
-            //console.log("Item Nivel", typeof item.nivel_item);
-
-            if (
-              filtros.filtroTabela === item.code_tabela &&
-              filtros.filtroNivel === 1 && // Sempre Exibir  primeiro Nivel
-              filtros.filtroNivel === item.nivel_item
-            ) {
-              console.log("1 if", item);
-              return <Item item={item} />;
-            } else {
+            //Exibindo Todas as Tabelas
+            if (filtros.code_tabela === "Todos") {
+              //                  return <Item item={item} />;
               if (
-                filtros.filtroTabela === item.code_tabela &&
-                filtros.filtroNivel != 1 && // Sempre Exibir  primeiro Nivel
-                filtros.filtroNivel >= item.nivel_item
+                (filtros.nivel_item === 1 && // Sempre Exibir  primeiro Nivel
+                  filtros.nivel_item === item.nivel_item) ||
+                filtros.titulo_SECClasS.includes === item.titulo_SECClasS
               ) {
-                console.log("2 if", item);
                 return <Item item={item} />;
+                console.log("LEu aqui");
+              } else {
+                if (
+                  filtros.nivel_item != 1 && // Sempre Exibir  primeiro Nivel
+                  filtros.nivel_item >= item.nivel_item
+                ) {
+                  return <Item item={item} />;
+                }
+              }
+            } else {
+              //Filtrando de Acordo com o Filtro
+              if (
+                (filtros.code_tabela === item.code_tabela &&
+                  filtros.nivel_item === 1 && // Sempre Exibir  primeiro Nivel
+                  filtros.nivel_item === item.nivel_item) ||
+                filtros.titulo_SECClasS.includes === item.titulo_SECClasS
+              ) {
+                return <Item item={item} />;
+              } else {
+                if (
+                  filtros.code_tabela === item.code_tabela &&
+                  filtros.nivel_item != 1 && // Sempre Exibir  primeiro Nivel
+                  filtros.nivel_item >= item.nivel_item
+                ) {
+                  return <Item item={item} />;
+                }
               }
             }
           })}
