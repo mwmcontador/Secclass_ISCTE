@@ -19,6 +19,7 @@ const Item = ({ item }) => {
             <Modal.Title>Item</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <script>var={item.code_item}</script>
             <div>
               <div class="row">
                 <div class="col-3">
@@ -42,7 +43,14 @@ const Item = ({ item }) => {
                 <div class="col-3">
                   <b>Título Uniclass 2015</b>
                 </div>
-                <div class="col-8">{item.title_item}</div>
+                <div class="col-8">
+                  <a
+                    target="_blank"
+                    href="https://toolkit.thenbs.com/uniclass/Co_20"
+                  >
+                    {item.title_item}
+                  </a>
+                </div>
               </div>
               <div class="row">
                 <div class="col-3">
