@@ -123,7 +123,7 @@ const Pesquisa = () => {
         </button>
         <br />
       </div>
-      <table className="table table-striped table-bordered table-sm table-hover ">
+      <table className="table table-striped table-sm ;">
         <thead>
           <tr>
             <th scope="col-4">Código</th>

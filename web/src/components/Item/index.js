@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Button from "react-bootstrap/Button";
 import { Container, Modal } from "react-bootstrap";
+const url = "https://toolkit.thenbs.com/uniclass/";
 
 const Item = ({ item }) => {
   const [showModal, setShowModal] = useState(false);
@@ -20,6 +21,7 @@ const Item = ({ item }) => {
           </Modal.Header>
           <Modal.Body>
             <script>var={item.code_item}</script>
+
             <div>
               <div class="row">
                 <div class="col-3">
@@ -44,10 +46,10 @@ const Item = ({ item }) => {
                   <b>Título Uniclass 2015</b>
                 </div>
                 <div class="col-8">
-                  <a
-                    target="_blank"
-                    href="https://toolkit.thenbs.com/uniclass/Co_20"
-                  >
+                  <console className="log" value={url}>
+                    {" "}
+                  </console>
+                  <a href={url + item.code_item} target="_blank">
                     {item.title_item}
                   </a>
                 </div>
