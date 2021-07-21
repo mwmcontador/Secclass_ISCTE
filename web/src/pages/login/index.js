@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+
 import api from "../../services/api";
+import Button from "react-bootstrap/Button";
+import { Modal } from "react-bootstrap";
 
 const Login = () => {
   const [credenciais, setCredenciais] = useState({
@@ -25,51 +28,56 @@ const Login = () => {
     }
   };
   return (
-    <div
-      class="container-fluid bg_itens"
-      style={{
-        position: "fixed",
-        height: "100%",
-      }}
-    >
-      <div id="caixa_login" class="col-4 offset-4">
-        <h1 class="text-white">Entrar</h1>
-        <br />
-        <>
-          <input
-            onChange={(e) => {
-              setCredenciais({ ...credenciais, email: e.target.value });
-            }}
-            type="email"
-            class="form-control form-control-lg"
-            placeholder="Email "
-          />
+    <>
+      <div
+        class="container-fluid bg_itens"
+        style={{
+          position: "fixed",
+          height: "100%",
+        }}
+      >
+        <div id="caixa_login" class="col-4 offset-4">
+          <h1 class="text-white">Entrar</h1>
           <br />
-          <input
-            onChange={(e) => {
-              setCredenciais({ ...credenciais, senha: e.target.value });
-            }}
-            type="password"
-            class="form-control form-control-lg"
-            placeholder="Senha"
-          />
-          <br />
-          <button onClick={login} class="btn btn-lg btn-block btn-danger">
-            Entrar
-          </button>
-          <div class="row mt-4">
-            <div class="col text-muted">
-              <input type="checkbox" /> Lembrar de mim.
+          <>
+            <input
+              onChange={(e) => {
+                setCredenciais({ ...credenciais, email: e.target.value });
+              }}
+              type="email"
+              class="form-control form-control-lg"
+              placeholder="Email "
+            />
+            <br />
+            <input
+              onChange={(e) => {
+                setCredenciais({ ...credenciais, senha: e.target.value });
+              }}
+              type="password"
+              class="form-control form-control-lg"
+              placeholder="Senha"
+            />
+            <br />
+            <button onClick={login} class="btn btn-lg btn-block btn-danger">
+              Entrar
+            </button>
+            <div class="row mt-4">
+              <div class="col text-muted">
+                <input type="checkbox" /> Lembrar de mim.
+              </div>
+              <div class="col text-right">
+                <a href="javascript:void(0)" class="text-muted">
+                  Precisa de ajuda?
+                </a>
+              </div>
             </div>
-            <div class="col text-right">
-              <a href="javascript:void(0)" class="text-muted">
-                Precisa de ajuda?
-              </a>
-            </div>
-          </div>
-        </>
+          </>
+        </div>
       </div>
-    </div>
+      <div className="testeModal">
+        <Button onClick={() => this.handleModal()}> Abrir Modal</Button>
+      </div>
+    </>
   );
 };
 export default Login;
