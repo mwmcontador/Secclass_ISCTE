@@ -78,6 +78,12 @@ const docs = await Item.findOne({ code_item: 'Co_20' }).
 
   console.log(docs);
 
+  const cursor = Person.find({ occupation: /host/ }).cursor();
+
+  for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
+    console.log(doc); // Prints documents one at a time
+  }
+
 
 // MongoDB may return the docs in any order unless you explicitly sort
 //docs.map(doc => doc.name).sort(); // ['Geordi La Forge', 'Worf']
