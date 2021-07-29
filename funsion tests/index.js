@@ -22,7 +22,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 console.log("BD Conectado");
 console.log(mongoDB);
 
-const Item = mongoose.model("Item", {
+const items = mongoose.model("items", {
   idItem: {
     type: Number,
     required: true,
@@ -43,7 +43,6 @@ const Item = mongoose.model("Item", {
   Subgroup: {
     type: Number,
   },
-
   Section: {
     type: Number,
   },
@@ -72,17 +71,39 @@ const Item = mongoose.model("Item", {
     type: String,
   },
 });
+console.log(items);
 
-const docs = await Item.findOne({ code_item: 'Co_20' }).
+const docs = await items.findOne({ code_item: 'Co_20' }).
   catch(err => console.log('Caught:', err.message));;
 
   console.log(docs);
-
-  const cursor = Item.find({ occupation: /host/ }).cursor();
+/*
+const cursor = Item.find({ occupation: /host/ }).cursor();
 
   for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
     console.log(doc); // Prints documents one at a time
   }
+*/
+// Only one parameter [query/condition]
+// Find all documents that matches the
+// condition code_item: 'Co_20'
+items.find({ code_item: "Co_20"}, function (err, docss) {
+    if (err){
+        console.log(err);
+    }
+    else{
+        console.log("First function call : ", docss);
+    }
+});
+
+items.find({ code_item: "Co_20"}, function (err, docss) {
+    if (err){
+        console.log(err);
+    }
+    else{
+        console.log("First function call : ", docss);
+    }
+});
 
 
 // MongoDB may return the docs in any order unless you explicitly sort
