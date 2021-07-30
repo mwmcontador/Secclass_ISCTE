@@ -1,5 +1,13 @@
 //Import the mongoose module
-var mongoose = require('mongoose');
+const express = require("express");
+const mongoose = require("mongoose");
+//const Router = require("./routes");
+const prompt = require('prompt-sync')();
+
+const app = express();
+
+app.use(express.json());
+
 
 var username = "<root_out>";
 const password = "<client_top>";
@@ -8,6 +16,8 @@ const dbname = "SecClasS";
 
 //Set up default mongoose connection
 var mongoDB = 'mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/SecClasS';
+console.log(mongoDB);
+
 mongoose.connect(mongoDB,{
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -20,7 +30,6 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 console.log("BD Conectado");
-console.log(mongoDB);
 
 const items = mongoose.model("items", {
   idItem: {
@@ -73,11 +82,15 @@ const items = mongoose.model("items", {
 });
 console.log(items);
 
+const pesquisa = prompt('O que pesquisar: ');
+console.log(`Pesquisou ${pesquisa}`);
+
+/*
 const docs = await items.findOne({ code_item: 'Co_20' }).
   catch(err => console.log('Caught:', err.message));;
 
   console.log(docs);
-/*
+
 const cursor = Item.find({ occupation: /host/ }).cursor();
 
   for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
@@ -87,21 +100,21 @@ const cursor = Item.find({ occupation: /host/ }).cursor();
 // Only one parameter [query/condition]
 // Find all documents that matches the
 // condition code_item: 'Co_20'
-items.find({ code_item: "Co_20"}, function (err, docss) {
+items.find({ code_item: '${pesquisa}'}, function (err, docss) {
     if (err){
         console.log(err);
     }
     else{
-        console.log("First function call : ", docss);
+        console.log("1o function call : ", docss);
     }
 });
 
-items.find({ code_item: "Co_20"}, function (err, docss) {
+items.find({ titulo_SECClasS: 'Complexos'}, function (err, docss) {
     if (err){
         console.log(err);
     }
     else{
-        console.log("First function call : ", docss);
+        console.log("2o function call : ", docss);
     }
 });
 
