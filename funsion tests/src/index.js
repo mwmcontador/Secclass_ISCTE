@@ -16,7 +16,12 @@ const cluster = "<cluster0.rfblu>";
 const dbname = "SecClasS";
 
 //Set up default mongoose connection
+<<<<<<< HEAD:funsion tests/index.js
+//var mongoDB = 'mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/SecClasS';
+var mongoDB = "mongodb://localhost:27017/SECClasS-DB"
+=======
 var mongoDB = "mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority";
+>>>>>>> 8a46fe778e832860c75959f0be0a742bd5f8c8ce:funsion tests/src/index.js
 console.log(mongoDB);
 
 mongoose.connect(mongoDB,{
@@ -120,7 +125,10 @@ items.find({ titulo_SECClasS: 'Complexos'}, function (err, docss) {
     }
 });
 
+<<<<<<< HEAD:funsion tests/index.js
+=======
 /*
+>>>>>>> 8a46fe778e832860c75959f0be0a742bd5f8c8ce:funsion tests/src/index.js
 items.find({ }, function (err, docss) {
     if (err){
         console.log(err);
@@ -129,7 +137,11 @@ items.find({ }, function (err, docss) {
         console.log("3o function call : ", docss);
     }
 });
+<<<<<<< HEAD:funsion tests/index.js
+
+=======
 */
+>>>>>>> 8a46fe778e832860c75959f0be0a742bd5f8c8ce:funsion tests/src/index.js
 
 // MongoDB may return the docs in any order unless you explicitly sort
 //docs.map(doc => doc.name).sort(); // ['Geordi La Forge', 'Worf']
