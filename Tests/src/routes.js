@@ -5,7 +5,7 @@ const ComentariosController = require("./app/controller/ComentariosController");
 
 routes.get("/pesquisa", PesquisaController.index);
 
-routes.post("/pesquisa", PesquisaController.store);
+//routes.post("/pesquisa", PesquisaController.store);
 
 routes.get("/comentarios", ComentariosController.index);
 
