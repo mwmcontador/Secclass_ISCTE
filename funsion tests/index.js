@@ -15,7 +15,8 @@ const cluster = "<cluster0.rfblu>";
 const dbname = "SecClasS";
 
 //Set up default mongoose connection
-var mongoDB = 'mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/SecClasS';
+//var mongoDB = 'mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/SecClasS';
+var mongoDB = "mongodb://localhost:27017/SECClasS-DB"
 console.log(mongoDB);
 
 mongoose.connect(mongoDB,{
@@ -115,6 +116,15 @@ items.find({ titulo_SECClasS: 'Complexos'}, function (err, docss) {
     }
     else{
         console.log("2o function call : ", docss);
+    }
+});
+
+items.find({ }, function (err, docss) {
+    if (err){
+        console.log(err);
+    }
+    else{
+        console.log("3o function call : ", docss);
     }
 });
 
