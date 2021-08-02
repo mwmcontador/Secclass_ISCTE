@@ -15,24 +15,24 @@
     "defer-to-connect" "^1.0.1"
 
 "@types/bson@*":
-  "integrity" "sha512-mVRvYnTOZJz3ccpxhr3wgxVmSeiYinW+zlzQz3SXWaJmD1DuL05Jeq7nKw3SnbKmbleW5qrLG5vdyWe/A9sXhw=="
-  "resolved" "https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz"
-  "version" "4.0.3"
+  "integrity" "sha512-awqorHvQS0DqxkHQ/FxcPX9E+H7Du51Qw/2F+5TBMSaE3G0hm+8D3eXJ6MAzFw75nE8V7xF0QvzUSdxIjJb/GA=="
+  "resolved" "https://registry.npmjs.org/@types/bson/-/bson-4.0.4.tgz"
+  "version" "4.0.4"
   dependencies:
     "@types/node" "*"
 
 "@types/mongodb@^3.5.27":
-  "integrity" "sha512-krZbirw3ATb8EJySZdlDChX7A8WqTBPWWVjEAl9SUUL6QHJY/5+yCk7DjJv1BE0qmi5iShtd2meEi/Ru0F6c7g=="
-  "resolved" "https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.19.tgz"
-  "version" "3.6.19"
+  "integrity" "sha512-WcdpPJCakFzcWWD9juKoZbRtQxKIMYF/JIAM4JrNHrMcnJL6/a2NWjXxW7fo9hxboxxkg+icff8d7+WIEvKgYQ=="
+  "resolved" "https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.20.tgz"
+  "version" "3.6.20"
   dependencies:
     "@types/bson" "*"
     "@types/node" "*"
 
 "@types/node@*", "@types/node@14.x || 15.x":
-  "integrity" "sha512-wF6hazbsnwaW3GhK4jFuw5NaLDQVRQ6pWQUGAUrJzxixFkTaODSiAKMPXuHwPEPkAKQWHAzj6uJ5h+3zU9gQxg=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-15.14.1.tgz"
-  "version" "15.14.1"
+  "integrity" "sha512-dvMUE/m2LbXPwlvVuzCyslTEtQ2ZwuuFClDrOQ6mp2CenCg971719PTILZ4I6bTP27xfFFc+o7x2TkLuun/MPw=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-15.14.2.tgz"
+  "version" "15.14.2"
 
 "abbrev@1":
   "integrity" "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q=="
@@ -868,9 +868,9 @@
   "version" "0.6.2"
 
 "nodemon@^2.0.7":
-  "integrity" "sha512-6O4k7C8f2HQArGpaPBOqGGddjzDLQAqCYmq3tKMeNIbz7Is/hOphMHy2dcY10sSq5wl3cqyn9Iz+Ep2j51JOLg=="
-  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.9.tgz"
-  "version" "2.0.9"
+  "integrity" "sha512-egCTmNZdObdBxUBw6ZNwvZ/xzk24CKRs5K6d+5zbmrMr7rOpPmfPeF6OxM3DDpaRx331CQRFEktn+wrFFfBSOA=="
+  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.12.tgz"
+  "version" "2.0.12"
   dependencies:
     "chokidar" "^3.2.2"
     "debug" "^3.2.6"

@@ -49,6 +49,9 @@ const Item = mongoose.model("Item", {
   nome_tabela: {
     type: String,
   },
+  code_tabela: {
+    type: String,
+  },
 });
 
 module.exports = Item;
