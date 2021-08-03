@@ -9,6 +9,7 @@ const app = express();
 const usuarioRoutes = require("./src/routes/usuario.routes");
 const tabelaRoutes = require("./src/routes/tabela.routes");
 const itemRoutes = require("./src/routes/item.routes");
+const searchRoutes = require("./src/routes/search.routes");
 
 //MIDDLEAWARES
 app.use(express.json());
@@ -29,6 +30,9 @@ app.use("/", itemRoutes);
 
 //console.log("Rota Complexos");
 //app.use("/lista", itemRoutes);
+
+console.log("Rota Search");
+app.use("/", searchRoutes);
 
 app.listen(5003, () => {
   console.log("Meu Servidor está funcionando..");
