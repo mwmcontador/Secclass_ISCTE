@@ -28,12 +28,13 @@ app.use("/tabela", tabelaRoutes);
 console.log("Rota Item");
 app.use("/", itemRoutes);
 
-//console.log("Rota Complexos");
-//app.use("/lista", itemRoutes);
-
 console.log("Rota Search");
 app.use("/", searchRoutes);
 
+//console.log("Rota Complexos");
+//app.use("/lista", itemRoutes);
+
+//START PORT SERVER
 app.listen(5003, () => {
   console.log("Meu Servidor está funcionando..");
 });
