@@ -1,8 +1,7 @@
 {
-  "name": "Projeto SECClasS APP",
+  "name": "secclass",
   "version": "1.0.0",
-  "description": "Aplicação online de visualização, pesquisa e comentarios
-                  das tabelas de sistema de classificaçao SECClasS",
+  "description": "Projeto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ddces-iscteiulpt/secclassAPP.git"
+    "url": "git+https://github.com/mwmcontador/sesclass.git"
   },
   "author": "Manoel Melo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mwmcontador/sesclass/issues"
   },
-  "homepage": "https://secclass.pt/app",
+  "homepage": "https://github.com/mwmcontador/sesclass#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",

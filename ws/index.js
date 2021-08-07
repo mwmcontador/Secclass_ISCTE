@@ -29,7 +29,7 @@ console.log("Rota Item");
 app.use("/", itemRoutes);
 
 console.log("Rota Search");
-app.use("/", searchRoutes);
+app.use("/search/", searchRoutes);
 
 //console.log("Rota Complexos");
 //app.use("/lista", itemRoutes);
