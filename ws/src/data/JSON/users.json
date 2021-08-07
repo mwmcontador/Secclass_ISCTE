@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6101449a970082f59271985d"
+  },
+  "user_name": "Admin_user",
+  "email": "exemplo@iscte-iul.pt",
+  "primeiro_nome": "Admin",
+  "ultimo_nome": "Master",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "access_level": "admin"
+},{
+  "_id": {
+    "$oid": "610146ce970082f592719863"
+  },
+  "user_name": "Manager_user",
+  "email": "exemplo2@iscte-iul.pt",
+  "primeiro_nome": "Leitura",
+  "ultimo_nome": "Escrita",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "access_level": "manager"
+},{
+  "_id": {
+    "$oid": "61014705970082f592719864"
+  },
+  "user_name": "Public_user",
+  "email": "exemplo3@iscte-iul.pt",
+  "primeiro_nome": "Escrita",
+  "ultimo_nome": "limitado",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "access_level": "public"
+}]

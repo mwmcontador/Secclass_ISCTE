@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "6101602b970082f592719865"
+  },
+  "id_Users": {
+    "$oid": "6101449a970082f59271985d"
+  },
+  "SecClasS_id": {
+    "$oid": "60d41ae8ddc3ec53204c81da"
+  },
+  "Comentario": "User: Admin, Code:Co_20, Status:New",
+  "Status": "New",
+  "Timestamp": {
+    "$date": "2021-07-28T00:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "610160cc970082f592719866"
+  },
+  "id_Users": {
+    "$oid": "610146ce970082f592719863"
+  },
+  "SecClasS_id": {
+    "$oid": "60e46796a755712d2eb697f4"
+  },
+  "Comentario": "User: Manager, Code:SL_20_15, Status:Pending",
+  "Status": "Pending",
+  "Timestamp": {
+    "$date": "2021-07-28T10:11:18.965Z"
+  }
+},{
+  "_id": {
+    "$oid": "610160f8970082f592719867"
+  },
+  "id_Users": {
+    "$oid": "61014705970082f592719864"
+  },
+  "SecClasS_id": {
+    "$oid": "60e483887e8261d4024240c3"
+  },
+  "Comentario": "User: Public, Code:Ac_05_00_80, Status:Close",
+  "Status": "Close",
+  "Timestamp": {
+    "$date": "2021-07-28T11:50:17.865Z"
+  }
+},{
+  "_id": {
+    "$oid": "6107c697ef0aceb7f0c421b7"
+  },
+  "id_Users": {
+    "$oid": "6101449a970082f59271985d"
+  },
+  "SecClasS_id": {
+    "$oid": "60d41ae8ddc3ec53204c81da"
+  },
+  "Comentario": "Teste API (User: Admin, Code:Co_20, Status:New)",
+  "Status": "New",
+  "Timestamp": {
+    "$date": "2021-08-02T00:00:00Z"
+  },
+  "__v": 0
+}]
