@@ -18,17 +18,17 @@ router.get("/:input_pesquisa/", async (req, res) => {
 
     console.log(`SearchRout: ${input_pesquisa} , ${criterio_tabela} e ${criterio_nivel}`);
 
-    var search = input_pesquisa;
-    var pesquisatabela ;
+    var search;
+    var pesquisatabela;
     var nivel;
-/*
+
     if(input_pesquisa == "(?)"){
-      search = '.*\\' + input_pesquisa + '.*';
+      search = '\\' + input_pesquisa;
     }
     else {
-      search = '.*' + input_pesquisa + '.*';
+      search = input_pesquisa;
     }
-*/
+
     if (criterio_tabela === "Todos") {
       pesquisatabela =  { "$ne": "Todos" };
     }
