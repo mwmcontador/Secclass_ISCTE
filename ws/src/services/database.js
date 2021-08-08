@@ -21,22 +21,21 @@ var options = {
   bufferMaxEntries: 0
 }; //mongoose.connect(uri, options);
 
-options = {
+var options1 = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 };
 
 console.log("Conectando Banco");
-mongoose.connect(localhostMongoDB , options).then(
-  () => { console.log("Localhost DB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
+mongoose.connect(uri, options1).then(
+  () => { console.log("ClusterDB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
   err => { DB_backup = 0, console.log(`MongoDB err: ${err}`)/** handle initial connection error */ }
 );
 
 if (DB_backup == 0){
   console.log(`MongoDB err`);
-  mongoose.connect(uri , options).then(
+  mongoose.connect(localhostMongoDB, options1).then(
     () => { console.log("Localhost DB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
     err => { console.log(`MongoDB err: ${err}`)/** handle initial connection error */ }
   );
-
 }
