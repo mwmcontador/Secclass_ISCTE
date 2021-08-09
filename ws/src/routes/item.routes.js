@@ -50,7 +50,7 @@ router.get("/nivel/:nivel_item", async (req, res) => {
 });
 
 //Listando Somente com os filtros
-router.get("/filtros/", async (req, res) => {
+router.get("/filtros_test/", async (req, res) => {
   try {
     const criterio_nivel = req.query.nivel_item;
     const criterio_tabela = req.query.code_tabela;

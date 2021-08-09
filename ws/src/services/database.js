@@ -27,15 +27,15 @@ var options1 = {
 };
 
 console.log("Conectando Banco");
-mongoose.connect(uri, options1).then(
-  () => { console.log("ClusterDB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
+mongoose.connect(localhostMongoDB, options1).then(
+  () => { console.log("LocalhostDB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
   err => { DB_backup = 0, console.log(`MongoDB err: ${err}`)/** handle initial connection error */ }
 );
 
 if (DB_backup == 0){
   console.log(`MongoDB err`);
-  mongoose.connect(localhostMongoDB, options1).then(
-    () => { console.log("Localhost DB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
+  mongoose.connect(uri, options1).then(
+    () => { console.log("ClusterDB Conectado") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
     err => { console.log(`MongoDB err: ${err}`)/** handle initial connection error */ }
   );
 }

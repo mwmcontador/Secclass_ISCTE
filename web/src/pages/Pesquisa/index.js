@@ -40,7 +40,29 @@ const Pesquisa = () => {
       alert(err.message);
     }
   };
+/*
+  //PESQUISA
+  const visualizar = async () => {
+    try {
+      const response = await api.get("/search/");
 
+      //const response = await api.get("/filtros/");
+      const res = response.data;
+      //console.log("res ", res.itens);
+      console.log("Carregou os Filtros - visualizar", filtros);
+      //Testa que não tem erro
+      if (res.error) {
+        alert(res.message);
+        return false;
+      }
+
+      setItens([...res.itens]);
+      console.log("Outra  Exibição", res.itens);
+    } catch (err) {
+      alert(err.message);
+    }
+  };
+*/
   const getHome = async () => {
     try {
       const response = await api.get("/");

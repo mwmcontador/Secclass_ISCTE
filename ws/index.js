@@ -24,13 +24,13 @@ console.log("Rota User");
 app.use("/usuario/", usuarioRoutes);
 
 console.log("Rota Tabela");
-app.use("/tabela", tabelaRoutes);
+app.use("/tabela/", tabelaRoutes);
 
 console.log("Rota Item");
 app.use("/", itemRoutes);
 
 console.log("Rota Search");
-app.use("/search/", searchRoutes);
+app.use("/", searchRoutes);
 
 console.log("Rota Comentarios");
 app.use("/comentarios/", comentariosRoutes);

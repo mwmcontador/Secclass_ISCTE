@@ -5,39 +5,47 @@ const Item = require("../model/item");
 
 
 //////////// GET API - PESQUISA
-//exemplo => http://localhost:5003/search/ão/?criterio_tabela=Todos&criterio_nivel=3
+//exemplo => http://localhost:5003/search/ão/?tabela=Todos&nivel=3
 
 //router.get("/:input_pesquisa/:criterio_tabela/:criterio_nivel", async (req, res) => {
-router.get("/:input_pesquisa/", async (req, res) => {
+//router.get("/:input_pesquisa/", async (req, res) => {
+router.get("/search/", async (req, res) => {
     try {
       //const criterio_tabela = req.params.criterio_tabela;
       //const criterio_nivel = req.params.criterio_nivel;
-      const criterio_tabela = req.query.criterio_tabela;
-      const criterio_nivel = req.query.criterio_nivel;
-      const input_pesquisa = req.params.input_pesquisa;
+      //const input_pesquisa = req.params.input_pesquisa;
+      const criterio_tabela = req.query.code_tabela;
+      const criterio_nivel = req.query.nivel_item;
+      const input_pesquisa = req.query.titulo_SECClasS;
+/*
+      const criterio_tabela = req.query.tabela;
+      const criterio_nivel = req.query.nivel;
+      const input_pesquisa = req.params.input_pesquisa;;
+*/
 
-    console.log(`SearchRout: ${input_pesquisa} , ${criterio_tabela} e ${criterio_nivel}`);
+    console.log(`SearchRoute: ${input_pesquisa} , ${criterio_tabela} e ${criterio_nivel}`);
 
     var search;
-    var pesquisatabela;
+    var tabela;
     var nivel;
 
-    if(input_pesquisa == "(?)"){
-      search = '\\' + input_pesquisa;
+    if(input_pesquisa === undefined){
+      //search = '\\' + input_pesquisa;
+      search = { "$ne": "" };
     }
     else {
-      search = input_pesquisa;
+      search = { "$regex": input_pesquisa, "$options": "i"} ;
     }
 
     if (criterio_tabela === "Todos") {
-      pesquisatabela =  { "$ne": "Todos" };
+      tabela =  { "$ne": "Todos" };
     }
     else if (criterio_tabela === undefined){
-      pesquisatabela = { "$ne": 'Impossivel' };
-      console.log(pesquisatabela);
+      tabela = { "$ne": 'Impossivel' };
+      console.log(tabela);
     }
     else{
-      pesquisatabela =  criterio_tabela;
+      tabela =  criterio_tabela;
     }
 
     if(criterio_nivel === undefined){
@@ -47,18 +55,19 @@ router.get("/:input_pesquisa/", async (req, res) => {
       nivel = criterio_nivel;
     }
 
-    console.log( input_pesquisa, search, nivel, pesquisatabela);
+    console.log( input_pesquisa, search, nivel, tabela);
     const data_out = await Item.find({
       $or: [
         {$and: [
-              {"code_item": { "$regex": search, "$options": "i"} },
+              {"code_item": search },
               {"nivel_item":  nivel },
-              {"code_tabela": pesquisatabela }
+              {"code_tabela": tabela }
         ]},
         {$and: [
-              {"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
+              {"titulo_SECClasS": search },
+              //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
               {"nivel_item":  nivel },
-              {"code_tabela": pesquisatabela }
+              {"code_tabela": tabela }
         ]}
       ]}, function(err){
       // if there is an error retrieving, send the error. nothing after res.send(err) will execute
@@ -71,15 +80,17 @@ router.get("/:input_pesquisa/", async (req, res) => {
     //console.log(`Numeros de docs: ${length(data_out)}.`);
     console.log(`Data_out = ${data_out}`);
 
-    const store = {
-      "Users_id": "61014705970082f592719864",  //ID Public User
-      "pesquisa_txt": input_pesquisa,
-      "resultados": "",
-      "Timestamp": new Date()                 //current date to timestamp
-    };
-    console.log(store);
-    const data_save = await Search.create(store);
-    console.log(`Data_save = ${data_save}`);
+    if(input_pesquisa !== undefined) {
+      const store = {
+        "Users_id": "61014705970082f592719864",  //ID Public User
+        "pesquisa_txt": input_pesquisa,
+        "resultados": "",
+        "Timestamp": new Date()                 //current date to timestamp
+      };
+      console.log(store);
+      const data_save = await Search.create(store);
+      console.log(`Data_save = ${data_save}`);
+    }
 
     //Debug
     res.json({ error: false, data_out});
