@@ -6,7 +6,6 @@ const Item = require("../model/item");
 
 //////////// GET API - PESQUISA
 //exemplo => http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3
-//           http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3
 
 //router.get("/:input_pesquisa/:criterio_tabela/:criterio_nivel", async (req, res) => {
 //router.get("/:input_pesquisa/", async (req, res) => {
@@ -26,10 +25,8 @@ router.get("/search/", async (req, res) => {
 
     console.log(`SearchRoute: ${input_pesquisa} , ${criterio_tabela} e ${criterio_nivel}`);
 
-    var search;
-    var tabela;
-    var nivel;
 //////////////////////////////////////////////////////////
+    var search;
     if(input_pesquisa === undefined || input_pesquisa == ""){
       //search = '\\' + input_pesquisa;
       search = { "$ne": "" };
@@ -37,23 +34,26 @@ router.get("/search/", async (req, res) => {
     else {
       search = { "$regex": input_pesquisa, "$options": "i"} ;
     }
-////////////////////////////////////////////////////////7
+////////////////////////////////////////////////////////
+    var tabela;
     if (criterio_tabela === undefined || criterio_tabela == "") {
-      tabela = { "$ne": 'Impossivel' };
+      tabela = { "$ne": null };
     }
     else if (criterio_tabela === "Todos"){
-      tabela =  { "$ne": "Todos" };
+      tabela =  { "$ne": null };
       console.log(tabela);
     }
     else{
       tabela =  criterio_tabela;
     }
 //////////////////////////////////////////////////////////////
+    var nivel;
     if(criterio_nivel === undefined || criterio_nivel == ""){
       nivel = { "$ne": '69' };
+      //nivel = 4;
     }
     else {
-      nivel = { $lte: criterio_nivel };
+      nivel = { "$lte": criterio_nivel };
     }
 /////////////////////////////////////////////////////////////////
     console.log(`Parametros de pesquisa: ${input_pesquisa}, ${search}, ${nivel}, ${tabela}`);
@@ -70,25 +70,29 @@ router.get("/search/", async (req, res) => {
               {"nivel_item":  nivel },
               {"code_tabela": tabela }
         ]}
-      ]}, function(err){
+      ]},
+      null,
+      {sort: {"_id": 1}},
+      function(err){
       // if there is an error retrieving, send the error. nothing after res.send(err) will execute
       if (err)
       {
         res.send(err);
         console.log(`err: ${err}`)
       }
-    });
+    });//.where('nivel_item').lte(nivel);
     console.log(`Data_out = ${data_out}`);
+
     var type = typeof data_out;
     console.log(type);
-    if(data_out == []) {
-      //console.log('');
+    if(data_out === [{}]) {
       console.log("PESQUISA NAO ENCONTRADA");
-      //console.log('');
+      //data_out = [{"titulo_SECClasS": 'Termo pesquisado não encontrado.'}]
+
     }
     //console.log(`Numeros de docs: ${length(data_out)}.`);
 
-
+///////////////// Guardar o termo pesquisado pelo User na DB
     if(input_pesquisa === undefined || input_pesquisa == "") {
 
     }
@@ -104,7 +108,7 @@ router.get("/search/", async (req, res) => {
       const data_save = await Search.create(store);
       console.log(`Data_save = ${data_save}`);
     }
-
+///////////////// Guardar o termo pesquisado pelo User na DB
     //Debug
     res.json({ error: false, data_out});
   }  catch (err) {

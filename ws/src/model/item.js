@@ -21,7 +21,6 @@ const Item = mongoose.model("Item", {
   Subgroup: {
     type: Number,
   },
-
   Section: {
     type: Number,
   },
@@ -37,18 +36,22 @@ const Item = mongoose.model("Item", {
   descricao_SECClasS: {
     type: String,
   },
+  /*
   Comentarios: {
     type: String,
   },
+  */
   Data_traducao: {
     type: Date,
   },
   Autor: {
     type: String,
   },
+  /*
   nome_tabela: {
     type: String,
   },
+  */
   code_tabela: {
     type: String,
   },
