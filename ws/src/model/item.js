@@ -56,8 +56,7 @@ const Item = mongoose.model("Item", {
     type: String,
   },
   review: {
-    type: String,
-    required: true,
+    type: Boolean,
   }
 });
 

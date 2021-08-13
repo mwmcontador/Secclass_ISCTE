@@ -17,14 +17,14 @@ router.get("/search/", async (req, res) => {
       const criterio_tabela = req.query.tabela;
       const criterio_nivel = req.query.nivel;
       const input_pesquisa = req.query.pesquisa;
-      const param_revisao = req.query.resivao;
+      const param_revisao = req.query.revisao;
 /*
       const criterio_tabela = req.query.tabela;
       const criterio_nivel = req.query.nivel;
       const input_pesquisa = req.params.input_pesquisa;;
 */
 
-    console.log(`SearchRoute: ${input_pesquisa} , ${criterio_tabela} e ${criterio_nivel}`);
+    console.log(`SearchRoute: ${input_pesquisa} , ${criterio_tabela} , ${criterio_nivel} e ${param_revisao}`);
 
 //////////////////////////////////////////////////////////
     var revisao;
@@ -58,31 +58,42 @@ router.get("/search/", async (req, res) => {
     }
 //////////////////////////////////////////////////////////////
     var revisao;
-    if(param_revisao === undefined || param_revisao == "" || param_revisao === Boolean(false)){
-      revisao = { "$ne": null };
-      //nivel = 4;
+    if(param_revisao === undefined || param_revisao == "" ){
+      revisao = {"review": {"$ne": null}};
+      //console.log(revisao);
+    }
+    else if (param_revisao === "false" ){
+      //revisao = "false";
+      revisao = {"review": false};
+      //console.log(revisao);
     }
     else {
-      revisao = new Boolean(true);
+      //revisao = new Boolean(true);
+      revisao = {"review": true};
+      //console.log(revisao);
     }
+    //console.log(`Parametro Revião: ${resivao}`);
 /////////////////////////////////////////////////////////////////
-    console.log(`Parametros de pesquisa: ${input_pesquisa}, ${search}, ${nivel}, ${tabela}`);
-    const data_out = await Item.find({
-      $or: [
-        {$and: [
-              {"code_item": search },
-              {"nivel_item":  nivel },
-              {"code_tabela": tabela }
+    console.log(`Parametros de pesquisa: ${input_pesquisa}, ${search}, ${nivel}, ${tabela}, ${revisao}`);
+    const data_out = await Item.find(
+      //{$and: [
+        {$or: [
+          {$and: [
+                {"code_item": search },
+                {"nivel_item":  nivel },
+                {"code_tabela": tabela },
+                revisao
+          ]},
+          {$and: [
+                {"titulo_SECClasS": search },
+                //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
+                {"nivel_item":  nivel },
+                {"code_tabela": tabela },
+                revisao
+          //]}
         ]},
-        {$and: [
-              {"titulo_SECClasS": search },
-              //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
-              {"nivel_item":  nivel },
-              {"code_tabela": tabela }
-        ]},
-        {
-          "review": revisao
-        }
+        //{"review": revisao}
+        revisao
       ]},
       null,
       {sort: {"_id": 1}},
@@ -94,7 +105,7 @@ router.get("/search/", async (req, res) => {
         console.log(`err: ${err}`)
       }
     });//.where('nivel_item').lte(nivel);
-    console.log(`Data_out = ${data_out}`);
+    //console.log(`Data_out = ${data_out}`);
 
     var type = typeof data_out;
     console.log(type);
