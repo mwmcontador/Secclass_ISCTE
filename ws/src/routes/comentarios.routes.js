@@ -7,7 +7,7 @@ const Comentarios = require("../model/comentarios");
 
 console.log('Starting Comment Route')
 //POST
-router.post("/", async (req, res) => {
+router.post("comentario/", async (req, res) => {
   try {
     console.log(req)
     const data = await Comentarios.create(req.body);
@@ -21,7 +21,7 @@ router.post("/", async (req, res) => {
 });
 
 //GET
-router.get("/", async (req, res) => {
+router.get("/comentario/", async (req, res) => {
   try {
     const data = await Comentarios.find({});
 

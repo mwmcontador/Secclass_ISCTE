@@ -5,7 +5,7 @@ const Item = require("../model/item");
 
 
 //////////// GET API - PESQUISA
-//exemplo => http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3
+//exemplo => http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3&resivao=TRUE
 
 //router.get("/:input_pesquisa/:criterio_tabela/:criterio_nivel", async (req, res) => {
 //router.get("/:input_pesquisa/", async (req, res) => {
@@ -17,6 +17,7 @@ router.get("/search/", async (req, res) => {
       const criterio_tabela = req.query.tabela;
       const criterio_nivel = req.query.nivel;
       const input_pesquisa = req.query.pesquisa;
+      const param_revisao = req.query.resivao;
 /*
       const criterio_tabela = req.query.tabela;
       const criterio_nivel = req.query.nivel;
@@ -26,7 +27,7 @@ router.get("/search/", async (req, res) => {
     console.log(`SearchRoute: ${input_pesquisa} , ${criterio_tabela} e ${criterio_nivel}`);
 
 //////////////////////////////////////////////////////////
-    var search;
+    var revisao;
     if(input_pesquisa === undefined || input_pesquisa == ""){
       //search = '\\' + input_pesquisa;
       search = { "$ne": "" };
@@ -55,6 +56,15 @@ router.get("/search/", async (req, res) => {
     else {
       nivel = { "$lte": criterio_nivel };
     }
+//////////////////////////////////////////////////////////////
+    var revisao;
+    if(param_revisao === undefined || param_revisao == "" || param_revisao === Boolean(false)){
+      revisao = { "$ne": null };
+      //nivel = 4;
+    }
+    else {
+      revisao = new Boolean(true);
+    }
 /////////////////////////////////////////////////////////////////
     console.log(`Parametros de pesquisa: ${input_pesquisa}, ${search}, ${nivel}, ${tabela}`);
     const data_out = await Item.find({
@@ -69,7 +79,10 @@ router.get("/search/", async (req, res) => {
               //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
               {"nivel_item":  nivel },
               {"code_tabela": tabela }
-        ]}
+        ]},
+        {
+          "review": revisao
+        }
       ]},
       null,
       {sort: {"_id": 1}},

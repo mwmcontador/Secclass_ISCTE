@@ -55,6 +55,10 @@ const Item = mongoose.model("Item", {
   code_tabela: {
     type: String,
   },
+  review: {
+    type: String,
+    required: true,
+  }
 });
 
 module.exports = Item;
