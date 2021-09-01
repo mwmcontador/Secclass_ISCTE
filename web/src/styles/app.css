@@ -1,0 +1,20 @@
+/*body {
+  background-color: aliceblue;
+}
+
+body.bg_login {
+  background-image: url(/web/src/assets/Logo/Logo\ SECCLasS.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*/
+
+/* GERAIS */
+body {
+  background-color: #fff;
+}
+
+header {
+  padding: 50px;
+}
