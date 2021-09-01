@@ -44,8 +44,8 @@ router.post("/comment/", async (req, res) => {
 });
 /////////////////////////////////////////////////////////
 
-//GET
-router.get("/comment/:id", async (req, res) => {
+//GET por ID
+router.get("/comment/iditem/:id", async (req, res) => {
   try {
     const id = req.params.id;
 
@@ -72,6 +72,31 @@ router.get("/comment/:id", async (req, res) => {
   res.json({ error: true, message: err.message });
 }
 });
+
+//GET
+router.get("/comment/", async (req, res) => {
+  try {
+    const data = await Comentarios.find({},
+      null,
+      {sort: {"_id": 1}},
+      function(err){
+      // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+      if (err)
+      {
+        res.send(err);
+        console.log(`err: ${err}`)
+      }
+    })
+    console.log(data);
+    return res.json(data);
+
+  }  catch (err) {
+  console.log("Error Item");
+  res.json({ error: true, message: err.message });
+}
+});
+
+
 
 //GET /update/ => atualizar estado do comentario
 router.get("/comment/update/:id", async (req, res) => {
