@@ -18,7 +18,7 @@ const SearchInput = ({ value, onChange }) => {
     <input
       type="search"
       className="form-control"
-      placeholder="Informe Termo para Pesquisa"
+      placeholder="Insira Termo ou Código para Pesquisa, (ex:CO_20 ou Porta)"
       value={displayValue}
       onChange={handleChange}
     />

@@ -78,11 +78,11 @@ const Pesquisa = () => {
       <div className="jumbotron">
         <div className="row">
           <div className="col">
-            <h3> Pesquisar Axios </h3>
+            <h3> Pesquisar SECClasS</h3>
 
             <input
               className="form-control"
-              placeholder="Informe Termo para Pesquisa"
+              placeholder="Insira Termo ou Código"
               onChange={(e) => {
                 setFiltros({
                   ...filtros,
