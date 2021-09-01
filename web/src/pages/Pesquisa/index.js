@@ -3,6 +3,7 @@ import Item from "../../components/Item";
 import api from "../../services/api";
 
 const Pesquisa = () => {
+
   //Filtros Defaut
   const [filtros, setFiltros] = useState({
     code_tabela: "Todos",
@@ -22,11 +23,12 @@ const Pesquisa = () => {
   //Visualizar
   const visualizar = async () => {
     try {
-      const response = await api.get("/");
+      const response = await api.get("/search?pesquisa=por&tabela=&nivel=&review=");
+      //const response = await api.get("/");
 
       //const response = await api.get("/filtros/");
       const res = response.data;
-      //console.log("res ", res.itens);
+      console.log("res ", res);
       console.log("Carregou os Filtros - visualizar", filtros);
       //Testa que não tem erro
       if (res.error) {
@@ -34,8 +36,8 @@ const Pesquisa = () => {
         return false;
       }
 
-      setItens([...res.itens]);
-      console.log("Outra  Exibição", res.itens);
+      setItens([...res.data]);
+      //console.log("Outra  Exibição", res.itens);
     } catch (err) {
       alert(err.message);
     }

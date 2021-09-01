@@ -1,21 +1,27 @@
 const mongoose = require("mongoose");
 
 const ComentariosSchema = new mongoose.Schema({
-  id_Users: {
+  users_id: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
   },
-  SecClasS_id: {
+  items_id: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
   },
-  Comentario: {
+  name: {
     type: String,
   },
-  Status: {
+  institution: {
     type: String,
   },
-  Timestamp: {
+  comment: {
+    type: String,
+  },
+  status: {
+    type: String,
+  },
+  timestamp: {
     type: Date,
   },
 });

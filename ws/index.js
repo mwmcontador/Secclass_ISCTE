@@ -10,7 +10,7 @@ const usuarioRoutes = require("./src/routes/usuario.routes");
 const tabelaRoutes = require("./src/routes/tabela.routes");
 const itemRoutes = require("./src/routes/item.routes");
 const searchRoutes = require("./src/routes/search.routes");
-const comentariosRoutes = require("./src/routes/comentarios.routes");
+const commentRoutes = require("./src/routes/comment.routes");
 
 //MIDDLEAWARES
 app.use(express.json());
@@ -26,6 +26,7 @@ app.use("/usuario/", usuarioRoutes);
 console.log("Rota Tabela");
 app.use("/tabela/", tabelaRoutes);
 
+
 console.log("Rota Item");
 app.use("/", itemRoutes);
 
@@ -33,7 +34,7 @@ console.log("Rota Search");
 app.use("/", searchRoutes);
 
 console.log("Rota Comentarios");
-app.use("/comentarios/", comentariosRoutes);
+app.use("/", commentRoutes);
 
 //console.log("Rota Complexos");
 //app.use("/lista", itemRoutes);

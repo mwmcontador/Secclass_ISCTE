@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const PesquisasSchema = new mongoose.Schema({
-  Users_id: {
+  users_id: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
   },
@@ -9,10 +9,10 @@ const PesquisasSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  Resultados: {
+  results: {
     type: String,
   },
-  Timestamp: {
+  timestamp: {
     type: Date,
   },
 });
