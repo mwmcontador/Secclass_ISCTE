@@ -3,15 +3,19 @@ import Item from "../../components/Item";
 import api from "../../services/api";
 
 const Pesquisa = () => {
+  const contador = 0;
+
   //Filtros Defaut
   const [filtros, setFiltros] = useState({
     code_tabela: "Todos",
     nivel_item: 1,
     titulo_SECClasS: "",
+    review: false,
   });
 
   console.log("Filtros Selecionados - Inicio ", filtros);
   const [itens, setItens] = useState([]);
+  const [resultados, setResultados] = useState(0);
   const [item, setItem] = useState({
     code_item: "",
     title_item: "",
@@ -22,11 +26,13 @@ const Pesquisa = () => {
   //Visualizar
   const visualizar = async () => {
     try {
-      const response = await api.get("/");
+      const response = await api.get(
+        `/search?pesquisa=${filtros.titulo_SECClasS}&tabela=${filtros.code_tabela}&nivel=${filtros.nivel_item}&revisao=${filtros.review}`
+      );
 
       //const response = await api.get("/filtros/");
       const res = response.data;
-      //console.log("res ", res.itens);
+      console.log("res ", res);
       console.log("Carregou os Filtros - visualizar", filtros);
       //Testa que não tem erro
       if (res.error) {
@@ -34,8 +40,8 @@ const Pesquisa = () => {
         return false;
       }
 
-      setItens([...res.itens]);
-      console.log("Outra  Exibição", res.itens);
+      setItens([...res.data]);
+      console.log("Outra  Exibição", res.data);
     } catch (err) {
       alert(err.message);
     }
@@ -53,7 +59,7 @@ const Pesquisa = () => {
         return false;
       }
 
-      setItens([...res.itens]);
+      setItens([...res.data]);
       console.log("Primeira Exibição");
     } catch (err) {
       alert(err.message);
@@ -72,11 +78,17 @@ const Pesquisa = () => {
       <div className="jumbotron">
         <div className="row">
           <div className="col">
-            <h3> Pesquisar Termo </h3>
+            <h3> Pesquisar Axios </h3>
 
             <input
               className="form-control"
               placeholder="Informe Termo para Pesquisa"
+              onChange={(e) => {
+                setFiltros({
+                  ...filtros,
+                  titulo_SECClasS: e.target.value,
+                });
+              }}
             ></input>
             <br />
           </div>
@@ -97,6 +109,11 @@ const Pesquisa = () => {
               <option value="Complexos">Complexos (Co)</option>
               <option value="Entidades">Entidades (En)</option>
               <option value="Actividades">Actividades (Ac)</option>
+              <option value="Espaços/ locais"> Espaços/ locais (Ss)</option>
+              <option value="Elementos/ funções">
+                {" "}
+                Elementos/ funções (EF)
+              </option>
             </select>
           </div>
           <div className="col-4">
@@ -113,11 +130,31 @@ const Pesquisa = () => {
               <option value="1">1 - Grupo</option>
               <option value="2">2 - Sub-Grupo</option>
               <option value="3">3 - Secção</option>
-              <option value="4">4 - Objecto</option>
+              <option value="4" selected>
+                4 - Objecto
+              </option>
             </select>
           </div>
         </div>
         <br />
+        <div className="row">
+          <div className="col">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              onChange={(e) => {
+                setFiltros({
+                  ...filtros,
+
+                  review: Boolean(e.target.checked),
+                });
+              }}
+            ></input>
+            <label className="form-check-label">Em Revisão</label>
+          </div>
+        </div>
+        <br />
+
         <button onClick={visualizar} className="btn btn-info btn-lg btn-block">
           Visualizar
         </button>
@@ -145,44 +182,14 @@ const Pesquisa = () => {
         <tbody className="table-hover">
           {itens.map((item) => {
             //Exibindo Todas as Tabelas
-            if (filtros.code_tabela === "Todos") {
-              //                  return <Item item={item} />;
-              if (
-                (filtros.nivel_item === 1 && // Sempre Exibir  primeiro Nivel
-                  filtros.nivel_item === item.nivel_item) ||
-                filtros.titulo_SECClasS.includes === item.titulo_SECClasS
-              ) {
-                return <Item item={item} />;
-                console.log("LEu aqui");
-              } else {
-                if (
-                  filtros.nivel_item != 1 && // Sempre Exibir  primeiro Nivel
-                  filtros.nivel_item >= item.nivel_item
-                ) {
-                  return <Item item={item} />;
-                }
-              }
-            } else {
-              //Filtrando de Acordo com o Filtro
-              if (
-                (filtros.code_tabela === item.code_tabela &&
-                  filtros.nivel_item === 1 && // Sempre Exibir  primeiro Nivel
-                  filtros.nivel_item === item.nivel_item) ||
-                filtros.titulo_SECClasS.includes === item.titulo_SECClasS
-              ) {
-                return <Item item={item} />;
-              } else {
-                if (
-                  filtros.code_tabela === item.code_tabela &&
-                  filtros.nivel_item != 1 && // Sempre Exibir  primeiro Nivel
-                  filtros.nivel_item >= item.nivel_item
-                ) {
-                  return <Item item={item} />;
-                }
-              }
-            }
+
+            return <Item item={item} />;
+            setResultados({ contador: contador + 1 });
           })}
         </tbody>
+        <tfoot>
+          <span>- </span>
+        </tfoot>
       </table>
     </div>
   );

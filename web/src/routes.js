@@ -7,6 +7,7 @@ import Mostrar from "./pages/Mostrar";
 import Pesquisa from "./pages/Pesquisa";
 import Test from "./pages/Test";
 import Testar from "./pages/Testar";
+import Search from "./pages/Search";
 
 const Routes = () => {
   //Variavel para controle de usuario
@@ -20,6 +21,7 @@ const Routes = () => {
         <Route path="/pesquisa" exact component={Pesquisa} />
         <Route path="/test" exact component={Test} />
         <Route path="/testar" exact component={Testar} />
+        <Route path="/search" exact component={Search} />
       </Switch>
     </BrowserRouter>
   );

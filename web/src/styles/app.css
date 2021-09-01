@@ -17,13 +17,4 @@ body {
 
 header {
   padding: 50px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.69) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  position: absolute;
-  width: 100%;
-  top: 0;
-  z-index: 2;
 }
