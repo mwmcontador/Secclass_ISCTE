@@ -56,9 +56,9 @@ const Item = ({ item }) => {
               </div>
               <div class="row">
                 <div class="col-3">
-                  <b>Versão 1.0</b>
+                  <b>Versão SECClasS</b>
                 </div>
-                <div class="col-8">{item.versao}</div>
+                <div class="col-8">1.0{item.versao}</div>
               </div>
               <div class="row">
                 <div class="col-3">
