@@ -112,4 +112,19 @@ router.get("/comment/update/:id", async (req, res) => {
 }
 });
 
+//DELETE /delete/ => apagar comentario
+router.delete("/comment/delete/:id", async (req, res) => {
+  try {
+    const id = req.params.id;
+    const data = await Comentarios.findByIdAndDelete(id);
+
+    const response = "Comentario elminado";
+    return res.json(data, response);
+
+}  catch (err) {
+  console.log("Error Item");
+  res.json({ error: true, message: err.message });
+}
+});
+
 module.exports = router;

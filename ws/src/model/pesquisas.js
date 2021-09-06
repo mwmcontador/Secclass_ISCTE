@@ -10,7 +10,7 @@ const PesquisasSchema = new mongoose.Schema({
     required: true,
   },
   results: {
-    type: String,
+    type: Array,
   },
   timestamp: {
     type: Date,

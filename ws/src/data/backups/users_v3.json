@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "61014480970082f59271985c"
+  },
+  "user_name": "Admin_user",
+  "email": "exemplo@iscte-iul.pt",
+  "primeiro_nome": "Admin",
+  "ultimo_nome": "Master",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 1627473024,
+      "i": 1
+    }
+  },
+  "access_level": "admin"
+},{
+  "_id": {
+    "$oid": "61014645970082f59271985e"
+  },
+  "user_name": "Manager_user",
+  "email": "exemplo@iscte-iul.pt",
+  "primeiro_nome": "Leitura",
+  "ultimo_nome": "Escrita",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$date": "2021-07-28T12:57:17Z"
+  },
+  "access_level": "manager"
+},{
+  "_id": {
+    "$oid": "61014654970082f59271985f"
+  },
+  "user_name": "Manager_user",
+  "email": "exemplo@iscte-iul.pt",
+  "primeiro_nome": "Leitura",
+  "ultimo_nome": "Escrita",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$date": "2021-07-28T12:57:17Z"
+  },
+  "access_level": "manager"
+},{
+  "_id": {
+    "$oid": "61014671970082f592719860"
+  },
+  "user_name": "Manager_user",
+  "email": "exemplo@iscte-iul.pt",
+  "primeiro_nome": "Leitura",
+  "ultimo_nome": "Escrita",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 1627473521,
+      "i": 1
+    }
+  },
+  "access_level": "manager"
+},{
+  "_id": {
+    "$oid": "61014696970082f592719861"
+  },
+  "user_name": "Manager_user",
+  "email": "exemplo2@iscte-iul.pt",
+  "primeiro_nome": "Leitura",
+  "ultimo_nome": "Escrita",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$date": "2021-07-28T12:57:17Z"
+  },
+  "access_level": "manager"
+},{
+  "_id": {
+    "$oid": "6101449a970082f59271985d"
+  },
+  "user_name": "Admin_user",
+  "email": "exemplo@iscte-iul.pt",
+  "primeiro_nome": "Admin",
+  "ultimo_nome": "Master",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 1627473050,
+      "i": 1
+    }
+  },
+  "access_level": "admin"
+},{
+  "_id": {
+    "$oid": "610146ce970082f592719863"
+  },
+  "user_name": "Manager_user",
+  "email": "exemplo2@iscte-iul.pt",
+  "primeiro_nome": "Leitura",
+  "ultimo_nome": "Escrita",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 1627473614,
+      "i": 1
+    }
+  },
+  "access_level": "manager"
+},{
+  "_id": {
+    "$oid": "61014705970082f592719864"
+  },
+  "user_name": "Public_user",
+  "email": "exemplo3@iscte-iul.pt",
+  "primeiro_nome": "Escrita",
+  "ultimo_nome": "limitado",
+  "instituicao": "ISCTE-IUL",
+  "timestamp": {
+    "$timestamp": {
+      "t": 1627473669,
+      "i": 1
+    }
+  },
+  "access_level": "public"
+}]

@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc79"
+  },
+  "code_tabela": "Co",
+  "nome_tabela": "Complexes",
+  "nome_secclass": "Complexos",
+  "nome_pesquisa": "Complexos (Co)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc7a"
+  },
+  "code_tabela": "En",
+  "nome_tabela": "Entities",
+  "nome_secclass": "Entidades",
+  "nome_pesquisa": "Entidades (En)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc7b"
+  },
+  "code_tabela": "Ac",
+  "nome_tabela": "Activities",
+  "nome_secclass": "Actividades",
+  "nome_pesquisa": "Actividades (Ac)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc7c"
+  },
+  "code_tabela": "SL",
+  "nome_tabela": "Spaces/ locations",
+  "nome_secclass": "Espaços/ locais",
+  "nome_pesquisa": "Espaços/ locais (SL)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc7d"
+  },
+  "code_tabela": "EF",
+  "nome_tabela": "Elements/ functions",
+  "nome_secclass": "Elementos/ funções",
+  "nome_pesquisa": "Elementos/ funções (EF)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc7e"
+  },
+  "code_tabela": "Ss",
+  "nome_tabela": "Systems",
+  "nome_secclass": "Sistemas",
+  "nome_pesquisa": "Sistemas (Ss)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc7f"
+  },
+  "code_tabela": "Pr",
+  "nome_tabela": "Products",
+  "nome_secclass": "Produtos",
+  "nome_pesquisa": "Produtos (Pr)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc80"
+  },
+  "code_tabela": "TE",
+  "nome_tabela": "Tools and Equipment",
+  "nome_secclass": "Ferramentas e Equipamentos",
+  "nome_pesquisa": "Ferramentas e Equipamentos (TE)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc81"
+  },
+  "code_tabela": "PM",
+  "nome_tabela": "Project management",
+  "nome_secclass": "Gestão de projeto",
+  "nome_pesquisa": "Gestão de projeto (PM)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc82"
+  },
+  "code_tabela": "FI",
+  "nome_tabela": "Form of information",
+  "nome_secclass": "Formas de informação",
+  "nome_pesquisa": "Formas de informação (FI)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc83"
+  },
+  "code_tabela": "Ro",
+  "nome_tabela": "Roles",
+  "nome_secclass": "Agentes",
+  "nome_pesquisa": "Agentes (Ro)"
+},{
+  "_id": {
+    "$oid": "60db8cde7df6e6387cf1fc84"
+  },
+  "code_tabela": "Zz",
+  "nome_tabela": "CAD",
+  "nome_secclass": "CAD",
+  "nome_pesquisa": "CAD (Zz)"
+}]
