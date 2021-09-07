@@ -5,6 +5,9 @@ const Item = mongoose.model("Item", {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
   },
+  idItem: {
+    type: Number,
+  },
   Autor: {
     type: String,
   },
@@ -20,21 +23,24 @@ const Item = mongoose.model("Item", {
   Section: {
     type: String,
   },
-  object_item: {
+  Object: {
     type: String,
-  },
-  idItem: {
-    type: Number,
-  },
-  Versao_Uniclass: {
-    type: String,
-  },
-  nivel_item: {
-    type: Number,
   },
   code_item: {
     type: String,
     required: true,
+  },
+  Versao_Uniclass: {
+    type: String,
+  },
+  versao_secclass: {
+    type: Number,
+  },
+  nivel_item: {
+    type: Number,
+  },
+  code_tabela: {
+    type: String,
   },
   title_item: {
     type: String,
@@ -43,9 +49,6 @@ const Item = mongoose.model("Item", {
     type: String,
   },
   descricao_SECClasS: {
-    type: String,
-  },
-  code_tabela: {
     type: String,
   },
   review: {

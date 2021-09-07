@@ -98,11 +98,24 @@ router.get("/comment/", async (req, res) => {
 
 
 
-//GET /update/ => atualizar estado do comentario
-router.get("/comment/update/:id", async (req, res) => {
+//PATCH /update/ => atualizar estado do comentario
+router.patch("/comment/update/:id", async (req, res) => {
   try {
+
+    console.log(req);
+
     const id = req.params.id;
-    const data = await Comentarios.findById(id);
+    const status = req.body.status;
+
+    const find_id = {"_id": id};
+    const new_status = {"status": status}
+
+    console.log(status);
+
+    const data = await Comentarios.updateOne(find_id, new_status);
+
+    data.n; // Number of documents matched
+    data.nModified; // Number of documents modified
 
     return res.json(data);
 
