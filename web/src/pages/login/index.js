@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import api from "../../services/api";
 import Button from "react-bootstrap/Button";
-import { Modal } from "react-bootstrap";
 
 const Login = () => {
   const [credenciais, setCredenciais] = useState({

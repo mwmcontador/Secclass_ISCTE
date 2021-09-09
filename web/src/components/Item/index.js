@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import Comentarios from "../Comentarios/comentarios";
 
-import Button from "react-bootstrap/Button";
-import { Container, Modal } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 const url = "https://toolkit.thenbs.com/uniclass/";
 
 const Item = ({ item }) => {
@@ -66,18 +66,25 @@ const Item = ({ item }) => {
                 </div>
                 <div class="col-8">{item.descricao_SECClasS}</div>
               </div>
+              <div className="row">
+                <div className="col">
+                  <Comentarios id_idtem_secclass="60d41ae8ddc3ec53204c81da" />
+                </div>
+              </div>
             </div>
           </Modal.Body>
           <Modal.Footer>
-            <>
-              <button className="btn-info">Comentar</button>
-              {"  "}
-              <button className="btn-info">Traduzir</button> {"  "}
-              <button className="btn-secondary" onClick={mostrarItem}>
-                Cancelar
-              </button>
-              <br />
-            </>
+            <div className="row">
+              <div className="col">
+                <button className="btn-info">Comentar</button>
+                {"  "}
+
+                <button className="btn-secondary" onClick={mostrarItem}>
+                  Cancelar
+                </button>
+                <br />
+              </div>
+            </div>
           </Modal.Footer>
         </Modal>
       </>
@@ -91,24 +98,17 @@ const Item = ({ item }) => {
   return (
     <tr class="table table-hover">
       {showModal && <ModalOriginal props={item} />}
-      <th scope="row">{item?.code_item}</th>
+      <td scope="row">{item?.code_item}</td>
       <td>{item?.titulo_SECClasS}</td>
       <td align="center">{item.code_tabela}</td>
       <td align="center">{item.nivel_item}</td>
       <td className="text-center">
-        <Button className="btn btn-success" onClick={mostrarItem}>
+        <button className="btn btn-success" onClick={mostrarItem}>
           Mostrar
-        </Button>
+        </button>
       </td>
     </tr>
   );
 };
 
 export default Item;
-
-// O antigo botão Mostrar
-/*
-<button className="btn btn-success" onClick={mostrarItem}>
-Mostrar
-</button>
-*/

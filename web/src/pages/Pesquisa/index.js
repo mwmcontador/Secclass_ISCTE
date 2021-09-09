@@ -1,27 +1,19 @@
 import React, { useState, useEffect } from "react";
 import Item from "../../components/Item";
+import Pagination from "../../components/Pagination/Pagination";
 import api from "../../services/api";
 
 const Pesquisa = () => {
-  const contador = 0;
-
   //Filtros Defaut
   const [filtros, setFiltros] = useState({
     code_tabela: "Todos",
-    nivel_item: 1,
+    nivel_item: 4,
     titulo_SECClasS: "",
     review: false,
   });
 
   console.log("Filtros Selecionados - Inicio ", filtros);
   const [itens, setItens] = useState([]);
-  const [resultados, setResultados] = useState(0);
-  const [item, setItem] = useState({
-    code_item: "",
-    title_item: "",
-    nivel_item: 1,
-    titulo_SECClasS: null,
-  });
 
   //Visualizar
   const visualizar = async () => {
@@ -47,25 +39,6 @@ const Pesquisa = () => {
     }
   };
 
-  const getHome = async () => {
-    try {
-      const response = await api.get("/");
-      const res = response.data;
-      console.log("Home ", res.itens);
-      console.log("Carregou a Pagina");
-      //Testa que não tem erro
-      if (res.error) {
-        alert(res.message);
-        return false;
-      }
-
-      setItens([...res.data]);
-      console.log("Primeira Exibição");
-    } catch (err) {
-      alert(err.message);
-    }
-  };
-
   // Usamos para regarregar a pagina
   useEffect(() => {
     // getHome();
@@ -78,7 +51,7 @@ const Pesquisa = () => {
       <div className="jumbotron">
         <div className="row">
           <div className="col">
-            <h3> Pesquisar Axios </h3>
+            <h3> Pesquisar Secclass </h3>
 
             <input
               className="form-control"
@@ -119,7 +92,7 @@ const Pesquisa = () => {
           <div className="col-4">
             <label> Nível</label>
             <select
-              className="form-control"
+              className="form-control  "
               onChange={(e) => {
                 setFiltros({
                   ...filtros,
@@ -138,7 +111,7 @@ const Pesquisa = () => {
         </div>
         <br />
         <div className="row">
-          <div className="col">
+          <div className="col-4">
             <input
               className="form-check-input"
               type="checkbox"
@@ -184,8 +157,8 @@ const Pesquisa = () => {
             //Exibindo Todas as Tabelas
 
             return <Item item={item} />;
-            setResultados({ contador: contador + 1 });
           })}
+          <Pagination />
         </tbody>
         <tfoot>
           <span>- </span>
