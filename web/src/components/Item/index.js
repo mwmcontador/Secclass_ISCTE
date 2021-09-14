@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Comentarios from "../Comentarios/comentarios";
+import api from "../../services/api";
 
 import { Modal } from "react-bootstrap";
 const url = "https://toolkit.thenbs.com/uniclass/";
@@ -58,7 +59,7 @@ const Item = ({ item }) => {
                 <div class="col-3">
                   <b>Versão SECClasS</b>
                 </div>
-                <div class="col-8">1.0{item.versao}</div>
+                <div class="col-8">{item.versao_secclas}</div>
               </div>
               <div class="row">
                 <div class="col-3">
@@ -68,7 +69,7 @@ const Item = ({ item }) => {
               </div>
               <div className="row">
                 <div className="col">
-                  <Comentarios id_idtem_secclass="60d41ae8ddc3ec53204c81da" />
+                  <Comentarios id_idtem_secclass={item._id} />
                 </div>
               </div>
             </div>
@@ -90,10 +91,37 @@ const Item = ({ item }) => {
       </>
     );
   };
+
+  //Funções
+
   const mostrarItem = () => {
     //alert(item.titulo_SECClasS);
     console.log("Mudar State Modal", showModal);
     setShowModal(!showModal);
+    //ListarComentarios();
+  };
+
+  //
+  const [post, setPost] = useState([]);
+
+  //Listar os Comentários
+  const ListarComentarios = async () => {
+    try {
+      const url_comment = `/comment/iditem/${item._id}`;
+      const responseComment = await api.get(`/comment/iditem/${item._id}`);
+
+      const resComment = responseComment.data;
+      console.log("Function ListarComentarios ", resComment);
+      console.log("url ", url_comment);
+      //Testa que não tem erro
+      if (resComment.error) {
+        alert(resComment.message);
+        return false;
+      }
+    } catch (err) {
+      alert(err.message);
+      return false;
+    }
   };
   return (
     <tr class="table table-hover">
