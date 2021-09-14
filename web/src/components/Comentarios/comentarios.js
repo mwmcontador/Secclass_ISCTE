@@ -56,7 +56,7 @@ const Comentarios = ({ id_idtem_secclass }) => {
         <thead>
           <tr>
             <th>Data</th>
-            <th>Comentário</th>
+            <th>Comentário </th>
 
             <th class="text-center" scope="col">
               Autor
