@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const ComentariosSchema = new mongoose.Schema({
+const VersaoSchema = new mongoose.Schema({
   users_id: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
@@ -29,4 +29,4 @@ const ComentariosSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("comentarios", ComentariosSchema);
+module.exports = mongoose.model("versao", VersaoSchema);
