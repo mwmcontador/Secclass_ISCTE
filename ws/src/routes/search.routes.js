@@ -50,7 +50,7 @@ router.get("/search/", async (req, res) => {
     }
 //////////////////////////////////////////////////////////////
     var nivel;
-    if(criterio_nivel === undefined || criterio_nivel == ""){
+    if(criterio_nivel === undefined || criterio_nivel == "" || criterio_nivel == "4"){
       nivel = {"nivel_item": { "$ne": 69 }};
       //nivel = 4;
     }

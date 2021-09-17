@@ -9,6 +9,10 @@ console.log('Starting Comment Route')
 //////////////////  POST
 router.post("/comment/", async (req, res) => {
   try {
+    console.log(req)
+    if(req === undefined || req == []){
+      const data = req;
+    }
     /*
     req = {
      "items_id": "60d41ae8ddc3ec53204c81da",
@@ -18,42 +22,38 @@ router.post("/comment/", async (req, res) => {
      "contact": "emailexemplo@iscte-iul.pt"
    }
     */
-    console.log(req)
 
-    const date = Date.now();
-    //var format_date = date.slice(8,10)+'/'+date.slice(5,7)+'/'+date.slice(0,4);
+    else {
+      const date = Date.now();
+      //const iso_date = date.toISOString();
+      //const format_date = dateFormat(now, "dddd, mmmm dS, yyyy, h:MM:ss TT");
+      //const format_date = ((date.getDate() )) + "-" + ((date.getMonth() + 1)) + "-" + date.getFullYear();
 
-    console.log(`DATE = ${date}`);
+      console.log(`DATE = ${date}`);
 
-    const doc = {
-      "users_id": "61014705970082f592719864",  //ID Public User // req.body.item
-      "items_id": req.body.items_id,          // ver com font-end
-      "name": req.body.name,
-      "institution": req.body.institution,
-      "contact": req.body.contact,
-      "comment": req.body.comment,
-      "status": "New",
-      "timestamp": Date(date)                //current date to timestamp
-    };
+      const doc = {
+        "users_id": "61014705970082f592719864",  //ID Public User // req.body.item
+        "items_id": req.body.items_id,          // ver com font-end
+        "name": req.body.name,
+        "institution": req.body.institution,
+        "contact": req.body.contact,
+        "comment": req.body.comment,
+        "status": "New",
+        "timestamp": Date(date)                //current date to timestamp
+      };
 
-    console.log(doc);
+      console.log(doc);
 
-    const data = await Comentarios.create(doc);
-
+      const data = await Comentarios.create(doc);
+    }
     //Debug
-    const objectLength = Object.keys(data).length;
-    console.log(`objectLength = ${objectLength}`);
-
-    res.json({ error: false, objectLength, data});
-
+    res.json({ error: false, data});
   }  catch (err) {
-  console.log("Error Item");
+  console.log("Error Post Comment");
   res.json({ error: true, message: err.message });
 }
 });
 /////////////////////////////////////////////////////////
-
-
 
 //GET ALL commets
 router.get("/comment/", async (req, res) => {
@@ -92,10 +92,11 @@ router.get("/comment/", async (req, res) => {
     res.json({ error: false, objectLength, data});
 
   }  catch (err) {
-  console.log("Error Item");
+  console.log("Error GET ALL Comment");
   res.json({ error: true, message: err.message });
 }
 });
+
 
 //GET por ID
 router.get("/comment/iditem/:id", async (req, res) => {
@@ -120,6 +121,7 @@ router.get("/comment/iditem/:id", async (req, res) => {
       }
     })
     console.log(data);
+
     //Debug
     const objectLength = Object.keys(data).length;
     console.log(`objectLength = ${objectLength}`);
@@ -142,7 +144,6 @@ router.get("/comment/:code", async (req, res) => {
     var ordem;
         if(order === undefined || order == ""){
           ordem = -1;
-          //nivel = 4;
         }
         else {
           ordem = parseInt(order);
@@ -176,7 +177,7 @@ router.get("/comment/:code", async (req, res) => {
     res.json({ error: false, objectLength, data});
 
   }  catch (err) {
-  console.log("Error Item");
+  console.log("Error GET Comment by ID");
   res.json({ error: true, message: err.message });
 }
 });
@@ -208,7 +209,7 @@ router.patch("/comment/update/:id", async (req, res) => {
     res.json({ error: false, objectLength, data});
 
 }  catch (err) {
-  console.log("Error Item");
+  console.log("Error PATCH Comment");
   res.json({ error: true, message: err.message });
 }
 });
@@ -228,7 +229,7 @@ router.delete("/comment/delete/:id", async (req, res) => {
     res.json({ error: false, objectLength, data, response});
 
 }  catch (err) {
-  console.log("Error Item");
+  console.log("Error DELETE Comment");
   res.json({ error: true, message: err.message });
 }
 });
