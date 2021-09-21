@@ -1,0 +1,280 @@
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+SearchRoute:  , Todos , 1 e false
+{ code_tabela: { '$ne': '' } }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 81
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [36m304[0m 78.518 ms - -[0m
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+SearchRoute:  , Todos , 1 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=true [36m304[0m 19.639 ms - -[0m
+SearchRoute:  , Todos , 3 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 30
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&revisao=true [36m304[0m 19.950 ms - -[0m
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+SearchRoute:  , Todos , 3 e false
+{ code_tabela: { '$ne': '' } }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 2834
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&revisao=false [32m200[0m 393.708 ms - 1147477[0m
+SearchRoute:  , Todos , 3 e false
+{ code_tabela: { '$ne': '' } }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 2834
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&revisao=false [36m304[0m 272.348 ms - -[0m
+SearchRoute:  , Todos , 1 e false
+{ code_tabela: { '$ne': '' } }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 81
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [36m304[0m 16.510 ms - -[0m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+SearchRoute:  , Todos , 1 e false
+{ code_tabela: { '$ne': '' } }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 81
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [32m200[0m 69.741 ms - 34279[0m
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+SearchRoute:  , Todos , 1 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=true [32m200[0m 19.775 ms - 42[0m
+SearchRoute:  , Todos , 1 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=true [36m304[0m 10.783 ms - -[0m
+SearchRoute:  , Todos , 1 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=true [36m304[0m 8.513 ms - -[0m
+SearchRoute:  , Todos , 3 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 30
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&revisao=true [36m304[0m 24.112 ms - -[0m
+SearchRoute:  , Todos , 4 e true
+{ code_tabela: { '$ne': '' } }
+{ review: true }
+Parametros de pesquisa: , [object Object], [object Object], [object Object], [object Object]
+{"_pipeline":[{"$group":{"_id":"$code_item","maxvalue":{"$max":"idItem"}}}],"options":{}}
+Numeros de docs objectLength = 30
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=true [36m304[0m 24.619 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+URI MongoDB: mongodb+srv://root_out:client_top@cluster0.rfblu.mongodb.net/SecClasS?retryWrites=true&w=majority
+Conectando Banco
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Rota User
+Rota Tabela
+Rota Item
+Rota Search
+Rota Comentarios
+Meu Servidor está funcionando..
+LocalhostDB Conectado

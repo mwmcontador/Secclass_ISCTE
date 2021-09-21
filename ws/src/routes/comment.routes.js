@@ -9,27 +9,28 @@ console.log('Starting Comment Route')
 //////////////////  POST
 router.post("/comment/", async (req, res) => {
   try {
-    console.log(req)
-    if(req === undefined || req == []){
-      const data = req;
-    }
+    //console.log(req)
     /*
     req = {
      "items_id": "60d41ae8ddc3ec53204c81da",
-    	"name": "MW",
-    	"institution": "ISTAR",
+      "name": "MW",
+      "institution": "ISTAR",
      "comment": "Texto de comentario de teste.",
      "contact": "emailexemplo@iscte-iul.pt"
    }
     */
+    if( req.body.comment === undefined || req.body.comment === "" ){
+      const data = [];
+    }
 
     else {
-      const date = Date.now();
-      //const iso_date = date.toISOString();
-      //const format_date = dateFormat(now, "dddd, mmmm dS, yyyy, h:MM:ss TT");
-      //const format_date = ((date.getDate() )) + "-" + ((date.getMonth() + 1)) + "-" + date.getFullYear();
+      var date = new Date();//.now();
+      //var string_date = date.toString();
 
-      console.log(`DATE = ${date}`);
+      //const format_date = date.toISOString();
+      //const format_date = dateFormat(now, "dddd, mmmm dS, yyyy");
+      //const format_date = ((date.getDate() )) + "-" + ((date.getMonth() + 1)) + "-" + date.getFullYear();
+      //console.log(`DATE = ${string_date}`);
 
       const doc = {
         "users_id": "61014705970082f592719864",  //ID Public User // req.body.item
@@ -43,13 +44,12 @@ router.post("/comment/", async (req, res) => {
       };
 
       console.log(doc);
-
       const data = await Comentarios.create(doc);
     }
     //Debug
     res.json({ error: false, data});
   }  catch (err) {
-  console.log("Error Post Comment");
+  console.log("Error POST Comment");
   res.json({ error: true, message: err.message });
 }
 });
@@ -58,7 +58,6 @@ router.post("/comment/", async (req, res) => {
 //GET ALL commets
 router.get("/comment/", async (req, res) => {
   try {
-
     const order = req.query.order;
 
     //////////////////////////////////////////////////////////////
@@ -96,7 +95,7 @@ router.get("/comment/", async (req, res) => {
   res.json({ error: true, message: err.message });
 }
 });
-
+/////////////////////////////////////////////////////////
 
 //GET por ID
 router.get("/comment/iditem/:id", async (req, res) => {
@@ -120,19 +119,27 @@ router.get("/comment/iditem/:id", async (req, res) => {
         console.log(`err: ${err}`)
       }
     })
-    console.log(data);
 
     //Debug
     const objectLength = Object.keys(data).length;
     console.log(`objectLength = ${objectLength}`);
 
+    var i = 0;
+    while (i <= (objectLength-1)) {
+      var temp = data[i].timestamp.toISOString();
+      temp = temp.slice(0,10);//.split("T");
+      data[i].timestamp = temp;
+      console.log(JSON.stringify(temp));
+      i++
+    }
     res.json({ error: false, objectLength, data});
 
   }  catch (err) {
-  console.log("Error Item");
+  console.log("Error GET Comment by ID");
   res.json({ error: true, message: err.message });
 }
 });
+/////////////////////////////////////////////////////////
 
 //GET Comment with search
 router.get("/comment/:code", async (req, res) => {
@@ -177,11 +184,11 @@ router.get("/comment/:code", async (req, res) => {
     res.json({ error: false, objectLength, data});
 
   }  catch (err) {
-  console.log("Error GET Comment by ID");
+  console.log("Error GET Comment by Code");
   res.json({ error: true, message: err.message });
 }
 });
-
+/////////////////////////////////////////////////////////
 
 //PATCH /update/ => atualizar estado do comentario
 router.patch("/comment/update/:id", async (req, res) => {
@@ -213,6 +220,7 @@ router.patch("/comment/update/:id", async (req, res) => {
   res.json({ error: true, message: err.message });
 }
 });
+/////////////////////////////////////////////////////////
 
 //DELETE /delete/ => apagar comentario
 router.delete("/comment/delete/:id", async (req, res) => {
@@ -233,5 +241,6 @@ router.delete("/comment/delete/:id", async (req, res) => {
   res.json({ error: true, message: err.message });
 }
 });
+/////////////////////////////////////////////////////////
 
 module.exports = router;
