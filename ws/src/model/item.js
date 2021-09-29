@@ -14,6 +14,21 @@ const Item = mongoose.model("Item", {
   Data_traducao: {
     type: Date,
   },
+  Versao_Uniclass: {
+    type: String,
+  },
+  versao_secclass: {
+    type: Number,
+  },
+  code_tabela: {
+    type: String,
+  },
+  tabela_id: {
+    type: String,
+  },
+  nivel_item: {
+      type: Number,
+  },
   Group: {
     type: String,
   },
@@ -30,29 +45,23 @@ const Item = mongoose.model("Item", {
     type: String,
     required: true,
   },
-  Versao_Uniclass: {
-    type: String,
-  },
-  versao_secclass: {
-    type: Number,
-  },
-  nivel_item: {
-    type: Number,
-  },
-  code_tabela: {
-    type: String,
-  },
   title_item: {
     type: String,
   },
   titulo_SECClasS: {
     type: String,
   },
+  review: {
+    type: Boolean,
+  },
   descricao_SECClasS: {
     type: String,
   },
-  review: {
-    type: Boolean,
+  especialidade: {
+    type: String,
+  },
+  keywords: {
+    type: String,
   }
 });
 

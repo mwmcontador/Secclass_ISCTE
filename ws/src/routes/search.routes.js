@@ -2,10 +2,11 @@ const express = require("express");
 const router = express.Router();
 const Search = require("../model/pesquisas");
 const Item = require("../model/item");
+const Tabela = require("../model/tabela");
 
 
 //////////// GET API - PESQUISA
-//exemplo => http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3&resivao=TRUE
+//exemplo => http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3&resivao=TRUE&especialidade=Todas
 
 //router.get("/:input_pesquisa/:criterio_tabela/:criterio_nivel", async (req, res) => {
 //router.get("/:input_pesquisa/", async (req, res) => {
@@ -18,6 +19,7 @@ router.get("/search/", async (req, res) => {
       const criterio_nivel = req.query.nivel;
       const input_pesquisa = req.query.pesquisa;
       const param_revisao = req.query.revisao;
+      const especialidade = req.query.especialidade;
       //const param_organiz = req.query.organzacao;
 /*
       const criterio_tabela = req.query.tabela;
@@ -25,7 +27,7 @@ router.get("/search/", async (req, res) => {
       const input_pesquisa = req.params.input_pesquisa;
 */
 
-    console.log(`SearchRoute: ${input_pesquisa} , ${criterio_tabela} , ${criterio_nivel} e ${param_revisao}`);
+    console.log(`SearchRoute: '${input_pesquisa}' , '${criterio_tabela}' , '${criterio_nivel}' , '${param_revisao}' e '${especialidade}'.`);
 
 //////////////////////////////////////////////////////////
     var search;
@@ -36,6 +38,8 @@ router.get("/search/", async (req, res) => {
     else {
       search = { "$regex": input_pesquisa, "$options": "i"} ;
     }
+    //var search_log = JSON.stringify(search);
+    //console.log(`Parametro search: ${search}`);
 ////////////////////////////////////////////////////////
     var tabela;
     if (criterio_tabela === undefined || criterio_tabela == "") {
@@ -43,46 +47,63 @@ router.get("/search/", async (req, res) => {
     }
     else if (criterio_tabela === "Todos"){
       tabela = {"code_tabela": { "$ne": "" }};
-      console.log(tabela);
     }
     else{
       tabela = {"code_tabela": criterio_tabela};
     }
+    //var tabela_log = JSON.stringify(tabela);
+    console.log(`Parametro tabela: ${tabela}`);
 //////////////////////////////////////////////////////////////
     var nivel;
     if(criterio_nivel === undefined || criterio_nivel == "" || criterio_nivel == "4"){
       nivel = {"nivel_item": { "$ne": 69 }};
       //nivel = 4;
+      //var typen = typeof nivel;
+      //console.log(typen);
     }
     else {
       nivel = parseInt(criterio_nivel);
       nivel = {"nivel_item" :{ "$lte": nivel }};
     }
-    //console.log(nivel);
-//   var typen = typeof nivel;
-    //console.log(typen);
-//////////////////////////////////////////////////////////////
+    //var nivel_log = JSON.stringify(nivel);
+    //console.log(`Parametro nivel: ${nivel_log}`);
+ /////////////////////////////////////////////////////////////
     var revisao;
     if(param_revisao === undefined || param_revisao == "" ){
       revisao = {"review": {"$ne": null}};
-      //console.log(revisao);
     }
     else if (param_revisao === "false" ){
       //revisao = "false";
       revisao = {"review": false};
-      //console.log(revisao);
     }
     else if (param_revisao === "true" ){
       //revisao = new Boolean(true);
       revisao = {"review": true};
-      console.log(revisao);
     }
-    //console.log(`Parametro Revião: ${resivao}`);
+    //var revisao_log = JSON.stringify(revisao);
+    //console.log(`Parametro revião: ${revisao_log}`);
 /////////////////////////////////////////////////////////////////
-    console.log(`Parametros de pesquisa: ${input_pesquisa}, ${search}, ${nivel}, ${tabela}, ${revisao}`);
-
+    var speciality;
+    if(especialidade === undefined || especialidade == "" ){
+      //revisao = {"review": {"$ne": null}};
+      speciality = {"especialidade": {"$ne": null}};
+    }
+    else if (especialidade === "Todas" ){
+      //revisao = {"review": true};
+      //speciality = {"Especialidade": {"$ne": null}};
+      speciality =  {"especialidade": {"$ne": null}};
+    }
+    else {
+      //revisao = {"review": true};
+      //revisao = {"review": true};
+      speciality = {"especialidade": especialidade};
+    }
+    //var speciality_log = JSON.stringify(speciality);
+    //console.log(`Parametro speciality: ${speciality_log}`);
+  //// PARAMETROS DE PESQUISA
+    console.log(`Parametros de Pesquisa:  ${search}, ${nivel}, ${tabela}, ${revisao}, ${speciality}`);
 /////////////////////////////////////////////////////////////////
-
+/*
 const aggregate = Item.aggregate([{
   $group:{
     _id: "$code_item",
@@ -91,22 +112,23 @@ const aggregate = Item.aggregate([{
 }]);
 
 console.log("%j",aggregate);
-
+*/
 /////////////////////////////////////////////////////////////////
 
     const data = await Item.find(
       //{$and: [
         {$or: [
           {$and: [
-                {"code_item": search }, tabela, nivel, revisao
+                {"code_item": search }, tabela, nivel, revisao, speciality
               ]},
           {$and: [
-                {"titulo_SECClasS": search }, tabela, nivel, revisao
+                {"titulo_SECClasS": search }, tabela, nivel, revisao, speciality
                 //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
               ]},
+              /*
           {$and: [
-                {"versao_secclas": {}}
-              ]},
+                  {"versao_secclas": {}},
+              ]},*/
       ]},
       null,
       {sort: {"_id": 1}},
@@ -119,7 +141,7 @@ console.log("%j",aggregate);
         data = err;
         console.log(`err: ${data}`);
       }
-    });//.where('nivel_item').lte(nivel);
+    })//.populate(;//.where('nivel_item').lte(nivel);
     //console.log(`Data_out = ${data}`);
   //Debug
         var type = typeof data;
@@ -128,6 +150,7 @@ console.log("%j",aggregate);
     if(objectLength == 0) {
       console.log("PESQUISA NAO ENCONTRADA");
       //data = ["Termo pesquisado não encontrado."];
+      //data = [];
     }
 
 

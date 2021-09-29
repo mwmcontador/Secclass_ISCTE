@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
 const Tabela = mongoose.model("Tabela", {
-  id_tabela: {
-    type: Number,
+  _id: {
+    type: mongoose.Schema.Types.ObjectId,
     required: true,
   },
   code_tabela: {
@@ -13,6 +13,12 @@ const Tabela = mongoose.model("Tabela", {
     type: String,
   },
   nome_secclass: {
+    type: String,
+  },
+  nome_secclass: {
+    type: String,
+  },
+  nome_pesquisa: {
     type: String,
   },
 });

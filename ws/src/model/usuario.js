@@ -13,7 +13,6 @@ const Usuario = mongoose.model("Usuario", {
     type: String,
     required: true,
   },
-
   primeiro_nome: {
     type: String,
     required: true,

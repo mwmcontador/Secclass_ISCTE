@@ -105,15 +105,19 @@ const Pesquisa = () => {
                 });
               }}
             >
-              <option value="Todos">Todos</option>
+              <option value="Todos">Todas</option>
               <option value="Complexos">Complexos (Co)</option>
               <option value="Entidades">Entidades (En)</option>
               <option value="Actividades">Actividades (Ac)</option>
-              <option value="Espaços/ locais"> Espaços/ locais (Ss)</option>
-              <option value="Elementos/ funções">
-                {" "}
-                Elementos/ funções (EF)
-              </option>
+              <option value="Espaços/ locais"> Espaços/ locais (SL)</option>
+              <option value="Elementos/ funções"> Elementos/ funções (EF)</option>
+              <option value="Sistemas"> Sistemas (Ss)</option>
+              <option value="Produtos"> Produtos (Pr)</option>
+              <option value="Ferramentas e Equipamentos"> Ferramentas e Equipamentos (TE)</option>
+              <option value="Gestão de projeto"> Gestão de projeto (PM)</option>
+              <option value="Formas de informação"> Formas de informação (FI)</option>
+              <option value="Agentes"> Agentes (Ro)</option>
+              <option value="CAD"> CAD (Zz)</option>
             </select>
           </div>
           <div className="col-4">
@@ -130,9 +134,7 @@ const Pesquisa = () => {
               <option value="1">1 - Grupo</option>
               <option value="2">2 - Sub-Grupo</option>
               <option value="3">3 - Secção</option>
-              <option value="4" selected>
-                4 - Objecto
-              </option>
+              <option value="4" selected>4 - Objecto</option>
             </select>
           </div>
         </div>
