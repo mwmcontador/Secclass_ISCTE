@@ -89,13 +89,12 @@ router.get("/search/", async (req, res) => {
       speciality = {"especialidade": {"$ne": null}};
     }
     else if (especialidade === "Todas" ){
-      //revisao = {"review": true};
+      revisao = {"review": true};
       //speciality = {"Especialidade": {"$ne": null}};
       speciality =  {"especialidade": {"$ne": null}};
     }
     else {
-      //revisao = {"review": true};
-      //revisao = {"review": true};
+      revisao = {"review": true};
       speciality = {"especialidade": especialidade};
     }
     //var speciality_log = JSON.stringify(speciality);
@@ -140,6 +139,7 @@ console.log("%j",aggregate);
         //res.send(err);
         data = err;
         console.log(`err: ${data}`);
+        //res.json({ error: true, message: err.message });
       }
     })//.populate(;//.where('nivel_item').lte(nivel);
     //console.log(`Data_out = ${data}`);

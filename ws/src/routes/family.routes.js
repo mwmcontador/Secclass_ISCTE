@@ -21,47 +21,48 @@ router.get("/family/:code_item", async (req, res) => {
       switch (code_uni.length) {
       case 14:
           var object = code_uni.slice(0, 14);
-          pesquisa = pesquisa + {"code_item": object };
+          var pesquisa1 = {"code_item": object };
       case 11:
           var section = code_uni.slice(0, 11);
-          pesquisa = pesquisa + "," + {"code_item": section };
+          var pesquisa2 = {"code_item": section };
       case 8:
           var subgroup = code_uni.slice(0, 8);
-          pesquisa = pesquisa + "," + {"code_item": subgroup };
+          var pesquisa3 = {"code_item": subgroup };
       case 5:
           var group = code_uni.slice(0, 5);
-          pesquisa = pesquisa + "," + {"code_item": group };
+          var pesquisa4 = {"code_item": group };
           var tabela = code_uni.slice(0, 2);
+          var pesquisa = {"code_tabela": tabela };
           break;
       default:
 
     }
     console.log(`Slice: ${tabela}, ${group}, ${subgroup}, ${section}, ${object}.`);
-    console.log(`Pesquisa: ${pesquisa}.`);
-
+    console.log(`Pesquisa: ${JSON.stringify(pesquisa4)}.`);
+    //console.log(JSON.stringify(pesquisa));
     var familia;
     familia = {
       "code_item": code_uni, //"SL_25_10_77",
 
+      "id_Table": "",
       "Code_Table": "",
       "Title_Table": "",
-      "id_Table": "",
 
+      "id_Group": "",
       "Code_Group": "",//"25",
       "Title_Group": "",
-      "id_Group": "",
 
+      "id_Subgroup": "",
       "Code_Subgroup": "",//"25",
       "Title_Subgroup": "",
-      "id_Subgroup": "",
 
+      "id_Section": "",
       "Code_Section": "",//"25",
       "Title_Section": "",
-      "id_Section": "",
 
+      "id_Object": "",
       "Code_Object": "",//"25",
       "Title_Object": "",
-      "id_Object": ""
     };
 
     if(code_uni === undefined || code_uni == ""){
@@ -75,20 +76,32 @@ router.get("/family/:code_item", async (req, res) => {
     //var search_log = JSON.stringify(search);
     //console.log(`Parametro search: ${search}`);
 
+    const data1 = await Tabela.find(pesquisa
+      ,null,
+          {sort: {"_id": 1}},
+          function(err){
+          // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+          if (err)
+          {
+            //res.send(err);
+            data = err;
+            console.log(`err: ${data1}`);
+          }
+        });
 
 
     const data = await Item.find(
       //{$and: [
         {$or: [
-          {$and: [
-                pesquisa
+          //{$and: [
+                pesquisa4, pesquisa3, pesquisa2
               ]},
 
               /*
           {$and: [
                   {"versao_secclas": {}},
               ]},*/
-      ]},
+      //]},
       null,
       {sort: {"_id": 1}},
       //{sort: {"Data_traducao": -1}},
@@ -102,16 +115,11 @@ router.get("/family/:code_item", async (req, res) => {
       }
     })//.populate(;//.where('nivel_item').lte(nivel);
     //console.log(`Data_out = ${data}`);
-  //Debug
-    if(objectLength == 0) {
-      console.log("FAMILIA NAO ENCONTRADA, Codigo Nivel 1");
-      //data = ["Termo pesquisado não encontrado."];
-      //data = [];
-    }
+
 
 
 //____________////////RES
-    res.json({ error: false, data});
+    res.json({ error: false, data, data1});
   }  catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });

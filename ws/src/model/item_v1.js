@@ -85,4 +85,22 @@ module.exports = Item;
     "Palavra-chave 5":"",
     "Palavra-chave 6":""
 }
+
+{
+    "_id": {"$oid": "60d41ae8ddc3ec53204c81da"},                                              //ObjectID
+    "Autor": "SECClasS",                                                                      //String
+    "Data_traducao": {"$date": "2021-06-25T00:00:00.000Z"},                                   //Date
+    "Group": "20",                                                                            //String
+    "Section": "",                                                                            //String
+    "Subgroup": "",                                                                           //String
+    "Versao_Uniclass": "1.12",                                                                //String
+    "code_item": "Co_20",                                                                     //String
+    "code_tabela": "Complexos",                                                               //String
+    "descricao_SECClasS": "Para revisão.",                                                    //String
+    "idItem": 1,                                                                              //Number
+    "nivel_item": 1,                                                                          //Number
+    "title_item": "Administrative, commercial and protective service complexes",              //String
+    "titulo_SECClasS": "Complexos de serviços administrativos, comerciais e de (segurança)",  //String
+    "review": false                                                                           //Boolean
+}
 */

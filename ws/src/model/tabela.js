@@ -7,7 +7,6 @@ const Tabela = mongoose.model("Tabela", {
   },
   code_tabela: {
     type: String,
-    required: true,
   },
   nome_tabela: {
     type: String,
@@ -15,12 +14,9 @@ const Tabela = mongoose.model("Tabela", {
   nome_secclass: {
     type: String,
   },
-  nome_secclass: {
-    type: String,
-  },
   nome_pesquisa: {
     type: String,
-  },
+  }
 });
 
 module.exports = Tabela;

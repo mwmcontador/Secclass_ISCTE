@@ -6366,3 +6366,5128 @@ Parametro tabela: [object Object]
 Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
 Numeros de docs objectLength = 11430
 [0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=false [36m304[0m 1263.937 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [32m200[0m 46.837 ms - 3410[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+___ Server Power On -> 2021-09-29 15:27:40 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Especialidades Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+___ Server Power On -> 2021-09-29 15:31:51 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Especialidades Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 124
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [36m304[0m 90.620 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:01:17 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Especialidades Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: 'porta' , 'Todos' , '3' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 17
+Data_save = {
+  results: [
+    'En_30_70_17', 'En_32_85_21',
+    'En_32_85_82', 'En_80_35_89',
+    'En_80_96_92', 'EF_25_30',
+    'Ss_25_20_68', 'Ss_25_38_20',
+    'Ss_30_40_50', 'Ss_30_40_65',
+    'Pr_30_59_23', 'Pr_30_59_24',
+    'Pr_75_30_23', 'Pr_75_30_27',
+    'TE_30',       'TE_30_50_10',
+    'Ro_30_40_40'
+  ],
+  _id: 61548dd97624064fd816dcd6,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-09-29T16:01:29.289Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela=Todos&nivel=3&revisao=false [32m200[0m 74.975 ms - 7955[0m
+Lista de Especialidades
+[0mGET /especialidades [32m200[0m 5.426 ms - 1663[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:08:42 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Especialidades Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:09:57 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Especialidades Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:13:12 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Especialidades Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Iniciando especialidades
+[0mGET /lista/especialidades [32m200[0m 5.038 ms - 128[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+Iniciando especialidades
+[0mGET /lista/especialidades [32m200[0m 0.786 ms - 128[0m
+Iniciando tabelas
+[0mGET /lista/tabelas [32m200[0m 0.522 ms - 121[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:16:12 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:16:31 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Iniciando tabelas
+[0mGET /lista/tabelas [32m200[0m 5.553 ms - 121[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+Iniciando tabelas
+[0mGET /lista/tabelas [32m200[0m 0.897 ms - 121[0m
+Iniciando tabelas
+[0mGET /lista/tabelas [32m200[0m 0.660 ms - 121[0m
+[0mGET /lista/ [33m404[0m 1.764 ms - 145[0m
+Iniciando especialidades
+[0mGET /lista/especialidades [32m200[0m 0.548 ms - 128[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:19:57 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:22:21 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:26:39 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Lista de Tabelas
+[0mGET /list/tables/ [32m200[0m 12.609 ms - 25[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:32:07 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:42:42 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:42:50 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:45:10 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[0mGET /list/tabelas/ [33m404[0m 2.170 ms - 152[0m
+SearchRoute: 'porta' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'TE_30' ],
+  _id: 615498aebe60da30ec316ffd,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-09-29T16:47:42.602Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela=Todos&nivel=1&revisao=false [32m200[0m 53.456 ms - 532[0m
+61544915cf055d44dd07ba8b
+objectLength = 0
+[0mGET /comment/iditem/61544915cf055d44dd07ba8b [32m200[0m 6.201 ms - 42[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:48:19 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-29 16:48:57 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[0mGET /list/tabelas/ [33m404[0m 2.226 ms - 152[0m
+[0mGET /list/especialidades/ [33m404[0m 0.847 ms - 159[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 16.795 ms - 1663[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 29.613 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 18
+[0mGET /search?pesquisa&tabela=Sistemas&nivel=1&review&especialidade [32m200[0m 32.289 ms - 8995[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 25.816 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 29.379 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 28.810 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=true [32m200[0m 29.041 ms - 5626[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 29.083 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 124
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [32m200[0m 104.054 ms - 58156[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 9.652 ms - 42[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 6.090 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 2.309 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 5.868 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 3.567 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 2.057 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 3.800 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 5.903 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 1.397 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 2.280 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 6.128 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 5.291 ms - -[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: 'Hajz',
+  institution: undefined,
+  contact: 'sjjdd',
+  comment: 'Teste',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 11:28:17 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 15.527 ms - 46[0m
+6151e818cf055d44dd0787a1
+objectLength = 1
+"2021-09-30"
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 5.261 ms - 264[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: true,
+  _removedTE: true,
+  _contentLength: 0,
+  _hasBody: false,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:77.111.247.6', family: 'IPv6', port: 22633 },
+    [Symbol(async_id_symbol)]: 45533,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 304 Not Modified\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'ETag: W/"6a0670-MLgp84hXnUy8oxz9k9GkltX3He8"\r\n' +
+    'Date: Thu, 30 Sep 2021 10:30:20 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 45533,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+      'cache-control': 'max-age=0',
+      dnt: '1',
+      'if-none-match': 'W/"6a0670-MLgp84hXnUy8oxz9k9GkltX3He8"',
+      'upgrade-insecure-requests': '1'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50',
+      'Accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Accept-Encoding',
+      'gzip, deflate',
+      'Accept-Language',
+      'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+      'Cache-Control',
+      'max-age=0',
+      'Dnt',
+      '1',
+      'If-None-Match',
+      'W/"6a0670-MLgp84hXnUy8oxz9k9GkltX3He8"',
+      'Upgrade-Insecure-Requests',
+      '1'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 45533,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 667695, 637453800 ],
+    _startTime: 2021-09-30T10:30:18.934Z,
+    _remoteAddress: '::ffff:77.111.247.6',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 667696, 849233100 ],
+  _startTime: 2021-09-30T10:30:20.146Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 304,
+  statusMessage: 'Not Modified',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    etag: [ 'ETag', 'W/"6a0670-MLgp84hXnUy8oxz9k9GkltX3He8"' ]
+  }
+}
+[0mGET / [36m304[0m 1211.779 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1646.452 ms - 6948114[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1507.400 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 1
+"2021-09-30"
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 17.775 ms - 264[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1619.542 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1598.780 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1622.007 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=true [36m304[0m 34.718 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=true [36m304[0m 28.252 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 37.740 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=true [36m304[0m 31.353 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1592.759 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1526.733 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1641.732 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1517.394 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1206.372 ms - -[0m
+SearchRoute: 'termo' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 615596dd24f7a5a750e1f865,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'termo',
+  timestamp: 2021-09-30T10:52:13.784Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=termo&tabela=Sistemas&nivel=1&revisao=false [32m200[0m 42.595 ms - 42[0m
+SearchRoute: 'termo' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 615596e324f7a5a750e1f869,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'termo',
+  timestamp: 2021-09-30T10:52:19.815Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=termo&tabela=Todos&nivel=1&revisao=false [32m200[0m 29.900 ms - 42[0m
+SearchRoute: 'termos' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 615596eb24f7a5a750e1f86d,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'termos',
+  timestamp: 2021-09-30T10:52:27.936Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=termos&tabela=Todos&nivel=1&revisao=false [32m200[0m 37.161 ms - 42[0m
+SearchRoute: '' , 'Sistemas' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2324
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=4&especialidade= [32m200[0m 331.142 ms - 1169096[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 18
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&especialidade= [32m200[0m 27.705 ms - 8995[0m
+SearchRoute: '' , 'Sistemas' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 183
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=2&especialidade= [32m200[0m 45.994 ms - 92453[0m
+6151fd59cf055d44dd079356
+objectLength = 0
+[0mGET /comment/iditem/6151fd59cf055d44dd079356 [32m200[0m 5.199 ms - 42[0m
+6151fd59cf055d44dd079356
+objectLength = 0
+[0mGET /comment/iditem/6151fd59cf055d44dd079356 [36m304[0m 1.743 ms - -[0m
+6151fd59cf055d44dd079356
+objectLength = 0
+[0mGET /comment/iditem/6151fd59cf055d44dd079356 [36m304[0m 1.745 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 183
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=2&especialidade= [36m304[0m 39.798 ms - -[0m
+SearchRoute: '' , 'Produtos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 86
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=2&especialidade= [32m200[0m 34.879 ms - 40241[0m
+SearchRoute: '' , 'Produtos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 86
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=2&especialidade= [36m304[0m 33.137 ms - -[0m
+SearchRoute: '' , 'Produtos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 15
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=1&especialidade= [32m200[0m 29.626 ms - 7054[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd07ba01',
+  name: 'Ricardo Resende',
+  institution: undefined,
+  contact: undefined,
+  comment: 'gralha em instalações',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:06:54 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 3.157 ms - 46[0m
+6152047bcf055d44dd07ba01
+objectLength = 1
+"2021-09-30"
+[0mGET /comment/iditem/6152047bcf055d44dd07ba01 [32m200[0m 6.591 ms - 275[0m
+SearchRoute: 'Pr_35' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61559c1624f7a5a750e1f889,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:14:30.585Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=1&revisao=false [32m200[0m 32.452 ms - 42[0m
+SearchRoute: 'Pr_35' , 'Produtos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61559c2524f7a5a750e1f88d,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:14:45.773Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Produtos&nivel=1&revisao=false [32m200[0m 35.475 ms - 42[0m
+SearchRoute: 'Pr_35' , 'Produtos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61559c2c24f7a5a750e1f891,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:14:52.495Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Produtos&nivel=1&revisao=false [36m304[0m 32.667 ms - -[0m
+SearchRoute: 'Pr_35' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 474
+Data_save = {
+  results: [
+    'Pr_35_31_06_79', 'Pr_35_31_22',    'Pr_35_31_22_02', 'Pr_35_31_22_12',
+    'Pr_35_31_22_13', 'Pr_35_31_22_15', 'Pr_35_31_22_16', 'Pr_35_31_22_17',
+    'Pr_35_31_22_18', 'Pr_35_31_22_19', 'Pr_35_31_22_23', 'Pr_35_31_22_37',
+    'Pr_35_31_22_52', 'Pr_35_31_22_54', 'Pr_35_31_22_55', 'Pr_35_31_22_58',
+    'Pr_35_31_22_62', 'Pr_35_31_22_64', 'Pr_35_31_22_72', 'Pr_35_31_22_74',
+    'Pr_35_31_22_75', 'Pr_35_31_22_76', 'Pr_35_31_22_77', 'Pr_35_31_22_79',
+    'Pr_35_31_22_80', 'Pr_35_31_22_81', 'Pr_35_31_22_82', 'Pr_35_31_22_83',
+    'Pr_35_31_22_87', 'Pr_35_31_22_94', 'Pr_35_31_22_95', 'Pr_35_31_22_96',
+    'Pr_35_31_22_97', 'Pr_35_31_22_98', 'Pr_35_31_64',    'Pr_35_31_64_01',
+    'Pr_35_31_64_02', 'Pr_35_31_64_07', 'Pr_35_31_64_08', 'Pr_35_31_64_09',
+    'Pr_35_31_64_12', 'Pr_35_31_64_14', 'Pr_35_31_64_29', 'Pr_35_31_64_31',
+    'Pr_35_31_64_32', 'Pr_35_31_64_35', 'Pr_35_31_64_42', 'Pr_35_31_64_47',
+    'Pr_35_31_64_64', 'Pr_35_31_64_65', 'Pr_35_31_64_67', 'Pr_35_31_64_70',
+    'Pr_35_31_64_71', 'Pr_35_31_64_77', 'Pr_35_31_64_80', 'Pr_35_31_64_84',
+    'Pr_35_31_64_85', 'Pr_35_31_64_86', 'Pr_35_31_64_98', 'Pr_35_31_64_99',
+    'Pr_35_31_65',    'Pr_35_31_65_01', 'Pr_35_31_65_02', 'Pr_35_31_65_12',
+    'Pr_35_31_65_13', 'Pr_35_31_65_20', 'Pr_35_31_65_28', 'Pr_35_31_65_29',
+    'Pr_35_31_65_30', 'Pr_35_31_65_31', 'Pr_35_31_65_34', 'Pr_35_31_65_50',
+    'Pr_35_31_65_74', 'Pr_35_31_65_79', 'Pr_35_31_65_80', 'Pr_35_31_65_82',
+    'Pr_35_31_65_95', 'Pr_35_31_65_96', 'Pr_35_31_66_08', 'Pr_35_31_66_09',
+    'Pr_35_31_66_15', 'Pr_35_31_66_16', 'Pr_35_31_66_21', 'Pr_35_31_66_22',
+    'Pr_35_31_66_26', 'Pr_35_31_66_30', 'Pr_35_31_66_55', 'Pr_35_31_66_57',
+    'Pr_35_31_66_60', 'Pr_35_31_66_62', 'Pr_35_31_66_63', 'Pr_35_31_66_67',
+    'Pr_35_31_66_68', 'Pr_35_31_66_70', 'Pr_35_31_66_71', 'Pr_35_31_66_75',
+    'Pr_35_31_66_76', 'Pr_35_31_66_77', 'Pr_35_31_66_78', 'Pr_35_31_66_80',
+    ... 374 more items
+  ],
+  _id: 61559c3624f7a5a750e1f895,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:15:02.064Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=4&revisao=false [32m200[0m 134.448 ms - 222625[0m
+SearchRoute: 'Pr_35' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 474
+Data_save = {
+  results: [
+    'Pr_35_31_06_79', 'Pr_35_31_22',    'Pr_35_31_22_02', 'Pr_35_31_22_12',
+    'Pr_35_31_22_13', 'Pr_35_31_22_15', 'Pr_35_31_22_16', 'Pr_35_31_22_17',
+    'Pr_35_31_22_18', 'Pr_35_31_22_19', 'Pr_35_31_22_23', 'Pr_35_31_22_37',
+    'Pr_35_31_22_52', 'Pr_35_31_22_54', 'Pr_35_31_22_55', 'Pr_35_31_22_58',
+    'Pr_35_31_22_62', 'Pr_35_31_22_64', 'Pr_35_31_22_72', 'Pr_35_31_22_74',
+    'Pr_35_31_22_75', 'Pr_35_31_22_76', 'Pr_35_31_22_77', 'Pr_35_31_22_79',
+    'Pr_35_31_22_80', 'Pr_35_31_22_81', 'Pr_35_31_22_82', 'Pr_35_31_22_83',
+    'Pr_35_31_22_87', 'Pr_35_31_22_94', 'Pr_35_31_22_95', 'Pr_35_31_22_96',
+    'Pr_35_31_22_97', 'Pr_35_31_22_98', 'Pr_35_31_64',    'Pr_35_31_64_01',
+    'Pr_35_31_64_02', 'Pr_35_31_64_07', 'Pr_35_31_64_08', 'Pr_35_31_64_09',
+    'Pr_35_31_64_12', 'Pr_35_31_64_14', 'Pr_35_31_64_29', 'Pr_35_31_64_31',
+    'Pr_35_31_64_32', 'Pr_35_31_64_35', 'Pr_35_31_64_42', 'Pr_35_31_64_47',
+    'Pr_35_31_64_64', 'Pr_35_31_64_65', 'Pr_35_31_64_67', 'Pr_35_31_64_70',
+    'Pr_35_31_64_71', 'Pr_35_31_64_77', 'Pr_35_31_64_80', 'Pr_35_31_64_84',
+    'Pr_35_31_64_85', 'Pr_35_31_64_86', 'Pr_35_31_64_98', 'Pr_35_31_64_99',
+    'Pr_35_31_65',    'Pr_35_31_65_01', 'Pr_35_31_65_02', 'Pr_35_31_65_12',
+    'Pr_35_31_65_13', 'Pr_35_31_65_20', 'Pr_35_31_65_28', 'Pr_35_31_65_29',
+    'Pr_35_31_65_30', 'Pr_35_31_65_31', 'Pr_35_31_65_34', 'Pr_35_31_65_50',
+    'Pr_35_31_65_74', 'Pr_35_31_65_79', 'Pr_35_31_65_80', 'Pr_35_31_65_82',
+    'Pr_35_31_65_95', 'Pr_35_31_65_96', 'Pr_35_31_66_08', 'Pr_35_31_66_09',
+    'Pr_35_31_66_15', 'Pr_35_31_66_16', 'Pr_35_31_66_21', 'Pr_35_31_66_22',
+    'Pr_35_31_66_26', 'Pr_35_31_66_30', 'Pr_35_31_66_55', 'Pr_35_31_66_57',
+    'Pr_35_31_66_60', 'Pr_35_31_66_62', 'Pr_35_31_66_63', 'Pr_35_31_66_67',
+    'Pr_35_31_66_68', 'Pr_35_31_66_70', 'Pr_35_31_66_71', 'Pr_35_31_66_75',
+    'Pr_35_31_66_76', 'Pr_35_31_66_77', 'Pr_35_31_66_78', 'Pr_35_31_66_80',
+    ... 374 more items
+  ],
+  _id: 61559c3824f7a5a750e1f899,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:15:04.332Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=4&revisao=false [36m304[0m 100.191 ms - -[0m
+SearchRoute: 'Pr_35' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_35' ],
+  _id: 61559c4624f7a5a750e1f89d,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:15:18.741Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=1&revisao=true [32m200[0m 28.554 ms - 524[0m
+6152047bcf055d44dd07a6c5
+objectLength = 1
+"2021-09-28"
+[0mGET /comment/iditem/6152047bcf055d44dd07a6c5 [32m200[0m 5.813 ms - 239[0m
+SearchRoute: 'Pr_35' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61559cb724f7a5a750e1f8a3,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:17:11.803Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=1&revisao=false [36m304[0m 34.958 ms - -[0m
+SearchRoute: 'Pr_35' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_35' ],
+  _id: 61559cc024f7a5a750e1f8a7,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:17:20.969Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=1&revisao=true [32m200[0m 34.948 ms - 527[0m
+SearchRoute: 'Pr_35' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61559cc124f7a5a750e1f8ab,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:17:21.139Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=1&revisao=false [36m304[0m 32.009 ms - -[0m
+SearchRoute: 'Pr_35' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_35' ],
+  _id: 61559cc424f7a5a750e1f8af,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_35',
+  timestamp: 2021-09-30T11:17:24.443Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_35&tabela=Todos&nivel=1&revisao=true [36m304[0m 42.309 ms - -[0m
+6152047bcf055d44dd07a6c5
+objectLength = 1
+"2021-09-28"
+[0mGET /comment/iditem/6152047bcf055d44dd07a6c5 [36m304[0m 6.225 ms - -[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 2.984 ms - 1663[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 3.009 ms - 1663[0m
+SearchRoute: '' , 'Produtos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 629
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=3&especialidade= [32m200[0m 136.440 ms - 290491[0m
+SearchRoute: '' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7682
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&especialidade= [32m200[0m 880.728 ms - 3599741[0m
+SearchRoute: '' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7682
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&especialidade= [36m304[0m 810.167 ms - -[0m
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 1.870 ms - 25[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 4.825 ms - 1663[0m
+SearchRoute: '' , 'Ferramentas e Equipamentos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 813
+[0mGET /search?pesquisa=&tabela=Ferramentas%20e%20Equipamentos&nivel=4&especialidade= [32m200[0m 117.652 ms - 387611[0m
+SearchRoute: '' , 'Ferramentas e Equipamentos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Ferramentas%20e%20Equipamentos&nivel=1&especialidade= [32m200[0m 25.614 ms - 3397[0m
+SearchRoute: '' , 'Ferramentas e Equipamentos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 42
+[0mGET /search?pesquisa=&tabela=Ferramentas%20e%20Equipamentos&nivel=2&especialidade= [32m200[0m 28.912 ms - 20380[0m
+SearchRoute: 'TE_10_10' , 'Ferramentas e Equipamentos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'TE_10_10' ],
+  _id: 61559f9924f7a5a750e1f8c9,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'TE_10_10',
+  timestamp: 2021-09-30T11:29:29.779Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=TE_10_10&tabela=Ferramentas%20e%20Equipamentos&nivel=2&especialidade= [32m200[0m 34.026 ms - 536[0m
+SearchRoute: 'TE_10_10' , 'Ferramentas e Equipamentos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 17
+Data_save = {
+  results: [
+    'TE_10_10',       'TE_10_10_20',
+    'TE_10_10_20_07', 'TE_10_10_20_24',
+    'TE_10_10_20_30', 'TE_10_10_20_31',
+    'TE_10_10_20_46', 'TE_10_10_20_85',
+    'TE_10_10_20_97', 'TE_10_10_50',
+    'TE_10_10_50_85', 'TE_10_10_50_96',
+    'TE_10_10_70',    'TE_10_10_70_16',
+    'TE_10_10_70_23', 'TE_10_10_70_94',
+    'TE_10_10_70_96'
+  ],
+  _id: 61559f9d24f7a5a750e1f8cd,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'TE_10_10',
+  timestamp: 2021-09-30T11:29:33.619Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=TE_10_10&tabela=Ferramentas%20e%20Equipamentos&nivel=4&especialidade= [32m200[0m 28.374 ms - 8127[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '61544915cf055d44dd07ba0c',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'superfícial',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:30:21 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 9.127 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '61544915cf055d44dd07ba0c',
+  name: '',
+  institution: '',
+  contact: undefined,
+  comment: 'superfícial deve ser superficial',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:30:35 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 4.854 ms - 46[0m
+SearchRoute: 'TE_10_10_20' , 'Ferramentas e Equipamentos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 8
+Data_save = {
+  results: [
+    'TE_10_10_20',
+    'TE_10_10_20_07',
+    'TE_10_10_20_24',
+    'TE_10_10_20_30',
+    'TE_10_10_20_31',
+    'TE_10_10_20_46',
+    'TE_10_10_20_85',
+    'TE_10_10_20_97'
+  ],
+  _id: 6155a02924f7a5a750e1f8d5,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'TE_10_10_20',
+  timestamp: 2021-09-30T11:31:53.850Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=TE_10_10_20&tabela=Ferramentas%20e%20Equipamentos&nivel=4&especialidade= [32m200[0m 30.388 ms - 3821[0m
+SearchRoute: 'TE_10_10_20' , 'Ferramentas e Equipamentos' , '4' , 'undefined' e 'Todas'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 8
+Data_save = {
+  results: [
+    'TE_10_10_20',
+    'TE_10_10_20_07',
+    'TE_10_10_20_24',
+    'TE_10_10_20_30',
+    'TE_10_10_20_31',
+    'TE_10_10_20_46',
+    'TE_10_10_20_85',
+    'TE_10_10_20_97'
+  ],
+  _id: 6155a08124f7a5a750e1f8d9,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'TE_10_10_20',
+  timestamp: 2021-09-30T11:33:21.208Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=TE_10_10_20&tabela=Ferramentas%20e%20Equipamentos&nivel=4&especialidade=Todas [32m200[0m 27.815 ms - 3821[0m
+SearchRoute: 'TE_10_10_20' , 'Ferramentas e Equipamentos' , '4' , 'undefined' e 'Todas'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 8
+Data_save = {
+  results: [
+    'TE_10_10_20',
+    'TE_10_10_20_07',
+    'TE_10_10_20_24',
+    'TE_10_10_20_30',
+    'TE_10_10_20_31',
+    'TE_10_10_20_46',
+    'TE_10_10_20_85',
+    'TE_10_10_20_97'
+  ],
+  _id: 6155a09224f7a5a750e1f8dd,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'TE_10_10_20',
+  timestamp: 2021-09-30T11:33:38.074Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=TE_10_10_20&tabela=Ferramentas%20e%20Equipamentos&nivel=4&especialidade=Todas [36m304[0m 29.098 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 11:34:03 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 11:48:17 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: 'olhal' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_20_29_08_27', 'Pr_20_29_76_28' ],
+  _id: 6155a47f5f985b831c6bbd72,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'olhal',
+  timestamp: 2021-09-30T11:50:23.352Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=olhal&tabela=Produtos&nivel=4&especialidade= [32m200[0m 51.575 ms - 910[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd079d75',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'camarão',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:51:36 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 5.843 ms - 46[0m
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4
+Data_save = {
+  results: [
+    'Pr_20_29_10_12',
+    'Pr_20_29_10_16',
+    'Pr_65_72_97_72',
+    'Pr_65_72_97_81'
+  ],
+  _id: 6155a4e15f985b831c6bbd78,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T11:52:01.038Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&especialidade= [32m200[0m 38.621 ms - 1969[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd07b56f',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'Tomadas de pino redondo',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:52:54 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 2.031 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd079caf',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'Olhais para cabos',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:53:44 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 4.328 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd079cb3',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'Olhais de cabos suspensos',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:54:11 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 8.274 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd07b574',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'Dispositivos de corrente residual de saída',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 12:55:03 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 4.233 ms - 46[0m
+6152047bcf055d44dd079caf
+objectLength = 1
+"2021-09-30"
+[0mGET /comment/iditem/6152047bcf055d44dd079caf [32m200[0m 6.284 ms - 244[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd079caf',
+  name: 'TESTE',
+  institution: undefined,
+  contact: undefined,
+  comment: `oiuàçi('"²²`,
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 13:01:33 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 4.115 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd079caf',
+  name: '',
+  institution: '',
+  contact: undefined,
+  comment: `oiuàçi('"²²EPZKR¨PEZRQËZPRËZ`,
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 13:01:39 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 5.117 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6152047bcf055d44dd079caf',
+  name: '',
+  institution: '',
+  contact: undefined,
+  comment: 'QSKNDLKNSQLKDNQKS',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 13:01:49 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 3.739 ms - 46[0m
+6152047bcf055d44dd079caf
+objectLength = 4
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+[0mGET /comment/iditem/6152047bcf055d44dd079caf [32m200[0m 3.367 ms - 940[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7c85f985b831c6bbd8e,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:24.148Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=false [32m200[0m 33.316 ms - 42[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+SearchRoute: 'soquete' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7ce5f985b831c6bbd94,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:30.950Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=true [32m200[0m 25.937 ms - 42[0m
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7ce5f985b831c6bbd96,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:30.965Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=false [36m304[0m 30.436 ms - -[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7cf5f985b831c6bbd9a,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:31.584Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=false [36m304[0m 32.503 ms - -[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7d05f985b831c6bbd9e,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:32.722Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=false [36m304[0m 31.877 ms - -[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7d85f985b831c6bbda2,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:40.155Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=true [36m304[0m 31.319 ms - -[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7d95f985b831c6bbda6,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:41.637Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=true [36m304[0m 25.834 ms - -[0m
+SearchRoute: 'soquete' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7dc5f985b831c6bbdaa,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:44.844Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Todos&nivel=1&revisao=true [36m304[0m 34.778 ms - -[0m
+SearchRoute: 'soquete' , 'Produtos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6155a7dd5f985b831c6bbdae,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:04:45.276Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=1&revisao=true [32m200[0m 30.566 ms - 42[0m
+SearchRoute: '' , 'Produtos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=1&revisao=true [32m200[0m 29.539 ms - 982[0m
+SearchRoute: '' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1606
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&revisao=true [32m200[0m 297.483 ms - 771921[0m
+SearchRoute: '' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1606
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&revisao=true [36m304[0m 212.453 ms - -[0m
+SearchRoute: '' , 'Produtos' , '3' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 96
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=3&revisao=true [32m200[0m 40.455 ms - 45878[0m
+SearchRoute: '' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1606
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&revisao=true [36m304[0m 203.076 ms - -[0m
+SearchRoute: 'Soquete' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_20_29_10_12', 'Pr_20_29_10_16' ],
+  _id: 6155a8035f985b831c6bbdbc,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Soquete',
+  timestamp: 2021-09-30T12:05:23.799Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Soquete&tabela=Produtos&nivel=4&revisao=true [32m200[0m 40.261 ms - 989[0m
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_20_29_10_12', 'Pr_20_29_10_16' ],
+  _id: 6155a8155f985b831c6bbdc0,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:05:41.988Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&revisao=true [32m200[0m 32.642 ms - 989[0m
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_20_29_10_12', 'Pr_20_29_10_16' ],
+  _id: 6155a8175f985b831c6bbdc4,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:05:43.329Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&revisao=true [36m304[0m 35.036 ms - -[0m
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_20_29_10_12', 'Pr_20_29_10_16' ],
+  _id: 6155a81b5f985b831c6bbdc8,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:05:47.516Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&revisao=true [36m304[0m 36.319 ms - -[0m
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_65_72_97_72', 'Pr_65_72_97_81' ],
+  _id: 6155a8215f985b831c6bbdcc,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:05:53.303Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&revisao=false [32m200[0m 38.042 ms - 1021[0m
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Pr_20_29_10_12', 'Pr_20_29_10_16' ],
+  _id: 6155a8285f985b831c6bbdd0,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T12:06:00.036Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&revisao=true [36m304[0m 32.246 ms - -[0m
+6152047bcf055d44dd079caf
+objectLength = 4
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+[0mGET /comment/iditem/6152047bcf055d44dd079caf [32m200[0m 6.668 ms - 940[0m
+6152047bcf055d44dd079caf
+objectLength = 4
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+[0mGET /comment/iditem/6152047bcf055d44dd079caf [36m304[0m 5.427 ms - -[0m
+6152047bcf055d44dd079caf
+objectLength = 4
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+[0mGET /comment/iditem/6152047bcf055d44dd079caf [36m304[0m 5.348 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1600.442 ms - 6948116[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1520.584 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1575.512 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1573.997 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 59.514 ms - 65621[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [32m200[0m 161.468 ms - 456230[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [32m200[0m 535.833 ms - 2098733[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1563.002 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 68.131 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 169.017 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 33.931 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 33.157 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 39.560 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 158.744 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 66.361 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 158.361 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 35.294 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 137.537 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 46.667 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 137.725 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 39.869 ms - -[0m
+SearchRoute: 'Co_20' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Co_20' ],
+  _id: 6155c4575f985b831c6bbe04,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Co_20',
+  timestamp: 2021-09-30T14:06:15.739Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Co_20&tabela=Todos&nivel=1&especialidade= [32m200[0m 35.872 ms - 564[0m
+SearchRoute: 'Co_20' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 13
+Data_save = {
+  results: [
+    'Co_20',    'Co_20_10',
+    'Co_20_15', 'Co_20_20',
+    'Co_20_45', 'Co_20_50',
+    'Co_20_55', 'Co_20_60',
+    'Co_20_65', 'Co_20_70',
+    'Co_20_75', 'Co_20_80',
+    'Co_20_90'
+  ],
+  _id: 6155c45e5f985b831c6bbe08,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Co_20',
+  timestamp: 2021-09-30T14:06:22.708Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Co_20&tabela=Todos&nivel=2&especialidade= [32m200[0m 26.852 ms - 6058[0m
+SearchRoute: 'Co_20' , 'Todos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 46
+Data_save = {
+  results: [
+    'Co_20',       'Co_20_10',    'Co_20_10_60',
+    'Co_20_15',    'Co_20_15_08', 'Co_20_15_58',
+    'Co_20_20',    'Co_20_20_15', 'Co_20_20_40',
+    'Co_20_20_50', 'Co_20_20_70', 'Co_20_45',
+    'Co_20_45_50', 'Co_20_45_54', 'Co_20_50',
+    'Co_20_50_05', 'Co_20_50_50', 'Co_20_50_53',
+    'Co_20_50_60', 'Co_20_50_71', 'Co_20_50_78',
+    'Co_20_50_94', 'Co_20_55',    'Co_20_55_10',
+    'Co_20_60',    'Co_20_60_02', 'Co_20_60_10',
+    'Co_20_60_56', 'Co_20_65',    'Co_20_65_56',
+    'Co_20_70',    'Co_20_70_18', 'Co_20_70_65',
+    'Co_20_75',    'Co_20_75_42', 'Co_20_75_64',
+    'Co_20_75_71', 'Co_20_80',    'Co_20_80_04',
+    'Co_20_80_80', 'Co_20_90',    'Co_20_90_02',
+    'Co_20_90_16', 'Co_20_90_27', 'Co_20_90_47',
+    'Co_20_90_53'
+  ],
+  _id: 6155c4655f985b831c6bbe0c,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Co_20',
+  timestamp: 2021-09-30T14:06:29.687Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Co_20&tabela=Todos&nivel=3&especialidade= [32m200[0m 39.309 ms - 21360[0m
+SearchRoute: 'Co_20' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 46
+Data_save = {
+  results: [
+    'Co_20',       'Co_20_10',    'Co_20_10_60',
+    'Co_20_15',    'Co_20_15_08', 'Co_20_15_58',
+    'Co_20_20',    'Co_20_20_15', 'Co_20_20_40',
+    'Co_20_20_50', 'Co_20_20_70', 'Co_20_45',
+    'Co_20_45_50', 'Co_20_45_54', 'Co_20_50',
+    'Co_20_50_05', 'Co_20_50_50', 'Co_20_50_53',
+    'Co_20_50_60', 'Co_20_50_71', 'Co_20_50_78',
+    'Co_20_50_94', 'Co_20_55',    'Co_20_55_10',
+    'Co_20_60',    'Co_20_60_02', 'Co_20_60_10',
+    'Co_20_60_56', 'Co_20_65',    'Co_20_65_56',
+    'Co_20_70',    'Co_20_70_18', 'Co_20_70_65',
+    'Co_20_75',    'Co_20_75_42', 'Co_20_75_64',
+    'Co_20_75_71', 'Co_20_80',    'Co_20_80_04',
+    'Co_20_80_80', 'Co_20_90',    'Co_20_90_02',
+    'Co_20_90_16', 'Co_20_90_27', 'Co_20_90_47',
+    'Co_20_90_53'
+  ],
+  _id: 6155c46b5f985b831c6bbe10,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Co_20',
+  timestamp: 2021-09-30T14:06:35.961Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Co_20&tabela=Todos&nivel=4&especialidade= [32m200[0m 38.188 ms - 21360[0m
+SearchRoute: '' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7682
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&especialidade= [32m200[0m 862.840 ms - 3599740[0m
+SearchRoute: '' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7682
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&especialidade= [36m304[0m 779.839 ms - -[0m
+SearchRoute: '' , 'Produtos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7682
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&especialidade= [36m304[0m 603.847 ms - -[0m
+SearchRoute: '' , 'Produtos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 86
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=2&especialidade= [32m200[0m 29.095 ms - 40244[0m
+SearchRoute: '' , 'Produtos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 629
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=3&especialidade= [36m304[0m 66.531 ms - -[0m
+SearchRoute: '' , 'Complexos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=3&especialidade= [32m200[0m 99.951 ms - 179656[0m
+SearchRoute: '' , 'Complexos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 89
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=2&especialidade= [32m200[0m 34.835 ms - 41958[0m
+SearchRoute: '' , 'Complexos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=3&especialidade= [36m304[0m 70.564 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1533.008 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1580.907 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Generico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Generico [32m200[0m 37.893 ms - 42[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Agricultura/Botânica'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Agricultura/Bot%C3%A2nica [36m304[0m 26.271 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Agricultura/Botânica'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Agricultura/Bot%C3%A2nica [36m304[0m 25.820 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1557.242 ms - -[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: '01/01/2021',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 15:35:11 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 11.580 ms - 46[0m
+6151e818cf055d44dd0787a1
+objectLength = 2
+"2021-09-30"
+"2021-09-30"
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 11.603 ms - 460[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 4.192 ms - 1663[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 3.276 ms - 1663[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1596.384 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1563.834 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 34.658 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 36.826 ms - -[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'TESTIZLFELM',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 16:08:41 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 15.016 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: '',
+  institution: '',
+  contact: undefined,
+  comment: 'TESTIZLFELM35YSB HRTHTR',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 16:09:52 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 5.303 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: '',
+  institution: '',
+  contact: undefined,
+  comment: 'SCKDNCBDOICDS',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 16:10:57 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 4.995 ms - 46[0m
+Error POST Comment
+[0mPOST /comment [32m200[0m 1.214 ms - 46[0m
+Error POST Comment
+[0mPOST /comment [32m200[0m 1.325 ms - 46[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: '',
+  institution: '',
+  contact: undefined,
+  comment: 'SCKDNCBDOICDSy',
+  status: 'New',
+  timestamp: 'Thu Sep 30 2021 16:13:20 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 4.486 ms - 46[0m
+6151e818cf055d44dd0787a1
+objectLength = 6
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+"2021-09-30"
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 7.228 ms - 1346[0m
+Error POST Comment
+[0mPOST /comment [32m200[0m 1.057 ms - 46[0m
+Error POST Comment
+[0mPOST /comment [32m200[0m 1.048 ms - 46[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:30:28 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:41:30 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: 'soquete' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_20_29_10_16' ],
+  _id: 6155dafba65672271c11fc7c,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'soquete',
+  timestamp: 2021-09-30T15:42:51.312Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=soquete&tabela=Produtos&nivel=4&revisao=true [32m200[0m 51.762 ms - 525[0m
+SearchRoute: '' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1605
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&revisao=true [32m200[0m 302.561 ms - 769216[0m
+SearchRoute: '' , 'Produtos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1605
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=4&revisao=true [36m304[0m 214.080 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 15
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=true [32m200[0m 29.859 ms - 7501[0m
+SearchRoute: '' , 'Todos' , '3' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 551
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&revisao=true [32m200[0m 98.483 ms - 274507[0m
+SearchRoute: '' , 'Todos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 3241
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=true [32m200[0m 413.767 ms - 1601062[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 6945226,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:77.111.246.38', family: 'IPv6', port: 59123 },
+    [Symbol(async_id_symbol)]: 780,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 6945226\r\n' +
+    'ETag: W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"\r\n' +
+    'Date: Thu, 30 Sep 2021 15:45:10 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 780,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'pt-PT,pt;q=0.9',
+      'upgrade-insecure-requests': '1'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.50',
+      'Accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Accept-Encoding',
+      'gzip, deflate',
+      'Accept-Language',
+      'pt-PT,pt;q=0.9',
+      'Upgrade-Insecure-Requests',
+      '1'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 780,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 686586, 231652500 ],
+    _startTime: 2021-09-30T15:45:09.528Z,
+    _remoteAddress: '::ffff:77.111.246.38',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 686587, 314144700 ],
+  _startTime: 2021-09-30T15:45:10.611Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '6945226' ],
+    etag: [ 'ETag', 'W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"' ]
+  }
+}
+[0mGET / [32m200[0m 1082.492 ms - 6945226[0m
+Lista de Especialidades
+[0mGET /lists/especialidades [32m200[0m 12.315 ms - 1663[0m
+[0mGET /favicon.ico [33m404[0m 2.033 ms - 150[0m
+Lista de Tabelas
+[0mGET /lists/tabelas [32m200[0m 3.112 ms - 25[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 3.534 ms - 1663[0m
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 4.554 ms - 25[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:47:33 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:47:53 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:49:42 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Lista de Especialidades
+[0mGET /lists/especialidades/ [36m304[0m 18.814 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:49:56 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:52:45 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Lista de Tabelas
+[0mGET /lists/tabelas/ [36m304[0m 18.178 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 15:54:22 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 16:00:53 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Lista de Tabelas
+[0mGET /lists/tabelas/ [36m304[0m 15.432 ms - -[0m
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 2.862 ms - 25[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 16:01:30 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 16:38:54 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_85
+Slice: Ss, Ss_85, undefined, undefined, undefined.
+Pesquisa: ",[object Object]".
+Error Item
+[0mGET /family/Ss_85 [32m200[0m 6.415 ms - 131[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 16:43:37 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 16:44:25 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_85
+Slice: Ss, Ss_85, undefined, undefined, undefined.
+Pesquisa: ",[object Object]".
+Error Item
+[0mGET /family/Ss_85 [32m200[0m 5.853 ms - 131[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: ",[object Object],[object Object],[object Object]".
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 1.608 ms - 163[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 17:02:13 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 17:02:54 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 17:03:00 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 17:03:14 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 17:05:29 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-09-30 17:05:49 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: true,
+  chunkedEncoding: false,
+  shouldKeepAlive: false,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: false,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 0,
+  _hasBody: false,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:165.232.152.131', family: 'IPv6', port: 56222 },
+    [Symbol(async_id_symbol)]: 7620,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 6945226\r\n' +
+    'ETag: W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"\r\n' +
+    'Date: Thu, 30 Sep 2021 20:05:57 GMT\r\n' +
+    'Connection: close\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 7620,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 0,
+    httpVersion: '1.0',
+    complete: true,
+    headers: {},
+    rawHeaders: [],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'HEAD',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 7620,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 702233, 970429200 ],
+    _startTime: 2021-09-30T20:05:54.782Z,
+    _remoteAddress: '::ffff:165.232.152.131',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 702236, 297968200 ],
+  _startTime: 2021-09-30T20:05:57.110Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '6945226' ],
+    etag: [ 'ETag', 'W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"' ]
+  }
+}
+[0mHEAD / [32m200[0m 2327.539 ms - 6945226[0m
+SearchRoute: '' , 'Produtos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 13
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=1&revisao=false [32m200[0m 240.200 ms - 6116[0m
+SearchRoute: '' , 'Produtos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 13
+[0mGET /search?pesquisa=&tabela=Produtos&nivel=1&revisao=false [36m304[0m 74.085 ms - -[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: true,
+  chunkedEncoding: false,
+  shouldKeepAlive: false,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 6945226,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:23.129.64.158', family: 'IPv6', port: 36909 },
+    [Symbol(async_id_symbol)]: 33536,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 6945226\r\n' +
+    'ETag: W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"\r\n' +
+    'Date: Fri, 01 Oct 2021 06:13:52 GMT\r\n' +
+    'Connection: close\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 33536,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+      connection: 'close',
+      accept: '*/*',
+      'accept-encoding': 'gzip'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+      'Connection',
+      'close',
+      'Accept',
+      '*/*',
+      'Accept-Encoding',
+      'gzip'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 33536,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 738710, 652338900 ],
+    _startTime: 2021-10-01T06:13:51.464Z,
+    _remoteAddress: '::ffff:23.129.64.158',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 738711, 977096600 ],
+  _startTime: 2021-10-01T06:13:52.789Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '6945226' ],
+    etag: [ 'ETag', 'W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"' ]
+  }
+}
+[0mGET / [32m200[0m 1324.758 ms - 6945226[0m
+[0mGET /favicon.ico [33m404[0m 5.698 ms - 150[0m
+SearchRoute: '' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 124
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [32m200[0m 87.237 ms - 58156[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [32m200[0m 24.515 ms - 3410[0m
+SearchRoute: '' , 'Sistemas' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 7
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=1&revisao=false [36m304[0m 26.211 ms - -[0m
+SearchRoute: '' , 'Elementos/ funções' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14
+[0mGET /search?pesquisa=&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=1&revisao=false [32m200[0m 34.558 ms - 6783[0m
+SearchRoute: '' , 'Elementos/ funções' , '2' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 78
+[0mGET /search?pesquisa=&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=2&revisao=false [32m200[0m 35.045 ms - 36240[0m
+SearchRoute: 'ef_20' , 'Elementos/ funções' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'EF_20' ],
+  _id: 6156ce3c97cc9e31b4b22232,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'ef_20',
+  timestamp: 2021-10-01T09:00:44.670Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=ef_20&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=1&revisao=false [32m200[0m 51.750 ms - 493[0m
+SearchRoute: 'ef_20' , 'Elementos/ funções' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14
+Data_save = {
+  results: [
+    'EF_20',       'EF_20_05',
+    'EF_20_05_30', 'EF_20_10',
+    'EF_20_10_15', 'EF_20_10_30',
+    'EF_20_10_50', 'EF_20_10_75',
+    'EF_20_10_80', 'EF_20_50',
+    'EF_20_50_01', 'EF_20_50_07',
+    'EF_20_50_64', 'EF_20_50_82'
+  ],
+  _id: 6156ce4097cc9e31b4b22236,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'ef_20',
+  timestamp: 2021-10-01T09:00:48.220Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=ef_20&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=4&revisao=false [32m200[0m 34.633 ms - 6359[0m
+SearchRoute: '' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 124
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&revisao=false [32m200[0m 53.868 ms - 58156[0m
+SearchRoute: '' , 'Complexos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 16
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=1&revisao=false [32m200[0m 23.602 ms - 7711[0m
+SearchRoute: 'fff' , 'Complexos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6156e6e197cc9e31b4b2223e,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'fff',
+  timestamp: 2021-10-01T10:45:53.973Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=fff&tabela=Complexos&nivel=1&revisao=false [32m200[0m 23.148 ms - 42[0m
+SearchRoute: '' , 'Complexos' , '3' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=3&revisao=false [32m200[0m 109.954 ms - 179656[0m
+6151e818cf055d44dd0787a5
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a5 [32m200[0m 7.593 ms - 42[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 6945226,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:170.106.115.55', family: 'IPv6', port: 23426 },
+    [Symbol(async_id_symbol)]: 48397,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 6945226\r\n' +
+    'ETag: W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"\r\n' +
+    'Date: Fri, 01 Oct 2021 11:46:04 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 48397,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: { host: 'localhost', 'user-agent': 'curl/7.64.1', accept: '*/*' },
+    rawHeaders: [
+      'Host',
+      'localhost',
+      'User-Agent',
+      'curl/7.64.1',
+      'Accept',
+      '*/*'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 48397,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 758642, 620335800 ],
+    _startTime: 2021-10-01T11:46:03.432Z,
+    _remoteAddress: '::ffff:170.106.115.55',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 758643, 660334200 ],
+  _startTime: 2021-10-01T11:46:04.472Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '6945226' ],
+    etag: [ 'ETag', 'W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"' ]
+  }
+}
+[0mGET / [32m200[0m 1039.998 ms - 6945226[0m
+SearchRoute: '' , 'Complexos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 16
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=1&revisao=false [36m304[0m 38.087 ms - -[0m
+SearchRoute: '' , 'Complexos' , '3' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=3&revisao=false [32m200[0m 96.963 ms - 179656[0m
+SearchRoute: '' , 'Complexos' , '3' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=3&revisao=false [36m304[0m 77.204 ms - -[0m
+SearchRoute: '' , 'Complexos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=4&revisao=false [32m200[0m 66.036 ms - 179656[0m
+SearchRoute: '' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11431
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=false [32m200[0m 1253.869 ms - 5343858[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 14:15:38 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 14:16:55 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 6.026 ms - 115[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 6945226,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 20
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:162.142.125.44', family: 'IPv6', port: 47802 },
+    [Symbol(async_id_symbol)]: 1263,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 6945226\r\n' +
+    'ETag: W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"\r\n' +
+    'Date: Fri, 01 Oct 2021 14:45:06 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 1263,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+      accept: '*/*',
+      'accept-encoding': 'gzip'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+      'Accept',
+      '*/*',
+      'Accept-Encoding',
+      'gzip'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 1263,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 769384, 340569600 ],
+    _startTime: 2021-10-01T14:45:05.152Z,
+    _remoteAddress: '::ffff:162.142.125.44',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 769385, 500969100 ],
+  _startTime: 2021-10-01T14:45:06.312Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '6945226' ],
+    etag: [ 'ETag', 'W/"69f9ca-5KcJxCjCF//I9CJStY6OxwTt1rM"' ]
+  }
+}
+[0mGET / [32m200[0m 1160.399 ms - 6945226[0m
+SearchRoute: 'Pr_25_71_14_16' , 'Todos' , '1' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61572514a3090068c255a6b0,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_25_71_14_16',
+  timestamp: 2021-10-01T15:11:16.516Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_25_71_14_16&tabela=Todos&nivel=1&revisao=false [32m200[0m 58.447 ms - 42[0m
+SearchRoute: 'Pr_25_71_14_16' , 'Todos' , '3' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61572519a3090068c255a6b4,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_25_71_14_16',
+  timestamp: 2021-10-01T15:11:21.908Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_25_71_14_16&tabela=Todos&nivel=3&revisao=false [32m200[0m 33.314 ms - 42[0m
+SearchRoute: 'Pr_25_71_14_16' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_25_71_14_16' ],
+  _id: 6157251ca3090068c255a6b8,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_25_71_14_16',
+  timestamp: 2021-10-01T15:11:24.352Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_25_71_14_16&tabela=Todos&nivel=4&revisao=false [32m200[0m 33.152 ms - 482[0m
+SearchRoute: 'Pr_25_71_14_16' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_25_71_14_16' ],
+  _id: 61572b4ba3090068c255a6bc,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_25_71_14_16',
+  timestamp: 2021-10-01T15:37:47.205Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_25_71_14_16&tabela=Todos&nivel=4&revisao=false [32m200[0m 37.014 ms - 477[0m
+SearchRoute: '' , 'Todos' , '4' , 'true' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 3241
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=true [32m200[0m 475.692 ms - 1601051[0m
+SearchRoute: '' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11430
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=false [32m200[0m 1309.080 ms - 5343417[0m
+SearchRoute: '' , 'Todos' , '4' , 'false' e 'undefined'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 11430
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&revisao=false [36m304[0m 1278.658 ms - -[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 4.803 ms - 115[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 2.154 ms - 115[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:25:42 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 74.473 ms - 54[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:26:25 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 33.656 ms - 549[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:27:02 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 30.384 ms - 25[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:27:15 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 40.575 ms - 1001[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:27:48 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 6.191 ms - 126[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:28:04 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 6.665 ms - 126[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:28:13 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 43.559 ms - 1462[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-01 16:31:27 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 44.332 ms - 1473[0m
+[32m[nodemon] restarting due to changes...[39m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 31.586 ms - 1473[0m
+[32m[nodemon] restarting due to changes...[39m
