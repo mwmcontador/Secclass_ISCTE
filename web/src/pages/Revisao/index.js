@@ -227,6 +227,7 @@ const Revisao = () => {
         <table className="table table-striped table-lg">
           <tr>
             <th scope="col-4">Código</th>
+            <th class="text-center" scope="col-2"></th>
             <th scope="col-4">Título (PT)</th>
             <th scope="col-4">Title (EN)</th>
             <th class="text-center" scope="col-2">
