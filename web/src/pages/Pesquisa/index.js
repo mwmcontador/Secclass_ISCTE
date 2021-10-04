@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Item from "../../components/Item";
+import Item from "../../components/Lista";
 import Pagination from "../../components/Pagination/Pagination";
 import api from "../../services/api";
 
@@ -73,7 +73,7 @@ const Pesquisa = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 ">
             <label> Tabela</label>
             <select
               className="form-control"
@@ -128,56 +128,7 @@ const Pesquisa = () => {
               </option>
             </select>
           </div>
-          <div className="col-4">
-            <label>Revisão por especialidade</label>
-            <select
-              className="form-control"
-              onChange={(e) => {
-                setFiltros({
-                  ...filtros,
-                  Especialidade: e.target.value,
-                });
-              }}
-            >
-              <option value="" selected>
-                ---
-              </option>
-              <option value="Todas">Todas as Especialidades</option>
-              <option value="Generico">Generico</option>
-              <option value="Agricultura/Botânica">Agricultura/Botânica</option>
-              <option value="Arquitetura paisagista">
-                Arquitetura paisagista
-              </option>
-              <option value="Climatização">Climatização</option>
-              <option value="Eng. ferroviária">Eng. ferroviária</option>
-              <option value="Eng. hidráulica">Eng. hidráulica</option>
-              <option value="Eng. Rodoviária">Eng. Rodoviária</option>
-              <option value="Engenharia naval">Engenharia naval</option>
-              <option value="Ensino">Ensino</option>
-              <option value="Estruturas">Estruturas</option>
-              <option value="Ferroviária">Ferroviária</option>
-              <option value="Geotecnia">Geotecnia</option>
-              <option value="Gestão de obra">Gestão de obra</option>
-              <option value="Gestão de projeto">Gestão de projeto</option>
-              <option value="Goetecnia">Goetecnia</option>
-              <option value="Hidráulica">Hidráulica</option>
-              <option value="Hidráulica marinha e fluvial">
-                Hidráulica marinha e fluvial
-              </option>
-              <option value="Hospitalar">Hospitalar</option>
-              <option value="Infraestruturas hidráulica marítima">
-                Infraestruturas hidráulica marítima
-              </option>
-              <option value="Judicial">Judicial</option>{" "}
-              <option value="Pecuária">Pecuária</option>{" "}
-              <option value="Reablitação">Reablitação</option>{" "}
-              <option value="Redes Prediais de Água e Esgotos">
-                Redes Prediais de Água e Esgotos
-              </option>{" "}
-              <option value="Rodoviária">Rodoviária</option>
-              <option value="Serviço de incêndio">Serviço de incêndio</option>
-            </select>
-          </div>
+          <div className="col-4"></div>
         </div>
         <br />
 
@@ -193,7 +144,7 @@ const Pesquisa = () => {
         <div className="col">
           <span>Resultados: {itens.length}</span>
         </div>
-        <div className="col">
+        <div className="col text-right">
           <Pagination
             limit={LIMIT.value}
             total={itens.length}
@@ -233,7 +184,7 @@ const Pesquisa = () => {
           <tr>
             <th scope="col-4">Código</th>
             <th scope="col-4">Título (PT)</th>
-            <th scope="col-4">Title (EN)</th>
+
             <th class="text-center" scope="col-2">
               Tabela
             </th>
