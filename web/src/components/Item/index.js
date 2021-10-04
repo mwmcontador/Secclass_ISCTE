@@ -124,7 +124,7 @@ const Item = ({ item }) => {
     <tr class="table table-striped">
       {showModal && <ModalOriginal props={item} />}
       <td>{item?.code_item}</td>
-
+      <td>{item.review}</td>
       <td>{item?.titulo_SECClasS}</td>
       <td>{item?.title_item}</td>
       <td align="center">{item.code_tabela}</td>
