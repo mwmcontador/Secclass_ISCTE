@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Comentarios from "../Comentarios/comentarios";
-import api from "../../services/api";
 
 import { Modal } from "react-bootstrap";
 const url = "https://toolkit.thenbs.com/uniclass/";
@@ -18,7 +17,7 @@ const Item = ({ item }) => {
           size="lg"
         >
           <Modal.Header closeButton>
-            <Modal.Title>Item</Modal.Title>
+            <Modal.Title>{item?.titulo_SECClasS}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <script>var={item.code_item}</script>
@@ -77,9 +76,6 @@ const Item = ({ item }) => {
           <Modal.Footer>
             <div className="row">
               <div className="col">
-                <button className="btn-info">Comentar</button>
-                {"  "}
-
                 <button className="btn-secondary" onClick={mostrarItem}>
                   Cancelar
                 </button>
@@ -102,14 +98,13 @@ const Item = ({ item }) => {
   };
 
   //
-  const [post, setPost] = useState([]);
 
   //Listar os Comentários
+  /*
   const ListarComentarios = async () => {
     try {
       const url_comment = `/comment/iditem/${item._id}`;
       const responseComment = await api.get(`/comment/iditem/${item._id}`);
-
       const resComment = responseComment.data;
       console.log("Function ListarComentarios ", resComment);
       console.log("url ", url_comment);
@@ -123,15 +118,18 @@ const Item = ({ item }) => {
       return false;
     }
   };
+  */
   return (
-    <tr class="table table-hover">
+    <tr class="table table-striped">
       {showModal && <ModalOriginal props={item} />}
-      <td scope="row">{item?.code_item}</td>
+      <td>{item?.code_item}</td>
+      <td>{item?.review}</td>
       <td>{item?.titulo_SECClasS}</td>
+      <td>{item?.title_item}</td>
       <td align="center">{item.code_tabela}</td>
       <td align="center">{item.nivel_item}</td>
       <td className="text-center">
-        <button className="btn btn-success" onClick={mostrarItem}>
+        <button className="btn btn-mostrar" onClick={mostrarItem}>
           Mostrar
         </button>
       </td>

@@ -15583,3 +15583,839 @@ Parametro tabela: [object Object]
 Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
 Numeros de docs objectLength = 14672
 [0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1637.488 ms - -[0m
+SearchRoute: 'porta' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 175
+Data_save = {
+  results: [
+    'En_30_70_17',    'En_32_85_21',    'En_32_85_82',    'En_80_35_89',
+    'En_80_96_92',    'SL_32_50_12',    'SL_45_10_16',    'SL_80_10_55',
+    'SL_80_96_20',    'SL_90_10_34',    'EF_25_30',       'Ss_25_20_68',
+    'Ss_25_20_68_30', 'Ss_25_20_68_50', 'Ss_25_20_68_65', 'Ss_25_30',
+    'Ss_25_30_20',    'Ss_25_30_20_22', 'Ss_25_30_20_25', 'Ss_25_30_20_30',
+    'Ss_25_30_20_32', 'Ss_25_30_20_37', 'Ss_25_30_20_38', 'Ss_25_30_20_39',
+    'Ss_25_30_20_40', 'Ss_25_30_20_45', 'Ss_25_30_20_62', 'Ss_25_30_20_65',
+    'Ss_25_30_20_70', 'Ss_25_30_20_73', 'Ss_25_30_20_76', 'Ss_25_30_20_77',
+    'Ss_25_30_20_78', 'Ss_25_30_20_84', 'Ss_25_30_20_93', 'Ss_25_32',
+    'Ss_25_32_35_05', 'Ss_25_36_30_30', 'Ss_25_38_20',    'Ss_25_38_20_20',
+    'Ss_25_38_20_30', 'Ss_30_40_50',    'Ss_30_40_50_20', 'Ss_30_40_50_45',
+    'Ss_30_40_50_80', 'Ss_30_40_50_95', 'Ss_30_40_65',    'Ss_30_40_65_30',
+    'Ss_30_40_65_50', 'Ss_30_40_65_60', 'Ss_37_17_35_60', 'Ss_45_40',
+    'Ss_55_70_99_84', 'Ss_75_30_35_86', 'Ss_75_40_02_94', 'Pr_20_29_30_24',
+    'Pr_25_93_52_34', 'Pr_25_93_52_35', 'Pr_30_36_08_13', 'Pr_30_36_08_22',
+    'Pr_30_36_08_23', 'Pr_30_36_08_25', 'Pr_30_36_08_26', 'Pr_30_36_08_84',
+    'Pr_30_36_33_20', 'Pr_30_36_33_22', 'Pr_30_36_33_24', 'Pr_30_36_36_09',
+    'Pr_30_36_36_22', 'Pr_30_36_36_23', 'Pr_30_36_36_66', 'Pr_30_36_36_71',
+    'Pr_30_36_36_79', 'Pr_30_36_59_22', 'Pr_30_36_59_24', 'Pr_30_36_59_25',
+    'Pr_30_36_59_27', 'Pr_30_36_59_32', 'Pr_30_36_59_62', 'Pr_30_36_59_78',
+    'Pr_30_59_23',    'Pr_30_59_23_11', 'Pr_30_59_23_15', 'Pr_30_59_23_16',
+    'Pr_30_59_23_32', 'Pr_30_59_23_34', 'Pr_30_59_23_47', 'Pr_30_59_23_53',
+    'Pr_30_59_23_84', 'Pr_30_59_23_91', 'Pr_30_59_23_92', 'Pr_30_59_23_96',
+    'Pr_30_59_23_97', 'Pr_30_59_23_98', 'Pr_30_59_24',    'Pr_30_59_24_04',
+    'Pr_30_59_24_15', 'Pr_30_59_24_16', 'Pr_30_59_24_28', 'Pr_30_59_24_30',
+    ... 75 more items
+  ],
+  _id: 615b16ede5f6518012e9266b,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-10-04T14:59:57.026Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela=Todos&nivel=4&especialidade= [32m200[0m 109.679 ms - 83862[0m
+SearchRoute: 'porta' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 175
+Data_save = {
+  results: [
+    'En_30_70_17',    'En_32_85_21',    'En_32_85_82',    'En_80_35_89',
+    'En_80_96_92',    'SL_32_50_12',    'SL_45_10_16',    'SL_80_10_55',
+    'SL_80_96_20',    'SL_90_10_34',    'EF_25_30',       'Ss_25_20_68',
+    'Ss_25_20_68_30', 'Ss_25_20_68_50', 'Ss_25_20_68_65', 'Ss_25_30',
+    'Ss_25_30_20',    'Ss_25_30_20_22', 'Ss_25_30_20_25', 'Ss_25_30_20_30',
+    'Ss_25_30_20_32', 'Ss_25_30_20_37', 'Ss_25_30_20_38', 'Ss_25_30_20_39',
+    'Ss_25_30_20_40', 'Ss_25_30_20_45', 'Ss_25_30_20_62', 'Ss_25_30_20_65',
+    'Ss_25_30_20_70', 'Ss_25_30_20_73', 'Ss_25_30_20_76', 'Ss_25_30_20_77',
+    'Ss_25_30_20_78', 'Ss_25_30_20_84', 'Ss_25_30_20_93', 'Ss_25_32',
+    'Ss_25_32_35_05', 'Ss_25_36_30_30', 'Ss_25_38_20',    'Ss_25_38_20_20',
+    'Ss_25_38_20_30', 'Ss_30_40_50',    'Ss_30_40_50_20', 'Ss_30_40_50_45',
+    'Ss_30_40_50_80', 'Ss_30_40_50_95', 'Ss_30_40_65',    'Ss_30_40_65_30',
+    'Ss_30_40_65_50', 'Ss_30_40_65_60', 'Ss_37_17_35_60', 'Ss_45_40',
+    'Ss_55_70_99_84', 'Ss_75_30_35_86', 'Ss_75_40_02_94', 'Pr_20_29_30_24',
+    'Pr_25_93_52_34', 'Pr_25_93_52_35', 'Pr_30_36_08_13', 'Pr_30_36_08_22',
+    'Pr_30_36_08_23', 'Pr_30_36_08_25', 'Pr_30_36_08_26', 'Pr_30_36_08_84',
+    'Pr_30_36_33_20', 'Pr_30_36_33_22', 'Pr_30_36_33_24', 'Pr_30_36_36_09',
+    'Pr_30_36_36_22', 'Pr_30_36_36_23', 'Pr_30_36_36_66', 'Pr_30_36_36_71',
+    'Pr_30_36_36_79', 'Pr_30_36_59_22', 'Pr_30_36_59_24', 'Pr_30_36_59_25',
+    'Pr_30_36_59_27', 'Pr_30_36_59_32', 'Pr_30_36_59_62', 'Pr_30_36_59_78',
+    'Pr_30_59_23',    'Pr_30_59_23_11', 'Pr_30_59_23_15', 'Pr_30_59_23_16',
+    'Pr_30_59_23_32', 'Pr_30_59_23_34', 'Pr_30_59_23_47', 'Pr_30_59_23_53',
+    'Pr_30_59_23_84', 'Pr_30_59_23_91', 'Pr_30_59_23_92', 'Pr_30_59_23_96',
+    'Pr_30_59_23_97', 'Pr_30_59_23_98', 'Pr_30_59_24',    'Pr_30_59_24_04',
+    'Pr_30_59_24_15', 'Pr_30_59_24_16', 'Pr_30_59_24_28', 'Pr_30_59_24_30',
+    ... 75 more items
+  ],
+  _id: 615b16f4e5f6518012e9266f,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-10-04T15:00:04.455Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela=Todos&nivel=4&especialidade= [36m304[0m 67.659 ms - -[0m
+SearchRoute: 'porta' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 175
+Data_save = {
+  results: [
+    'En_30_70_17',    'En_32_85_21',    'En_32_85_82',    'En_80_35_89',
+    'En_80_96_92',    'SL_32_50_12',    'SL_45_10_16',    'SL_80_10_55',
+    'SL_80_96_20',    'SL_90_10_34',    'EF_25_30',       'Ss_25_20_68',
+    'Ss_25_20_68_30', 'Ss_25_20_68_50', 'Ss_25_20_68_65', 'Ss_25_30',
+    'Ss_25_30_20',    'Ss_25_30_20_22', 'Ss_25_30_20_25', 'Ss_25_30_20_30',
+    'Ss_25_30_20_32', 'Ss_25_30_20_37', 'Ss_25_30_20_38', 'Ss_25_30_20_39',
+    'Ss_25_30_20_40', 'Ss_25_30_20_45', 'Ss_25_30_20_62', 'Ss_25_30_20_65',
+    'Ss_25_30_20_70', 'Ss_25_30_20_73', 'Ss_25_30_20_76', 'Ss_25_30_20_77',
+    'Ss_25_30_20_78', 'Ss_25_30_20_84', 'Ss_25_30_20_93', 'Ss_25_32',
+    'Ss_25_32_35_05', 'Ss_25_36_30_30', 'Ss_25_38_20',    'Ss_25_38_20_20',
+    'Ss_25_38_20_30', 'Ss_30_40_50',    'Ss_30_40_50_20', 'Ss_30_40_50_45',
+    'Ss_30_40_50_80', 'Ss_30_40_50_95', 'Ss_30_40_65',    'Ss_30_40_65_30',
+    'Ss_30_40_65_50', 'Ss_30_40_65_60', 'Ss_37_17_35_60', 'Ss_45_40',
+    'Ss_55_70_99_84', 'Ss_75_30_35_86', 'Ss_75_40_02_94', 'Pr_20_29_30_24',
+    'Pr_25_93_52_34', 'Pr_25_93_52_35', 'Pr_30_36_08_13', 'Pr_30_36_08_22',
+    'Pr_30_36_08_23', 'Pr_30_36_08_25', 'Pr_30_36_08_26', 'Pr_30_36_08_84',
+    'Pr_30_36_33_20', 'Pr_30_36_33_22', 'Pr_30_36_33_24', 'Pr_30_36_36_09',
+    'Pr_30_36_36_22', 'Pr_30_36_36_23', 'Pr_30_36_36_66', 'Pr_30_36_36_71',
+    'Pr_30_36_36_79', 'Pr_30_36_59_22', 'Pr_30_36_59_24', 'Pr_30_36_59_25',
+    'Pr_30_36_59_27', 'Pr_30_36_59_32', 'Pr_30_36_59_62', 'Pr_30_36_59_78',
+    'Pr_30_59_23',    'Pr_30_59_23_11', 'Pr_30_59_23_15', 'Pr_30_59_23_16',
+    'Pr_30_59_23_32', 'Pr_30_59_23_34', 'Pr_30_59_23_47', 'Pr_30_59_23_53',
+    'Pr_30_59_23_84', 'Pr_30_59_23_91', 'Pr_30_59_23_92', 'Pr_30_59_23_96',
+    'Pr_30_59_23_97', 'Pr_30_59_23_98', 'Pr_30_59_24',    'Pr_30_59_24_04',
+    'Pr_30_59_24_15', 'Pr_30_59_24_16', 'Pr_30_59_24_28', 'Pr_30_59_24_30',
+    ... 75 more items
+  ],
+  _id: 615b170ae5f6518012e92673,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-10-04T15:00:26.901Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela=Todos&nivel=4&especialidade= [36m304[0m 62.193 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1667.307 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Topografia'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Topografia [32m200[0m 33.524 ms - 1847[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Genérico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 971
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Gen%C3%A9rico [32m200[0m 188.021 ms - 460369[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Eng. Ferroviária'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 61
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Eng.%20Ferrovi%C3%A1ria [32m200[0m 29.651 ms - 28479[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 85
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Arquitetura [32m200[0m 35.550 ms - 40234[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1624.943 ms - 6944871[0m
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 10.413 ms - 25[0m
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 1.475 ms - 25[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 15:19:04 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 15:19:17 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 15.207 ms - 25[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 34.279 ms - 1473[0m
+Lista de Tabelas
+[0mGET /lists/tabelas/ [32m200[0m 1.965 ms - 25[0m
+[0mGET /lists/especialidade/ [33m404[0m 1.136 ms - 159[0m
+Lista de Especialidades
+[0mGET /lists/especialidades/ [32m200[0m 4.752 ms - 1663[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: {"code_item":"SL_25"}.
+[0mGET /family/SL_25_10_77 [32m200[0m 28.476 ms - 1473[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1789.618 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Genérico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 971
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Gen%C3%A9rico [36m304[0m 132.921 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1647.787 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 65.799 ms - 65615[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 57.248 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1623.903 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 68.706 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [32m200[0m 179.369 ms - 456176[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1241.979 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 141.179 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1658.548 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1664.024 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1684.385 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1702.091 ms - 6944871[0m
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 2527.486 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 56.660 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 61.270 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 167.917 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1618.271 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 33.797 ms - 65615[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 34.699 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 58.448 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 43.217 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 47.489 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 39.092 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 37.544 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 44.350 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 35.555 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 35.359 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 35.888 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 33.054 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 32.003 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 31.803 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 30.957 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 47.018 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1607.573 ms - 6944871[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 41.771 ms - 65615[0m
+[32m[nodemon] restarting due to changes...[39m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 58.522 ms - -[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e818cf055d44dd0787a1',
+  name: undefined,
+  institution: undefined,
+  contact: undefined,
+  comment: 'afezqe',
+  status: 'New',
+  timestamp: 'Mon Oct 04 2021 16:52:02 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 15.830 ms - 46[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 15:53:36 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 2.730 ms - 51[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 0.929 ms - 51[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 15:54:56 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 15:55:22 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: "{\"code_item\": section } ,{\"code_item\": subgroup }, {\"code_item\": group }".
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 15.385 ms - 192[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 15:58:13 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: "[object Object],[object Object],[object Object],".
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 15.891 ms - 162[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:03:20 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Pesquisa: "[object Object],[object Object],[object Object],".
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 16.633 ms - 162[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:04:52 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:09:13 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 2.662 ms - 50[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:11:32 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 2.676 ms - 50[0m
+FamilyRoute: SL_25_10_77
+Slice: SL, SL_25, SL_25_10, SL_25_10_77, undefined.
+Error Item
+[0mGET /family/SL_25_10_77 [32m200[0m 0.987 ms - 50[0m
+SearchRoute: '' , 'Sistemas' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2324
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=4&especialidade= [32m200[0m 432.927 ms - 1168691[0m
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Error Item
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 0.884 ms - 50[0m
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Error Item
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 0.437 ms - 50[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:18:29 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Error Item
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 2.848 ms - 50[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:20:21 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Error Item
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 2.814 ms - 50[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:20:55 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Error Item
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 2.668 ms - 50[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:21:33 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Pesquisa: {"code_tabela":"Ss"}.
+Error Item
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 35.837 ms - 47[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:21:49 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:21:55 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Pesquisa: {"code_tabela":"Ss"}.
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 37.055 ms - 554[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:22:19 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30_33
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, Ss_15_10_30_33.
+Pesquisa: {"code_tabela":"Ss"}.
+[0mGET /family/Ss_15_10_30_33 [32m200[0m 48.586 ms - 2069[0m
+FamilyRoute: Ss_15_10_30
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, undefined.
+Pesquisa: {"code_tabela":"Ss"}.
+[0mGET /family/Ss_15_10_30 [32m200[0m 38.289 ms - 2109[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:24:14 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+FamilyRoute: Ss_15_10_30
+Slice: Ss, Ss_15, Ss_15_10, Ss_15_10_30, undefined.
+Pesquisa: {"code_tabela":"Ss"}.
+[0mGET /family/Ss_15_10_30 [32m200[0m 52.837 ms - 1586[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-04 16:25:15 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Genérico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 971
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Gen%C3%A9rico [32m200[0m 192.392 ms - 460369[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Todas'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 3242
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Todas [32m200[0m 457.130 ms - 1601498[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Genérico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 971
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Gen%C3%A9rico [32m200[0m 198.420 ms - 460369[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Genérico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 971
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Gen%C3%A9rico [36m304[0m 153.439 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Todas'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 3242
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Todas [32m200[0m 398.091 ms - 1601498[0m

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const Tabela = mongoose.model("Tabela", {
+const TabelaSchema = new mongoose.Schema({
   _id: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
@@ -19,4 +19,4 @@ const Tabela = mongoose.model("Tabela", {
   }
 });
 
-module.exports = Tabela;
+module.exports = mongoose.model("tabela", TabelaSchema);

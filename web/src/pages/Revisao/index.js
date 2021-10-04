@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Item from "../../components/Lista";
+import Item from "../../components/Item";
 import Pagination from "../../components/Pagination/Pagination";
 import api from "../../services/api";
 
 const LIMIT_PADRAO = 50;
 
-const Pesquisa = () => {
+const Revisao = () => {
   //Filtros Defaut
   const [filtros, setFiltros] = useState({
     code_tabela: "Todos",
@@ -73,7 +73,7 @@ const Pesquisa = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-4 ">
+          <div className="col-4">
             <label> Tabela</label>
             <select
               className="form-control"
@@ -128,7 +128,51 @@ const Pesquisa = () => {
               </option>
             </select>
           </div>
-          <div className="col-4"></div>
+          <div className="col-4">
+            <label>Revisão por especialidade</label>
+            <select
+              className="form-control"
+              onChange={(e) => {
+                setFiltros({
+                  ...filtros,
+                  Especialidade: e.target.value,
+                });
+              }}
+            >
+              <option value="" selected>
+                ---
+              </option>
+              <option value="Todas">Todas as Especialidades</option>
+              <option value="Genérico">Genérico</option>
+              <option value="Arquitetura">Arquitetura</option>
+              <option value="Climatização">Climatização</option>
+              <option value="Desenho CAD">Desenho CAD</option>
+              <option value="Eletricidade e Telecomunicações">
+                Eletricidade e Telecomunicaçõesa
+              </option>
+              <option value="Eng. Ferroviária">Eng. Ferroviária</option>
+              <option value="Eng. Hidráulica">Eng. Hidráulica</option>
+              <option value="Eng. Mecânica">Eng. Mecânica</option>
+              <option value="Eng. Naval">Eng. Naval</option>
+              <option value="Eng. Rodoviária">Eng. Rodoviária</option>
+              <option value="Ensino">Ensino</option>
+              <option value="Estruturas">Estruturas</option>
+              <option value="Facility Management">Facility Management</option>
+              <option value="Geotecnia">Geotecnia</option>
+              <option value="Gestão de projeto">Gestão de projeto</option>
+              <option value="Gestão de resíduos">Gestão de resíduos</option>
+              <option value="Médico Hospitalar">Médico Hospitalar</option>
+              <option value="Paisagismo">Paisagismo</option>
+              <option value="Redes Prediais">Redes Prediais</option>
+              <option value="Serviços de Segurança e Incêndio">
+                Serviços de Segurança e Incêndio
+              </option>
+              <option value="Sistemas Construtivos">
+                Sistemas Construtivos
+              </option>
+              <option value="Topografia">Topografia</option>
+            </select>
+          </div>
         </div>
         <br />
 
@@ -144,7 +188,7 @@ const Pesquisa = () => {
         <div className="col">
           <span>Resultados: {itens.length}</span>
         </div>
-        <div className="col text-right">
+        <div className="col">
           <Pagination
             limit={LIMIT.value}
             total={itens.length}
@@ -183,8 +227,9 @@ const Pesquisa = () => {
         <table className="table table-striped table-lg">
           <tr>
             <th scope="col-4">Código</th>
-            <th scope="col-4">Título</th>
-
+            <th class="text-center" scope="col-2">*</th>
+            <th scope="col-4">Título (PT)</th>
+            <th scope="col-4">Title (EN)</th>
             <th class="text-center" scope="col-2">
               Tabela
             </th>
@@ -210,23 +255,23 @@ const Pesquisa = () => {
   );
 };
 
-export default Pesquisa;
-
 /*
 <div className="row">
-          <div className="col"></div>
-          <div className="col-3 text-right">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              onChange={(e) => {
-                setFiltros({
-                  ...filtros,
-                  review: Boolean(e.target.checked),
-                });
-              }}
-            />
-            <label className="form-check-label pandding">Em Revisão </label>
-          </div>
+        <div className="col"></div>
+        <div className="col-3 text-right">
+          <input
+            className="form-check-input"
+            type="checkbox"
+            onChange={(e) => {
+              setFiltros({
+                ...filtros,
+                review: Boolean(e.target.checked),
+              });
+            }}
+          />
+          <label className="form-check-label pandding">Em Revisão </label>
         </div>
+      </div>
 */
+
+export default Revisao;

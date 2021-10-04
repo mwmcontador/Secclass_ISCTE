@@ -14,31 +14,34 @@ router.get("/family/:code_item", async (req, res) => {
       const code_uni = req.params.code_item;
       console.log(`FamilyRoute: ${code_uni}`);
 
-
 //////////////////////////////////////////////////////////
-    var pesquisa = "";
+    var pesquisa1 = {"code_item": "00_00" };
+    var pesquisa2 = {"code_item": "00_00" };
+    var pesquisa3 = {"code_item": "00_00" };
+    var pesquisa4 = {"code_item": "00_00" };
     //var length_code = code_uni.length;
       switch (code_uni.length) {
       case 14:
           var object = code_uni.slice(0, 14);
-          var pesquisa1 = {"code_item": object };
+          var pesquisa4 = {"code_item": object };
       case 11:
           var section = code_uni.slice(0, 11);
-          var pesquisa2 = {"code_item": section };
+          var pesquisa3 = {"code_item": section };
       case 8:
           var subgroup = code_uni.slice(0, 8);
-          var pesquisa3 = {"code_item": subgroup };
+          var pesquisa2 = {"code_item": subgroup };
       case 5:
           var group = code_uni.slice(0, 5);
-          var pesquisa4 = {"code_item": group };
+          var pesquisa1 = {"code_item": group};
+      case 2:
           var tabela = code_uni.slice(0, 2);
-          var pesquisa = {"code_tabela": tabela };
+          var pesquisa0 = {"code_tabela": tabela };
           break;
       default:
 
     }
     console.log(`Slice: ${tabela}, ${group}, ${subgroup}, ${section}, ${object}.`);
-    console.log(`Pesquisa: ${JSON.stringify(pesquisa4)}.`);
+    console.log(`Pesquisa: ${JSON.stringify(pesquisa0)}.`);
     //console.log(JSON.stringify(pesquisa));
     var familia;
     familia = {
@@ -76,7 +79,7 @@ router.get("/family/:code_item", async (req, res) => {
     //var search_log = JSON.stringify(search);
     //console.log(`Parametro search: ${search}`);
 
-    const data1 = await Tabela.find(pesquisa
+    const data0 = await Tabela.find(pesquisa0
       ,null,
           {sort: {"_id": 1}},
           function(err){
@@ -85,7 +88,7 @@ router.get("/family/:code_item", async (req, res) => {
           {
             //res.send(err);
             data = err;
-            console.log(`err: ${data1}`);
+            console.log(`err: ${data0}`);
           }
         });
 
@@ -94,7 +97,7 @@ router.get("/family/:code_item", async (req, res) => {
       //{$and: [
         {$or: [
           //{$and: [
-                pesquisa4, pesquisa3, pesquisa2
+                pesquisa1 , pesquisa2, pesquisa3, pesquisa4
               ]},
 
               /*
@@ -119,11 +122,10 @@ router.get("/family/:code_item", async (req, res) => {
 
 
 //____________////////RES
-    res.json({ error: false, data, data1});
+    res.json({ error: false, data, data0});
   }  catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });
   }
 });
-
 module.exports = router;
