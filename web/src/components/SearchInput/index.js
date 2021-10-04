@@ -15,13 +15,15 @@ const SearchInput = ({ value, onChange }) => {
     debouncedChange(event.target.value);
   }
   return (
-    <input
-      type="search"
-      className="form-control"
-      placeholder="Informe Termo para Pesquisa"
-      value={displayValue}
-      onChange={handleChange}
-    />
+    <div>
+      <input
+        type="search"
+        className="form-control"
+        placeholder="Informe Termo para Pesquisa"
+        value={displayValue}
+        onChange={handleChange}
+      />
+    </div>
   );
 };
 export default SearchInput;

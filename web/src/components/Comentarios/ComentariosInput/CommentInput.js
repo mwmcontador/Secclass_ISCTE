@@ -24,7 +24,9 @@ const CommentInput = ({ comment_idItem }) => {
       alert(err.message);
       return false;
     }
-    alert("Post feito");
+    alert(
+      "Obrigado pelo seu comentário, vamos procurar incluí-lo na revisão do SECClasS"
+    );
     console.log(ComentarioInput);
     SetComentarioInput({
       ...ComentarioInput,
@@ -33,18 +35,22 @@ const CommentInput = ({ comment_idItem }) => {
       institution: "",
       comment: "",
     });
-    console.log(ComentarioInput);
   };
 
   return (
     <div className="card text-white bg-light mb-3">
-      <div className="card-header">
+      <div className="card">
         <ul className="nav nav-tabs card-header-tabs">
           <li className="nav-item active">
-            <a className="nav-link active">Comentário</a>
+            <a className="nav-link active" href="#">
+              Hierarquia
+            </a>{" "}
+          </li>{" "}
+          <li className="nav-item active">
+            <a className="nav-link active">Comentários</a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link disabled">Parametros</a>
+            <a className="nav-link disabled">Parâmetros</a>
           </li>
         </ul>
       </div>
@@ -83,7 +89,7 @@ const CommentInput = ({ comment_idItem }) => {
             <input
               type="email"
               className="form-control"
-              placeholder="usuario@seu-email.pt"
+              placeholder="nome@email.pt"
               onChange={(e) => {
                 SetComentarioInput({
                   ...ComentarioInput,
@@ -109,7 +115,6 @@ const CommentInput = ({ comment_idItem }) => {
       </div>
 
       <button className="btn btn-success" type="submit" onClick={PostComent}>
-        {" "}
         Enviar
       </button>
     </div>

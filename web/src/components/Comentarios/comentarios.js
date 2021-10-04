@@ -37,50 +37,43 @@ const Comentarios = ({ id_idtem_secclass }) => {
         </div>
       </div>
       <br />
-      <div className="comment-button-comand row">
-        <div className="col-3">
-          <button className="btn btn-primary" onClick={ListComment}>
-            Ver Comentários
-          </button>
-        </div>
 
-        <div className="col-4">
-          <button className="btn btn-success">Enviar Comentário</button>
-        </div>
-      </div>
       <div className="comment-input " display="none">
         <br />
         <CommentInput comment_idItem={id_idtem_secclass} />
       </div>
-      <table className="table table-striped ">
-        <thead>
-          <tr>
-            <th>Data</th>
-            <th>Comentário </th>
 
-            <th class="text-center" scope="col">
-              Autor
-            </th>
-            <th class="text-center" scope="col">
-              Instituição
-            </th>
-            <th class="text-center" scope="col">
-              Status
-            </th>
-          </tr>
-        </thead>
+      <div className="container">
+        <table className="table table-striped table-sm ">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Comentário </th>
 
-        <tbody className="table-hover">
-          {comment.map((comentario) => {
-            //Exibindo Todas as Tabelas
+              <th class="text-center" scope="col">
+                Autor
+              </th>
+              <th class="text-center" scope="col">
+                Instituição
+              </th>
+              <th class="text-center" scope="col">
+                Status
+              </th>
+            </tr>
+          </thead>
 
-            return <CommentList comment_id={comentario} />;
-          })}{" "}
-        </tbody>
-        <tfoot>
-          <span>- </span>
-        </tfoot>
-      </table>
+          <tbody className="table-hover">
+            {comment.map((comentario) => {
+              //Exibindo Todas as Tabelas
+
+              return <CommentList comment_id={comentario} />;
+            })}{" "}
+          </tbody>
+          <tfoot>
+            <span>- </span>
+          </tfoot>
+        </table>
+      </div>
       <div className="row">
         <div className="col"></div>
       </div>
@@ -89,3 +82,17 @@ const Comentarios = ({ id_idtem_secclass }) => {
 };
 
 export default Comentarios;
+
+/*
+      <div className="comment-button-comand row">
+<div className="col-3">
+<button className="btn btn-primary" onClick={ListComment}>
+  Ver Comentários
+</button>
+</div>
+
+<div className="col-4">
+<button className="btn btn-success">Enviar Comentário</button>
+</div>
+</div>
+*/
