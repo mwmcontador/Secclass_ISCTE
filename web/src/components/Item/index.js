@@ -77,7 +77,7 @@ const Item = ({ item }) => {
             <div className="row">
               <div className="col">
                 <button className="btn-secondary" onClick={mostrarItem}>
-                  Cancelar
+                  Fechar
                 </button>
                 <br />
               </div>

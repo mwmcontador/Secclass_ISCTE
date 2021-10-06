@@ -175,7 +175,6 @@ const Revisao = () => {
           </div>
         </div>
         <br />
-
         <button
           onClick={visualizar}
           className="btn btn-listar btn-lg btn-block"
@@ -215,14 +214,14 @@ const Revisao = () => {
           </select>
         </div>
         <div>
-          {
-            <div className="container">
-              <div className="row"></div>
-              <div className="row"></div>
-            </div>
-          }
+          <div className="container">
+            <div className="row"></div>
+            <div className="row"></div>
+          </div>
+          <br />
         </div>
       </div>
+      <br />
       <div className="container">
         <table className="table table-striped table-lg">
           <tr>
