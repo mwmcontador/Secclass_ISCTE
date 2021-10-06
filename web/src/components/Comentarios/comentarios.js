@@ -1,13 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import CommentInput from "./ComentariosInput/CommentInput";
 import CommentList from "./CommentList/CommentList";
-import Pagination from "../Pagination/Pagination";
+//import Pagination from "../Pagination/Pagination";
 import api from "../../services/api";
 
 const Comentarios = ({ id_idtem_secclass }) => {
   const [comment, setComment] = useState([]);
   const [showInput, setShowInput] = useState(false);
 
+  useEffect(() => {
+    ListComment();
+    console.log("Carregou comment");
+  }, []);
   const MostrarInput = (showInput) => {
     MostrarInput = setShowInput(!showInput);
   };
@@ -44,25 +48,15 @@ const Comentarios = ({ id_idtem_secclass }) => {
       </div>
 
       <div className="container">
-        <table className="table table-striped table-sm ">
-          <thead>
-            <tr>
-              <th>Data</th>
-              <th>Comentário </th>
+        <table className="table table-striped table-lg">
+          <tr>
+            <th scope="col-2">Data</th>
+            <th scope="col-2">Comentário</th>
+            <th scope="col-4">Autor</th>
+            <th scope="col-4">Instituição</th>
+          </tr>
 
-              <th class="text-center" scope="col">
-                Autor
-              </th>
-              <th class="text-center" scope="col">
-                Instituição
-              </th>
-              <th class="text-center" scope="col">
-                Status
-              </th>
-            </tr>
-          </thead>
-
-          <tbody className="table-hover">
+          <tbody className="table-striped">
             {comment.map((comentario) => {
               //Exibindo Todas as Tabelas
 

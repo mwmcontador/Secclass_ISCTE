@@ -68,6 +68,9 @@ const Revisao = () => {
                   titulo_SECClasS: e.target.value,
                 });
               }}
+              onBlur={(e) => {
+                visualizar();
+              }}
             ></input>
             <br />
           </div>
@@ -175,7 +178,6 @@ const Revisao = () => {
           </div>
         </div>
         <br />
-
         <button
           onClick={visualizar}
           className="btn btn-listar btn-lg btn-block"
@@ -188,6 +190,7 @@ const Revisao = () => {
         <div className="col">
           <span>Resultados: {itens.length}</span>
         </div>
+        {/*
         <div className="col">
           <Pagination
             limit={LIMIT.value}
@@ -214,20 +217,21 @@ const Revisao = () => {
             </option>
           </select>
         </div>
+        */}
         <div>
-          {
-            <div className="container">
-              <div className="row"></div>
-              <div className="row"></div>
-            </div>
-          }
+          <div className="container">
+            <div className="row"></div>
+            <div className="row"></div>
+          </div>
+          <br />
         </div>
       </div>
+      <br />
       <div className="container">
         <table className="table table-striped table-lg">
           <tr>
             <th scope="col-4">Código</th>
-            <th class="text-center" scope="col-2">*</th>
+            <th class="text-center" scope="col-2"></th>
             <th scope="col-4">Título (PT)</th>
             <th scope="col-4">Title (EN)</th>
             <th class="text-center" scope="col-2">

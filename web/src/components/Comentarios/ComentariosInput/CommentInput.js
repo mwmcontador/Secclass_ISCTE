@@ -40,16 +40,16 @@ const CommentInput = ({ comment_idItem }) => {
   return (
     <div className="card text-white bg-light mb-3">
       <div className="card">
-        <ul className="nav nav-tabs card-header-tabs">
-          <li className="nav-item active">
-            <a className="nav-link active" href="#">
-              Hierarquia
-            </a>{" "}
-          </li>{" "}
+        <ul className="nav nav-pills ">
           <li className="nav-item active">
             <a className="nav-link active">Comentários</a>
           </li>
-          <li className="nav-item active">
+          <li className="nav-item ">
+            <a className="nav-link disabled" href="#hierarquia">
+              Hierarquia
+            </a>{" "}
+          </li>{" "}
+          <li className="nav-item">
             <a className="nav-link disabled">Parâmetros</a>
           </li>
         </ul>
