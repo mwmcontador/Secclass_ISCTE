@@ -68,6 +68,9 @@ const Revisao = () => {
                   titulo_SECClasS: e.target.value,
                 });
               }}
+              onBlur={(e) => {
+                visualizar();
+              }}
             ></input>
             <br />
           </div>
@@ -148,7 +151,7 @@ const Revisao = () => {
               <option value="Climatização">Climatização</option>
               <option value="Desenho CAD">Desenho CAD</option>
               <option value="Eletricidade e Telecomunicações">
-                Eletricidade e Telecomunicaçõesa
+                Eletricidade e Telecomunicações
               </option>
               <option value="Eng. Ferroviária">Eng. Ferroviária</option>
               <option value="Eng. Hidráulica">Eng. Hidráulica</option>
@@ -175,7 +178,6 @@ const Revisao = () => {
           </div>
         </div>
         <br />
-
         <button
           onClick={visualizar}
           className="btn btn-listar btn-lg btn-block"
@@ -188,6 +190,7 @@ const Revisao = () => {
         <div className="col">
           <span>Resultados: {itens.length}</span>
         </div>
+        {/* 
         <div className="col">
           <Pagination
             limit={LIMIT.value}
@@ -214,15 +217,16 @@ const Revisao = () => {
             </option>
           </select>
         </div>
+        */}
         <div>
-          {
-            <div className="container">
-              <div className="row"></div>
-              <div className="row"></div>
-            </div>
-          }
+          <div className="container">
+            <div className="row"></div>
+            <div className="row"></div>
+          </div>
+          <br />
         </div>
       </div>
+      <br />
       <div className="container">
         <table className="table table-striped table-lg">
           <tr>
