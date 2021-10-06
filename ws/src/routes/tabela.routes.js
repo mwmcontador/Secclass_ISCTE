@@ -2,12 +2,12 @@
 
 const express = require("express");
 const router = express.Router();
-const _ = require("underscore"); // serve para manipular, embaralhar os dados
-const Tabela = require("../model/tabela");
+//const _ = require("underscore"); // serve para manipular, embaralhar os dados
+//const Tabela = require("../model/tabela");
 
 console.log("Iniciando Rotas da Tabela");
 //Criando uma Tabela
-
+/*
 router.post("/tabela", async (req, res) => {
   try {
     console.log("Iniciando Criação de um registro na Tabela");
@@ -73,5 +73,5 @@ router.delete("/tabela/:id", async (req, res) => {
     res.json({ error: true, message: err.message });
   }
 });
-
+*/
 module.exports = router;

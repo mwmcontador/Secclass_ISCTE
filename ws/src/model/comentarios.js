@@ -27,6 +27,9 @@ const ComentariosSchema = new mongoose.Schema({
   timestamp: {
     type: Date,
   },
+  date_string: {
+    type: String
+  }
 });
 
 module.exports = mongoose.model("comentarios", ComentariosSchema);

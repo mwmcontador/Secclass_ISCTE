@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Search = require("../model/pesquisas");
 const Item = require("../model/item");
-const Tabela = require("../model/tabela");
+//const Tabela = require("../model/tabela");
 
 
 //////////// GET API - PESQUISA

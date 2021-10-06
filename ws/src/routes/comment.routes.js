@@ -25,12 +25,8 @@ router.post("/comment/", async (req, res) => {
 
     else {
       var date = new Date();//.now();
-      //var string_date = date.toString();
-
-      //const format_date = date.toISOString();
-      //const format_date = dateFormat(now, "dddd, mmmm dS, yyyy");
-      //const format_date = ((date.getDate() )) + "-" + ((date.getMonth() + 1)) + "-" + date.getFullYear();
-      //console.log(`DATE = ${string_date}`);
+      //var tempo = date.toISOString();
+      //tempo = tempo.slice(0,10);// .split("T"); //
 
       const doc = {
         "users_id": "61014705970082f592719864",  //ID Public User // req.body.item
@@ -40,7 +36,8 @@ router.post("/comment/", async (req, res) => {
         "contact": req.body.contact,
         "comment": req.body.comment,
         "status": "New",
-        "timestamp": Date(date)                //current date to timestamp
+        "timestamp": Date(date),                //current date to timestamp
+        //"date_string": tempo
       };
 
       console.log(doc);
@@ -83,6 +80,14 @@ router.get("/comment/", async (req, res) => {
       }
     })
     console.log(data);
+    var i = 0;
+    while (i <= (objectLength-1)) {
+      var temp = data[i].timestamp.toISOString();
+      temp = temp.slice(8,10)+"/"+temp.slice(5,7)+"/"+temp.slice(0,4);
+      data[i].date_string = temp;
+      i++
+      //console.log(JSON.stringify(temp));
+    }
 
     //Debug
     const objectLength = Object.keys(data).length;
@@ -127,11 +132,12 @@ router.get("/comment/iditem/:id", async (req, res) => {
     var i = 0;
     while (i <= (objectLength-1)) {
       var temp = data[i].timestamp.toISOString();
-      temp = temp.slice(0,10);//.split("T");
-      data[i].timestamp = temp;
-      console.log(JSON.stringify(temp));
+      temp = temp.slice(8,10)+"/"+temp.slice(5,7)+"/"+temp.slice(0,4);
+      data[i].date_string = temp;
       i++
+      //console.log(JSON.stringify(temp));
     }
+
     res.json({ error: false, objectLength, data});
 
   }  catch (err) {

@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Item = require("../model/item");
-const Tabela = require("../model/tabela");
+//const Tabela = require("../model/tabela");
 
 
 //////////// GET API - PESQUISA
@@ -19,6 +19,7 @@ router.get("/family/:code_item", async (req, res) => {
     var pesquisa2 = {"code_item": "00_00" };
     var pesquisa3 = {"code_item": "00_00" };
     var pesquisa4 = {"code_item": "00_00" };
+    var pesq;
     //var length_code = code_uni.length;
       switch (code_uni.length) {
       case 14:
@@ -33,15 +34,14 @@ router.get("/family/:code_item", async (req, res) => {
       case 5:
           var group = code_uni.slice(0, 5);
           var pesquisa1 = {"code_item": group};
-      case 2:
+      default:
           var tabela = code_uni.slice(0, 2);
           var pesquisa0 = {"code_tabela": tabela };
           break;
-      default:
-
     }
+
     console.log(`Slice: ${tabela}, ${group}, ${subgroup}, ${section}, ${object}.`);
-    console.log(`Pesquisa: ${JSON.stringify(pesquisa0)}.`);
+    console.log(`Pesquisa: ${JSON.stringify(pesq)}.`);
     //console.log(JSON.stringify(pesquisa));
     var familia;
     familia = {
@@ -78,8 +78,8 @@ router.get("/family/:code_item", async (req, res) => {
     }
     //var search_log = JSON.stringify(search);
     //console.log(`Parametro search: ${search}`);
-
-    const data0 = await Tabela.find(pesquisa0
+/*
+    const table = await Tabela.find(pesquisa0
       ,null,
           {sort: {"_id": 1}},
           function(err){
@@ -88,26 +88,20 @@ router.get("/family/:code_item", async (req, res) => {
           {
             //res.send(err);
             data = err;
-            console.log(`err: ${data0}`);
+            console.log(`err: ${table}`);
           }
         });
-
-
-    const data = await Item.find(
+*/
+const table = [];
+    const family = await Item.find(
       //{$and: [
         {$or: [
-          //{$and: [
                 pesquisa1 , pesquisa2, pesquisa3, pesquisa4
               ]},
 
-              /*
-          {$and: [
-                  {"versao_secclas": {}},
-              ]},*/
       //]},
       null,
       {sort: {"_id": 1}},
-      //{sort: {"Data_traducao": -1}},
       function(err){
       // if there is an error retrieving, send the error. nothing after res.send(err) will execute
       if (err)
@@ -116,13 +110,13 @@ router.get("/family/:code_item", async (req, res) => {
         data = err;
         console.log(`err: ${data}`);*/
       }
-    })//.populate(;//.where('nivel_item').lte(nivel);
+    }).select({ "_id":1, "code_item": 1, "titulo_SECClasS": 1})
     //console.log(`Data_out = ${data}`);
 
-
+    const data = Object.assign(table, family);
 
 //____________////////RES
-    res.json({ error: false, data, data0});
+    res.json({ error: false, data, pesq});
   }  catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });

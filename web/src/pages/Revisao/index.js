@@ -148,7 +148,7 @@ const Revisao = () => {
               <option value="Climatização">Climatização</option>
               <option value="Desenho CAD">Desenho CAD</option>
               <option value="Eletricidade e Telecomunicações">
-                Eletricidade e Telecomunicaçõesa
+                Eletricidade e Telecomunicações
               </option>
               <option value="Eng. Ferroviária">Eng. Ferroviária</option>
               <option value="Eng. Hidráulica">Eng. Hidráulica</option>
