@@ -56,6 +56,7 @@ router.post("/comment/", async (req, res) => {
 router.get("/comment/", async (req, res) => {
   try {
     const order = req.query.order;
+    const status = req.query.status;
 
     //////////////////////////////////////////////////////////////
     var ordem;
@@ -67,8 +68,17 @@ router.get("/comment/", async (req, res) => {
           ordem = parseInt(order);
         }
     //////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////
+    var estado;
+        if(status === undefined || status == ""){
+          estado = {"status": {"$ne": "todas"}}
+        }
+        else {
+          estado = {"status": status}
+        }
+    //////////////////////////////////////////////////////////////
 
-    const data = await Comentarios.find({},
+    const data = await Comentarios.find(estado,
       null,
       {sort: {"_id": ordem}},
       function(err){
@@ -78,8 +88,13 @@ router.get("/comment/", async (req, res) => {
         res.send(err);
         console.log(`err: ${err}`)
       }
-    })
+    }).populate({path: 'items_id', select: "code_item + titulo_SECClasS"})//.select({"items_id":[{ "_id":1, "code_item": 1, "titulo_SECClasS": 1}]})
     console.log(data);
+
+    //Debug
+    const objectLength = Object.keys(data).length;
+    //console.log(`objectLength = ${objectLength}`);
+
     var i = 0;
     while (i <= (objectLength-1)) {
       var temp = data[i].timestamp.toISOString();
@@ -89,9 +104,6 @@ router.get("/comment/", async (req, res) => {
       //console.log(JSON.stringify(temp));
     }
 
-    //Debug
-    const objectLength = Object.keys(data).length;
-    console.log(`objectLength = ${objectLength}`);
 
     res.json({ error: false, objectLength, data});
 
@@ -123,7 +135,7 @@ router.get("/comment/iditem/:id", async (req, res) => {
         res.send(err);
         console.log(`err: ${err}`)
       }
-    })
+    }).populate({path: 'items_id', select: "code_item + titulo_SECClasS"})
 
     //Debug
     const objectLength = Object.keys(data).length;
@@ -181,7 +193,7 @@ router.get("/comment/:code", async (req, res) => {
         res.send(err);
         console.log(`err: ${err}`)
       }
-    })
+    }).populate({path: 'items_id', select: "code_item + titulo_SECClasS"})
     console.log(data);
     //Debug
     const objectLength = Object.keys(data).length;

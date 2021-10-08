@@ -7,6 +7,7 @@ const ComentariosSchema = new mongoose.Schema({
   },
   items_id: {
     type: mongoose.Schema.Types.ObjectId,
+    ref: 'Item',
     required: true,
   },
   name: {
@@ -26,6 +27,7 @@ const ComentariosSchema = new mongoose.Schema({
   },
   timestamp: {
     type: Date,
+    default: Date.now
   },
   date_string: {
     type: String
