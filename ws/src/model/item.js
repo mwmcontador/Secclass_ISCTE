@@ -1,10 +1,7 @@
 const mongoose = require("mongoose");
+//const tabela = require("../model/tabela");
 
-const Item = mongoose.model("Item", {
-  _id: {
-    type: mongoose.Schema.Types.ObjectId,
-    required: true,
-  },
+const ItemSchema = new mongoose.Schema({
   idItem: {
     type: Number,
   },
@@ -13,6 +10,7 @@ const Item = mongoose.model("Item", {
   },
   Data_traducao: {
     type: Date,
+    default: Date.now
   },
   Versao_Uniclass: {
     type: String,
@@ -24,7 +22,8 @@ const Item = mongoose.model("Item", {
     type: String,
   },
   tabela_id: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'table',
   },
   nivel_item: {
       type: Number,
@@ -65,4 +64,4 @@ const Item = mongoose.model("Item", {
   }
 });
 
-module.exports = Item;
+module.exports = mongoose.model("Item", ItemSchema);

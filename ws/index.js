@@ -14,7 +14,7 @@ const commentRoutes = require("./src/routes/comment.routes");
 const reviewRoutes = require("./src/routes/review.routes");
 const listsRoutes = require("./src/routes/lists.routes");
 
-const familyRoutes = require("./src/routes/family.routes");
+const hierarchyRoutes = require("./src/routes/hierarchy.routes");
 
 var timestamp = Date.now();
 var format_date = new Date(timestamp).toISOString().slice(0, 19).replace('T', ' ')
@@ -51,7 +51,7 @@ console.log("Lists Routes");
 app.use("/", listsRoutes);
 
 console.log("Family Routes");
-app.use("/", familyRoutes);
+app.use("/", hierarchyRoutes);
 
 //START PORT SERVER
 app.listen(5003, () => {

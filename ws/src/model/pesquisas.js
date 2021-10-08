@@ -14,6 +14,7 @@ const PesquisasSchema = new mongoose.Schema({
   },
   timestamp: {
     type: Date,
+    default: Date.now
   },
 });
 

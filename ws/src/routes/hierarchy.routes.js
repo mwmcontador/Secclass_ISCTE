@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Item = require("../model/item");
-//const Tabela = require("../model/tabela");
+const Tabela = require("../model/table");
 
 
 //////////// GET API - PESQUISA
@@ -9,10 +9,10 @@ const Item = require("../model/item");
 
 //router.get("/:input_pesquisa/:criterio_tabela/:criterio_nivel", async (req, res) => {
 //router.get("/:input_pesquisa/", async (req, res) => {
-router.get("/family/:code_item", async (req, res) => {
+router.get("/hierarchy/:code_item", async (req, res) => {
     try {
       const code_uni = req.params.code_item;
-      console.log(`FamilyRoute: ${code_uni}`);
+      console.log(`HierarchyRoute: ${code_uni}`);
 
 //////////////////////////////////////////////////////////
     var pesquisa1 = {"code_item": "00_00" };
@@ -41,7 +41,7 @@ router.get("/family/:code_item", async (req, res) => {
     }
 
     console.log(`Slice: ${tabela}, ${group}, ${subgroup}, ${section}, ${object}.`);
-    console.log(`Pesquisa: ${JSON.stringify(pesq)}.`);
+    //console.log(`Pesquisa: ${JSON.stringify(pesq)}.`);
     //console.log(JSON.stringify(pesquisa));
     var familia;
     familia = {
@@ -78,22 +78,7 @@ router.get("/family/:code_item", async (req, res) => {
     }
     //var search_log = JSON.stringify(search);
     //console.log(`Parametro search: ${search}`);
-/*
-    const table = await Tabela.find(pesquisa0
-      ,null,
-          {sort: {"_id": 1}},
-          function(err){
-          // if there is an error retrieving, send the error. nothing after res.send(err) will execute
-          if (err)
-          {
-            //res.send(err);
-            data = err;
-            console.log(`err: ${table}`);
-          }
-        });
-*/
-const table = [];
-    const family = await Item.find(
+    const hierarchy = await Item.find(
       //{$and: [
         {$or: [
                 pesquisa1 , pesquisa2, pesquisa3, pesquisa4
@@ -111,12 +96,26 @@ const table = [];
         console.log(`err: ${data}`);*/
       }
     }).select({ "_id":1, "code_item": 1, "titulo_SECClasS": 1})
-    //console.log(`Data_out = ${data}`);
 
-    const data = Object.assign(table, family);
+    const table = await Tabela.findOne(pesquisa0
+      ,null,
+          {sort: {"_id": 1}},
+          function(err){
+          // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+          if (err)
+          {
+            //res.send(err);
+            data = err;
+            console.log(`err: ${table}`);
+          }
+        }).select({ "_id":1, "code_tabela": 1, "nome_secclass": 1});
+
+    //console.log(`Data_out = ${data}`);
+    //const data = Object.assign(table, hierarchy);
+    const data = {table, hierarchy};
 
 //____________////////RES
-    res.json({ error: false, data, pesq});
+    res.json({ error: false, data}); //, table, hierarchy
   }  catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });

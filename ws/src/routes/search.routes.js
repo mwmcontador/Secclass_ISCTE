@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Search = require("../model/pesquisas");
 const Item = require("../model/item");
-//const Tabela = require("../model/tabela");
+const Tabela = require("../model/table");
 
 
 //////////// GET API - PESQUISA
@@ -124,6 +124,9 @@ console.log("%j",aggregate);
                 {"titulo_SECClasS": search }, tabela, nivel, revisao, speciality
                 //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
               ]},
+          {$and: [
+                {"title_item": search }, tabela, nivel, revisao, speciality
+              ]},
               /*
           {$and: [
                   {"versao_secclas": {}},
@@ -141,7 +144,7 @@ console.log("%j",aggregate);
         console.log(`err: ${data}`);
         //res.json({ error: true, message: err.message });
       }
-    })//.populate(;//.where('nivel_item').lte(nivel);
+    }).populate('tabela_id')
     //console.log(`Data_out = ${data}`);
   //Debug
         var type = typeof data;

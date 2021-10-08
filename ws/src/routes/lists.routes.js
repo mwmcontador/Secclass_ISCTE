@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Especialidade = require("../model/especialidade");
-//const Tabela = require("../model/tabela");
+const Tabela = require("../model/table");
 
 //
 console.log("Start Especialidades List ");
@@ -34,8 +34,8 @@ router.get("/lists/especialidades/", async (req, res) => {
 router.get("/lists/tabelas/", async (req, res) => {
   try {
     //Indica o nome do Collection
-    /*
-    const data = await Tabela.find({}
+
+    const data = await Tabela.find({"code_tabela": {"$ne": null}}
       ,null,
           {sort: {"_id": 1}},
           function(err){
@@ -47,8 +47,8 @@ router.get("/lists/tabelas/", async (req, res) => {
             console.log(`err: ${data}`);
           }
         });
-        */
-        data = [];
+
+        //data = [];
     res.json({ error: false, data});
     console.log("Lista de Tabelas");
   } catch (err) {
