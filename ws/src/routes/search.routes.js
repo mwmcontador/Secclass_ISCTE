@@ -144,7 +144,10 @@ console.log("%j",aggregate);
         console.log(`err: ${data}`);
         //res.json({ error: true, message: err.message });
       }
-    }).populate('tabela_id')
+    })
+    .populate({path:'tabela_id', select: {'nome_pesquisa': 0} })
+    .select({ "_id":1, "Versao_Uniclass": 1, "versao_secclas": 1, "nivel_item": 1, "code_item": 1, "title_item":1, "titulo_SECClasS":1, "descricao_SECClasS":1})
+
     //console.log(`Data_out = ${data}`);
   //Debug
         var type = typeof data;

@@ -45,7 +45,7 @@ const ItemSchema = new mongoose.Schema({
     required: true,
   },
   title_item: {
-    type: String,
+    type: String,     ///alterar para array de documentos
   },
   titulo_SECClasS: {
     type: String,
@@ -60,7 +60,7 @@ const ItemSchema = new mongoose.Schema({
     type: String,
   },
   keywords: {
-    type: String,
+    type: String,       ///alterar para array
   }
 });
 

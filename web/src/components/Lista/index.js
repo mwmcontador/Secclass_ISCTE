@@ -27,7 +27,7 @@ const Lista = ({ item }) => {
                 <div class="col-3">
                   <b>Tabela</b>
                 </div>
-                <div class="col-9">{item.code_tabela}</div>
+                <div class="col-9">{item.tabela_id.nome_secclass}</div>
               </div>
               <div class="row">
                 <div class="col-3">
