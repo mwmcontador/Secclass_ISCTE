@@ -62,7 +62,6 @@ router.get("/comment/", async (req, res) => {
     var ordem;
         if(order === undefined || order == ""){
           ordem = -1;
-          //nivel = 4;
         }
         else {
           ordem = parseInt(order);
@@ -103,8 +102,6 @@ router.get("/comment/", async (req, res) => {
       i++
       //console.log(JSON.stringify(temp));
     }
-
-
     res.json({ error: false, objectLength, data});
 
   }  catch (err) {

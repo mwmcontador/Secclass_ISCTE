@@ -28,10 +28,10 @@ const ComentariosSchema = new mongoose.Schema({
   timestamp: {
     type: Date,
     default: Date.now
-  },
+  },  
   date_string: {
     type: String
   }
-});
+}, {timestamps: true});
 
 module.exports = mongoose.model("comentarios", ComentariosSchema);

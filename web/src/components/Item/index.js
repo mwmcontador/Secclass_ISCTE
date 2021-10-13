@@ -126,7 +126,7 @@ const Item = ({ item }) => {
       <td>{item.review}</td>
       <td>{item?.titulo_SECClasS}</td>
       <td>{item?.title_item}</td>
-      <td align="center">{item.code_tabela}</td>
+      <td align="center">{item.tabela_id.nome_secclass}</td>
       <td align="center">{item.nivel_item}</td>
       <td className="text-center">
         <button className="btn btn-mostrar" onClick={mostrarItem}>

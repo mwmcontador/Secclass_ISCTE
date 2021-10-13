@@ -45576,3 +45576,3502 @@ Slice: TE, TE_50, TE_50_20, TE_50_20_10, TE_50_20_10_63.
   }
 ]
 [0mGET /comment?status=New [32m200[0m 19.540 ms - 6926[0m
+ReviewRoute: Eng. hidráulica
+"Parametros de revisão: [object Object], [object Object]"
+Data_out = 
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /review?especialidade=Eng.%20hidr%C3%A1ulica [32m200[0m 20.612 ms - 42[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-11 14:02:13 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-11 14:06:59 ___
+User Routes
+Tabela Route
+Item Routes
+Search Routes
+Comentarios Routes
+Review Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-11 14:19:48 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-11 14:52:03 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-11 14:53:38 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nodemon ./index.js
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 08:00:57 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 10:53:23 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+HierarchyRoute: TE_50_20_10_63
+Slice: TE, TE_50, TE_50_20, TE_50_20_10, TE_50_20_10_63.
+[0mGET /hierarchy/TE_50_20_10_63 [32m200[0m 51.821 ms - 688[0m
+[0mGET /hierarchy/ [33m404[0m 1.506 ms - 149[0m
+HierarchyRoute: TE_50_20_10_63
+Slice: TE, TE_50, TE_50_20, TE_50_20_10, TE_50_20_10_63.
+[0mGET /hierarchy/TE_50_20_10_63 [32m200[0m 33.016 ms - 688[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 10:54:17 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 11:16:01 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 2052.211 ms - 5749059[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1723.444 ms - -[0m
+SearchRoute: '' , '' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade [32m200[0m 371.138 ms - 1731887[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [32m200[0m 531.737 ms - 1731887[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 43.212 ms - 54828[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 4.364 ms - -[0m
+HierarchyRoute: TE_50_20_10_63
+Slice: TE, TE_50, TE_50_20, TE_50_20_10, TE_50_20_10_63.
+[0mGET /hierarchy/TE_50_20_10_63 [32m200[0m 40.810 ms - 688[0m
+SearchRoute: '' , 'Entidades' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 505
+[0mGET /search?pesquisa=&tabela=Entidades&nivel=4&especialidade= [32m200[0m 143.413 ms - 190749[0m
+6151e96ecf055d44dd078926
+objectLength = 0
+[0mGET /comment/iditem/6151e96ecf055d44dd078926 [32m200[0m 1.753 ms - 42[0m
+SearchRoute: 'Pr_65_70_11_17' , 'Entidades' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61656f8be843a97130730816,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_17',
+  timestamp: 2021-10-12T11:20:43.086Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_17&tabela=Entidades&nivel=4&especialidade= [32m200[0m 42.592 ms - 42[0m
+SearchRoute: 'Pr_65_70_11_17' , 'Entidades' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 61656f8be843a9713073081a,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_17',
+  timestamp: 2021-10-12T11:20:43.361Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_17&tabela=Entidades&nivel=4&especialidade= [36m304[0m 48.420 ms - -[0m
+SearchRoute: 'Pr_65_70_11_17' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_65_70_11_17' ],
+  _id: 61656f91e843a97130730820,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_17',
+  timestamp: 2021-10-12T11:20:49.917Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_17&tabela=Todos&nivel=4&especialidade= [32m200[0m 39.383 ms - 412[0m
+6152047bcf055d44dd07b46a
+objectLength = 1
+[0mGET /comment/iditem/6152047bcf055d44dd07b46a [36m304[0m 4.420 ms - -[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 87.218 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 1.700 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 14:46:26 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 15:09:20 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 15:10:52 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:16:49 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , '' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Error Item
+[0mGET /search?pesquisa&tabela&nivel=1&review&especialidade [32m200[0m 4.776 ms - 51[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:17:34 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , '' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa&tabela&nivel=1&review&especialidade [32m200[0m 100.504 ms - 50810[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [36m304[0m 93.100 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1783.651 ms - 5349331[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 9
+Data_save = {
+  results: [
+    'Pr_65_70_11_10',
+    'Pr_65_70_11_11',
+    'Pr_65_70_11_12',
+    'Pr_65_70_11_13',
+    'Pr_65_70_11_14',
+    'Pr_65_70_11_15',
+    'Pr_65_70_11_16',
+    'Pr_65_70_11_17',
+    'Pr_65_70_11_19'
+  ],
+  _id: 6165d1546931af97f44b9d27,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:17:56.282Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade= [36m304[0m 84.086 ms - -[0m
+SearchRoute: 'Pr_65_70_11_14' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'Pr_65_70_11_14' ],
+  _id: 6165d1586931af97f44b9d2c,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_14',
+  timestamp: 2021-10-12T18:18:00.716Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_14&tabela=Todos&nivel=4&especialidade= [32m200[0m 38.669 ms - 387[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 9
+Data_save = {
+  results: [
+    'Pr_65_70_11_10',
+    'Pr_65_70_11_11',
+    'Pr_65_70_11_12',
+    'Pr_65_70_11_13',
+    'Pr_65_70_11_14',
+    'Pr_65_70_11_15',
+    'Pr_65_70_11_16',
+    'Pr_65_70_11_17',
+    'Pr_65_70_11_19'
+  ],
+  _id: 6165d15c6931af97f44b9d33,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:04.196Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade= [36m304[0m 38.009 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1792.201 ms - 5349331[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1375.154 ms - -[0m
+Data_save = {
+  results: [],
+  _id: 6165d17d6931af97f44b9d3f,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:37.248Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade=Arquitetura [32m200[0m 1619.265 ms - 42[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6165d1856931af97f44b9d43,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:45.145Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade=Arquitetura [36m304[0m 30.439 ms - -[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6165d1856931af97f44b9d47,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:45.346Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade=Arquitetura [36m304[0m 39.579 ms - -[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6165d1856931af97f44b9d4b,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:45.766Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade=Arquitetura [36m304[0m 31.293 ms - -[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6165d1856931af97f44b9d4f,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:45.986Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade=Arquitetura [36m304[0m 32.266 ms - -[0m
+SearchRoute: 'Pr_65_70_11_1' , 'Todos' , '4' , 'undefined' e 'Arquitetura'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+Data_save = {
+  results: [],
+  _id: 6165d1866931af97f44b9d53,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'Pr_65_70_11_1',
+  timestamp: 2021-10-12T18:18:46.165Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=Pr_65_70_11_1&tabela=Todos&nivel=4&especialidade=Arquitetura [36m304[0m 32.286 ms - -[0m
+SearchRoute: '' , '' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade [32m200[0m 619.864 ms - 1605967[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Genérico'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 992
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Gen%C3%A9rico [32m200[0m 163.015 ms - 366377[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 511.368 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1569.617 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:19:23 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:22:38 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , '' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 50
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page=3&limit=50 [32m200[0m 46.101 ms - 17505[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1845.097 ms - 5349323[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1772.365 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e 'Todas'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 3263
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Todas [32m200[0m 466.212 ms - 1238460[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1606.357 ms - -[0m
+SearchRoute: '' , '' , '3' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 10
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page=3&limit=10 [32m200[0m 10.541 ms - 3522[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:24:14 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:25:36 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '4' , 'undefined' e ''.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+Error Item
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1359.646 ms - 51[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:26:15 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-12 18:32:07 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , '' , '3' , 'undefined', '', '1' e '10'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 10
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page=1&limit=10 [32m200[0m 31.503 ms - 3672[0m
+SearchRoute: '' , '' , '3' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page&limit [32m200[0m 686.669 ms - 1605967[0m
+SearchRoute: '' , '' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa&tabela&nivel=4&review&especialidade&page&limit [32m200[0m 1600.800 ms - 5349331[0m
+SearchRoute: '' , '' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=&nivel=4&review=&especialidade=&page=&limit= [32m200[0m 1735.880 ms - 5349331[0m
+SearchRoute: '' , '' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=&nivel=4&review=&especialidade= [36m304[0m 1718.178 ms - -[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 633.510 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1740.895 ms - 5349331[0m
+[0mGET /family/TE_50_20_10_63 [33m404[0m 1.064 ms - 160[0m
+[0mGET /family/TE_50_20_10_63 [33m404[0m 2.785 ms - 160[0m
+[
+  {
+    _id: 61603625db56717e58991c81,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    users_id: 61014705970082f592719864,
+    name: 'DC',
+    institution: 'ISCTE',
+    comment: 'Teste Final',
+    status: 'Close',
+    timestamp: 2021-10-08T12:14:29.000Z,
+    __v: 0
+  },
+  {
+    _id: 61602b39e7a4b22f88cd4fb5,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: 'DC',
+    comment: 'New test date',
+    status: 'Close',
+    timestamp: 2021-10-08T11:27:53.000Z,
+    __v: 0
+  },
+  {
+    _id: 61602b1f10ff3c6a780f1c52,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: 'DC',
+    comment: 'New Test',
+    status: 'Close',
+    timestamp: 2021-10-08T11:27:27.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d96e4e6981f05186f2c76,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: 'kjbkjbv',
+    status: 'Close',
+    timestamp: 2021-10-06T12:30:28.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9694e6981f05186f2c72,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: 'vdxfbedr',
+    status: 'Close',
+    timestamp: 2021-10-06T12:29:08.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d93a3d54df43d88e4802c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: 'ezqefzqf',
+    status: 'Close',
+    timestamp: 2021-10-06T12:16:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d8d7320cbec2344fd9fd2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: '',
+    institution: '',
+    comment: 'teeste dada biqbcibqwqwc ',
+    status: 'Close',
+    timestamp: 2021-10-06T11:50:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d8a2081218c22c0cee532,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: 'DDC',
+    comment: 'teeste dada',
+    status: 'Close',
+    timestamp: 2021-10-06T11:36:00.000Z,
+    date_string: '2',
+    __v: 0
+  },
+  {
+    _id: 615d8771d5882330681773fd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: '',
+    institution: '',
+    comment: 'teste date_string',
+    status: 'Close',
+    timestamp: 2021-10-06T11:24:33.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d7d3ba703a13628360870,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a6,
+      code_item: 'Co_20_15_58',
+      titulo_SECClasS: 'Complexos de escritórios'
+    },
+    comment: 'teste',
+    status: 'Close',
+    timestamp: 2021-10-06T10:40:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d7c26a703a13628360850,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a3,
+      code_item: 'Co_20_10_60',
+      titulo_SECClasS: 'Complexos governamentais'
+    },
+    contact: 'dfdf',
+    comment: 'ehe(e',
+    status: 'Close',
+    timestamp: 2021-10-06T10:36:22.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d7abf4605916e2443802b,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: 'DDC',
+    comment: 'testw data',
+    status: 'Close',
+    timestamp: 2021-10-06T10:30:23.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c25dfc0390eece2b4eefa,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: 'DDC',
+    comment: 'comentario teste',
+    status: 'Close',
+    timestamp: 2021-10-05T10:15:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c25afc0390eece2b4eef4,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151ee9dcf055d44dd078b44,
+      code_item: 'Ac_05_30_29',
+      titulo_SECClasS: 'Acordo da adoção de drenagem '
+    },
+    comment: 'comentários teste',
+    status: 'Close',
+    timestamp: 2021-10-05T10:15:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c22a9c0390eece2b4eee8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07a57f,
+      code_item: 'Pr_30_36_59_22',
+      titulo_SECClasS: 'Coordenadores de porta'
+    },
+    comment: 'teste',
+    status: 'Close',
+    timestamp: 2021-10-05T10:02:17.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2274c0390eece2b4eee2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    comment: 'teste',
+    status: 'Close',
+    timestamp: 2021-10-05T10:01:24.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 615b2322740156d5440cbb35,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: 'afezqe',
+    status: 'Close',
+    timestamp: 2021-10-04T15:52:02.000Z,
+    __v: 0
+  },
+  {
+    _id: 615b0185e5f6518012e92611,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: 'dsdzefezf',
+    status: 'Close',
+    timestamp: 2021-10-04T13:28:37.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155d4105f985b831c6bbe44,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: '',
+    institution: '',
+    comment: 'SCKDNCBDOICDSy',
+    status: 'Close',
+    timestamp: 2021-09-30T15:13:20.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155d3815f985b831c6bbe42,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: '',
+    institution: '',
+    comment: 'SCKDNCBDOICDS',
+    status: 'Close',
+    timestamp: 2021-09-30T15:10:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155d3405f985b831c6bbe40,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: '',
+    institution: '',
+    comment: 'TESTIZLFELM35YSB HRTHTR',
+    status: 'Close',
+    timestamp: 2021-09-30T15:09:52.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155d2f95f985b831c6bbe3e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: 'TESTIZLFELM',
+    status: 'Close',
+    timestamp: 2021-09-30T15:08:41.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155cb1f5f985b831c6bbe2e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    comment: '01/01/2021',
+    status: 'Close',
+    timestamp: 2021-09-30T14:35:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a72d5f985b831c6bbd88,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    name: '',
+    institution: '',
+    comment: 'QSKNDLKNSQLKDNQKS',
+    status: 'Close',
+    timestamp: 2021-09-30T12:01:49.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a7235f985b831c6bbd86,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    name: '',
+    institution: '',
+    comment: `oiuàçi('"²²EPZKR¨PEZRQËZPRËZ`,
+    status: 'Close',
+    timestamp: 2021-09-30T12:01:39.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a71d5f985b831c6bbd84,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    name: 'TESTE',
+    comment: `oiuàçi('"²²`,
+    status: 'Close',
+    timestamp: 2021-09-30T12:01:33.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2e29981a66c7cbbb9b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    comment: 'iugiuçç!',
+    status: 'Close',
+    timestamp: 2021-09-30T11:43:30.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155914124f7a5a750e1f840,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a1,
+      code_item: 'Co_20',
+      titulo_SECClasS: 'Complexos de serviços administrativos, comerciais e de segurança'
+    },
+    name: 'Hajz',
+    contact: 'sjjdd',
+    comment: 'Teste',
+    status: 'Close',
+    timestamp: 2021-09-30T10:28:17.000Z,
+    __v: 0
+  },
+  {
+    _id: 6154731eebfd203688f22229,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a2,
+      code_item: 'Co_20_10',
+      titulo_SECClasS: 'Complexos legislativos'
+    },
+    comment: 'tets',
+    status: 'Close',
+    timestamp: 2021-09-29T14:07:26.000Z,
+    __v: 0
+  },
+  {
+    _id: 6152fac7a044df62f426171d,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07a6c5,
+      code_item: 'Pr_35',
+      titulo_SECClasS: 'Produtos de revestimento e acabamento'
+    },
+    comment: 'Revestimento',
+    status: 'Close',
+    timestamp: 2021-09-28T11:21:43.000Z,
+    __v: 0
+  },
+  {
+    _id: 6149f01a1f4f4b3c20cbe3ac,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    comment: 'FEZSZGFESRGRES',
+    status: 'Close',
+    timestamp: 2021-09-21T14:45:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 614898a5891e984774b1c051,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    comment: 'teste data',
+    status: 'Close',
+    timestamp: 2021-09-20T14:20:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 614894d615b1795e04ac5375,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: '',
+    institution: '',
+    contact: 'a',
+    comment: 'testes data',
+    status: 'Close',
+    timestamp: 2021-09-20T14:04:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 614485d8f61d35611404eea4,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    contact: 'teste@gmail.com',
+    comment: 'teste',
+    status: 'Close',
+    timestamp: 2021-09-17T12:11:04.000Z,
+    __v: 0
+  },
+  {
+    _id: 61447eac84be2a56bc18c448,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: '',
+    institution: '',
+    comment: '',
+    status: 'Close',
+    timestamp: 2021-09-17T11:40:28.000Z,
+    __v: 0
+  },
+  {
+    _id: 61447e8e84be2a56bc18c444,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    status: 'Close',
+    timestamp: 2021-09-17T11:39:58.000Z,
+    __v: 0
+  },
+  {
+    _id: 61437861c15a5703e8d5d471,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    status: 'Close',
+    timestamp: 2021-09-16T17:01:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61434c42da50eb605c741fad,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    status: 'Close',
+    timestamp: 2021-09-16T13:53:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61433a7fda50eb605c741f47,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Sara Margarida Cabral Parece',
+    institution: 'istar',
+    contact: 'saraparece@gmail.com',
+    comment: 'OI',
+    status: 'Close',
+    timestamp: 2021-09-16T12:37:19.000Z,
+    __v: 0
+  },
+  {
+    _id: 61420109a09da55a3c80009e,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'a',
+    institution: 'cew 3',
+    contact: 'dadwf',
+    comment: 'test',
+    status: 'Close',
+    timestamp: 2021-09-15T14:19:53.000Z,
+    __v: 0
+  },
+  {
+    _id: 614200d2a09da55a3c800098,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'istaar',
+    contact: 'teste@email',
+    comment: 'teste date format',
+    status: 'Close',
+    timestamp: 2021-09-15T14:18:58.000Z,
+    __v: 0
+  },
+  {
+    _id: 6141f215a09da55a3c800070,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    status: 'Close',
+    timestamp: 2021-09-15T13:16:05.000Z,
+    __v: 0
+  },
+  {
+    _id: 6141ca5ba09da55a3c7fffe9,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: '',
+    institution: '',
+    contact: '',
+    comment: 'Está bom! ',
+    status: 'Close',
+    timestamp: 2021-09-15T10:26:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 6141ca2aa09da55a3c7fffe5,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Sara',
+    institution: 'Istar',
+    contact: '',
+    comment: 'Olá ',
+    status: 'Close',
+    timestamp: 2021-09-15T10:25:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 6140e1ad06eecc8388c069f9,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    status: 'Close',
+    timestamp: 2021-09-14T17:53:49.000Z,
+    __v: 0
+  },
+  {
+    _id: 6140df2b06eecc8388c069e9,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'New test date timezone',
+    status: 'Close',
+    timestamp: 2021-09-14T17:43:07.000Z,
+    __v: 0
+  },
+  {
+    _id: 6140dced159048886c7b46a5,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'New test date timezone',
+    status: 'Close',
+    timestamp: 2021-09-14T17:33:33.476Z,
+    __v: 0
+  },
+  {
+    _id: 6140dc7f0cbd1f881c314bb9,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'New test date timezone',
+    status: 'Close',
+    timestamp: 2021-09-14T17:31:43.055Z,
+    __v: 0
+  },
+  {
+    _id: 6140dac56ba9ae6888369ac2,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'New test date timezone',
+    status: 'Close',
+    timestamp: 2021-09-14T17:24:21.161Z,
+    __v: 0
+  },
+  {
+    _id: 6140d6ee7e881f6cccec8ebc,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Manoeoho)^^',
+    institution: '',
+    contact: 'email^ ggggggg',
+    comment: 'teste Aoihphpoj',
+    status: 'Close',
+    timestamp: 2021-09-14T17:07:58.827Z,
+    __v: 0
+  },
+  {
+    _id: 6140d6c97e881f6cccec8eb8,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Manoe',
+    institution: 'Instuit',
+    contact: 'email',
+    comment: 'teste A',
+    status: 'Close',
+    timestamp: 2021-09-14T17:07:21.040Z,
+    __v: 0
+  },
+  {
+    _id: 6140d6747e881f6cccec8eac,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'New test date timezone',
+    status: 'Close',
+    timestamp: 2021-09-14T17:05:56.318Z,
+    __v: 0
+  },
+  {
+    _id: 6140d2f76207423c74b4c461,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Manoel Wagner Gaia',
+    institution: 'ISTAR',
+    contact: 'ma,nocs@dzdsl',
+    comment: 'Teste de Comentário',
+    status: 'Close',
+    timestamp: 2021-09-14T16:51:03.796Z,
+    __v: 0
+  },
+  {
+    _id: 6140d2726207423c74b4c459,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'kcncw',
+    institution: 'lqnsc',
+    contact: 'lknq',
+    comment: 'pod,mwvsl,lk',
+    status: 'Close',
+    timestamp: 2021-09-14T16:48:50.461Z,
+    __v: 0
+  },
+  {
+    _id: 6140d1bd6207423c74b4c457,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'kcncw',
+    institution: 'lqnsc',
+    contact: 'lknq',
+    comment: 'pod,mwvsl,lk',
+    status: 'Close',
+    timestamp: 2021-09-14T16:45:49.527Z,
+    __v: 0
+  },
+  {
+    _id: 6140d1af6207423c74b4c455,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'kcncw',
+    institution: 'lqnsc',
+    contact: 'lknq',
+    comment: 'pod,mwvsl,lk',
+    status: 'Close',
+    timestamp: 2021-09-14T16:45:35.381Z,
+    __v: 0
+  },
+  {
+    _id: 6140d19b6207423c74b4c44f,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    status: 'Close',
+    timestamp: 2021-09-14T16:45:15.055Z,
+    __v: 0
+  },
+  {
+    _id: 6140a2cd2a77cb7f18436c65,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'test date timezone',
+    status: 'Close',
+    timestamp: 2021-09-14T13:25:33.860Z,
+    __v: 0
+  },
+  {
+    _id: 6138a461051b862be4da0427,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'MW',
+    institution: 'ISTAR',
+    contact: 'emailexemplo@iscte-iul.pt',
+    comment: 'Texto de comentario de teste.',
+    status: 'Close',
+    timestamp: 2021-09-08T11:54:09.089Z,
+    __v: 0
+  },
+  {
+    _id: 6138a3e0f0e0411d6c320641,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'MW',
+    institution: 'ISTAR',
+    comment: 'Texto de comentario de teste.',
+    status: 'Close',
+    timestamp: 2021-09-08T11:52:00.013Z,
+    __v: 0
+  },
+  {
+    _id: 61377ae9833401293cb869de,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'DC',
+    institution: 'IoTLab',
+    comment: 'Code:Co_20, Status:New',
+    status: 'Close',
+    timestamp: 2021-09-07T14:44:57.394Z,
+    __v: 0
+  },
+  {
+    _id: 6135ebcdfe43e33d54620923,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'MW',
+    institution: 'ISTAR',
+    comment: 'Code:Co_20, Status:New',
+    status: 'Close',
+    timestamp: 2021-09-06T10:22:05.529Z,
+    __v: 0
+  },
+  {
+    _id: 6130eb1585ae44523859462f,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Teste10',
+    institution: 'gret',
+    comment: 'texto de teste',
+    status: 'Close',
+    timestamp: 2021-09-02T15:17:41.837Z,
+    __v: 0
+  },
+  {
+    _id: 612f4ed2b2a1f76a10c1feb5,
+    users_id: 61014705970082f592719864,
+    items_id: null,
+    name: 'Teste10',
+    institution: 'gret',
+    comment: 'texto de teste',
+    status: 'Close',
+    timestamp: 2021-09-01T09:58:42.818Z,
+    __v: 0
+  },
+  {
+    _id: 612e718075c7b83694405ffc,
+    items_id: null,
+    name: 'Teste1',
+    comment: 'texto de teste',
+    status: 'Close',
+    __v: 0,
+    users_id: 6101449a970082f59271985d,
+    timestamp: 2021-10-12T18:59:26.051Z
+  },
+  {
+    _id: 612e6f2375c7b83694405fe2,
+    items_id: null,
+    name: 'Teste',
+    comment: 'texto de teste',
+    status: 'Close',
+    __v: 0,
+    users_id: 6101449a970082f59271985d,
+    timestamp: 2021-10-12T18:59:26.051Z
+  },
+  {
+    _id: 610160f8970082f592719867,
+    status: 'Close',
+    comment: 'User: Public, Code:Ac_05_00_80, Status:Close',
+    timestamp: 2021-07-28T11:50:17.865Z,
+    items_id: null,
+    users_id: 61014705970082f592719864
+  },
+  {
+    _id: 610160cc970082f592719866,
+    status: 'Close',
+    comment: 'User: Manager, Code:SL_20_15, Status:Pending',
+    timestamp: 2021-07-28T10:11:18.965Z,
+    items_id: null,
+    users_id: 610146ce970082f592719863
+  },
+  {
+    _id: 6101602b970082f592719865,
+    status: 'Close',
+    comment: 'User: Admin, Code:Co_20, Status:New',
+    timestamp: 2021-07-28T00:00:00.000Z,
+    items_id: null,
+    users_id: 6101449a970082f59271985d
+  }
+]
+[0mGET /comment/ [32m200[0m 111.102 ms - 26666[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1313.249 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1347.048 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1783.437 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1714.444 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1594.256 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1765.388 ms - 5349331[0m
+SearchRoute: '' , 'Gestão de projeto' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 537
+[0mGET /search?pesquisa=&tabela=Gest%C3%A3o%20de%20projeto&nivel=4&especialidade= [32m200[0m 221.559 ms - 204998[0m
+61544c9fcf055d44dd07bd3b
+objectLength = 0
+[0mGET /comment/iditem/61544c9fcf055d44dd07bd3b [32m200[0m 7.658 ms - 42[0m
+61544c9fcf055d44dd07bd3b
+objectLength = 0
+[0mGET /comment/iditem/61544c9fcf055d44dd07bd3b [36m304[0m 5.668 ms - -[0m
+SearchRoute: '' , 'Sistemas' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2324
+[0mGET /search?pesquisa=&tabela=Sistemas&nivel=4&especialidade= [32m200[0m 448.230 ms - 890772[0m
+SearchRoute: 'coluna' , 'Sistemas' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14
+Data_save = {
+  results: [
+    'Ss_15_10_35_94', 'Ss_15_10_80_15',
+    'Ss_20_05_65_64', 'Ss_20_05_90_46',
+    'Ss_20_30',       'Ss_20_30_75',
+    'Ss_20_30_75_15', 'Ss_20_30_75_50',
+    'Ss_20_30_75_80', 'Ss_20_30_75_85',
+    'Ss_20_60_30_08', 'Ss_20_60_30_24',
+    'Ss_55_15_95_64', 'Ss_65_40_33_60'
+  ],
+  _id: 6166a50a06ca69992c4c74b5,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'coluna',
+  timestamp: 2021-10-13T09:21:14.799Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=coluna&tabela=Sistemas&nivel=4&especialidade= [32m200[0m 85.476 ms - 5330[0m
+SearchRoute: 'coluna' , 'Sistemas' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14
+Data_save = {
+  results: [
+    'Ss_15_10_35_94', 'Ss_15_10_80_15',
+    'Ss_20_05_65_64', 'Ss_20_05_90_46',
+    'Ss_20_30',       'Ss_20_30_75',
+    'Ss_20_30_75_15', 'Ss_20_30_75_50',
+    'Ss_20_30_75_80', 'Ss_20_30_75_85',
+    'Ss_20_60_30_08', 'Ss_20_60_30_24',
+    'Ss_55_15_95_64', 'Ss_65_40_33_60'
+  ],
+  _id: 6166a50a06ca69992c4c74bb,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'coluna',
+  timestamp: 2021-10-13T09:21:14.864Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=coluna&tabela=Sistemas&nivel=4&especialidade= [36m304[0m 37.520 ms - -[0m
+SearchRoute: 'sapata' , 'Sistemas' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Ss_20_05_50_65', 'Ss_20_05_50_93' ],
+  _id: 6166a51206ca69992c4c74c0,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'sapata',
+  timestamp: 2021-10-13T09:21:22.663Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=sapata&tabela=Sistemas&nivel=4&especialidade= [32m200[0m 45.559 ms - 879[0m
+SearchRoute: 'sapata' , 'Sistemas' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 2
+Data_save = {
+  results: [ 'Ss_20_05_50_65', 'Ss_20_05_50_93' ],
+  _id: 6166a51206ca69992c4c74c7,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'sapata',
+  timestamp: 2021-10-13T09:21:22.737Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=sapata&tabela=Sistemas&nivel=4&especialidade= [36m304[0m 33.665 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametro tabela: [object Object]
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1936.586 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:02:24 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:03:22 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '1' , 'undefined', '', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 86.925 ms - 50810[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined', '', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 246.063 ms - -[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined', '', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 592.663 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', '', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1607.803 ms - -[0m
+[
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  }
+]
+[0mGET /comment?status=New [32m200[0m 88.213 ms - 6926[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:10:55 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:18:52 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '4' , 'undefined', 'Ensino', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Ensino [32m200[0m 41.292 ms - 42[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', 'Ensino', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Ensino [36m304[0m 48.384 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', 'Ensino', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 0
+PESQUISA NAO ENCONTRADA
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Ensino [36m304[0m 52.347 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined', 'Paisagismo', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 108
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade=Paisagismo [32m200[0m 92.793 ms - 42155[0m
+6151fd59cf055d44dd079344
+objectLength = 0
+[0mGET /comment/iditem/6151fd59cf055d44dd079344 [32m200[0m 5.871 ms - 42[0m
+SearchRoute: '' , '' , '3' , 'undefined', '', 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page&limit [32m200[0m 724.721 ms - 1606009[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:35:17 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:36:24 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:42:09 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:42:58 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:45:06 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [32m200[0m 734.349 ms - 1606009[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 526.046 ms - -[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 487.985 ms - -[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 476.837 ms - -[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 485.394 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:48:01 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:49:29 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: 'pilar' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 25
+Data_save = {
+  results: [
+    'En_25_30_90',    'En_32_50_65',
+    'En_32_85_25',    'EF_20_50_64',
+    'Ss_20_05_90_10', 'Ss_20_50',
+    'Ss_20_50_10',    'Ss_20_50_10_10',
+    'Ss_20_50_10_30', 'Ss_20_50_10_40',
+    'Ss_20_50_10_50', 'Ss_20_50_10_70',
+    'Ss_20_50_10_80', 'Ss_20_50_10_85',
+    'Ss_20_50_10_90', 'Ss_20_50_20',
+    'Ss_20_50_20_50', 'Ss_20_50_20_70',
+    'Ss_20_50_30',    'Pr_25_57_85_10',
+    'Pr_30_59_29_02', 'Pr_40_20_87_66',
+    'Pr_40_20_87_67', 'Pr_65_72_27_44',
+    'Pr_70_55_42_11'
+  ],
+  _id: 6166b9c3527f6056786748fb,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'pilar',
+  timestamp: 2021-10-13T10:49:39.308Z,
+  createdAt: 2021-10-13T10:49:39.311Z,
+  updatedAt: 2021-10-13T10:49:39.311Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=pilar&tabela=Todos&nivel=4&especialidade= [32m200[0m 81.107 ms - 9347[0m
+SearchRoute: 'pilar' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 25
+Data_save = {
+  results: [
+    'En_25_30_90',    'En_32_50_65',
+    'En_32_85_25',    'EF_20_50_64',
+    'Ss_20_05_90_10', 'Ss_20_50',
+    'Ss_20_50_10',    'Ss_20_50_10_10',
+    'Ss_20_50_10_30', 'Ss_20_50_10_40',
+    'Ss_20_50_10_50', 'Ss_20_50_10_70',
+    'Ss_20_50_10_80', 'Ss_20_50_10_85',
+    'Ss_20_50_10_90', 'Ss_20_50_20',
+    'Ss_20_50_20_50', 'Ss_20_50_20_70',
+    'Ss_20_50_30',    'Pr_25_57_85_10',
+    'Pr_30_59_29_02', 'Pr_40_20_87_66',
+    'Pr_40_20_87_67', 'Pr_65_72_27_44',
+    'Pr_70_55_42_11'
+  ],
+  _id: 6166b9c3527f605678674901,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'pilar',
+  timestamp: 2021-10-13T10:49:39.814Z,
+  createdAt: 2021-10-13T10:49:39.815Z,
+  updatedAt: 2021-10-13T10:49:39.815Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=pilar&tabela=Todos&nivel=4&especialidade= [36m304[0m 66.156 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:50:32 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:51:48 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:52:31 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  }
+]
+Error GET ALL Comment
+[0mGET /comment?status=New [32m200[0m 50.552 ms - 74[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:53:35 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:53:44 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+[
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  }
+]
+[0mGET /comment?status=New [32m200[0m 41.637 ms - 6926[0m
+6151e96ecf055d44dd078968
+objectLength = 0
+[0mGET /comment/iditem/6151e96ecf055d44dd078968 [32m200[0m 3.468 ms - 42[0m
+{
+  users_id: '61014705970082f592719864',
+  items_id: '6151e96ecf055d44dd078968',
+  name: 'ADMIN',
+  institution: undefined,
+  contact: undefined,
+  comment: 'Update',
+  status: 'New',
+  timestamp: 'Wed Oct 13 2021 11:54:34 GMT+0100 (Western European Summer Time)'
+}
+Error POST Comment
+[0mPOST /comment [32m200[0m 8.838 ms - 46[0m
+6151e96ecf055d44dd078968
+objectLength = 1
+[0mGET /comment/iditem/6151e96ecf055d44dd078968 [32m200[0m 6.346 ms - 433[0m
+[
+  {
+    _id: 6166baea67e89f4ef41212e2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e96ecf055d44dd078968,
+      code_item: 'En_25_30_90',
+      titulo_SECClasS: 'Pilares de triangulação'
+    },
+    name: 'ADMIN',
+    comment: 'Update',
+    status: 'New',
+    timestamp: 2021-10-13T10:54:34.000Z,
+    createdAt: 2021-10-13T10:54:34.463Z,
+    updatedAt: 2021-10-13T10:54:34.463Z,
+    __v: 0
+  },
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  }
+]
+[0mGET /comment?status=New [32m200[0m 21.997 ms - 7318[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:56:49 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-13 10:58:36 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected

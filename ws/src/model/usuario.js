@@ -1,12 +1,8 @@
 const mongoose = require("mongoose");
 
 const Usuario = mongoose.model("Usuario", {
-  id_user: {
-    type: Number,
-    required: true,
-  },
   user_name: {
-    type: Number,
+    type: String,
     required: true,
   },
   email: {
@@ -27,7 +23,13 @@ const Usuario = mongoose.model("Usuario", {
   access_level: {
     type: String,
   },
-  senha: { type: String },
+  password: {
+    type: String
+  },
+  timestamp: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 module.exports = Usuario;
