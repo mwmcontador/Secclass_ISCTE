@@ -49075,3 +49075,3386 @@ Lists Routes
 Family Routes
 .......Server is running
 .........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 2184.187 ms - 5349625[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1796.514 ms - -[0m
+[
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  }
+]
+[0mGET /comment?status=New [32m200[0m 71.047 ms - 6926[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1809.479 ms - -[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 11.030 ms - 42[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 7297123,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:162.142.125.41', family: 'IPv6', port: 44258 },
+    [Symbol(async_id_symbol)]: 55639,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 7297123\r\n' +
+    'ETag: W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"\r\n' +
+    'Date: Thu, 14 Oct 2021 08:27:04 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 55639,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+      accept: '*/*',
+      'accept-encoding': 'gzip'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+      'Accept',
+      '*/*',
+      'Accept-Encoding',
+      'gzip'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 55639,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 687566, 256954700 ],
+    _startTime: 2021-10-14T08:27:02.764Z,
+    _remoteAddress: '::ffff:162.142.125.41',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 687567, 564891500 ],
+  _startTime: 2021-10-14T08:27:04.072Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '7297123' ],
+    etag: [ 'ETag', 'W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"' ]
+  }
+}
+[0mGET / [32m200[0m 1307.937 ms - 7297123[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 7297123,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:77.111.247.7', family: 'IPv6', port: 39649 },
+    [Symbol(async_id_symbol)]: 58856,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 7297123\r\n' +
+    'ETag: W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"\r\n' +
+    'Date: Thu, 14 Oct 2021 09:36:15 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 58856,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.72',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'accept-encoding': 'gzip, deflate',
+      'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+      dnt: '1',
+      'upgrade-insecure-requests': '1'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.72',
+      'Accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Accept-Encoding',
+      'gzip, deflate',
+      'Accept-Language',
+      'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+      'Dnt',
+      '1',
+      'Upgrade-Insecure-Requests',
+      '1'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 58856,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 691718, 160053200 ],
+    _startTime: 2021-10-14T09:36:14.667Z,
+    _remoteAddress: '::ffff:77.111.247.7',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 691719, 454997900 ],
+  _startTime: 2021-10-14T09:36:15.962Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '7297123' ],
+    etag: [ 'ETag', 'W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"' ]
+  }
+}
+[0mGET / [32m200[0m 1294.945 ms - 7297123[0m
+[0mGET /favicon.ico [33m404[0m 6.507 ms - 150[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [32m200[0m 731.984 ms - 1606009[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 2.648 ms - 42[0m
+SearchRoute: '' , '' , '4' , 'undefined' , '' , 'NaN' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 50
+[0mGET /search?pesquisa=&tabela=&nivel=4&review=&especialidade=&page0=&limit=50 [32m200[0m 36.108 ms - 17902[0m
+SearchRoute: '' , '' , '4' , 'undefined' , '' , 'NaN' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 50
+[0mGET /search?pesquisa=&tabela=&nivel=4&review=&especialidade=&page2=&limit=50 [32m200[0m 25.270 ms - 17902[0m
+SearchRoute: '' , '' , '4' , 'undefined' , '' , 'NaN' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 50
+[0mGET /search?pesquisa=&tabela=&nivel=4&review=&especialidade=&page5=&limit=50 [32m200[0m 21.921 ms - 17902[0m
+SearchRoute: '' , '' , '4' , 'undefined' , '' , 'NaN' e '500'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 500
+[0mGET /search?pesquisa=&tabela=&nivel=4&review=&especialidade=&page5=&limit=500 [32m200[0m 92.537 ms - 177514[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: true,
+  chunkedEncoding: false,
+  shouldKeepAlive: false,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: false,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 0,
+  _hasBody: false,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:138.68.177.166', family: 'IPv6', port: 49514 },
+    [Symbol(async_id_symbol)]: 67931,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 7297123\r\n' +
+    'ETag: W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"\r\n' +
+    'Date: Thu, 14 Oct 2021 12:52:34 GMT\r\n' +
+    'Connection: close\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 67931,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 0,
+    httpVersion: '1.0',
+    complete: true,
+    headers: {},
+    rawHeaders: [],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'HEAD',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 67931,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 703497, 196839100 ],
+    _startTime: 2021-10-14T12:52:33.703Z,
+    _remoteAddress: '::ffff:138.68.177.166',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 703498, 276094700 ],
+  _startTime: 2021-10-14T12:52:34.782Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '7297123' ],
+    etag: [ 'ETag', 'W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"' ]
+  }
+}
+[0mHEAD / [32m200[0m 1079.256 ms - 7297123[0m
+[0mGET /system_api.php [33m404[0m 3.672 ms - 153[0m
+[0mGET /c/version.js [33m404[0m 0.228 ms - 151[0m
+[0mGET /streaming/clients_live.php [33m404[0m 0.271 ms - 165[0m
+[0mGET /stalker_portal/c/version.js [33m404[0m 0.228 ms - 166[0m
+[0mGET /stream/live.php [33m404[0m 0.228 ms - 154[0m
+[0mGET /flu/403.html [33m404[0m 0.217 ms - 151[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1739.521 ms - 5349625[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [32m200[0m 9.604 ms - 42[0m
+6151e818cf055d44dd0787a1
+objectLength = 0
+[0mGET /comment/iditem/6151e818cf055d44dd0787a1 [36m304[0m 2.183 ms - -[0m
+SearchRoute: '' , 'Elementos/ funções' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 79
+[0mGET /search?pesquisa=&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=2&especialidade= [32m200[0m 58.458 ms - 28784[0m
+6151f5a6cf055d44dd0792ca
+objectLength = 0
+[0mGET /comment/iditem/6151f5a6cf055d44dd0792ca [32m200[0m 2.456 ms - 42[0m
+SearchRoute: 'infr' , 'Elementos/ funções' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'EF_20_05' ],
+  _id: 61685bc3d7d49aac4c92b699,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'infr',
+  timestamp: 2021-10-14T16:33:07.986Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=infr&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=2&especialidade= [32m200[0m 50.232 ms - 385[0m
+SearchRoute: 'infr' , 'Elementos/ funções' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'EF_20_05' ],
+  _id: 61685bc6d7d49aac4c92b69f,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'infr',
+  timestamp: 2021-10-14T16:33:10.577Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=infr&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=2&especialidade= [36m304[0m 29.846 ms - -[0m
+SearchRoute: 'infr' , 'Elementos/ funções' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 1
+Data_save = {
+  results: [ 'EF_20_05' ],
+  _id: 61685c0ad7d49aac4c92b6a5,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'infr',
+  timestamp: 2021-10-14T16:34:18.875Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=infr&tabela=Elementos/%20fun%C3%A7%C3%B5es&nivel=2&especialidade= [36m304[0m 44.112 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1412.781 ms - 5349625[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1592.295 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1556.204 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1119.945 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1547.577 ms - -[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 7297123,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:43.133.57.144', family: 'IPv6', port: 60764 },
+    [Symbol(async_id_symbol)]: 95318,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 7297123\r\n' +
+    'ETag: W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"\r\n' +
+    'Date: Thu, 14 Oct 2021 22:19:10 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 95318,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36',
+      'accept-encoding': 'gzip'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36',
+      'Accept-Encoding',
+      'gzip'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 95318,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 737495, 298570800 ],
+    _startTime: 2021-10-14T22:19:09.465Z,
+    _remoteAddress: '::ffff:43.133.57.144',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 737496, 523946600 ],
+  _startTime: 2021-10-14T22:19:10.691Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '7297123' ],
+    etag: [ 'ETag', 'W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"' ]
+  }
+}
+[0mGET / [32m200[0m 1225.376 ms - 7297123[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 7297123,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:13.40.23.69', family: 'IPv6', port: 51178 },
+    [Symbol(async_id_symbol)]: 111786,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 7297123\r\n' +
+    'ETag: W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"\r\n' +
+    'Date: Fri, 15 Oct 2021 04:43:57 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 111786,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': "'Cloud mapping experiment. Contact research@pdrlabs.net'",
+      accept: '*/*',
+      'accept-encoding': 'gzip'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      "'Cloud mapping experiment. Contact research@pdrlabs.net'",
+      'Accept',
+      '*/*',
+      'Accept-Encoding',
+      'gzip'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 111786,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 760582, 442880300 ],
+    _startTime: 2021-10-15T04:43:56.610Z,
+    _remoteAddress: '::ffff:13.40.23.69',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 760583, 649246700 ],
+  _startTime: 2021-10-15T04:43:57.816Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '7297123' ],
+    etag: [ 'ETag', 'W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"' ]
+  }
+}
+[0mGET / [32m200[0m 1206.366 ms - 7297123[0m
+Iniciando rota do item
+Itens Lidos
+Itens Lidos <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: 7297123,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: true,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: [Object],
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 1,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::5003',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 21
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::ffff:35.176.63.70', family: 'IPv6', port: 44810 },
+    [Symbol(async_id_symbol)]: 116464,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: 'HTTP/1.1 200 OK\r\n' +
+    'X-Powered-By: Express\r\n' +
+    'Access-Control-Allow-Origin: *\r\n' +
+    'Content-Type: application/json; charset=utf-8\r\n' +
+    'Content-Length: 7297123\r\n' +
+    'ETag: W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"\r\n' +
+    'Date: Fri, 15 Oct 2021 06:27:40 GMT\r\n' +
+    'Connection: keep-alive\r\n' +
+    'Keep-Alive: timeout=5\r\n' +
+    '\r\n',
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: null,
+      ended: true,
+      endEmitted: false,
+      reading: false,
+      sync: true,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: true,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: null
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 116464,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: '193.136.189.87:5003',
+      'user-agent': "'Cloud mapping experiment. Contact research@pdrlabs.net'",
+      accept: '*/*',
+      'accept-encoding': 'gzip'
+    },
+    rawHeaders: [
+      'Host',
+      '193.136.189.87:5003',
+      'User-Agent',
+      "'Cloud mapping experiment. Contact research@pdrlabs.net'",
+      'Accept',
+      '*/*',
+      'Accept-Encoding',
+      'gzip'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/',
+    method: 'GET',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 116464,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: false,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/',
+      path: '/',
+      href: '/',
+      _raw: '/'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: {},
+    _startAt: [ 766804, 744675300 ],
+    _startTime: 2021-10-15T06:27:38.911Z,
+    _remoteAddress: '::ffff:35.176.63.70',
+    route: Route { path: '/', stack: [Array], methods: [Object] },
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  _startAt: [ 766805, 897157600 ],
+  _startTime: 2021-10-15T06:27:40.064Z,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] { queue: [ [Function: logRequest] ] },
+  statusCode: 200,
+  statusMessage: 'OK',
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ],
+    'access-control-allow-origin': [ 'Access-Control-Allow-Origin', '*' ],
+    'content-type': [ 'Content-Type', 'application/json; charset=utf-8' ],
+    'content-length': [ 'Content-Length', '7297123' ],
+    etag: [ 'ETag', 'W/"6f5863-mu86+Cvpv4l0W73lJF1qjgQUah8"' ]
+  }
+}
+[0mGET / [32m200[0m 1152.482 ms - 7297123[0m
+[
+  {
+    _id: 615e1cd5407c3766307416fc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47e,
+      code_item: 'Pr_65_70_11_80',
+      titulo_SECClasS: 'Caminhos de cabos de isolamento com fenda'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'Sugiro a alteração para Caminhos de cabos isolantes ranhurados',
+    status: 'New',
+    timestamp: 2021-10-06T22:01:57.000Z,
+    __v: 0
+  },
+  {
+    _id: 615e1c93407c3766307416f8,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b47d,
+      code_item: 'Pr_65_70_11_79',
+      titulo_SECClasS: 'Canaleta de cabo com fenda '
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'A tradução mais adequada ao produto será: Calhas perfuradas ou em alternativa Calhas ranhuradas',
+    status: 'New',
+    timestamp: 2021-10-06T22:00:51.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd5e407c3766307414c1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b46a,
+      code_item: 'Pr_65_70_11_17',
+      titulo_SECClasS: 'Caminho de cabo - Esteira fechada'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base contínua\n' +
+      'Esteira fechada dá a entender que é um caminho de cabos com tampa',
+    status: 'New',
+    timestamp: 2021-10-06T16:22:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcd1a407c3766307414bd,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b465,
+      code_item: 'Pr_65_70_11_12',
+      titulo_SECClasS: 'Caminho de cabo - Esteira aberta'
+    },
+    name: 'Bruno Simões',
+    institution: 'Unex',
+    contact: 'bsimoes@unex.pt',
+    comment: 'O termo mais correto será: Caminho de cabos com base em malha',
+    status: 'New',
+    timestamp: 2021-10-06T16:21:46.000Z,
+    __v: 0
+  },
+  {
+    _id: 615dcc93407c3766307414ab,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c69,
+      code_item: 'Pr_20_29',
+      titulo_SECClasS: 'Produtos de fixação'
+    },
+    name: 'Ricardo Resende',
+    contact: 'ricardo@gmail.com',
+    comment: 'Penso que esta entrada deveria ser XXXXX',
+    status: 'New',
+    timestamp: 2021-10-06T16:19:31.000Z,
+    __v: 0
+  },
+  {
+    _id: 615d9feb407c3766307413b3,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151e818cf055d44dd0787a9,
+      code_item: 'Co_20_20_40',
+      titulo_SECClasS: 'Complexos governamentais locais'
+    },
+    name: 'Ricardo Resende',
+    institution: 'Iscte-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'Inclui todos os edifícios governamentais?',
+    status: 'New',
+    timestamp: 2021-10-06T13:08:59.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c265ec0390eece2b4eefc,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079c00,
+      code_item: 'Pr_15',
+      titulo_SECClasS: 'Produtos preparatórios'
+    },
+    name: 'ricardo',
+    institution: 'ISCTE-IUL',
+    contact: 'rresende@gmail.com',
+    comment: 'teste',
+    status: 'New',
+    timestamp: 2021-10-05T10:18:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c2554c0390eece2b4eef2,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd07931d,
+      code_item: 'Ss_15_30_50_50',
+      titulo_SECClasS: 'Sistemas de reparação reparo de alvenaria'
+    },
+    name: 'Sara',
+    institution: 'Iscte',
+    comment: 'Sistemas de reparação de alvenaria',
+    status: 'New',
+    timestamp: 2021-10-05T10:13:40.000Z,
+    __v: 0
+  },
+  {
+    _id: 615c21d7c0390eece2b4eede,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6151fd59cf055d44dd0792ea,
+      code_item: 'Ss_15_10_30',
+      titulo_SECClasS: 'Sistemas de escavação, enchimento e controlo de erosão'
+    },
+    name: 'ricardo',
+    institution: 'Iscte',
+    contact: 'rresende@gmail.com',
+    comment: 'teste Ss_15_10_30',
+    status: 'New',
+    timestamp: 2021-10-05T09:58:47.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5975f985b831c6bbd80,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b574,
+      code_item: 'Pr_65_72_97_81',
+      titulo_SECClasS: 'Dispositivos de corrente residual de saída de soquete (SRCD)'
+    },
+    comment: 'Dispositivos de corrente residual de saída',
+    status: 'New',
+    timestamp: 2021-09-30T11:55:03.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5635f985b831c6bbd7e,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079cb3,
+      code_item: 'Pr_20_29_10_16',
+      titulo_SECClasS: 'Soquetes de cabo suspenso de aço '
+    },
+    comment: 'Olhais de cabos suspensos',
+    status: 'New',
+    timestamp: 2021-09-30T11:54:11.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5485f985b831c6bbd7c,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079caf,
+      code_item: 'Pr_20_29_10_12',
+      titulo_SECClasS: 'Olhais para cabos'
+    },
+    comment: 'Olhais para cabos',
+    status: 'New',
+    timestamp: 2021-09-30T11:53:44.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a5165f985b831c6bbd7a,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07b56f,
+      code_item: 'Pr_65_72_97_72',
+      titulo_SECClasS: 'Tomadas de soquete de pino redondo'
+    },
+    comment: 'Tomadas de pino redondo',
+    status: 'New',
+    timestamp: 2021-09-30T11:52:54.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a4c85f985b831c6bbd74,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079d75,
+      code_item: 'Pr_20_29_76_28',
+      titulo_SECClasS: 'Parafusos com olhal'
+    },
+    comment: 'camarão',
+    status: 'New',
+    timestamp: 2021-09-30T11:51:36.000Z,
+    __v: 0
+  },
+  {
+    _id: 6155a2ca9981a66c7cbbb9b1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd079f0e,
+      code_item: 'Pr_20_76_51_25',
+      titulo_SECClasS: 'Seções de moldura de parede de cortina resistentes a explosão'
+    },
+    name: 'Ricardo ',
+    comment: 'Fachadas-cortina resistentes a explosão',
+    status: 'New',
+    timestamp: 2021-09-30T11:43:06.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fdb24f7a5a750e1f8d1,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    name: '',
+    institution: '',
+    comment: 'superfícial deve ser superficial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:35.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559fcd24f7a5a750e1f8cf,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 61544915cf055d44dd07ba0c,
+      code_item: 'TE_10_10_20',
+      titulo_SECClasS: 'Material de contato superfícial'
+    },
+    comment: 'superfícial',
+    status: 'New',
+    timestamp: 2021-09-30T11:30:21.000Z,
+    __v: 0
+  },
+  {
+    _id: 61559a4e24f7a5a750e1f883,
+    users_id: 61014705970082f592719864,
+    items_id: {
+      _id: 6152047bcf055d44dd07ba01,
+      code_item: 'Pr_90',
+      titulo_SECClasS: 'Produtos de gestão de intalações flexíveis'
+    },
+    name: 'Ricardo Resende',
+    comment: 'gralha em instalações',
+    status: 'New',
+    timestamp: 2021-09-30T11:06:54.000Z,
+    __v: 0
+  }
+]
+[0mGET /comment?status=New [32m200[0m 102.743 ms - 6926[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 15:32:18 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 14672
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1933.952 ms - 5349639[0m
+SearchRoute: '' , '' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page&limit [32m200[0m 592.419 ms - 1606022[0m
+SearchRoute: '' , '' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 966
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa&tabela&nivel=2&review&especialidade&page&limit [32m200[0m 140.991 ms - 350462[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [32m200[0m 502.590 ms - 1606022[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 612.622 ms - -[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 966
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [32m200[0m 213.354 ms - 350462[0m
+[32m[nodemon] restarting due to changes...[39m
+SearchRoute: '' , '' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 966
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa&tabela&nivel=2&review&especialidade&page&limit [32m200[0m 173.783 ms - 350462[0m
+SearchRoute: '' , '' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page&limit [32m200[0m 427.076 ms - 1606022[0m
+SearchRoute: '' , '' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page&limit [32m200[0m 513.718 ms - 1606022[0m
+SearchRoute: '' , '' , '1' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 139
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa&tabela&nivel=1&review&especialidade&page&limit [32m200[0m 95.848 ms - 50822[0m
+SearchRoute: '' , 'Todos' , '1' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 139
+Numeros de docs objectLength = 139
+[0mGET /search?pesquisa=&tabela=Todos&nivel=1&especialidade= [32m200[0m 77.137 ms - 50822[0m
+SearchRoute: '' , 'Todos' , '2' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 966
+Numeros de docs objectLength = 966
+[0mGET /search?pesquisa=&tabela=Todos&nivel=2&especialidade= [36m304[0m 153.084 ms - -[0m
+SearchRoute: '' , 'Todos' , '3' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+Numeros de docs objectLength = 4464
+[0mGET /search?pesquisa=&tabela=Todos&nivel=3&especialidade= [36m304[0m 550.779 ms - -[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 14672
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [36m304[0m 1549.954 ms - -[0m
+SearchRoute: 'porta' , '' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 200
+Numeros de docs objectLength = 200
+Data_save = {
+  results: [
+    'En_30_70_17',    'En_32_85_21',    'En_32_85_82',    'En_80_35_89',
+    'En_80_96_91',    'En_80_96_92',    'SL_32_50_12',    'SL_45_10_16',
+    'SL_80_10_55',    'SL_80_96_20',    'SL_90_10_34',    'EF_25_30',
+    'Ss_25_20_68',    'Ss_25_20_68_30', 'Ss_25_20_68_50', 'Ss_25_20_68_65',
+    'Ss_25_30',       'Ss_25_30_20',    'Ss_25_30_20_22', 'Ss_25_30_20_25',
+    'Ss_25_30_20_30', 'Ss_25_30_20_32', 'Ss_25_30_20_37', 'Ss_25_30_20_38',
+    'Ss_25_30_20_39', 'Ss_25_30_20_40', 'Ss_25_30_20_45', 'Ss_25_30_20_62',
+    'Ss_25_30_20_65', 'Ss_25_30_20_70', 'Ss_25_30_20_73', 'Ss_25_30_20_76',
+    'Ss_25_30_20_77', 'Ss_25_30_20_78', 'Ss_25_30_20_84', 'Ss_25_30_20_93',
+    'Ss_25_32',       'Ss_25_32_35_05', 'Ss_25_36_30_30', 'Ss_25_38_20',
+    'Ss_25_38_20_20', 'Ss_25_38_20_30', 'Ss_30_40_50',    'Ss_30_40_50_20',
+    'Ss_30_40_50_45', 'Ss_30_40_50_80', 'Ss_30_40_50_95', 'Ss_30_40_65',
+    'Ss_30_40_65_30', 'Ss_30_40_65_50', 'Ss_30_40_65_60', 'Ss_37_17_35_60',
+    'Ss_45_40',       'Ss_55_30_65',    'Ss_55_30_65_65', 'Ss_55_70_99_84',
+    'Ss_75_30_35_86', 'Ss_75_40_02_94', 'Pr_20_29_30_24', 'Pr_25_93_52_34',
+    'Pr_25_93_52_35', 'Pr_30_36_08_13', 'Pr_30_36_08_22', 'Pr_30_36_08_23',
+    'Pr_30_36_08_25', 'Pr_30_36_08_26', 'Pr_30_36_08_84', 'Pr_30_36_33_20',
+    'Pr_30_36_33_22', 'Pr_30_36_33_24', 'Pr_30_36_36_09', 'Pr_30_36_36_22',
+    'Pr_30_36_36_23', 'Pr_30_36_36_66', 'Pr_30_36_36_71', 'Pr_30_36_36_79',
+    'Pr_30_36_59_22', 'Pr_30_36_59_24', 'Pr_30_36_59_25', 'Pr_30_36_59_27',
+    'Pr_30_36_59_32', 'Pr_30_36_59_62', 'Pr_30_36_59_78', 'Pr_30_59_23',
+    'Pr_30_59_23_11', 'Pr_30_59_23_15', 'Pr_30_59_23_16', 'Pr_30_59_23_32',
+    'Pr_30_59_23_34', 'Pr_30_59_23_47', 'Pr_30_59_23_53', 'Pr_30_59_23_84',
+    'Pr_30_59_23_91', 'Pr_30_59_23_92', 'Pr_30_59_23_96', 'Pr_30_59_23_97',
+    'Pr_30_59_23_98', 'Pr_30_59_24',    'Pr_30_59_24_04', 'Pr_30_59_24_15',
+    ... 100 more items
+  ],
+  _id: 6169a3ce32c7411ae07782f4,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-10-15T15:52:46.502Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela&nivel=4&review&especialidade&page&limit [32m200[0m 144.849 ms - 73877[0m
+SearchRoute: 'porta' , '' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 200
+Numeros de docs objectLength = 200
+Data_save = {
+  results: [
+    'En_30_70_17',    'En_32_85_21',    'En_32_85_82',    'En_80_35_89',
+    'En_80_96_91',    'En_80_96_92',    'SL_32_50_12',    'SL_45_10_16',
+    'SL_80_10_55',    'SL_80_96_20',    'SL_90_10_34',    'EF_25_30',
+    'Ss_25_20_68',    'Ss_25_20_68_30', 'Ss_25_20_68_50', 'Ss_25_20_68_65',
+    'Ss_25_30',       'Ss_25_30_20',    'Ss_25_30_20_22', 'Ss_25_30_20_25',
+    'Ss_25_30_20_30', 'Ss_25_30_20_32', 'Ss_25_30_20_37', 'Ss_25_30_20_38',
+    'Ss_25_30_20_39', 'Ss_25_30_20_40', 'Ss_25_30_20_45', 'Ss_25_30_20_62',
+    'Ss_25_30_20_65', 'Ss_25_30_20_70', 'Ss_25_30_20_73', 'Ss_25_30_20_76',
+    'Ss_25_30_20_77', 'Ss_25_30_20_78', 'Ss_25_30_20_84', 'Ss_25_30_20_93',
+    'Ss_25_32',       'Ss_25_32_35_05', 'Ss_25_36_30_30', 'Ss_25_38_20',
+    'Ss_25_38_20_20', 'Ss_25_38_20_30', 'Ss_30_40_50',    'Ss_30_40_50_20',
+    'Ss_30_40_50_45', 'Ss_30_40_50_80', 'Ss_30_40_50_95', 'Ss_30_40_65',
+    'Ss_30_40_65_30', 'Ss_30_40_65_50', 'Ss_30_40_65_60', 'Ss_37_17_35_60',
+    'Ss_45_40',       'Ss_55_30_65',    'Ss_55_30_65_65', 'Ss_55_70_99_84',
+    'Ss_75_30_35_86', 'Ss_75_40_02_94', 'Pr_20_29_30_24', 'Pr_25_93_52_34',
+    'Pr_25_93_52_35', 'Pr_30_36_08_13', 'Pr_30_36_08_22', 'Pr_30_36_08_23',
+    'Pr_30_36_08_25', 'Pr_30_36_08_26', 'Pr_30_36_08_84', 'Pr_30_36_33_20',
+    'Pr_30_36_33_22', 'Pr_30_36_33_24', 'Pr_30_36_36_09', 'Pr_30_36_36_22',
+    'Pr_30_36_36_23', 'Pr_30_36_36_66', 'Pr_30_36_36_71', 'Pr_30_36_36_79',
+    'Pr_30_36_59_22', 'Pr_30_36_59_24', 'Pr_30_36_59_25', 'Pr_30_36_59_27',
+    'Pr_30_36_59_32', 'Pr_30_36_59_62', 'Pr_30_36_59_78', 'Pr_30_59_23',
+    'Pr_30_59_23_11', 'Pr_30_59_23_15', 'Pr_30_59_23_16', 'Pr_30_59_23_32',
+    'Pr_30_59_23_34', 'Pr_30_59_23_47', 'Pr_30_59_23_53', 'Pr_30_59_23_84',
+    'Pr_30_59_23_91', 'Pr_30_59_23_92', 'Pr_30_59_23_96', 'Pr_30_59_23_97',
+    'Pr_30_59_23_98', 'Pr_30_59_24',    'Pr_30_59_24_04', 'Pr_30_59_24_15',
+    ... 100 more items
+  ],
+  _id: 6169a3f432c7411ae07782fc,
+  users_id: 61014705970082f592719864,
+  pesquisa_txt: 'porta',
+  timestamp: 2021-10-15T15:53:24.125Z,
+  __v: 0
+}
+[0mGET /search?pesquisa=porta&tabela&nivel=4&review&especialidade&page&limit [32m200[0m 103.387 ms - 73877[0m
+SearchRoute: '' , 'Complexos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 389
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa&tabela=Complexos&nivel=4&review&especialidade&page&limit [32m200[0m 120.878 ms - 137633[0m
+SearchRoute: '' , 'Complexos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 389
+Numeros de docs objectLength = 389
+[0mGET /search?pesquisa=&tabela=Complexos&nivel=4&especialidade= [32m200[0m 83.729 ms - 137633[0m
+SearchRoute: '' , 'Complexos' , '4' , 'undefined' , '' , '1' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 389
+Numeros de docs objectLength = 50
+[0mGET /search?pesquisa&tabela=Complexos&nivel=4&review&especialidade&page=1&limit=50 [32m200[0m 26.909 ms - 17914[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 15:54:22 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 15:56:27 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Complexos' , '4' , 'undefined' , '' , '1' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Error Item
+[0mGET /search?pesquisa&tabela=Complexos&nivel=4&review&especialidade&page=1&limit=50 [32m200[0m 3.150 ms - 77[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 15:57:56 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 16:13:30 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , '' , '3' , 'undefined' , '' , '1' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 4464
+[0mGET /search?pesquisa&tabela&nivel=3&review&especialidade&page=1&limit=50 [32m200[0m 74.905 ms - 17904[0m
+SearchRoute: '' , 'Complexos' , '3' , 'undefined' , '' , '1' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 389
+[0mGET /search?pesquisa&tabela=Complexos&nivel=3&review&especialidade&page=1&limit=50 [32m200[0m 46.523 ms - 17903[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 16:14:08 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 16:14:45 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+.......Server is running
+.........LocalhostDB Connected
+SearchRoute: '' , 'Complexos' , '3' , 'undefined' , '' , '1' e '50'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 389
+Numeros de docs objectLength = 50
+[0mGET /search?pesquisa&tabela=Complexos&nivel=3&review&especialidade&page=1&limit=50 [32m200[0m 61.354 ms - 17919[0m
+SearchRoute: '' , 'Todos' , '4' , 'undefined' , '' , 'NaN' e 'NaN'.
+Parametros de Pesquisa:  [object Object], [object Object], [object Object], [object Object], [object Object]
+Number results: 14672
+Numeros de docs objectLength = 14672
+[0mGET /search?pesquisa=&tabela=Todos&nivel=4&especialidade= [32m200[0m 1852.384 ms - 5349644[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./index.js`[39m
+Connecting DATABASE.........
+Iniciando Rotas da Tabela
+Começando a Lista Item
+Starting Comment Route
+Start Especialidades List 
+___ Server Power On -> 2021-10-15 16:16:12 ___
+User Routes
+Tabela Route
+Item Routes
+Review Routes
+Search Routes
+Comentarios Routes
+Lists Routes
+Family Routes
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m

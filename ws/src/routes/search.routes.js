@@ -112,6 +112,25 @@ const aggregate = Item.aggregate([{
 console.log("%j",aggregate);
 */
 /////////////////////////////////////////////////////////////////
+
+    const objectLength = await Item.countDocuments(
+      {$or: [
+        {$and: [
+              {"code_item": search}, tabela, nivel, revisao, speciality
+            ]},
+        {$and: [
+              {"titulo_SECClasS": search}, tabela, nivel, revisao, speciality
+            ]},
+        {$and: [
+              {"title_item": search}, tabela, nivel, revisao, speciality
+            ]},
+    ]},
+    function( err, objectLength){
+    console.log( "Number results:", objectLength );
+    })
+
+
+/////////////////////////////////////////////////////////////////
     const data = await Item.find(
       //{$and: [
         {$or: [
@@ -150,10 +169,11 @@ console.log("%j",aggregate);
     //console.log(`Data_out = ${data}`);
 
   //Debug
+
     var type = typeof data;
-    const objectLength = Object.keys(data).length;
-    console.log(`Numeros de docs objectLength = ${objectLength}`);
-    if(objectLength == 0) {
+    const dataLength = Object.keys(data).length;
+    console.log(`Numeros de docs objectLength = ${dataLength}`);
+    if(dataLength == 0) {
       console.log("PESQUISA NAO ENCONTRADA");
       //data = ["Termo pesquisado não encontrado."];
       //data = [];
@@ -161,7 +181,7 @@ console.log("%j",aggregate);
 
 ///////////////// Guardar o termo pesquisado pelo User na DB
   var results = [];
-  for (let i=0; i < objectLength; i++){
+  for (let i=0; i < dataLength; i++){
     results.push(data[i].code_item);
   }
     //console.log(`Results = ${results}`);
@@ -184,7 +204,7 @@ console.log("%j",aggregate);
 ///////////////// Guardar o termo pesquisado e resultados pelo User na DB
 
 //____________////////RES
-    res.json({ error: false, objectLength, data});
+    res.json({ error: false, objectLength, dataLength, data});
   }  catch (err) {
     console.log("Error Item");
     res.json({ error: true, message: err.message });
