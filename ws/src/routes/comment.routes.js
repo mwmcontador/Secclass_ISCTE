@@ -88,7 +88,7 @@ router.get("/comment/", async (req, res) => {
         console.log(`err: ${err}`)
       }
     }).populate({path: 'items_id', select: "code_item + titulo_SECClasS"})//.select({"items_id":[{ "_id":1, "code_item": 1, "titulo_SECClasS": 1}]})
-    console.log(data);
+    //console.log(data);
 
     //Debug
     const objectLength = Object.keys(data).length;

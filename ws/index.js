@@ -18,7 +18,6 @@ const hierarchyRoutes = require("./src/routes/hierarchy.routes");
 
 var timestamp = Date.now();
 var format_date = new Date(timestamp).toISOString().slice(0, 19).replace('T', ' ')
-
 console.log(`___ Server Power On -> ${format_date} ___`);
 
 //MIDDLEAWARES

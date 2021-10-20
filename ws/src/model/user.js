@@ -7,6 +7,8 @@ var UserSchema = new mongoose.Schema({
   image: String,
   hash: String,
   salt: String
-}, {timestamps: true});
+}, {
+  timestamps: true
+});
 
 mongoose.model('User', UserSchema);
