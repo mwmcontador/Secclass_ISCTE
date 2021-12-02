@@ -1,0 +1,561 @@
+[{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac4a"
+  },
+  "discipline": "General",
+  "code": "-2002000",
+  "category": "Detail Items"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac4b"
+  },
+  "discipline": "General",
+  "code": "-2000151",
+  "category": "Generic Models"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac4c"
+  },
+  "discipline": "General",
+  "code": "-2000700",
+  "category": "Materials"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac4d"
+  },
+  "discipline": "General",
+  "code": "-2003000",
+  "category": "Profiles"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac4e"
+  },
+  "discipline": "General",
+  "code": "-2003101",
+  "category": "Project Information"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac4f"
+  },
+  "discipline": "General",
+  "code": "-2001350",
+  "category": "Specialty Equipment"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac50"
+  },
+  "discipline": "Architecture",
+  "code": "-2003200",
+  "category": "Areas"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac51"
+  },
+  "discipline": "Architecture",
+  "code": "-2000127",
+  "category": "Balusters"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac52"
+  },
+  "discipline": "Architecture",
+  "code": "-2001000",
+  "category": "Casework"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac53"
+  },
+  "discipline": "Architecture",
+  "code": "-2000038",
+  "category": "Ceilings"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac54"
+  },
+  "discipline": "Architecture",
+  "code": "-2000100",
+  "category": "Columns"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac55"
+  },
+  "discipline": "Architecture",
+  "code": "-2000170",
+  "category": "Curtain Panels"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac56"
+  },
+  "discipline": "Architecture",
+  "code": "-2000340",
+  "category": "Curtain Systems"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac57"
+  },
+  "discipline": "Architecture",
+  "code": "-2000171",
+  "category": "Curtain Wall Mullions"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac58"
+  },
+  "discipline": "Architecture",
+  "code": "-2000023",
+  "category": "Doors"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac59"
+  },
+  "discipline": "Architecture",
+  "code": "-2001370",
+  "category": "Entourage"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac5a"
+  },
+  "discipline": "Architecture",
+  "code": "-2000032",
+  "category": "Floors"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac5b"
+  },
+  "discipline": "Architecture",
+  "code": "-2000080",
+  "category": "Furniture"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac5c"
+  },
+  "discipline": "Architecture",
+  "code": "-2001100",
+  "category": "Furniture Systems"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac5d"
+  },
+  "discipline": "Architecture",
+  "code": "-2003400",
+  "category": "Mass"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac5e"
+  },
+  "discipline": "Architecture",
+  "code": "-2000022",
+  "category": "Opening"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac5f"
+  },
+  "discipline": "Architecture",
+  "code": "-2001263",
+  "category": "Pads"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac60"
+  },
+  "discipline": "Architecture",
+  "code": "-2001180",
+  "category": "Parking"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac61"
+  },
+  "discipline": "Architecture",
+  "code": "-2001360",
+  "category": "Planting"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac62"
+  },
+  "discipline": "Architecture",
+  "code": "-2000126",
+  "category": "Railings"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac63"
+  },
+  "discipline": "Architecture",
+  "code": "-2000180",
+  "category": "Ramps"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac64"
+  },
+  "discipline": "Architecture",
+  "code": "-2001220",
+  "category": "Roads"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac65"
+  },
+  "discipline": "Architecture",
+  "code": "-2000035",
+  "category": "Roofs"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac66"
+  },
+  "discipline": "Architecture",
+  "code": "-2000160",
+  "category": "Rooms"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac67"
+  },
+  "discipline": "Architecture",
+  "code": "-2001260",
+  "category": "Site"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac68"
+  },
+  "discipline": "Architecture",
+  "code": "-2000120",
+  "category": "Stairs"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac69"
+  },
+  "discipline": "Architecture",
+  "code": "-2001340",
+  "category": "Topography"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac6a"
+  },
+  "discipline": "Architecture",
+  "code": "-2000011",
+  "category": "Walls"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac6b"
+  },
+  "discipline": "Architecture",
+  "code": "-2000014",
+  "category": "Windows",
+  "secclass_relation": [
+    {
+      "secclass_id": {
+        "$oid": "6152047bcf055d44dd07a6b2"
+      },
+      "secclass_code": "Pr_30_59_98"
+    },
+    {
+      "secclass_id": {
+        "$oid": "6152047bcf055d44dd07a6b3"
+      },
+      "secclass_code": "Pr_30_59_98_02"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac6c"
+  },
+  "discipline": "MEP",
+  "code": "-2008013",
+  "category": "Air Terminals"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac6d"
+  },
+  "discipline": "MEP",
+  "code": "-2008126",
+  "category": "Cable Tray Fittings"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac6e"
+  },
+  "discipline": "MEP",
+  "code": "-2008130",
+  "category": "Cable Trays"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac6f"
+  },
+  "discipline": "MEP",
+  "code": "-2008081",
+  "category": "Communication Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac70"
+  },
+  "discipline": "MEP",
+  "code": "-2008128",
+  "category": "Conduit Fittings"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac71"
+  },
+  "discipline": "MEP",
+  "code": "-2008132",
+  "category": "Conduits"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac72"
+  },
+  "discipline": "MEP",
+  "code": "-2008083",
+  "category": "Data Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac73"
+  },
+  "discipline": "MEP",
+  "code": "-2008016",
+  "category": "Duct Accessories"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac74"
+  },
+  "discipline": "MEP",
+  "code": "-2008010",
+  "category": "Duct Fittings"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac75"
+  },
+  "discipline": "MEP",
+  "code": "-2008015",
+  "category": "Duct Systems"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac76"
+  },
+  "discipline": "MEP",
+  "code": "-2008000",
+  "category": "Ducts"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac77"
+  },
+  "discipline": "MEP",
+  "code": "-2001040",
+  "category": "Electrical Equipment"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac78"
+  },
+  "discipline": "MEP",
+  "code": "-2001060",
+  "category": "Electrical Fixtures"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac79"
+  },
+  "discipline": "MEP",
+  "code": "-2008085",
+  "category": "Fire Alarm Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac7a"
+  },
+  "discipline": "MEP",
+  "code": "-2008020",
+  "category": "Flex Ducts"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac7b"
+  },
+  "discipline": "MEP",
+  "code": "-2008050",
+  "category": "Flex Pipes"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac7c"
+  },
+  "discipline": "MEP",
+  "code": "-2008107",
+  "category": "HVAC Zones"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac7d"
+  },
+  "discipline": "MEP",
+  "code": "-2008087",
+  "category": "Lighting Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac7e"
+  },
+  "discipline": "MEP",
+  "code": "-2001120",
+  "category": "Lighting Fixtures"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac7f"
+  },
+  "discipline": "MEP",
+  "code": "-2001140",
+  "category": "Mechanical Equipment"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac80"
+  },
+  "discipline": "MEP",
+  "code": "-2008077",
+  "category": "Nurse Call Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac81"
+  },
+  "discipline": "MEP",
+  "code": "-2008055",
+  "category": "Pipe Accessories"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac82"
+  },
+  "discipline": "MEP",
+  "code": "-2008049",
+  "category": "Pipe Fittings"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac83"
+  },
+  "discipline": "MEP",
+  "code": "-2008044",
+  "category": "Pipes"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac84"
+  },
+  "discipline": "MEP",
+  "code": "-2008043",
+  "category": "Piping Systems"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac85"
+  },
+  "discipline": "MEP",
+  "code": "-2001160",
+  "category": "Plumbing Fixtures"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac86"
+  },
+  "discipline": "MEP",
+  "code": "-2008079",
+  "category": "Security Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac87"
+  },
+  "discipline": "MEP",
+  "code": "-2003600",
+  "category": "Spaces"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac88"
+  },
+  "discipline": "MEP",
+  "code": "-2008099",
+  "category": "Sprinklers"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac89"
+  },
+  "discipline": "MEP",
+  "code": "-2008101",
+  "category": "Switch System"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac8a"
+  },
+  "discipline": "MEP",
+  "code": "-2008075",
+  "category": "Telephone Devices"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac8b"
+  },
+  "discipline": "MEP",
+  "code": "-2008039",
+  "category": "Wires"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac8c"
+  },
+  "discipline": "Structural",
+  "code": "-2005301",
+  "category": "Boundary Conditions"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac8d"
+  },
+  "discipline": "Structural",
+  "code": "-2009013",
+  "category": "Rebar Shape"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac8e"
+  },
+  "discipline": "Structural",
+  "code": "-2009003",
+  "category": "Structural Area Reinforcement"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac8f"
+  },
+  "discipline": "Structural",
+  "code": "-2001327",
+  "category": "Structural Beam Systems"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac90"
+  },
+  "discipline": "Structural",
+  "code": "-2001330",
+  "category": "Structural Columns"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac91"
+  },
+  "discipline": "Structural",
+  "code": "-2009030",
+  "category": "Structural Connections"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac92"
+  },
+  "discipline": "Structural",
+  "code": "-2001300",
+  "category": "Structural Foundations"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac93"
+  },
+  "discipline": "Structural",
+  "code": "-2001320",
+  "category": "Structural Framing"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac94"
+  },
+  "discipline": "Structural",
+  "code": "-2009009",
+  "category": "Structural Path Reinforcement"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac95"
+  },
+  "discipline": "Structural",
+  "code": "-2009000",
+  "category": "Structural Rebar"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac96"
+  },
+  "discipline": "Structural",
+  "code": "-2001354",
+  "category": "Structural Stiffeners"
+},{
+  "_id": {
+    "$oid": "61793540cfbe1d288e97ac97"
+  },
+  "discipline": "Structural",
+  "code": "-2001336",
+  "category": "Structural Trusses"
+}]

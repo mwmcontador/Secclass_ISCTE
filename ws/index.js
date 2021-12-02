@@ -3,6 +3,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");  /////////////////
 const database = require("./src/services/database");
+const addRevit = require("./src/scripts/updateitems");
 
 const app = express();
 
@@ -51,6 +52,8 @@ app.use("/", listsRoutes);
 
 console.log("Family Routes");
 app.use("/", hierarchyRoutes);
+
+//addRevit();
 
 //START PORT SERVER
 app.listen(5003, () => {

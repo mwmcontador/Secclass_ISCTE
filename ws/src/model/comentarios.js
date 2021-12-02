@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const Item = require("../model/item");
 
 const ComentariosSchema = new mongoose.Schema({
   users_id: {
@@ -28,7 +29,7 @@ const ComentariosSchema = new mongoose.Schema({
   timestamp: {
     type: Date,
     default: Date.now
-  },  
+  },
   date_string: {
     type: String
   }

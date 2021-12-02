@@ -1,0 +1,79 @@
+﻿discipline,code,category
+General,-2002000,Detail Items
+General,-2000151,Generic Models
+General,-2000700,Materials
+General,-2003000,Profiles
+General,-2003101,Project Information
+General,-2001350,Specialty Equipment
+Architecture,-2003200,Areas
+Architecture,-2000127,Balusters
+Architecture,-2001000,Casework
+Architecture,-2000038,Ceilings
+Architecture,-2000100,Columns
+Architecture,-2000170,Curtain Panels
+Architecture,-2000340,Curtain Systems
+Architecture,-2000171,Curtain Wall Mullions
+Architecture,-2000023,Doors
+Architecture,-2001370,Entourage
+Architecture,-2000032,Floors
+Architecture,-2000080,Furniture
+Architecture,-2001100,Furniture Systems
+Architecture,-2003400,Mass
+Architecture,-2000022,Opening
+Architecture,-2001263,Pads
+Architecture,-2001180,Parking
+Architecture,-2001360,Planting
+Architecture,-2000126,Railings
+Architecture,-2000180,Ramps
+Architecture,-2001220,Roads
+Architecture,-2000035,Roofs
+Architecture,-2000160,Rooms
+Architecture,-2001260,Site
+Architecture,-2000120,Stairs
+Architecture,-2001340,Topography
+Architecture,-2000011,Walls
+Architecture,-2000014,Windows
+MEP,-2008013,Air Terminals
+MEP,-2008126,Cable Tray Fittings
+MEP,-2008130,Cable Trays
+MEP,-2008081,Communication Devices
+MEP,-2008128,Conduit Fittings
+MEP,-2008132,Conduits
+MEP,-2008083,Data Devices
+MEP,-2008016,Duct Accessories
+MEP,-2008010,Duct Fittings
+MEP,-2008015,Duct Systems
+MEP,-2008000,Ducts
+MEP,-2001040,Electrical Equipment
+MEP,-2001060,Electrical Fixtures
+MEP,-2008085,Fire Alarm Devices
+MEP,-2008020,Flex Ducts
+MEP,-2008050,Flex Pipes
+MEP,-2008107,HVAC Zones
+MEP,-2008087,Lighting Devices
+MEP,-2001120,Lighting Fixtures
+MEP,-2001140,Mechanical Equipment
+MEP,-2008077,Nurse Call Devices
+MEP,-2008055,Pipe Accessories
+MEP,-2008049,Pipe Fittings
+MEP,-2008044,Pipes
+MEP,-2008043,Piping Systems
+MEP,-2001160,Plumbing Fixtures
+MEP,-2008079,Security Devices
+MEP,-2003600,Spaces
+MEP,-2008099,Sprinklers
+MEP,-2008101,Switch System
+MEP,-2008075,Telephone Devices
+MEP,-2008039,Wires
+Structural,-2005301,Boundary Conditions
+Structural,-2009013,Rebar Shape
+Structural,-2009003,Structural Area Reinforcement
+Structural,-2001327,Structural Beam Systems
+Structural,-2001330,Structural Columns
+Structural,-2009030,Structural Connections
+Structural,-2001300,Structural Foundations
+Structural,-2001320,Structural Framing
+Structural,-2009009,Structural Path Reinforcement
+Structural,-2009000,Structural Rebar
+Structural,-2001354,Structural Stiffeners
+Structural,-2001336,Structural Trusses

@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-//const tabela = require("../model/tabela");
+const Tabela = require("../model/table");
 
 const ItemSchema = new mongoose.Schema({
   idItem: {

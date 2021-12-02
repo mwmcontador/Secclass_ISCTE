@@ -179,9 +179,9 @@ router.get("/search/", async (req, res) => {
     console.log("%j",aggregate);
     */
     /////////////////////////////////////////////////////////////////
-    const objectLength = await Item.countDocuments(pesquisa_total,
-      function(err, objectLength) {
-        console.log("Number results:", objectLength);
+    const total_item = await Item.countDocuments(pesquisa_total,
+      function(err, total_item) {
+        console.log("Number results:", total_item);
       }
     )
     /////////////////////////////////////////////////////////////////
@@ -202,14 +202,16 @@ router.get("/search/", async (req, res) => {
       .sort(order)
       .limit(limit)
       .skip(skipIndex)
-    //.exec
+    //.exec()
     //console.log(`Data_out = ${data}`);
     /////////////////////////////////////////////////////////////////
     //Debug
     var type = typeof data;
-    const dataLength = Object.keys(data).length;
-    console.log(`Numeros de docs objectLength = ${dataLength}`);
-    if (dataLength == 0) {
+    const max_page = Math.ceil(total_item / limit);
+
+    const limit_Length = Object.keys(data).length;
+    console.log(`Numeros de docs objectLength = ${limit_Length}`);
+    if (limit_Length == 0) {
       console.log("PESQUISA NAO ENCONTRADA");
       //data = ["Termo pesquisado não encontrado."];
       //data = [];
@@ -217,7 +219,7 @@ router.get("/search/", async (req, res) => {
 
         ///////////////// Guardar o termo pesquisado pelo User na DB
     var results = [];
-    for (let i = 0; i < dataLength; i++) {
+    for (let i = 0; i < limit_Length; i++) {
       results.push(data[i].code_item);
     }
     //console.log(`Results = ${results}`);
@@ -241,8 +243,9 @@ router.get("/search/", async (req, res) => {
     //____________////////RES
     res.json({
       error: false,
-      objectLength,
-      dataLength,
+      total_item,
+      limit_Length,
+      max_page,
       data
     });
   } catch (err) {

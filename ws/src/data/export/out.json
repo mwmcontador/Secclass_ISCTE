@@ -1,0 +1,392 @@
+[
+    {
+        "discipline": "General",
+        "code": "-2002000",
+        "category": "Detail Items"
+    },
+    {
+        "discipline": "General",
+        "code": "-2000151",
+        "category": "Generic Models"
+    },
+    {
+        "discipline": "General",
+        "code": "-2000700",
+        "category": "Materials"
+    },
+    {
+        "discipline": "General",
+        "code": "-2003000",
+        "category": "Profiles"
+    },
+    {
+        "discipline": "General",
+        "code": "-2003101",
+        "category": "Project Information"
+    },
+    {
+        "discipline": "General",
+        "code": "-2001350",
+        "category": "Specialty Equipment"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2003200",
+        "category": "Areas"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000127",
+        "category": "Balusters"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001000",
+        "category": "Casework"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000038",
+        "category": "Ceilings"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000100",
+        "category": "Columns"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000170",
+        "category": "Curtain Panels"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000340",
+        "category": "Curtain Systems"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000171",
+        "category": "Curtain Wall Mullions"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000023",
+        "category": "Doors"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001370",
+        "category": "Entourage"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000032",
+        "category": "Floors"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000080",
+        "category": "Furniture"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001100",
+        "category": "Furniture Systems"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2003400",
+        "category": "Mass"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000022",
+        "category": "Opening"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001263",
+        "category": "Pads"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001180",
+        "category": "Parking"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001360",
+        "category": "Planting"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000126",
+        "category": "Railings"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000180",
+        "category": "Ramps"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001220",
+        "category": "Roads"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000035",
+        "category": "Roofs"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000160",
+        "category": "Rooms"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001260",
+        "category": "Site"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000120",
+        "category": "Stairs"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2001340",
+        "category": "Topography"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000011",
+        "category": "Walls"
+    },
+    {
+        "discipline": "Architecture",
+        "code": "-2000014",
+        "category": "Windows"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008013",
+        "category": "Air Terminals"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008126",
+        "category": "Cable Tray Fittings"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008130",
+        "category": "Cable Trays"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008081",
+        "category": "Communication Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008128",
+        "category": "Conduit Fittings"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008132",
+        "category": "Conduits"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008083",
+        "category": "Data Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008016",
+        "category": "Duct Accessories"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008010",
+        "category": "Duct Fittings"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008015",
+        "category": "Duct Systems"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008000",
+        "category": "Ducts"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2001040",
+        "category": "Electrical Equipment"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2001060",
+        "category": "Electrical Fixtures"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008085",
+        "category": "Fire Alarm Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008020",
+        "category": "Flex Ducts"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008050",
+        "category": "Flex Pipes"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008107",
+        "category": "HVAC Zones"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008087",
+        "category": "Lighting Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2001120",
+        "category": "Lighting Fixtures"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2001140",
+        "category": "Mechanical Equipment"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008077",
+        "category": "Nurse Call Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008055",
+        "category": "Pipe Accessories"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008049",
+        "category": "Pipe Fittings"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008044",
+        "category": "Pipes"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008043",
+        "category": "Piping Systems"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2001160",
+        "category": "Plumbing Fixtures"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008079",
+        "category": "Security Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2003600",
+        "category": "Spaces"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008099",
+        "category": "Sprinklers"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008101",
+        "category": "Switch System"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008075",
+        "category": "Telephone Devices"
+    },
+    {
+        "discipline": "MEP",
+        "code": "-2008039",
+        "category": "Wires"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2005301",
+        "category": "Boundary Conditions"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2009013",
+        "category": "Rebar Shape"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2009003",
+        "category": "Structural Area Reinforcement"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2001327",
+        "category": "Structural Beam Systems"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2001330",
+        "category": "Structural Columns"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2009030",
+        "category": "Structural Connections"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2001300",
+        "category": "Structural Foundations"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2001320",
+        "category": "Structural Framing"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2009009",
+        "category": "Structural Path Reinforcement"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2009000",
+        "category": "Structural Rebar"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2001354",
+        "category": "Structural Stiffeners"
+    },
+    {
+        "discipline": "Structural",
+        "code": "-2001336",
+        "category": "Structural Trusses"
+    }
+]
