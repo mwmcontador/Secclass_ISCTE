@@ -53,9 +53,8 @@ console.log("Family Routes");
 app.use("/", hierarchyRoutes);
 
 //addRevit();
-/*
+
 //START PORT SERVER
 app.listen(5003, () => {
   console.log(".......Server is running");
 });
-*/
