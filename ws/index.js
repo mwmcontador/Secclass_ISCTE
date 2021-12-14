@@ -3,7 +3,6 @@ const cors = require("cors");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");  /////////////////
 const database = require("./src/services/database");
-//const addRevit = require("./src/scripts/updateitems");
 
 const app = express();
 
@@ -56,6 +55,6 @@ app.use("/", hierarchyRoutes);
 //addRevit();
 
 //START PORT SERVER
-app.listen(8000, () => {
+app.listen(5003, () => {
   console.log(".......Server is running");
 });
