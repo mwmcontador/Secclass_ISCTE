@@ -1,10 +1,20 @@
+// import express
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");  /////////////////
 const database = require("./src/services/database");
 
+// create new express app and assign it to `app` constant
 const app = express();
+
+// server port configuration
+const PORT = 5003;
+
+// import packages HTTPS
+const http = require('http');
+const https = require('https');
+const fs = require('fs');
 
 const usuarioRoutes = require("./src/routes/usuario.routes");
 const tabelaRoutes = require("./src/routes/tabela.routes");
@@ -54,7 +64,17 @@ app.use("/", hierarchyRoutes);
 
 //addRevit();
 
-//START PORT SERVER
-app.listen(5003, () => {
-  console.log(".......Server is running");
+// server starts listening the `PORT`
+app.listen(PORT, () => {
+  console.log(`.......Server is running at PORT ${PORT}`);
+});
+
+// serve the API with signed certificate on 443 (SSL/HTTPS) port
+const httpsServer = https.createServer({
+  key: fs.readFileSync('./sllcert/server.key', 'utf8'),
+  cert: fs.readFileSync('./sllcert/server.crt', 'utf8'),
+}, app);
+
+httpsServer.listen(443, () => {
+    console.log('HTTPS Server running on port 443');
 });
