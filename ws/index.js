@@ -10,11 +10,30 @@ const app = express();
 
 // server port configuration
 const PORT = 5003;
+const HTTPS_PORT = 443;
 
 // import packages HTTPS
+const fs = require('fs');
 const http = require('http');
 const https = require('https');
-const fs = require('fs');
+
+/*
+// Certificate
+const privateKey = fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/privkey1.pem', 'utf8');
+const certificate = fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/cert1.pem', 'utf8');
+const ca = fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/chain1.pem', 'utf8');
+*/
+
+const privateKey = fs.readFileSync('./sllcert/privkey1.pem', 'utf8');
+const certificate = fs.readFileSync('./sllcert/cert1.pem', 'utf8');
+const ca = fs.readFileSync('./sllcert/chain1.pem', 'utf8');
+
+const credentials = {
+	key: privateKey,
+	cert: certificate,
+	ca: ca
+};
+
 
 const usuarioRoutes = require("./src/routes/usuario.routes");
 const tabelaRoutes = require("./src/routes/tabela.routes");
@@ -34,7 +53,7 @@ console.log(`___ Server Power On -> ${format_date} ___`);
 app.use(express.json());
 //Controle de Acesso
 app.use(cors());
-//Logar automatico para ambiente dev
+//Login automatico para ambiente dev
 app.use(morgan("dev"));
 
 //ROUTES
@@ -64,17 +83,16 @@ app.use("/", hierarchyRoutes);
 
 //addRevit();
 
+
+// Starting both http & https servers
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
+
 // server starts listening the `PORT`
-app.listen(PORT, () => {
-  console.log(`.......Server is running at PORT ${PORT}`);
+httpServer.listen(PORT, () => {
+	console.log(`.......HTTP Server is running at PORT ${PORT}`);
 });
 
-// serve the API with signed certificate on 443 (SSL/HTTPS) port
-const httpsServer = https.createServer({
-  key: fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/privkey1.pem'),
-  cert: fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/cert1.pem'),
-}, app);
-
-httpsServer.listen(5004, () => {
-    console.log('.......HTTPS Server running on port 443');
+httpsServer.listen(HTTPS_PORT, () => {
+	console.log(`.......HTTPS Server is running at PORT ${HTTPS_PORT}`);
 });
