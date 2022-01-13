@@ -19,21 +19,17 @@ const https = require('https');
 
 /*
 // Certificate
-const privateKey = fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/privkey1.pem', 'utf8');
-const certificate = fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/cert1.pem', 'utf8');
-const ca = fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/chain1.pem', 'utf8');
-*/
-
-const privateKey = fs.readFileSync('./sllcert/privkey1.pem', 'utf8');
-const certificate = fs.readFileSync('./sllcert/cert1.pem', 'utf8');
-const ca = fs.readFileSync('./sllcert/chain1.pem', 'utf8');
+var sslPath = './sllcert/';
+const privateKey = fs.readFileSync(sslPath + 'privkey1.pem', 'utf8');
+const certificate = fs.readFileSync(sslPath + 'cert1.pem', 'utf8');
+const ca = fs.readFileSync(sslPath + 'chain1.pem', 'utf8');
 
 const credentials = {
 	key: privateKey,
 	cert: certificate,
 	ca: ca
 };
-
+*/
 
 const usuarioRoutes = require("./src/routes/usuario.routes");
 const tabelaRoutes = require("./src/routes/tabela.routes");
@@ -86,13 +82,15 @@ app.use("/", hierarchyRoutes);
 
 // Starting both http & https servers
 const httpServer = http.createServer(app);
-const httpsServer = https.createServer(credentials, app);
+//const httpsServer = https.createServer(credentials, app);
 
 // server starts listening the `PORT`
 httpServer.listen(PORT, () => {
 	console.log(`.......HTTP Server is running at PORT ${PORT}`);
 });
 
+/*
 httpsServer.listen(HTTPS_PORT, () => {
 	console.log(`.......HTTPS Server is running at PORT ${HTTPS_PORT}`);
 });
+*/
