@@ -79,18 +79,22 @@ app.use("/", hierarchyRoutes);
 
 //addRevit();
 
-
+/*
 // Starting both http & https servers
 const httpServer = http.createServer(app);
-//const httpsServer = https.createServer(credentials, app);
+const httpsServer = https.createServer(credentials, app);
 
 // server starts listening the `PORT`
 httpServer.listen(PORT, () => {
 	console.log(`.......HTTP Server is running at PORT ${PORT}`);
 });
 
-/*
 httpsServer.listen(HTTPS_PORT, () => {
 	console.log(`.......HTTPS Server is running at PORT ${HTTPS_PORT}`);
 });
 */
+
+//START PORT Server
+app.listen(PORT, () => {
+  console.log(`.......HTTP Server is running at PORT ${PORT}`);
+});
