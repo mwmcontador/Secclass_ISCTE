@@ -71,10 +71,10 @@ app.listen(PORT, () => {
 
 // serve the API with signed certificate on 443 (SSL/HTTPS) port
 const httpsServer = https.createServer({
-  key: fs.readFileSync('./sllcert/server.key', 'utf8'),
-  cert: fs.readFileSync('./sllcert/server.crt', 'utf8'),
+  key: fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/privkey1.pem'),
+  cert: fs.readFileSync('/usr/local/psa/var/modules/letsencrypt/cert1.pem'),
 }, app);
 
 httpsServer.listen(443, () => {
-    console.log('HTTPS Server running on port 443');
+    console.log('.......HTTPS Server running on port 443');
 });
