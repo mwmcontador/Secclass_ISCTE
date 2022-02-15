@@ -27,7 +27,7 @@ var options1 = {
 };
 
 console.log("Connecting DATABASE.........");
-mongoose.connect(localhostMongoDB, options1).then(
+mongoose.connect(uri, options1).then(
   () => { console.log(".........LocalhostDB Connected") /** ready to use. The `mongoose.connect()` promise resolves to undefined. */ },
   err => { DB_backup = 0, console.log(`MongoDB err: ${err}`)/** handle initial connection error */ }
 );

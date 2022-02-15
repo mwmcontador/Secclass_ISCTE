@@ -38,6 +38,7 @@ const reviewRoutes = require("./src/routes/review.routes");
 
 const searchRoutes = require("./src/routes/search.routes");
 const commentRoutes = require("./src/routes/comment.routes");
+const updateRoutes = require("./src/routes/update.routes");
 const listsRoutes = require("./src/routes/lists.routes");
 const hierarchyRoutes = require("./src/routes/hierarchy.routes");
 
@@ -70,6 +71,9 @@ app.use("/", searchRoutes);
 
 console.log("Comentarios Routes");
 app.use("/", commentRoutes);
+
+console.log("Update Routes");
+app.use("/", updateRoutes);
 
 console.log("Lists Routes");
 app.use("/", listsRoutes);
