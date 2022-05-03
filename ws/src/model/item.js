@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Tabela = require("../model/table");
+const Revit = require("../model/revit");
 
 const ItemSchema = new mongoose.Schema({
   idItem: {
@@ -61,6 +62,19 @@ const ItemSchema = new mongoose.Schema({
   },
   keywords: {
     type: String,       ///alterar para array
+  },
+  revit:
+  {
+    type: String,
+  },
+  revit_id:
+  {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'revit',
+  },
+  WBS:
+  {
+    type: mongoose.Schema.Types.Mixed,
   }
 });
 

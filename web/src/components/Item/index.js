@@ -56,10 +56,40 @@ const Item = ({ item }) => {
               </div>
               <div class="row">
                 <div class="col-3">
-                  <b>Versão SECClasS</b>
+                  <b>Level(s) WBS Nível 1</b>
                 </div>
-                <div class="col-8">{item.versao_secclas}</div>
+                <div class="col-8">{item.WBS.Level_1.titulo}</div>
               </div>
+              {(() => {
+                  if ( item.WBS.Level_2.titulo ) {
+                    return (
+                      <div class="row">
+                        <div class="col-3">
+                          <b>Level(s) WBS Nível 2</b>
+                        </div>
+                        <div class="col-8">{item.WBS.Level_2.titulo}</div>
+                      </div>
+                    )
+                  }
+                })()}
+                {(() => {
+                    if ( item.WBS.Level_3.titulo ) {
+                      return (
+                        <div class="row">
+                          <div class="col-3">
+                            <b>Level(s) WBS Nível 3</b>
+                          </div>
+                          <div class="col-8">{item.WBS.Level_3.titulo}</div>
+                        </div>
+                      )
+                    }
+                    /*
+                    else {
+                      return (<div>catch all</div>
+                      )
+                    }*/
+                  })()}
+
               <div class="row">
                 <div class="col-3">
                   <b>Descrição</b>

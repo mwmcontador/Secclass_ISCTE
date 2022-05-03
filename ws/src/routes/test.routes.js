@@ -7,7 +7,7 @@ const User = require("../model/user");
 
 //////////// GET API - PESQUISA
 //exemplo => http://193.136.189.87:5003/search?pesquisa=ão&tabela=Todos&nivel=3&resivao=TRUE&especialidade=Todas
-router.get("/search/", async (req, res) => {
+router.get("/test/", async (req, res) => {
   try {
     const input_pesquisa = req.query.pesquisa;
     const criterio_tabela = req.query.tabela;
@@ -17,7 +17,7 @@ router.get("/search/", async (req, res) => {
     const page = parseInt(req.query.page);
     const limit = parseInt(req.query.limit);
     const user = req.query.user_id;
-    console.log(`SearchRoute: '${input_pesquisa}' , '${criterio_tabela}' , '${criterio_nivel}' , '${param_revisao}' , '${especialidade}' , '${page}' , '${limit}' e '${user}'.`);
+    console.log(`TestRoute: '${input_pesquisa}' , '${criterio_tabela}' , '${criterio_nivel}' , '${param_revisao}' , '${especialidade}' , '${page}' , '${limit}' e '${user}'.`);
     //////////////////////////////////////////////////////////
     var skipIndex;
     if (page === undefined || page == "" || page === NaN || limit === undefined || limit == "" || limit === NaN) {
@@ -96,6 +96,12 @@ router.get("/search/", async (req, res) => {
         "review": true
       };
     }
+    /////////////////////////////////////////////////////////////
+    var revit;
+    revit = { "revit": { "$ne": null } };
+
+    //revit = {}
+
     //var revisao_log = JSON.stringify(revisao);
     //console.log(`Parametro revião: ${revisao_log}`);
     /////////////////////////////////////////////////////////////////
@@ -134,19 +140,21 @@ router.get("/search/", async (req, res) => {
         $or: [{
             $and: [{
               "code_item": search
-            }, tabela, nivel, revisao, speciality]
+              }, tabela, nivel, revisao, speciality, revit
+            ]
           },
           {
             $and: [{
                 "titulo_SECClasS": search
-              }, tabela, nivel, revisao, speciality
+              }, tabela, nivel, revisao, speciality, revit
               //{"titulo_SECClasS": { "$regex": '.*'+search+'.*', "$options": "i"} },
             ]
           },
           {
             $and: [{
               "title_item": search
-            }, tabela, nivel, revisao, speciality]
+              }, tabela, nivel, revisao, speciality, revit
+            ]
           },
           /*
               {$and: [
@@ -164,7 +172,7 @@ router.get("/search/", async (req, res) => {
       "titulo_SECClasS": 1,
       "descricao_SECClasS": 1,
       "revit": 1,
-      "WBS": 1,
+      "WSB": 1,
     };
     const order = {
       "_id": 1

@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const Item = require("../model/item");
 
 const RevitSchema = new mongoose.Schema({
   _id: {
@@ -15,15 +14,9 @@ const RevitSchema = new mongoose.Schema({
   category: {
     type: String,
   },
-  secclass_relation: {
-    secclass_id: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Item',
-    },
-    secclass_code: {
-      type: String,
-    },
-  }
+  uniformat: {
+    type: mongoose.Schema.Types.Mixed,
+  },
 });
 
 module.exports = mongoose.model("Revit", RevitSchema);
