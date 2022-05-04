@@ -9,7 +9,7 @@ const database = require("./src/services/database");
 const app = express();
 
 // server port configuration
-const PORT = 80;
+const PORT = 8000;
 const HTTPS_PORT = 443;
 
 // import packages HTTPS
@@ -42,7 +42,6 @@ const updateRoutes = require("./src/routes/update.routes");
 const listsRoutes = require("./src/routes/lists.routes");
 const hierarchyRoutes = require("./src/routes/hierarchy.routes");
 
-const testRoutes = require("./src/routes/test.routes");
 
 var timestamp = Date.now();
 var format_date = new Date(timestamp).toISOString().slice(0, 19).replace('T', ' ')
@@ -83,8 +82,6 @@ app.use("/", listsRoutes);
 console.log("Family Routes");
 app.use("/", hierarchyRoutes);
 
-console.log("TestRoutes");
-app.use("/", testRoutes);
 //addRevit();
 
 /*

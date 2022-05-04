@@ -61,21 +61,18 @@ const ItemSchema = new mongoose.Schema({
     type: String,
   },
   keywords: {
-    type: String,       ///alterar para array
+    type: [],
   },
   revit:
   {
     type: String,
   },
-  revit_id:
-  {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'revit',
-  },
   WBS:
   {
     type: mongoose.Schema.Types.Mixed,
   }
-});
+},
+{timestamps: true}
+);
 
 module.exports = mongoose.model("Item", ItemSchema);

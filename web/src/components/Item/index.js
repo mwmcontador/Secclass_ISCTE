@@ -98,12 +98,18 @@ const Item = ({ item }) => {
                       }
                   })()}
               </div>
-              <div class="row">
-                <div class="col-3">
-                  <b>Descrição</b>
-                </div>
-                <div class="col-8">{item.descricao_SECClasS}</div>
-              </div>
+              {(() => {
+                    if ( item.descricao_SECClasS !== undefined ) {
+                      return (
+                        <div class="row">
+                        <div class="col-3">
+                        <b>Descrição</b>
+                      </div>
+                      <div class="col-8">{item.descricao_SECClasS}</div>
+                      </div>
+                    )
+                }
+            })()}
               <div className="row">
                 <div className="col">
                   <Comentarios id_idtem_secclass={item._id} />
