@@ -13,14 +13,14 @@ router.get("/item/:code", async (req, res) => {
     const data = await Item.findOne(
       query,
         null,
-        function (err, data) {
+        function(err, maxResult) {
+          // if there is an error retrieving, send the error. nothing after res.send(err) will execute
           if (err) {
-            return res.status(500).send(err);
+            //res.send(err);
+            data = err;
+            console.log(`err: ${data}`);
+            //res.json({ error: true, message: err.message });
           }
-          if (!data) {
-            return res.status(404).end();
-          }
-          return res.status(200).send(data);
         }
       )
       .populate({path: 'tabela_id', select: {'_id': 0, 'nome_pesquisa': 0}});
@@ -37,7 +37,7 @@ router.get("/item/:code", async (req, res) => {
 router.patch("/item/update/:id", async (req, res) => {
   try {
     console.log("Start route PATH Update Code");
-    console.log(req);
+    //console.log(req);
 
     const id = req.params.id;
     const autor = req.body.Autor;
@@ -71,15 +71,15 @@ router.patch("/item/update/:id", async (req, res) => {
       query_find,
        query_update,
         options,
-         function (err, data) {
-           if (err) {
-             return res.status(500).send(err);
-           }
-           if (!data) {
-             return res.status(404).end();
-           }
-           return res.status(200).send(data);
-         }
+        function(err, maxResult) {
+          // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+          if (err) {
+            //res.send(err);
+            data = err;
+            console.log(`err: ${data}`);
+            //res.json({ error: true, message: err.message });
+          }
+        }
        );
 
        if( req.body.keywords === undefined || req.body.keywords === null ){
@@ -92,19 +92,19 @@ router.patch("/item/update/:id", async (req, res) => {
            query_find,
             keywords,
              options,
-              function (err, data) {
-                if (err) {
-                  return res.status(500).send(err);
-                }
-                if (!data) {
-                  return res.status(404).end();
-                }
-                return res.status(200).send(data);
-              }
+             function(err, maxResult) {
+               // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+               if (err) {
+                 //res.send(err);
+                 data = err;
+                 console.log(`err: ${data}`);
+                 //res.json({ error: true, message: err.message });
+               }
+             }
             );
        }
 
-    res.json({ error: false, data, keys});
+    res.json({ error: false, data});
   }
   catch (err) {
   console.log("Error PATCH Update Item");
@@ -162,10 +162,14 @@ router.post("/item/create", async (req, res) => {
         query_find,
          query_create,
           options,
-          function (err, data) {
-            if (err) { return res.status(500).send(err); }
-            if (!data) { return res.status(404).end(); }
-            return res.status(200).send(data);
+          function(err, maxResult) {
+            // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+            if (err) {
+              //res.send(err);
+              data = err;
+              console.log(`err: ${data}`);
+              //res.json({ error: true, message: err.message });
+            }
           }
       );
       const response = "New Item Created";
