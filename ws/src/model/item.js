@@ -9,10 +9,6 @@ const ItemSchema = new mongoose.Schema({
   Autor: {
     type: String,
   },
-  Data_traducao: {
-    type: Date,
-    default: Date.now
-  },
   Versao_Uniclass: {
     type: String,
   },
@@ -43,10 +39,9 @@ const ItemSchema = new mongoose.Schema({
   },
   code_item: {
     type: String,
-    required: true,
   },
   title_item: {
-    type: String,     ///alterar para array de documentos
+    type: String,
   },
   titulo_SECClasS: {
     type: String,
