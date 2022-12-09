@@ -9,7 +9,7 @@ const database = require("./src/services/database");
 const app = express();
 
 // server port configuration
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 const HTTPS_PORT = 443;
 
 // import packages HTTPS
