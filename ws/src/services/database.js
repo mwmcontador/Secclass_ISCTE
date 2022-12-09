@@ -2,7 +2,7 @@
 //##### Exemplo da blibioteca
 const mongoose = require("mongoose");
 const uri = "mongodb+srv://Admin_mongo:KwruOypOOnxV29pP@cluster0.y0okk.mongodb.net/SECClasS-DB?retryWrites=true&w=majority";
-const localhostMongoDB = "mongodb://217.112.93.248:27017/SECClasS-DB";
+//const localhostMongoDB = "mongodb://217.112.93.248:27017/SECClasS-DB";
 //console.log(`URI MongoDB: ${uri}`);
 
 var DB_backup;
