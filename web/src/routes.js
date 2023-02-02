@@ -15,7 +15,7 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Pesquisa} />
+        <Route path="/" exact component={Revisao} />
         <Route path="/login" exact component={Login} />
         <Route path="/mostrar" exact component={Mostrar} />
         <Route path="/pesquisa" exact component={Pesquisa} />

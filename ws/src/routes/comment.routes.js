@@ -67,7 +67,6 @@ router.get("/comment/", async (req, res) => {
           ordem = parseInt(order);
         }
     //////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////
     var estado;
         if(status === undefined || status == ""){
           estado = {"status": {"$ne": "todas"}}

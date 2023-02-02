@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Tabela = require("../model/table");
+const Revit = require("../model/revit");
 
 const ItemSchema = new mongoose.Schema({
   idItem: {
@@ -7,10 +8,6 @@ const ItemSchema = new mongoose.Schema({
   },
   Autor: {
     type: String,
-  },
-  Data_traducao: {
-    type: Date,
-    default: Date.now
   },
   Versao_Uniclass: {
     type: String,
@@ -42,10 +39,9 @@ const ItemSchema = new mongoose.Schema({
   },
   code_item: {
     type: String,
-    required: true,
   },
   title_item: {
-    type: String,     ///alterar para array de documentos
+    type: String,
   },
   titulo_SECClasS: {
     type: String,
@@ -60,8 +56,18 @@ const ItemSchema = new mongoose.Schema({
     type: String,
   },
   keywords: {
-    type: String,       ///alterar para array
+    type: [],
+  },
+  revit:
+  {
+    type: String,
+  },
+  WBS:
+  {
+    type: mongoose.Schema.Types.Mixed,
   }
-});
+},
+{timestamps: true}
+);
 
 module.exports = mongoose.model("Item", ItemSchema);

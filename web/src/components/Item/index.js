@@ -54,18 +54,62 @@ const Item = ({ item }) => {
                   </a>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-3">
-                  <b>Versão SECClasS</b>
-                </div>
-                <div class="col-8">{item.versao_secclas}</div>
+              <div>
+              {(() => {
+                  if ( item.WBS !== undefined ) {
+                    if (item.WBS.Level_1 !== undefined) {
+                      return (
+                        <div class="row">
+                          <div class="col-3">
+                            <b>Level(s) WBS Nível 1</b>
+                          </div>
+                          <div class="col-8">{item.WBS.Level_1.titulo}</div>
+                        </div>
+                      )
+                    }
+                  }
+              })()}
+              {(() => {
+                    if ( item.WBS !== undefined ) {
+                      if (item.WBS.Level_2.titulo !== "") {
+                        return (
+                          <div class="row">
+                            <div class="col-3">
+                              <b>Level(s) WBS Nível 2</b>
+                            </div>
+                            <div class="col-8">{item.WBS.Level_2.titulo}</div>
+                          </div>
+                        )
+                      }
+                    }
+                })()}
+                {(() => {
+                      if ( item.WBS !== undefined ) {
+                        if (item.WBS.Level_3.titulo !== "") {
+                          return (
+                            <div class="row">
+                              <div class="col-3">
+                                <b>Level(s) WBS Nível 3</b>
+                              </div>
+                              <div class="col-8">{item.WBS.Level_3.titulo}</div>
+                            </div>
+                          )
+                        }
+                      }
+                  })()}
               </div>
-              <div class="row">
-                <div class="col-3">
-                  <b>Descrição</b>
-                </div>
-                <div class="col-8">{item.descricao_SECClasS}</div>
-              </div>
+              {(() => {
+                    if ( item.descricao_SECClasS !== undefined ) {
+                      return (
+                        <div class="row">
+                        <div class="col-3">
+                        <b>Descrição</b>
+                      </div>
+                      <div class="col-8">{item.descricao_SECClasS}</div>
+                      </div>
+                    )
+                }
+            })()}
               <div className="row">
                 <div className="col">
                   <Comentarios id_idtem_secclass={item._id} />

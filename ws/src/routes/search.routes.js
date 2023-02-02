@@ -162,7 +162,9 @@ router.get("/search/", async (req, res) => {
       "code_item": 1,
       "title_item": 1,
       "titulo_SECClasS": 1,
-      "descricao_SECClasS": 1
+      "descricao_SECClasS": 1,
+      "revit": 1,
+      "WBS": 1,
     };
     const order = {
       "_id": 1
